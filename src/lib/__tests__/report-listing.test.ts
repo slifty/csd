@@ -82,6 +82,17 @@ describe("matchesFilter", () => {
 		});
 	});
 
+	it("narrows to every multi-year frequency at once", () => {
+		const filter = createReportFilter({ frequency: "extra-annually" });
+		expect(
+			matchesFilter(
+				filter,
+				createReportListing({ frequency: "every-5-years" }),
+			),
+		).toBe(true);
+		expect(matchesFilter(filter, annual)).toBe(false);
+	});
+
 	it("narrows to one frequency", () => {
 		const filter = createReportFilter({ frequency: "monthly" });
 		expect(matchesFilter(filter, annual)).toBe(false);

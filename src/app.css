@@ -8,6 +8,16 @@
 	--accent-soft: #e3eef6;
 	--mark: #8a5a00;
 	--mark-soft: #f7ecd6;
+	--band-frequent: #2e6b4a;
+	--band-frequent-soft: #e2f0e7;
+	--band-yearly: #5a4a9b;
+	--band-yearly-soft: #ebe7f6;
+	--band-extra-annual: #1d6872;
+	--band-extra-annual-soft: #dff0f1;
+	--band-ongoing: #525d68;
+	--band-ongoing-soft: #e9edf1;
+	--band-triggered: #983a4f;
+	--band-triggered-soft: #f7e3e8;
 	--body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
 	color-scheme: light;
 }
@@ -23,6 +33,16 @@
 		--accent-soft: #1b3346;
 		--mark: #e2b86a;
 		--mark-soft: #3a2e17;
+		--band-frequent: #86d1a6;
+		--band-frequent-soft: #173326;
+		--band-yearly: #b9adf0;
+		--band-yearly-soft: #29233f;
+		--band-extra-annual: #7ccbd3;
+		--band-extra-annual-soft: #13343a;
+		--band-ongoing: #aeb9c4;
+		--band-ongoing-soft: #252d35;
+		--band-triggered: #f0a0b1;
+		--band-triggered-soft: #3c1d25;
 		color-scheme: dark;
 	}
 }

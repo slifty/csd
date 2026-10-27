@@ -1,17 +1,20 @@
 <script lang="ts">
 	import { SvelteSet } from "svelte/reactivity";
 	import {
-		FREQUENCY_LABELS,
-		PREPARER_TYPE_LABELS,
-	} from "#lib/report-labels.ts";
+		FREQUENCY_CHOICES,
+		frequencyChoiceLabel,
+		frequencyChoiceOf,
+	} from "#lib/frequency.ts";
+	import { PREPARER_TYPE_LABELS } from "#lib/report-labels.ts";
 	import { RECIPIENT_GROUPS, isInView } from "#lib/report-listing.ts";
-	import { FREQUENCIES, PREPARER_TYPES } from "#lib/report.ts";
+	import { PREPARER_TYPES } from "#lib/report.ts";
 	import type {
 		RecipientGroupId,
 		ReportListing,
 		ReportView,
 	} from "#lib/report-listing.ts";
-	import type { Frequency, PreparerType } from "#lib/report.ts";
+	import type { FrequencyChoice } from "#lib/frequency.ts";
+	import type { PreparerType } from "#lib/report.ts";
 
 	interface Props {
 		listings: readonly ReportListing[];
@@ -20,7 +23,7 @@
 		shownCount: number;
 		view: ReportView;
 		search: string;
-		frequency: Frequency | null;
+		frequency: FrequencyChoice | null;
 		sectionNumber: string | null;
 		recipientGroupIds: SvelteSet<RecipientGroupId>;
 		preparerTypes: SvelteSet<PreparerType>;
@@ -49,10 +52,11 @@
 	const VIEWS = Object.keys(VIEW_LABELS) as ReportView[];
 
 	const frequenciesInView = $derived(
-		FREQUENCIES.filter((candidate) =>
+		FREQUENCY_CHOICES.filter((candidate) =>
 			listings.some(
 				(listing) =>
-					listing.report.frequency === candidate && isInView(view, listing),
+					frequencyChoiceOf(listing.report.frequency) === candidate &&
+					isInView(view, listing),
 			),
 		),
 	);
@@ -107,7 +111,7 @@
 		<select id="report-frequency" aria-label="Frequency" bind:value={frequency}>
 			<option value={null}>Any frequency</option>
 			{#each frequenciesInView as candidate (candidate)}
-				<option value={candidate}>{FREQUENCY_LABELS[candidate]}</option>
+				<option value={candidate}>{frequencyChoiceLabel(candidate)}</option>
 			{/each}
 		</select>
 		<select
