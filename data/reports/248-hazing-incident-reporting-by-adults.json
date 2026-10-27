@@ -3,7 +3,7 @@
 	"policyId": "DA2N2L5DD61B",
 	"name": "Hazing Incident Reporting by Adults",
 	"description": "Adults must promptly report hazing per the accompanying AR.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Parent / guardian",

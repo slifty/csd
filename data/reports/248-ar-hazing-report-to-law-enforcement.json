@@ -3,7 +3,7 @@
 	"policyId": "DA2N2Q5DDA8B",
 	"name": "Hazing Report to Law Enforcement",
 	"description": "Complaints that, if proven, would constitute hazing, aggravated hazing or organizational hazing are reported to law enforcement per the MOU.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Those receiving the initial report and conducting / overseeing the investigation",

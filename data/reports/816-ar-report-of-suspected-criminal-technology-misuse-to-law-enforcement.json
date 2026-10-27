@@ -3,7 +3,7 @@
 	"policyId": "CZJ2JM026E67",
 	"name": "Report of Suspected Criminal Technology Misuse to Law Enforcement",
 	"description": "Suspected criminal violations, including any involving sexually explicit depictions of individuals under 21, are reported to law enforcement.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Director of Technology or designee",

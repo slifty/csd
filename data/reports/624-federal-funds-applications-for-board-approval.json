@@ -3,7 +3,7 @@
 	"policyId": "DQGQB96879FF",
 	"name": "Federal Funds Applications for Board Approval",
 	"description": "All applications for federal funds are brought to the Board for review and approval.",
-	"type": "presentation",
+	"type": "recommendation",
 	"preparers": [
 		{
 			"name": "District",

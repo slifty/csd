@@ -3,7 +3,7 @@
 	"policyId": "DCHL4Q54C587",
 	"name": "Employee Separation / Exit Form",
 	"description": "Completed Employee Separation / Exit Form (Attachment A) checklist for a resigning employee.",
-	"type": "report",
+	"type": "data-submission",
 	"preparers": [
 		{
 			"name": "Resigning employee's direct supervisor or designee",

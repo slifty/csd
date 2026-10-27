@@ -3,7 +3,7 @@
 	"policyId": "DDYT9U76556A",
 	"name": "Report of Controlled Substance Violations to Law Enforcement",
 	"description": "All violations of the controlled substances policy are reported per Board Policy and the MOU with local law enforcement.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Not specified",

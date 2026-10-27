@@ -3,7 +3,7 @@
 	"policyId": "DQR2QZ035E4C",
 	"name": "Vandalism Incident Report",
 	"description": "Vandalism to District property is promptly reported, and principals forward reports they receive to the Director of Business Services.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Anyone aware of vandalism",

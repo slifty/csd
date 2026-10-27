@@ -3,7 +3,7 @@
 	"policyId": "DSC22N00188C",
 	"name": "Threat Recognition Informational Materials for Students",
 	"description": "Age-appropriate materials on recognizing threatening behavior and how to report concerns, including Safe2Say Something.",
-	"type": "public-posting",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Threat assessment team",

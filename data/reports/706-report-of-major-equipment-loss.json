@@ -3,7 +3,7 @@
 	"policyId": "DQGLTG581AD8",
 	"name": "Report of Major Equipment Loss",
 	"description": "Any major loss found in periodic spot-check inventories of major equipment is reported to the Board.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Not specified",

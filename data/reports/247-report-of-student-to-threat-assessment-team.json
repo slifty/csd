@@ -3,7 +3,7 @@
 	"policyId": "DA2QEZ68509F",
 	"name": "Report of Student to Threat Assessment Team",
 	"description": "Staff report a student whose behavior indicates a threat to safety to the threat assessment team.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "District staff",

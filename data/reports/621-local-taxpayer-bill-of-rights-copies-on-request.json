@@ -3,7 +3,7 @@
 	"policyId": "C9APER644BE1",
 	"name": "Local Taxpayer Bill of Rights Copies on Request",
 	"description": "Copies of the Local Taxpayer Bill of Rights made available at the administrative offices or mailed at District expense.",
-	"type": "notification",
+	"type": "public-posting",
 	"preparers": [
 		{
 			"name": "Director of Business Services or designee",

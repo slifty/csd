@@ -3,7 +3,7 @@
 	"policyId": "DQGMKE5B9B9B",
 	"name": "Law Enforcement Weapons Incident Report",
 	"description": "Immediate report of weapons incidents on school property, at school activities, or on school transportation, per state law and the MOU with law enforcement.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Superintendent or designee",

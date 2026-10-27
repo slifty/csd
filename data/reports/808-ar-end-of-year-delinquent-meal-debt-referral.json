@@ -3,7 +3,7 @@
 	"policyId": "CJP2Y504696A",
 	"name": "End-of-Year Delinquent Meal Debt Referral",
 	"description": "Unrecovered school meal debt remaining at year end is referred to the Director of Business Services for action (treated as bad debt repaid from non-federal funds).",
-	"type": "data-submission",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Food Service Manager",

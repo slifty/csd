@@ -3,7 +3,7 @@
 	"policyId": "DSC22N00188C",
 	"name": "Suspected Child Abuse Report by Threat Assessment Team Member",
 	"description": "A team member with reasonable cause to suspect child abuse makes a report in accordance with law and Board Policy.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Threat assessment team member",

@@ -3,7 +3,7 @@
 	"policyId": "BVJ5VQ121EBB",
 	"name": "Suspended Employee Annual Availability Report",
 	"description": "Written report of current address and intent to accept the same or similar position, required for a suspended employee to be considered available for reinstatement.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Suspended professional employees",

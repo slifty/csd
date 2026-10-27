@@ -3,7 +3,7 @@
 	"policyId": "BUEQNN698CC2",
 	"name": "Personal Care Assistant Staff Development Evidence",
 	"description": "Evidence that each personal care assistant completed 20 hours of assignment-related staff development (which may include School-Based Access Program training) during the school year.",
-	"type": "data-submission",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Personal care assistants",

@@ -3,7 +3,7 @@
 	"policyId": "BKCSAD71B94D",
 	"name": "Claims for Payment (Bill List)",
 	"description": "All claims for payment are submitted to the Board for approval and recorded in the meeting minutes.",
-	"type": "data-submission",
+	"type": "recommendation",
 	"preparers": [
 		{
 			"name": "Not specified",

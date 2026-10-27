@@ -3,7 +3,7 @@
 	"policyId": "CZJ2JM026E67",
 	"name": "Suspected Violation Referral to Director of Technology",
 	"description": "On reasonable suspicion of a violation, the matter is reported to the Director of Technology, who decides with the Superintendent / Solicitor whether to search.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Appropriate administrator",

@@ -3,7 +3,7 @@
 	"policyId": "D8375717E6DB",
 	"name": "Summary of Investigation Outcome to Parties",
 	"description": "Parties receive a summary of the investigation's outcome (not the full report).",
-	"type": "data-submission",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Not specified",

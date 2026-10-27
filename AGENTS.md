@@ -138,7 +138,32 @@ changed or the report is wrong. Either way it needs a person to look.
 
 `data/reports/` was compiled by reading each policy in full and recording
 every duty to produce information for someone. The names, descriptions,
-recipients, and frequencies are judgment calls. The quotes are not.
+recipients, frequencies, and types are judgment calls. The quotes are not.
+
+**A report's type says what kind of thing is produced**, not what the policy
+calls it. Pick the first that fits:
+
+- `audit` — an examination of accounts or records, usually independent.
+- `certification` — proof that a requirement is met: a signed statement,
+  affidavit, credential, clearance, or evidence of completion.
+- `plan` — a document setting out future action, for approval or adoption.
+- `recommendation` — something brought to a decision-maker for approval: a
+  proposal, a candidate, a list to ratify.
+- `presentation` — delivered in person, such as a meeting or a review with
+  students. Most things go to the Board "presented"; that alone isn't one.
+- `public-posting` — made available to anyone who looks: posted, published,
+  kept on file for inspection.
+- `notification` — tells particular people that something happened, was
+  decided, or is coming, or what their rights are. Alerting the police,
+  ChildLine, or a principal to an incident is a notification, as are decisions
+  and responses sent to a complainant.
+- `data-submission` — records or data filed in a set form for an agency or
+  office to process or keep: state forms, financial filings, reimbursement
+  requests, record transfers.
+- `report` — a written account of findings, results, data, or status for its
+  recipient to review. A write-up for a supervisor or the Board is a report,
+  not a data submission. So is a written record of an incident's details —
+  who, what, when, witnesses — even when an alert went out first.
 
 ## After Making Changes
 

@@ -3,7 +3,7 @@
 	"policyId": "BKCT2K7544DE",
 	"name": "Conference Cost Estimate",
 	"description": "Itemized estimate of conference costs (fees, meals, lodging, transportation) submitted with the request for prior permission.",
-	"type": "report",
+	"type": "data-submission",
 	"preparers": [
 		{
 			"name": "Employee wishing to attend a conference",

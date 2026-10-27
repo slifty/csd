@@ -3,7 +3,7 @@
 	"policyId": "D8375717E6DB",
 	"name": "Written Appeal Decision and Summary to Parties",
 	"description": "Appeals officer issues a written decision to the Title IX Coordinator and a summary of the appeal outcome to the parties.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Appeals officer",

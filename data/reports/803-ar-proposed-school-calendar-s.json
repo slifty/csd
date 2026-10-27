@@ -3,7 +3,7 @@
 	"policyId": "D835XJ126257",
 	"name": "Proposed School Calendar(s)",
 	"description": "Administration presents a school calendar (optionally for multiple upcoming years) to the Board for consideration, developed with stakeholder input.",
-	"type": "presentation",
+	"type": "recommendation",
 	"preparers": [
 		{
 			"name": "Administration",
