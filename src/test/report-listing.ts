@@ -43,6 +43,7 @@ const createReportFilter = (
 	view: "all",
 	search: "",
 	frequency: null,
+	reportType: null,
 	sectionNumber: null,
 	recipientGroupIds: new Set(),
 	preparerTypes: new Set(),

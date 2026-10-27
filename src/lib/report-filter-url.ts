@@ -1,18 +1,19 @@
 import { FREQUENCY_CHOICES, frequencyChoiceOf } from "./frequency.ts";
 import { RECIPIENT_GROUPS, REPORT_VIEWS } from "./report-listing.ts";
-import { FREQUENCIES, PREPARER_TYPES } from "./report.ts";
+import { FREQUENCIES, PREPARER_TYPES, REPORT_TYPES } from "./report.ts";
 import type {
 	RecipientGroupId,
 	ReportFilter,
 	ReportView,
 } from "./report-listing.ts";
 import type { FrequencyChoice } from "./frequency.ts";
-import type { Frequency, PreparerType } from "./report.ts";
+import type { Frequency, PreparerType, ReportType } from "./report.ts";
 
 const FILTER_PARAMS = {
 	view: "view",
 	search: "q",
 	frequency: "frequency",
+	reportType: "type",
 	sectionNumber: "section",
 	recipientGroupIds: "to",
 	preparerTypes: "from",
@@ -31,6 +32,9 @@ const isFrequency = (value: string): value is Frequency =>
 
 const isFrequencyChoice = (value: string): value is FrequencyChoice =>
 	FREQUENCY_CHOICES.some((choice) => choice === value);
+
+const isReportType = (value: string): value is ReportType =>
+	REPORT_TYPES.some((reportType) => reportType === value);
 
 const isRecipientGroupId = (value: string): value is RecipientGroupId =>
 	RECIPIENT_GROUPS.some((group) => group.id === value);
@@ -66,6 +70,11 @@ const readFrequency = (
 	return isFrequency(value) ? frequencyChoiceOf(value) : null;
 };
 
+const readReportType = (params: ReadableSearchParams): ReportType | null => {
+	const value = params.get(FILTER_PARAMS.reportType) ?? "";
+	return isReportType(value) ? value : null;
+};
+
 const readSectionNumber = (
 	params: ReadableSearchParams,
 	sectionNumbers: ReadonlySet<string>,
@@ -95,6 +104,7 @@ const readReportFilter = (
 	view: readView(params),
 	search: params.get(FILTER_PARAMS.search) ?? "",
 	frequency: readFrequency(params),
+	reportType: readReportType(params),
 	sectionNumber: readSectionNumber(params, sectionNumbers),
 	recipientGroupIds: readRecipientGroupIds(params),
 	preparerTypes: readPreparerTypes(params),
@@ -110,6 +120,9 @@ const writeReportFilter = (filter: ReportFilter): URLSearchParams => {
 	}
 	if (filter.frequency !== null) {
 		params.set(FILTER_PARAMS.frequency, filter.frequency);
+	}
+	if (filter.reportType !== null) {
+		params.set(FILTER_PARAMS.reportType, filter.reportType);
 	}
 	if (filter.sectionNumber !== null) {
 		params.set(FILTER_PARAMS.sectionNumber, filter.sectionNumber);

@@ -3,7 +3,12 @@ import { FREQUENCY_LABELS, REPORT_TYPE_LABELS } from "./report-labels.ts";
 import type { FrequencyChoice } from "./frequency.ts";
 import { PREPARER_TYPES, isRecurring } from "./report.ts";
 import type { Policy } from "./policy.ts";
-import type { PreparerType, RecipientType, Report } from "./report.ts";
+import type {
+	PreparerType,
+	RecipientType,
+	Report,
+	ReportType,
+} from "./report.ts";
 
 type PolicySummary = Pick<
 	Policy,
@@ -60,6 +65,7 @@ interface ReportFilter {
 	readonly view: ReportView;
 	readonly search: string;
 	readonly frequency: FrequencyChoice | null;
+	readonly reportType: ReportType | null;
 	readonly sectionNumber: string | null;
 	readonly recipientGroupIds: ReadonlySet<RecipientGroupId>;
 	readonly preparerTypes: ReadonlySet<PreparerType>;
@@ -142,6 +148,7 @@ const matchesSelectAndSearchFilters = (
 	isInView(filter.view, listing) &&
 	(filter.frequency === null ||
 		filter.frequency === frequencyChoiceOf(listing.report.frequency)) &&
+	(filter.reportType === null || filter.reportType === listing.report.type) &&
 	(filter.sectionNumber === null ||
 		filter.sectionNumber === listing.policy.section.number) &&
 	matchesSearch(filter.search, listing);

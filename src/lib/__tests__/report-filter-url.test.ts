@@ -20,13 +20,14 @@ describe("readReportFilter", () => {
 	it("reads every filter", () => {
 		expect(
 			read(
-				"view=all&q=wellness&frequency=annual&section=200&to=board,government&from=superintendent,employees",
+				"view=all&q=wellness&frequency=annual&type=plan&section=200&to=board,government&from=superintendent,employees",
 			),
 		).toEqual(
 			createReportFilter({
 				view: "all",
 				search: "wellness",
 				frequency: "annual",
+				reportType: "plan",
 				sectionNumber: "200",
 				recipientGroupIds: new Set(["board", "government"]),
 				preparerTypes: new Set(["superintendent", "employees"]),
@@ -42,7 +43,9 @@ describe("readReportFilter", () => {
 
 	it("ignores values it does not know", () => {
 		expect(
-			read("view=TEST&frequency=TEST&section=TEST&to=TEST,public&from=TEST"),
+			read(
+				"view=TEST&frequency=TEST&type=TEST&section=TEST&to=TEST,public&from=TEST",
+			),
 		).toEqual(createDefaultFilter({ recipientGroupIds: new Set(["public"]) }));
 	});
 });
@@ -71,6 +74,7 @@ describe("writeReportFilter", () => {
 			view: "non-recurring",
 			search: "TEST notice",
 			frequency: "event-triggered",
+			reportType: "certification",
 			sectionNumber: "800",
 			recipientGroupIds: new Set(["families"]),
 			preparerTypes: new Set(["outside-parties"]),

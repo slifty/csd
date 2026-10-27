@@ -101,6 +101,16 @@ describe("matchesFilter", () => {
 		).toBe(true);
 	});
 
+	it("narrows to one report type", () => {
+		const filter = createReportFilter({ reportType: "audit" });
+		expect(matchesFilter(filter, createReportListing({ type: "audit" }))).toBe(
+			true,
+		);
+		expect(matchesFilter(filter, createReportListing({ type: "plan" }))).toBe(
+			false,
+		);
+	});
+
 	it("narrows to one section", () => {
 		const filter = createReportFilter({ sectionNumber: "200" });
 		expect(matchesFilter(filter, annual)).toBe(false);

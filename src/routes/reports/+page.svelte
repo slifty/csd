@@ -21,7 +21,7 @@
 		ReportView,
 	} from "#lib/report-listing.ts";
 	import type { FrequencyChoice } from "#lib/frequency.ts";
-	import type { PreparerType } from "#lib/report.ts";
+	import type { PreparerType, ReportType } from "#lib/report.ts";
 	import type { PageProps } from "./$types";
 
 	const { data }: PageProps = $props();
@@ -29,6 +29,7 @@
 	let view: ReportView = $state("recurring");
 	let search = $state("");
 	let frequency: FrequencyChoice | null = $state(null);
+	let reportType: ReportType | null = $state(null);
 	let sectionNumber: string | null = $state(null);
 	const recipientGroupIds = new SvelteSet<RecipientGroupId>();
 	const preparerTypes = new SvelteSet<PreparerType>();
@@ -38,6 +39,7 @@
 		view,
 		search,
 		frequency,
+		reportType,
 		sectionNumber,
 		recipientGroupIds,
 		preparerTypes,
@@ -70,6 +72,7 @@
 		view = initial.view;
 		search = initial.search;
 		frequency = initial.frequency;
+		reportType = initial.reportType;
 		sectionNumber = initial.sectionNumber;
 		replaceAll(recipientGroupIds, initial.recipientGroupIds);
 		replaceAll(preparerTypes, initial.preparerTypes);
@@ -110,6 +113,7 @@
 	bind:view
 	bind:search
 	bind:frequency
+	bind:reportType
 	bind:sectionNumber
 	{recipientGroupIds}
 	{preparerTypes}
