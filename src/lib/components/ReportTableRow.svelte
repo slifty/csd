@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Attachment } from "svelte/attachments";
 	import FrequencyPill from "./FrequencyPill.svelte";
+	import ReportTypeLabel from "./ReportTypeLabel.svelte";
 	import { formatIsoDate } from "#lib/dates.ts";
 	import { frequencyBandOf } from "#lib/frequency.ts";
 	import { boardDocsUrl, policyNumber } from "#lib/policy.ts";
@@ -8,7 +9,6 @@
 		RECIPIENT_TYPE_LABELS,
 		REPORT_COLUMN_COUNT,
 		REPORT_COLUMN_LABELS,
-		REPORT_TYPE_LABELS,
 	} from "#lib/report-labels.ts";
 	import type { ReportListing } from "#lib/report-listing.ts";
 
@@ -92,7 +92,7 @@
 	</td>
 	<td class="type">
 		<span class="cell-label">{REPORT_COLUMN_LABELS.type}</span>
-		{REPORT_TYPE_LABELS[report.type]}
+		<ReportTypeLabel type={report.type} id={`${detailId}-type`} />
 	</td>
 	<td>
 		<span class="cell-label">{REPORT_COLUMN_LABELS.source}</span>
