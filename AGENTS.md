@@ -15,9 +15,28 @@ and anything this project says about them is a reading of them.
 
 - Node.js (see `.node-version` for the current version) with TypeScript
 - ESM throughout — `package.json` sets `"type": "module"`
-- ESLint (flat config) with `@biffud/eslint-config` as the base
-- Prettier for formatting
+- SvelteKit with `@sveltejs/adapter-static`, prerendering every page
+- ESLint (flat config) with `@biffud/eslint-config` and `eslint-plugin-svelte`
+- Prettier for formatting, with `prettier-plugin-svelte`
 - Vitest for tests
+
+## The Site
+
+The site is a fully static SvelteKit build. SvelteKit 3 has no
+`svelte.config.js`: its configuration is passed to the `sveltekit()` plugin in
+`vite.config.ts`. `src/routes/+layout.ts` turns on prerendering for every
+route, so anything a page shows has to be available at build time. There is no
+server to ask later.
+
+GitHub Pages serves the site from `/<repository>`, not from the root. The
+deploy workflow passes that prefix to the build as `BASE_PATH`, which becomes
+`paths.base`. Links inside the site go through `resolve()` from `$app/paths`
+so they carry the prefix. A hard-coded `/` path works under `npm run dev` and
+breaks once deployed.
+
+`tsconfig.json` extends `$app/tsconfig`, which `svelte-kit sync` generates
+into `node_modules`. The `prepare` script runs that on install. If type
+checking complains that the config cannot be found, run `npx svelte-kit sync`.
 
 ## After Making Changes
 
@@ -57,9 +76,10 @@ when the first suite lands, or a mistake in `include` will pass silently.
 
 ### Formatting
 
-There is no Prettier config file, so Prettier runs on its defaults, shifted
-only by `.editorconfig` (`indent_style = tab`). Adding a Prettier config is a
-deliberate decision, not a cleanup — it would reformat every file.
+`.prettierrc.json` only loads `prettier-plugin-svelte`. Prettier otherwise runs
+on its defaults, shifted only by `.editorconfig` (`indent_style = tab`). Adding
+a style option there is a deliberate decision, not a cleanup — it would
+reformat every file.
 
 ## Version Constraints
 
@@ -77,8 +97,12 @@ one job apiece for:
 
 - `actionlint` — workflow file validity
 - `npm-install` — verifies `package-lock.json` is in sync with `package.json`
-- `eslint`, `prettier`, `tsc` — the three parts of `npm run lint`
+- `eslint`, `prettier`, `svelte-check` — the three parts of `npm run lint`
 - `test` — runs `npm run test:coverage`
+- `build` — verifies the static site builds
+
+`.github/workflows/deploy.yml` runs on pushes to `main`. It builds the site with
+the Pages base path and publishes `build/` to GitHub Pages.
 
 ## Maintaining This Document
 
