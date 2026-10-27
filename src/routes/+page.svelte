@@ -7,17 +7,12 @@
 </svelte:head>
 
 <header>
-	<div class="eyebrow">Cheltenham Township School District</div>
 	<h1>Tools and resources</h1>
 </header>
 
 <ul>
 	<li>
-		<a href={resolve("/reports")}>Reports the policy manual requires</a>
-		<p>
-			Every report, notice, certification and public posting that a Board policy
-			or Administrative Regulation calls for.
-		</p>
+		<a href={resolve("/reports")}>The Unofficial Official Report Report</a>
 	</li>
 </ul>
 
@@ -40,10 +35,5 @@
 	li a {
 		font-size: 18px;
 		font-weight: 600;
-	}
-
-	li p {
-		margin: 4px 0 0;
-		color: var(--ink-2);
 	}
 </style>

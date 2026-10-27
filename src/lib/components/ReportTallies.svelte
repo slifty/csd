@@ -10,12 +10,12 @@
 	const tallies = $derived([
 		{
 			count: recurring.length,
-			label: "recurring duties",
+			label: "recurring reports",
 		},
 		{
 			count: recurring.filter(({ report }) => report.recipientType === "board")
 				.length,
-			label: "recurring duties to the Board",
+			label: "recurring board reports",
 		},
 		{
 			count: recurring.filter(
@@ -23,11 +23,11 @@
 					report.recipientType === "state-agency" ||
 					report.recipientType === "federal-agency",
 			).length,
-			label: "recurring submissions to state or federal agencies",
+			label: "recurring state & federal reports",
 		},
 		{
 			count: listings.length - recurring.length,
-			label: "event-triggered or one-time duties (shown separately)",
+			label: "triggered or one-time reports",
 		},
 	]);
 </script>
@@ -61,7 +61,6 @@
 	}
 
 	b {
-		font-family: var(--display);
 		font-size: 34px;
 		font-weight: 600;
 		line-height: 1;

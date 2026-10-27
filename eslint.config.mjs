@@ -28,6 +28,10 @@ export default [
 		},
 		rules: {
 			"prefer-const": "off",
+			"svelte/no-navigation-without-resolve": [
+				"error",
+				{ ignoreReplaceState: true },
+			],
 			"svelte/prefer-const": ["error", { destructuring: "all" }],
 		},
 	},

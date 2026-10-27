@@ -77,7 +77,7 @@
 
 <section class="controls" aria-label="Filters">
 	<div class="row">
-		<div class="segments" role="group" aria-label="Which duties">
+		<div class="segments" role="group" aria-label="Which reports">
 			{#each VIEWS as candidate (candidate)}
 				<button
 					type="button"

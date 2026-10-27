@@ -14,9 +14,16 @@
 	/>
 	<link
 		rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Mono:wght@500&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;800&display=swap"
 	/>
 </svelte:head>
+
+<div class="unofficial" role="note">
+	<p class="wrap">
+		Unofficial · Not affiliated with or endorsed by the Cheltenham Township
+		School District
+	</p>
+</div>
 
 <main class="wrap">
 	{@render children()}
@@ -24,9 +31,9 @@
 
 <footer class="wrap">
 	<p>
-		An unofficial project, not affiliated with the Cheltenham Township School
-		District. The district publishes its policies on
+		Compiled with the help of Claude, an AI model, from the district's
 		<a href="https://go.boarddocs.com/pa/ctsd/Board.nsf/Public">BoardDocs</a>.
+		Check the linked policy before relying on any entry.
 	</p>
 </footer>
 
@@ -34,6 +41,20 @@
 	.wrap {
 		max-width: 1180px;
 		margin: 0 auto;
+	}
+
+	.unofficial {
+		margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px)));
+		padding-inline: max(16px, env(safe-area-inset-left, 0px));
+		background: var(--mark-soft);
+		color: var(--mark);
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	.unofficial p {
+		margin-block: 0;
+		padding-block: 8px;
 	}
 
 	main {

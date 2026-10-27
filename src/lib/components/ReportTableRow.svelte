@@ -1,9 +1,11 @@
 <script lang="ts">
+	import type { Attachment } from "svelte/attachments";
 	import { formatIsoDate } from "#lib/dates.ts";
-	import { boardDocsUrl } from "#lib/policy.ts";
+	import { boardDocsUrl, policyNumber } from "#lib/policy.ts";
 	import {
 		FREQUENCY_LABELS,
 		RECIPIENT_TYPE_LABELS,
+		REPORT_COLUMN_COUNT,
 		REPORT_COLUMN_LABELS,
 		REPORT_TYPE_LABELS,
 	} from "#lib/report-labels.ts";
@@ -17,20 +19,32 @@
 	const toggleExpanded = (): void => {
 		isExpanded = !isExpanded;
 	};
+	const isSelectingText = (): boolean =>
+		window.getSelection()?.isCollapsed === false;
+	const toggleOnClick: Attachment<HTMLTableRowElement> = (row) => {
+		const onClick = (): void => {
+			if (!isSelectingText()) {
+				toggleExpanded();
+			}
+		};
+		row.addEventListener("click", onClick);
+		return (): void => {
+			row.removeEventListener("click", onClick);
+		};
+	};
 	const detailId = $derived(`report-${report.id}`);
 	const isAdministrativeRegulation = $derived(
 		policy.kind === "administrative-regulation",
 	);
 </script>
 
-<tr class="item">
+<tr class="item" class:expanded={isExpanded} {@attach toggleOnClick}>
 	<td>
 		<button
 			type="button"
 			class="name"
 			aria-expanded={isExpanded}
 			aria-controls={detailId}
-			onclick={toggleExpanded}
 		>
 			{report.name}
 		</button>
@@ -45,6 +59,10 @@
 			<div class="deadline">{report.deadline}</div>
 		{/if}
 	</td>
+	<td class="prepared-by">
+		<span class="cell-label">{REPORT_COLUMN_LABELS.preparedBy}</span>
+		{report.preparedBy}
+	</td>
 	<td class="recipient">
 		<span class="cell-label">{REPORT_COLUMN_LABELS.recipient}</span>
 		{report.recipient}
@@ -56,22 +74,20 @@
 	</td>
 	<td>
 		<span class="cell-label">{REPORT_COLUMN_LABELS.source}</span>
-		<div class="code">
-			<span class="kind" class:regulation={isAdministrativeRegulation}>
-				{isAdministrativeRegulation ? "AR" : "Policy"}
+		<div class="source" class:regulation={isAdministrativeRegulation}>
+			<span class="identity">
+				<span class="kind">{isAdministrativeRegulation ? "AR" : "Policy"}</span>
+				<span class="number">{policyNumber(policy)}</span>
 			</span>
-			{policy.code}
+			<span class="policy-title">{policy.title}</span>
 		</div>
-		<div class="policy-title">{policy.title}</div>
 	</td>
 </tr>
 <tr class="detail" id={detailId} hidden={!isExpanded}>
-	<td colspan="5">
+	<td colspan={REPORT_COLUMN_COUNT}>
 		<div class="detail-box">
 			<blockquote>“{report.quote}”</blockquote>
 			<div class="meta">
-				<span>Prepared by {report.preparedBy}</span>
-				<span>{policy.section.number} – {policy.section.name}</span>
 				{#if policy.lastRevised !== null}
 					<span>Last revised {formatIsoDate(policy.lastRevised)}</span>
 				{/if}
@@ -126,7 +142,6 @@
 	}
 
 	.deadline,
-	.policy-title,
 	.type {
 		font-size: 13px;
 		color: var(--ink-2);
@@ -136,6 +151,7 @@
 		margin-top: 2px;
 	}
 
+	.prepared-by,
 	.recipient {
 		font-size: 14px;
 	}
@@ -146,29 +162,65 @@
 		font-size: 12px;
 	}
 
-	.code {
-		font-family: var(--mono);
-		font-size: 13px;
+	.item {
+		cursor: pointer;
+	}
+
+	.item:hover td,
+	.item.expanded td {
+		background: var(--accent-soft);
+	}
+
+	.source {
+		--pill: var(--accent);
+		--pill-soft: var(--accent-soft);
+		display: inline-grid;
+		max-width: 100%;
+		border: 1px solid var(--pill);
+		border-radius: 10px;
+		overflow: hidden;
+		font-size: 12px;
+		line-height: 1.6;
+	}
+
+	.source.regulation {
+		--pill: var(--mark);
+		--pill-soft: var(--mark-soft);
+	}
+
+	.identity {
+		display: flex;
 		white-space: nowrap;
 	}
 
+	.kind,
+	.number,
+	.policy-title {
+		padding: 0 8px;
+	}
+
 	.kind {
-		display: inline-block;
-		font-family: var(--body);
+		background: var(--pill);
+		color: var(--sheet);
 		font-size: 11px;
 		font-weight: 600;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
-		padding: 1px 6px;
-		border-radius: 4px;
-		margin-right: 6px;
-		background: var(--accent-soft);
-		color: var(--accent);
 	}
 
-	.kind.regulation {
-		background: var(--mark-soft);
-		color: var(--mark);
+	.number {
+		font-weight: 600;
+		color: var(--pill);
+		font-variant-numeric: tabular-nums;
+	}
+
+	.policy-title {
+		border-top: 1px solid var(--pill);
+		background: var(--pill-soft);
+		color: var(--ink);
+		line-height: 1.4;
+		padding-block: 2px;
+		text-align: center;
 	}
 
 	.detail td {
@@ -186,7 +238,6 @@
 
 	blockquote {
 		margin: 0;
-		font-family: var(--display);
 		font-size: 17px;
 		line-height: 1.45;
 	}
