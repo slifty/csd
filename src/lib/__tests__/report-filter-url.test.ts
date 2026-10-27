@@ -34,6 +34,12 @@ describe("readReportFilter", () => {
 		);
 	});
 
+	it("reads an old multi-year frequency as extra-annually", () => {
+		expect(read("frequency=every-3-years")).toEqual(
+			createDefaultFilter({ frequency: "extra-annually" }),
+		);
+	});
+
 	it("ignores values it does not know", () => {
 		expect(
 			read("view=TEST&frequency=TEST&section=TEST&to=TEST,public&from=TEST"),

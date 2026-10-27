@@ -1,15 +1,15 @@
 <script lang="ts">
 	import type { Attachment } from "svelte/attachments";
+	import FrequencyPill from "./FrequencyPill.svelte";
 	import { formatIsoDate } from "#lib/dates.ts";
+	import { frequencyBandOf } from "#lib/frequency.ts";
 	import { boardDocsUrl, policyNumber } from "#lib/policy.ts";
 	import {
-		FREQUENCY_LABELS,
 		RECIPIENT_TYPE_LABELS,
 		REPORT_COLUMN_COUNT,
 		REPORT_COLUMN_LABELS,
 		REPORT_TYPE_LABELS,
 	} from "#lib/report-labels.ts";
-	import { isRecurring } from "#lib/report.ts";
 	import type { ReportListing } from "#lib/report-listing.ts";
 
 	const { listing }: { listing: ReportListing } = $props();
@@ -33,13 +33,22 @@
 		};
 	};
 	const detailId = $derived(`report-${report.id}`);
+	const band = $derived(frequencyBandOf(report.frequency));
+	const bandColor = $derived(`var(--band-${band.id})`);
+	const bandSoftColor = $derived(`var(--band-${band.id}-soft)`);
 	const isAdministrativeRegulation = $derived(
 		policy.kind === "administrative-regulation",
 	);
 </script>
 
-<tr class="item" class:expanded={isExpanded} {@attach toggleOnClick}>
-	<td>
+<tr
+	class="item"
+	class:expanded={isExpanded}
+	style:--band={bandColor}
+	style:--band-soft={bandSoftColor}
+	{@attach toggleOnClick}
+>
+	<td class="report-cell">
 		<button
 			type="button"
 			class="name"
@@ -49,12 +58,16 @@
 			{report.name}
 		</button>
 		<div class="description">{report.description}</div>
+		{#if report.deadline !== null}
+			<div class="due">
+				<span class="due-label">Deadline</span>
+				{report.deadline}
+			</div>
+		{/if}
 	</td>
-	<td>
+	<td class="frequency-cell">
 		<span class="cell-label">{REPORT_COLUMN_LABELS.frequency}</span>
-		<div class="frequency" class:event={!isRecurring(report)}>
-			{FREQUENCY_LABELS[report.frequency]}
-		</div>
+		<FrequencyPill frequency={report.frequency} />
 		{#if report.deadline !== null}
 			<div class="deadline">{report.deadline}</div>
 		{/if}
@@ -92,7 +105,7 @@
 		</div>
 	</td>
 </tr>
-<tr class="detail" id={detailId} hidden={!isExpanded}>
+<tr class="detail" id={detailId} hidden={!isExpanded} style:--band={bandColor}>
 	<td colspan={REPORT_COLUMN_COUNT}>
 		<div class="detail-box">
 			<blockquote>“{report.quote}”</blockquote>
@@ -110,7 +123,6 @@
 
 <style>
 	td {
-		hyphens: auto;
 		padding: 12px 14px;
 		border-top: 1px solid var(--rule);
 		vertical-align: top;
@@ -142,15 +154,6 @@
 		max-width: 62ch;
 	}
 
-	.frequency {
-		font-weight: 600;
-		white-space: nowrap;
-	}
-
-	.frequency.event {
-		color: var(--mark);
-	}
-
 	.deadline,
 	.type {
 		font-size: 13px;
@@ -158,7 +161,16 @@
 	}
 
 	.deadline {
-		margin-top: 2px;
+		margin-top: 4px;
+	}
+
+	.due {
+		display: none;
+	}
+
+	.item > .report-cell,
+	.detail > td {
+		box-shadow: inset 3px 0 0 var(--band);
 	}
 
 	.prepared-by,
@@ -290,12 +302,51 @@
 			padding: 14px;
 			border-top: 1px solid var(--rule);
 			display: grid;
-			gap: 6px;
+			grid-template-columns: minmax(0, 1fr) auto;
+			gap: 6px 12px;
+			box-shadow: inset 3px 0 0 var(--band);
+		}
+
+		.item:hover,
+		.item.expanded {
+			background: var(--accent-soft);
 		}
 
 		.item td {
 			padding: 0;
 			border: 0;
+			grid-column: 1 / -1;
+		}
+
+		.item:hover td,
+		.item.expanded td {
+			background: none;
+		}
+
+		.item > .report-cell {
+			grid-column: 1;
+			box-shadow: none;
+		}
+
+		.item > .frequency-cell {
+			grid-column: 2;
+			grid-row: 1;
+		}
+
+		.frequency-cell .cell-label,
+		.frequency-cell .deadline {
+			display: none;
+		}
+
+		.due {
+			display: block;
+			margin-top: 6px;
+			font-size: 13px;
+			color: var(--ink-2);
+		}
+
+		.due-label {
+			font-weight: 600;
 		}
 
 		.detail td {

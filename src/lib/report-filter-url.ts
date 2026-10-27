@@ -1,3 +1,4 @@
+import { FREQUENCY_CHOICES, frequencyChoiceOf } from "./frequency.ts";
 import { RECIPIENT_GROUPS, REPORT_VIEWS } from "./report-listing.ts";
 import { FREQUENCIES, PREPARER_TYPES } from "./report.ts";
 import type {
@@ -5,6 +6,7 @@ import type {
 	ReportFilter,
 	ReportView,
 } from "./report-listing.ts";
+import type { FrequencyChoice } from "./frequency.ts";
 import type { Frequency, PreparerType } from "./report.ts";
 
 const FILTER_PARAMS = {
@@ -26,6 +28,9 @@ const isReportView = (value: string): value is ReportView =>
 
 const isFrequency = (value: string): value is Frequency =>
 	FREQUENCIES.some((frequency) => frequency === value);
+
+const isFrequencyChoice = (value: string): value is FrequencyChoice =>
+	FREQUENCY_CHOICES.some((choice) => choice === value);
 
 const isRecipientGroupId = (value: string): value is RecipientGroupId =>
 	RECIPIENT_GROUPS.some((group) => group.id === value);
@@ -51,9 +56,14 @@ const readView = (params: ReadableSearchParams): ReportView => {
 	return isReportView(value) ? value : DEFAULT_VIEW;
 };
 
-const readFrequency = (params: ReadableSearchParams): Frequency | null => {
+const readFrequency = (
+	params: ReadableSearchParams,
+): FrequencyChoice | null => {
 	const value = params.get(FILTER_PARAMS.frequency) ?? "";
-	return isFrequency(value) ? value : null;
+	if (isFrequencyChoice(value)) {
+		return value;
+	}
+	return isFrequency(value) ? frequencyChoiceOf(value) : null;
 };
 
 const readSectionNumber = (
