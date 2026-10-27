@@ -1,0 +1,70 @@
+:root {
+	--paper: #f6f8fa;
+	--sheet: #ffffff;
+	--ink: #17212b;
+	--ink-2: #4a5866;
+	--rule: #d6dde4;
+	--accent: #1f5f8b;
+	--accent-soft: #e3eef6;
+	--mark: #8a5a00;
+	--mark-soft: #f7ecd6;
+	--display: "Newsreader", "Iowan Old Style", Georgia, serif;
+	--body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+	--mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+	color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--paper: #10161c;
+		--sheet: #161e26;
+		--ink: #e4eaf0;
+		--ink-2: #9aa8b5;
+		--rule: #2a3642;
+		--accent: #7db6dd;
+		--accent-soft: #1b3346;
+		--mark: #e2b86a;
+		--mark-soft: #3a2e17;
+		color-scheme: dark;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: var(--paper);
+	color: var(--ink);
+	font-family: var(--body);
+	font-size: 15px;
+	line-height: 1.5;
+	padding-left: max(16px, env(safe-area-inset-left, 0px));
+	padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+a {
+	color: var(--accent);
+}
+
+:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+}
+
+h1,
+h2 {
+	font-family: var(--display);
+	font-weight: 600;
+	text-wrap: balance;
+}
+
+.eyebrow,
+.label {
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ink-2);
+}
