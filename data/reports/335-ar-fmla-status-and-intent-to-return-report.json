@@ -3,7 +3,7 @@
 	"policyId": "C8C4T90D1273",
 	"name": "FMLA Status and Intent to Return Report",
 	"description": "Report of the employee's status and intention regarding return to work.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Employee on FMLA leave",

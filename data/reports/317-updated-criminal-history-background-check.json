@@ -3,7 +3,7 @@
 	"policyId": "DKJT7V760730",
 	"name": "Updated Criminal History Background Check",
 	"description": "New criminal history background check reports required when the Superintendent reasonably believes an unreported arrest or conviction occurred.",
-	"type": "report",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Employees",

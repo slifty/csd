@@ -3,7 +3,7 @@
 	"policyId": "AWL5HC104F1A",
 	"name": "Parent Request and Prescriber Order to Administer Medication",
 	"description": "Before any medication is given at school, the parent submits a written request with the licensed prescriber's written order (student, medication, dose, route, timing, dates).",
-	"type": "notification",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Parent / guardian",

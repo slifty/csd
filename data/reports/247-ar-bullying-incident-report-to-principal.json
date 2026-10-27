@@ -3,7 +3,7 @@
 	"policyId": "DA2QF5685545",
 	"name": "Bullying Incident Report to Principal",
 	"description": "Adults must promptly report bullying or potential bullying; the principal is notified to begin an investigation.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Parent / guardian",

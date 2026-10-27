@@ -3,7 +3,7 @@
 	"policyId": "AWL5FX101A0D",
 	"name": "Secondary Class Count Reports",
 	"description": "Reports of the number of classes taught per week, used to determine teacher numbers.",
-	"type": "data-submission",
+	"type": "report",
 	"preparers": [
 		{
 			"name": "High school administrators",

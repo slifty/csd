@@ -3,7 +3,7 @@
 	"policyId": "CPW4JG0BB657",
 	"name": "Hearing Examiner Decision",
 	"description": "Decision following a hearing on home education compliance.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Hearing examiner",

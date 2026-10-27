@@ -3,7 +3,7 @@
 	"policyId": "BYXPKR650904",
 	"name": "Private Medical or Dental Examination Report",
 	"description": "Parents who use their family physician or dentist for required exams must furnish the report on the PA Department of Health form within the AR's timeline.",
-	"type": "report",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Parent / guardian",

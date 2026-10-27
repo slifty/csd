@@ -3,7 +3,7 @@
 	"policyId": "CEP3DP0665D1",
 	"name": "Annual Investment Advisor Qualification Submissions",
 	"description": "Audited financial statements, FINRA certification and proof of state registration, as appropriate.",
-	"type": "data-submission",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Investment advisors",

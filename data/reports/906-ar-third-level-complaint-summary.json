@@ -3,7 +3,7 @@
 	"policyId": "BMJNA75EA9AF",
 	"name": "Third-Level Complaint Summary",
 	"description": "Nature of the complaint, relevant facts, steps taken, action requested and reasons for or against it.",
-	"type": "data-submission",
+	"type": "report",
 	"preparers": [
 		{
 			"name": "Building principal",

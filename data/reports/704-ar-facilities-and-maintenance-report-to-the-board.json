@@ -3,7 +3,7 @@
 	"policyId": "DKJTZF79CA74",
 	"name": "Facilities and Maintenance Report to the Board",
 	"description": "Information on five-year facilities plan updates, facility conditions and prioritized repairs, status of projects, technology use, and recommendations on future maintenance needs and staffing.",
-	"type": "presentation",
+	"type": "report",
 	"preparers": [
 		{
 			"name": "Director of Facilities and Maintenance",

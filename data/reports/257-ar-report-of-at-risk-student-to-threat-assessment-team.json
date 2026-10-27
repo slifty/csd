@@ -3,7 +3,7 @@
 	"policyId": "D3G47C0A27F5",
 	"name": "Report of At-Risk Student to Threat Assessment Team",
 	"description": "Personnel report a student whose behavior indicates a threat to their own safety.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "District staff",

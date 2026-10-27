@@ -3,7 +3,7 @@
 	"policyId": "BV845M09E778",
 	"name": "Evidence of Sabbatical Plan Compliance",
 	"description": "Satisfactory evidence that the approved professional development plan was fully complied with; failure forfeits benefits.",
-	"type": "report",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Employee returning from professional development sabbatical",

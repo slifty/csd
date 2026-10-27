@@ -3,7 +3,7 @@
 	"policyId": "DSC33A04DEEA",
 	"name": "Report of Suspected Child Abuse to ChildLine",
 	"description": "Immediate electronic or oral report of suspected child abuse; an oral report must be followed by a written electronic report.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Employees",

@@ -3,7 +3,7 @@
 	"policyId": "CBDR9Y6CF9D0",
 	"name": "Student Teacher / Intern Updated Criminal History Report",
 	"description": "Current criminal history background check report required when the Superintendent reasonably believes an unreported arrest or conviction occurred.",
-	"type": "report",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Student teachers",

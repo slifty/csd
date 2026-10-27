@@ -3,7 +3,7 @@
 	"policyId": "BUEQNN698CC2",
 	"name": "Instructional Paraprofessional Staff Development Evidence",
 	"description": "Evidence that each instructional paraprofessional completed 20 hours of assignment-related staff development during the school year.",
-	"type": "data-submission",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Instructional paraprofessionals",

@@ -3,7 +3,7 @@
 	"policyId": "BV845M09E778",
 	"name": "Notification of Acceptance and Enrollment",
 	"description": "Proof of acceptance and enrollment at an accredited institution in preapproved courses.",
-	"type": "notification",
+	"type": "certification",
 	"preparers": [
 		{
 			"name": "Employee taking credits on sabbatical",

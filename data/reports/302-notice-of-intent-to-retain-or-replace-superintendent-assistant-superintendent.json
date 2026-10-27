@@ -13,7 +13,7 @@
 	],
 	"recipient": "Superintendent or Assistant Superintendent",
 	"recipientType": "employees",
-	"frequency": "one-time",
+	"frequency": "event-triggered",
 	"deadline": "At a public Board meeting at least 90 days prior to expiration of the term of office",
 	"quote": "At a public Board meeting occurring at least ninety (90) days prior to the expiration date of the Superintendent’s or an Assistant Superintendent’s term of office, the Board meeting agenda shall include an item requiring affirmative action by five (5) or more Board members to notify the Superintendent or Assistant Superintendent that the Board intends to retain them"
 }

@@ -3,7 +3,7 @@
 	"policyId": "DA2QF5685545",
 	"name": "Bullying Incident Report to Law Enforcement",
 	"description": "Reporting of bullying incidents as required by law and the MOU with local law enforcement.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Superintendent or designee",

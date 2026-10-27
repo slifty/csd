@@ -3,7 +3,7 @@
 	"policyId": "DA2N2Q5DDA8B",
 	"name": "Hazing Incident Report to Principal",
 	"description": "Adults must promptly report hazing or potential hazing; the principal is notified to begin an investigation.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Parent / guardian",

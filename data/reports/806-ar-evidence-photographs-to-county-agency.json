@@ -3,7 +3,7 @@
 	"policyId": "DSC33A04DEEA",
 	"name": "Evidence Photographs to County Agency",
 	"description": "Photographs taken to preserve evidence of suspected abuse are sent to the county agency; the principal is notified when photos are taken.",
-	"type": "report",
+	"type": "data-submission",
 	"preparers": [
 		{
 			"name": "Employees",

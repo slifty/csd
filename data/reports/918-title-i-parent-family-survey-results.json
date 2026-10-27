@@ -3,7 +3,7 @@
 	"policyId": "CW82YY04887A",
 	"name": "Title I Parent / Family Survey Results",
 	"description": "Analysis and sharing of Title I Parent / Family Survey results.",
-	"type": "data-submission",
+	"type": "report",
 	"preparers": [
 		{
 			"name": "District",

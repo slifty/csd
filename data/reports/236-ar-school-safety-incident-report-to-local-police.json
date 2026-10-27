@@ -3,7 +3,7 @@
 	"policyId": "DSC22N00188C",
 	"name": "School Safety Incident Report to Local Police",
 	"description": "When a threat also meets the definition of an incident, required incidents are reported immediately to local police per law and the MOU.",
-	"type": "report",
+	"type": "notification",
 	"preparers": [
 		{
 			"name": "Superintendent or designee",
