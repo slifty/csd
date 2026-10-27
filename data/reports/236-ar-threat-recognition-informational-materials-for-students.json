@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-threat-recognition-informational-materials-for-students",
+	"policyId": "DSC22N00188C",
+	"name": "Threat Recognition Informational Materials for Students",
+	"description": "Age-appropriate materials on recognizing threatening behavior and how to report concerns, including Safe2Say Something.",
+	"type": "public-posting",
+	"preparedBy": "Threat assessment team",
+	"recipient": "Students (available to parents/guardians)",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The threat assessment team shall make available age-appropriate informational materials to students regarding recognition of threatening or at-risk behavior"
+}

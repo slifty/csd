@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-notification-of-acceptance-and-enrollment",
+	"policyId": "BV845M09E778",
+	"name": "Notification of Acceptance and Enrollment",
+	"description": "Proof of acceptance and enrollment at an accredited institution in preapproved courses.",
+	"type": "notification",
+	"preparedBy": "Employee taking credits on sabbatical",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Applicants who propose to take graduate or undergraduate credits shall submit notification of acceptance and enrollment by any of the aforesaid accredited institutions of higher learning for study in the courses preapproved by the Superintendent or designee."
+}

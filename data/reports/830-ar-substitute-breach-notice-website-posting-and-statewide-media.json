@@ -1,0 +1,13 @@
+{
+	"id": "830-ar-substitute-breach-notice-website-posting-and-statewide-media",
+	"policyId": "CTEPZQ6714D7",
+	"name": "Substitute Breach Notice (Website Posting and Statewide Media)",
+	"description": "When substitute notice applies (cost over $100,000, more than 175,000 affected, or insufficient contact information), the District emails affected individuals, posts the notice on its website, and notifies statewide media.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Affected individuals; public; major statewide media",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Substitute notice shall consist of an email notice, when the District has an email address for the individual; conspicuous posting of the notice on the District’s website; and notification to major statewide media."
+}

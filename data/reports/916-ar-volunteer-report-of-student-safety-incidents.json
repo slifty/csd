@@ -1,0 +1,13 @@
+{
+	"id": "916-ar-volunteer-report-of-student-safety-incidents",
+	"policyId": "DBWKQW52E4D0",
+	"name": "Volunteer Report of Student Safety Incidents",
+	"description": "Reporting of inappropriate behavior or situations where students might be in danger, and of suspected child abuse per policy and law.",
+	"type": "notification",
+	"preparedBy": "Volunteers",
+	"recipient": "Teacher or individual in charge of the activity",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Report all incidents of inappropriate behavior or situations in which students might be in danger to the teacher or other individual in charge of the activity."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "918-student-progress-reports-to-title-i-parents",
+	"policyId": "CW82YY04887A",
+	"name": "Student Progress Reports to Title I Parents",
+	"description": "Compact must provide for annual elementary parent-teacher conferences and frequent reports to parents on their child's progress.",
+	"type": "report",
+	"preparedBy": "Title I schools / teachers",
+	"recipient": "Parents and family members",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": "annual parent-teacher conferences at the elementary level; frequent progress reports",
+	"quote": "Address the importance of ongoing two-way, meaningful communication between parents/family members and teachers through, at a minimum, annual parent-teacher conferences at the elementary level, frequent reports to parents and family members on their child's progress"
+}

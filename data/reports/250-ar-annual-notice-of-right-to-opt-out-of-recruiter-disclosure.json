@@ -1,0 +1,13 @@
+{
+	"id": "250-ar-annual-notice-of-right-to-opt-out-of-recruiter-disclosure",
+	"policyId": "DDYQDQ68D666",
+	"name": "Annual Notice of Right to Opt Out of Recruiter Disclosure",
+	"description": "Annual notice of the right to request that student information not be released to postsecondary institutions or military recruiters; Attachment A may be used.",
+	"type": "notification",
+	"preparedBy": "Building principal or designee",
+	"recipient": "Parents/guardians and students 18+",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The building principal or designee shall annually notify parents/guardians, and students who have reached eighteen (18) years of age, of the right to request that student information not be released to representatives of postsecondary institutions and/or military recruiters without prior written consent."
+}

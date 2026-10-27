@@ -1,0 +1,13 @@
+{
+	"id": "210-ar-student-report-of-self-administered-epinephrine",
+	"policyId": "AWL5HC104F1A",
+	"name": "Student Report of Self-Administered Epinephrine",
+	"description": "Students who self-administer an epinephrine auto-injector must report the use to the school nurse, who logs it.",
+	"type": "notification",
+	"preparedBy": "Student",
+	"recipient": "School nurse",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Students must report self-administered use of an epinephrine auto-injector to the school nurse."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "350-ar-information-and-evidence-to-pde-upon-request",
+	"policyId": "DSC2V303F61E",
+	"name": "Information and Evidence to PDE Upon Request",
+	"description": "Relevant information and documentary and physical evidence provided to PDE during its review, investigation, or prosecution.",
+	"type": "data-submission",
+	"preparedBy": "School officials",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "Promptly upon request",
+	"quote": "School officials shall cooperate with the Pennsylvania Department of Education during its review, investigation, or prosecution, and shall promptly provide the Pennsylvania Department of Education with any relevant information and documentary and physical evidence upon request."
+}

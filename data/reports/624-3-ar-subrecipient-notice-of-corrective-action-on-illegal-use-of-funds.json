@@ -1,0 +1,13 @@
+{
+	"id": "624-3-ar-subrecipient-notice-of-corrective-action-on-illegal-use-of-funds",
+	"policyId": "DN7W2A83498B",
+	"name": "Subrecipient Notice of Corrective Action on Illegal Use of Funds",
+	"description": "Subrecipients take immediate action on ineligible or illegal use of federal funds and notify the District of the corrective action taken.",
+	"type": "notification",
+	"preparedBy": "Subrecipients",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Immediately",
+	"quote": "The District shall require subrecipients to take immediate action on issues involving ineligible or illegal use of federal funding and notify the District of corrective action taken."
+}

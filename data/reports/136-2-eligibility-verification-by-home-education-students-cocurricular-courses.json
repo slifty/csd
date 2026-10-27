@@ -1,0 +1,13 @@
+{
+	"id": "136-2-eligibility-verification-by-home-education-students-cocurricular-courses",
+	"policyId": "CPW5H2104307",
+	"name": "Eligibility Verification by Home Education Students (Cocurricular/Courses)",
+	"description": "Required documents and verification of eligibility or prerequisites before try-outs, auditions or course enrollment.",
+	"type": "certification",
+	"preparedBy": "Home education student / parent or supervisor",
+	"recipient": "Building principal or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "prior to trying out, auditioning or enrolling",
+	"quote": "Prior to trying-out or auditioning for a cocurricular activity or enrolling in an academic course, a home education student shall submit required documents and written verification of eligibility or completion of prerequisites to the building principal or designee."
+}

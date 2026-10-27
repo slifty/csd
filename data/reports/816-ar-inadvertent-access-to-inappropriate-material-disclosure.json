@@ -1,0 +1,13 @@
+{
+	"id": "816-ar-inadvertent-access-to-inappropriate-material-disclosure",
+	"policyId": "CZJ2JM026E67",
+	"name": "Inadvertent Access to Inappropriate Material Disclosure",
+	"description": "User immediately discloses inadvertent access to inappropriate material; the recipient then notifies the Director of Technology.",
+	"type": "notification",
+	"preparedBy": "User; receiving teacher/supervisor/principal",
+	"recipient": "Teacher, supervisor or principal; then Director of Technology",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately; onward notice as soon as reasonably possible",
+	"quote": "The teacher, immediate supervisor or building principal receiving such notification shall notify the Director of Technology or designee as soon as reasonable possible."
+}

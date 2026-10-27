@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-annual-threat-assessment-report-to-the-board",
+	"policyId": "DSC22N00188C",
+	"name": "Annual Threat Assessment Report to the Board",
+	"description": "Annual report on the District's approach to threat assessment: compliance verification, number and composition of teams, threats assessed, outside agency interactions, assessment of operations and recommendations.",
+	"type": "report",
+	"preparedBy": "Superintendent (with threat assessment team and School Safety and Security Coordinator)",
+	"recipient": "Board (executive session)",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The threat assessment team shall provide the required information to the Superintendent, in consultation with the School Safety and Security Coordinator, to annually develop and present to the Board, at an executive session, a report outlining the District’s approach to threat assessment, which shall include:"
+}

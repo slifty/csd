@@ -1,0 +1,13 @@
+{
+	"id": "357-ar-level-two-complaint-written-decision",
+	"policyId": "C8CQUF676014",
+	"name": "Level Two Complaint Written Decision",
+	"description": "Written decision following the Level Two hearing on an employee complaint.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Complaining employee",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "Within 5 school days after the hearing",
+	"quote": "The Superintendent (or the Superintendent’s designee) shall render a decision, in writing, within five (5) school days after the hearing."
+}

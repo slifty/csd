@@ -1,0 +1,13 @@
+{
+	"id": "353-professional-education-plan-public-inspection",
+	"policyId": "CBDQAV686B0E",
+	"name": "Professional Education Plan Public Inspection",
+	"description": "Professional education plan made available for public inspection and comment at District administrative offices and the nearest public library.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "every-3-years",
+	"deadline": "At least 28 days prior to Board approval and submission (every three years)",
+	"quote": "Prior to approval by the Board and submission to the Secretary of Education, the professional education plan shall be made available for public inspection and comment in the District's administrative offices and the nearest public library for a minimum of twenty-eight (28) days."
+}

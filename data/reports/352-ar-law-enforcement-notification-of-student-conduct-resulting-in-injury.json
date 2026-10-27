@@ -1,0 +1,13 @@
+{
+	"id": "352-ar-law-enforcement-notification-of-student-conduct-resulting-in-injury",
+	"policyId": "C8CP6F628ABB",
+	"name": "Law Enforcement Notification of Student Conduct Resulting in Injury",
+	"description": "Notification of law enforcement of student conduct resulting in injury, following Policy and AR 225 procedures.",
+	"type": "notification",
+	"preparedBy": "Not specified (per Policy/AR 225)",
+	"recipient": "Law enforcement",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "In addition to the procedures outlined above, all procedures outlined in Board Policy and Administrative Regulation 225 (Relationship with Law Enforcement) regarding notifying law enforcement of student conduct that results in injury shall be followed."
+}

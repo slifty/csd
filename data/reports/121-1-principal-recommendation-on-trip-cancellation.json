@@ -1,0 +1,13 @@
+{
+	"id": "121-1-principal-recommendation-on-trip-cancellation",
+	"policyId": "DGU6RR163A22",
+	"name": "Principal Recommendation on Trip Cancellation",
+	"description": "Recommendation on cancelling, postponing, modifying or terminating a trip, with information from agencies and the basis for it.",
+	"type": "recommendation",
+	"preparedBy": "School principal",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "prior to the date of trip departure",
+	"quote": "The school principal will make any recommendations regarding the cancellation, postponement, modification or termination of a school-sponsored trip to the Superintendent or designee prior to the date of trip departure. This recommendation will include information obtained from appropriate agencies and individuals and the basis for the principal’s recommendation."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "624-3-ar-report-of-subrecipient-noncompliance-to-federal-agency",
+	"policyId": "DN7W2A83498B",
+	"name": "Report of Subrecipient Noncompliance to Federal Agency",
+	"description": "Report of subrecipient noncompliance issues where required by law, regulations or program requirements.",
+	"type": "report",
+	"preparedBy": "District",
+	"recipient": "Appropriate federal agency",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The District shall report issues of noncompliance to the appropriate federal agency where required by law, regulations, or requirements of the federal funding program."
+}

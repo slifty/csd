@@ -1,0 +1,13 @@
+{
+	"id": "624-3-ar-subaward-notification-to-subrecipients",
+	"policyId": "DN7W2A83498B",
+	"name": "Subaward Notification to Subrecipients",
+	"description": "Notice that an entity is a subrecipient, with the required federal award identification information, subaward requirements and any later changes (2 CFR 200.332).",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Subrecipients",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "After qualification verification",
+	"quote": "After verification, the District shall notify subrecipients that they have been identified as a subrecipient and that the funding qualifies as a subaward."
+}

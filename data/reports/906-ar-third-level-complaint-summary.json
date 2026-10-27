@@ -1,0 +1,13 @@
+{
+	"id": "906-ar-third-level-complaint-summary",
+	"policyId": "BMJNA75EA9AF",
+	"name": "Third-Level Complaint Summary",
+	"description": "Nature of the complaint, relevant facts, steps taken, action requested and reasons for or against it.",
+	"type": "data-submission",
+	"preparedBy": "Building principal or supervisor",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The principal or supervisor shall provide to the Superintendent or designee with the following information: the specific nature of the complaint, brief statement of relevant facts, steps taken to try to resolve the complaint, the action requested, and the reasons why such action should be taken or not taken."
+}

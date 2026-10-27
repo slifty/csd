@@ -1,0 +1,13 @@
+{
+	"id": "209-private-medical-or-dental-examination-report",
+	"policyId": "BYXPKR650904",
+	"name": "Private Medical or Dental Examination Report",
+	"description": "Parents who use their family physician or dentist for required exams must furnish the report on the PA Department of Health form within the AR's timeline.",
+	"type": "report",
+	"preparedBy": "Parents/guardians",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": "within the timeline indicated in the accompanying Administrative Regulation",
+	"quote": "In such instances, parents/guardians are required to furnish the District with a medical or dental report of examination completed by their family physician or family dentist on the PA Department of Health's form for this purpose."
+}

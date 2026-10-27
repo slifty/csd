@@ -1,0 +1,13 @@
+{
+	"id": "227-ar-report-of-controlled-substance-violations-to-law-enforcement",
+	"policyId": "DDYT9U76556A",
+	"name": "Report of Controlled Substance Violations to Law Enforcement",
+	"description": "All violations of the controlled substances policy are reported per Board Policy and the MOU with local law enforcement.",
+	"type": "report",
+	"preparedBy": "Not specified",
+	"recipient": "Local law enforcement (per MOU)",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "All violations of the accompanying Board Policy shall be reported in accordance with Board Policy, including the procedures set forth in the Memorandum of Understanding with local law enforcement."
+}

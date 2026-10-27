@@ -1,0 +1,13 @@
+{
+	"id": "351-drug-free-workplace-awareness-program",
+	"policyId": "DDYRLZ6E637C",
+	"name": "Drug-Free Workplace Awareness Program",
+	"description": "Informing employees about dangers of workplace drug abuse, the drug-free workplace policy, available counseling and assistance programs, and penalties.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Employees",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "In establishing a drug-free workplace awareness program, the Superintendent or designee shall inform employees about:"
+}

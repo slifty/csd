@@ -1,0 +1,13 @@
+{
+	"id": "801-initial-response-to-right-to-know-request",
+	"policyId": "D836BF14214B",
+	"name": "Initial Response to Right-to-Know Request",
+	"description": "Response granting, denying, partially granting, extending, or seeking clarification on a written records request; a non-response is deemed a denial.",
+	"type": "notification",
+	"preparedBy": "Open Records Officer",
+	"recipient": "Requester",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "within five (5) business days of receipt of the request",
+	"quote": "The Open Records Officer’s initial response time shall not exceed five (5) business days from the date the written request is received by the Open Records Officer, in accordance with applicable law."
+}

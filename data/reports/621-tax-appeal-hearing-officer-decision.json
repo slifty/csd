@@ -1,0 +1,13 @@
+{
+	"id": "621-tax-appeal-hearing-officer-decision",
+	"policyId": "C9APER644BE1",
+	"name": "Tax Appeal Hearing Officer Decision",
+	"description": "Decision on a taxpayer petition for refund or reassessment of an eligible tax.",
+	"type": "notification",
+	"preparedBy": "Hearing Officer (EIT Collector or Director of Business Services)",
+	"recipient": "Taxpayer petitioner",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "Within 60 days of receipt of a complete and accurate petition",
+	"quote": "The decision of the Hearing Officer shall be issued within sixty (60) days of the date a complete and accurate petition is received in the office of the Director of Business Services."
+}

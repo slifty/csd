@@ -1,0 +1,13 @@
+{
+	"id": "620-recommended-transfers-from-unassigned-fund-balance",
+	"policyId": "CDLPSC65FBC8",
+	"name": "Recommended Transfers from Unassigned Fund Balance",
+	"description": "Recommendations for transfers from the unassigned fund balance to comply with law or meet financial objectives (target 6-8% of budgeted expenditures).",
+	"type": "recommendation",
+	"preparedBy": "Director of Business Services",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Director of Business Services shall further be responsible for recommending to the Board any transfers from the District's unassigned fund balance in order to comply with law or achieve the District's financial objectives."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "608-monthly-depository-status-report",
+	"policyId": "CZHV337EB6BF",
+	"name": "Monthly Depository Status Report",
+	"description": "Each designated depository reports on the status of District funds it holds, in the manner required by law.",
+	"type": "report",
+	"preparedBy": "Each designated depository bank",
+	"recipient": "Treasurer or Board",
+	"recipientType": "board",
+	"frequency": "monthly",
+	"deadline": "Monthly",
+	"quote": "Each depository shall be required to report monthly to the Treasurer or Board monthly on the status of such funds in the matter required by law."
+}

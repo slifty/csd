@@ -1,0 +1,13 @@
+{
+	"id": "254-ar-advance-notice-to-school-nurse-of-shared-classroom-food",
+	"policyId": "DA34EB0B2D9A",
+	"name": "Advance Notice to School Nurse of Shared Classroom Food",
+	"description": "The nurse is notified in advance of food to be shared with students to address allergy and safety concerns.",
+	"type": "notification",
+	"preparedBy": "Not specified (person bringing food)",
+	"recipient": "School nurse",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "in advance of the food being shared",
+	"quote": "The school nurse shall be notified of food brought into school for the purpose of being shared during the school day with students in advance of the food being shared with students"
+}

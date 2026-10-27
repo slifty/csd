@@ -1,0 +1,13 @@
+{
+	"id": "218-2-annual-school-safety-and-security-incidents-report-weapons",
+	"policyId": "DQGMKE5B9B9B",
+	"name": "Annual School Safety and Security Incidents Report (Weapons)",
+	"description": "Annual report on the required form of all incidents involving possession of a weapon.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "annual",
+	"deadline": "annually, by the required deadline",
+	"quote": "In accordance with state law, the Superintendent shall annually, by the required deadline, report all incidents involving possession of a weapon to the PA Department of Education on the required form."
+}

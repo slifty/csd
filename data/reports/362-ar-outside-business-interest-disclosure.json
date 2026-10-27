@@ -1,0 +1,13 @@
+{
+	"id": "362-ar-outside-business-interest-disclosure",
+	"policyId": "CEP44R09C666",
+	"name": "Outside Business Interest Disclosure",
+	"description": "Disclosure on Attachment A of outside business interests and the names of District students employed by or volunteering in them.",
+	"type": "notification",
+	"preparedBy": "District employees",
+	"recipient": "Direct supervisor",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Using Attachment A, District employees must disclose to their direct supervisor specified information including, but not limited to, the nature of all outside business interests. Also, District employees shall disclose the names of all District students who are employed by or are a volunteer of the District employee in connection with any outside business interest."
+}

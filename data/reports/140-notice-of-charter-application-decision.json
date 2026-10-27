@@ -1,0 +1,13 @@
+{
+	"id": "140-notice-of-charter-application-decision",
+	"policyId": "BY5NHG60027F",
+	"name": "Notice of Charter Application Decision",
+	"description": "Written notice of approval or denial of a charter application, including reasons and deficiencies if denied.",
+	"type": "notification",
+	"preparedBy": "Board",
+	"recipient": "Applicant, PA Department of Education, State Charter School Appeal Board",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "no later than 75 days after the first public hearing (decision deadline)",
+	"quote": "Written notice of the Board's decision shall be sent to the applicant, Department of Education and the Appeal Board, including reasons for denial and a clear description of application deficiencies if the application is denied."
+}

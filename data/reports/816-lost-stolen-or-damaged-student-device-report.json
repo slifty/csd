@@ -1,0 +1,13 @@
+{
+	"id": "816-lost-stolen-or-damaged-student-device-report",
+	"policyId": "CZJ2JJ026B1F",
+	"name": "Lost, Stolen or Damaged Student Device Report",
+	"description": "Immediate report of a lost, stolen or damaged District-issued device so the District can lock, track, wipe it or notify police.",
+	"type": "notification",
+	"preparedBy": "Student or parent/guardian",
+	"recipient": "Building principal or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "If a device issued to an individual student is lost, stolen, or damaged, the student or their parent/guardian shall immediately report such incident to their building principal or designee."
+}

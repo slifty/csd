@@ -1,0 +1,13 @@
+{
+	"id": "229-parent-notification-of-off-property-solicitations",
+	"policyId": "BKCTM9780120",
+	"name": "Parent Notification of Off-Property Solicitations",
+	"description": "Parents must be notified before students take part in District-sponsored solicitations or sales off school property.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "before the activity",
+	"quote": "Under no circumstances may students be involved in District-sponsored solicitations or sales off school property without parental /guardian notification."
+}

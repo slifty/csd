@@ -1,0 +1,13 @@
+{
+	"id": "215-ar-notice-of-retention-consideration-k-8",
+	"policyId": "BLGUMZ79A845",
+	"name": "Notice of Retention Consideration (K-8)",
+	"description": "Written notice that a K-8 student is being considered for retention, with an invitation to an optional conference explaining the reasons.",
+	"type": "notification",
+	"preparedBy": "School principal or designee",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "upon a determination that the child is being considered for retention",
+	"quote": "The parent(s)/guardian(s) of K-8 students being considered for retention shall be notified in writing by the school principal or designee upon a determination that their child is being considered for retention."
+}

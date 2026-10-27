@@ -1,0 +1,13 @@
+{
+	"id": "114-teacher-notification-of-giep-responsibilities",
+	"policyId": "AWL5CZ0FAC3F",
+	"name": "Teacher Notification of GIEP Responsibilities",
+	"description": "Teachers are notified of their responsibilities to each identified gifted student under the GIEP.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Teachers of identified gifted students",
+	"recipientType": "employees",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "Notification to teachers of their responsibilities to each of their identified gifted students, as provided in the student’s Gifted Individualized Education Plan (GIEP)."
+}

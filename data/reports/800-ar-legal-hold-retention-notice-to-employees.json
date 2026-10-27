@@ -1,0 +1,13 @@
+{
+	"id": "800-ar-legal-hold-retention-notice-to-employees",
+	"policyId": "CTESTJ743D44",
+	"name": "Legal Hold Retention Notice to Employees",
+	"description": "When a legal hold is implemented, involved employees are told to retain all documents, data and communications about the matter until further notice.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee (via appropriate administrators)",
+	"recipient": "District employees involved in the matter",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall direct the appropriate administrator(s) to advise District employees involved with the incident(s) or matter(s) at issue to retain all documents, data and information regarding the matter including, but not limited to email communications, text messages, notes, letters and voice mail messages pending further notice."
+}

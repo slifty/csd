@@ -1,0 +1,13 @@
+{
+	"id": "303-retroactive-approval-recommendation-for-hires-made-before-board-approval",
+	"policyId": "BUEQNC69890B",
+	"name": "Retroactive Approval Recommendation for Hires Made Before Board Approval",
+	"description": "Recommendation that the Board retroactively approve employees used before Board approval.",
+	"type": "recommendation",
+	"preparedBy": "Not specified (Superintendent or designee implied)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "At the next regular Board meeting",
+	"quote": "Retroactive approval shall be recommended to the Board at the next regular Board meeting."
+}

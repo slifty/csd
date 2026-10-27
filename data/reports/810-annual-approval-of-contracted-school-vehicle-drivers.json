@@ -1,0 +1,13 @@
+{
+	"id": "810-annual-approval-of-contracted-school-vehicle-drivers",
+	"policyId": "DKJVDG803D8C",
+	"name": "Annual Approval of Contracted School Vehicle Drivers",
+	"description": "All contracted employees who will serve as school vehicle drivers are presented for Board approval at a public meeting.",
+	"type": "presentation",
+	"preparedBy": "Not specified",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": null,
+	"quote": "Annually, the Board shall approve, at a public meeting of the Board, all contracted employees who will serve as school vehicle drivers for the District."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "233-ar-formal-expulsion-hearing-notice",
+	"policyId": "D4K2X80446EF",
+	"name": "Formal Expulsion Hearing Notice",
+	"description": "Certified-mail notice of charges, time and place of the formal hearing, with copies of Policy/AR 233 and due process procedures (Attachment 2).",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Student's parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "at least 3 days before the hearing",
+	"quote": "With respect to formal hearings, prior notification of the charges shall be sent to the student’s parents or guardians by certified mail. At least 3 days’ notice of the time and place of the hearing shall be given."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "103-ar-summary-of-investigation-outcome-to-parties",
+	"policyId": "D8375217E0F5",
+	"name": "Summary of Investigation Outcome to Parties",
+	"description": "Parties receive a summary of the investigation's outcome (not the full report).",
+	"type": "data-submission",
+	"preparedBy": "Not specified",
+	"recipient": "Complainant and respondent",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "within a reasonable time of the submission of the written report",
+	"quote": "The complainant and the respondent shall be provided with a summary of the investigation’s outcome within a reasonable time of the submission of the written report."
+}

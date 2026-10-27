@@ -1,0 +1,13 @@
+{
+	"id": "818-ar-educator-discipline-act-report-to-pde-contractor-misconduct",
+	"policyId": "CFJ6SC164FD3",
+	"name": "Educator Discipline Act Report to PDE (Contractor Misconduct)",
+	"description": "If reported contractor conduct appears to be an incident reportable under the Educator Discipline Act, the Superintendent notifies PDE.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If the Superintendent or designee reasonably suspects that conduct being reported involves an incident required to be reported under the Educator Discipline Act, the Superintendent or designee shall notify the Pennsylvania Department of Education, in accordance with applicable law, regulations and Board Policy."
+}

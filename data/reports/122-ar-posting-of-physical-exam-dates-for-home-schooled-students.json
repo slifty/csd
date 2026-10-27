@@ -1,0 +1,13 @@
+{
+	"id": "122-ar-posting-of-physical-exam-dates-for-home-schooled-students",
+	"policyId": "AWL5FQ101288",
+	"name": "Posting of Physical Exam Dates for Home-Schooled Students",
+	"description": "Dates and times of District-offered physicals or medical tests required for activities are posted.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public / home-schooled students",
+	"recipientType": "public",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "The dates and times of such physicals or tests shall be made available on the district's website or a general circulation publication."
+}

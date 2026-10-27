@@ -1,0 +1,13 @@
+{
+	"id": "206-1-transfer-of-certified-disciplinary-record",
+	"policyId": "CZJ22J0013DD",
+	"name": "Transfer of Certified Disciplinary Record",
+	"description": "When a student transfers out, the District sends a certified copy of the disciplinary record, plus a copy of any juvenile probation notice, to the receiving school.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "Receiving school",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "within ten (10) days of receiving the request",
+	"quote": "When a student transfers from a District school to another school district, a nonpublic school or other school within the District, the District shall transmit a certified copy of the student’s disciplinary record within ten (10) days of receiving the request from the school to which the student has transferred."
+}

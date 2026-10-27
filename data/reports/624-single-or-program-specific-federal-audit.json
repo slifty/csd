@@ -1,0 +1,13 @@
+{
+	"id": "624-single-or-program-specific-federal-audit",
+	"policyId": "DQGQB96879FF",
+	"name": "Single or Program-Specific Federal Audit",
+	"description": "Single or program-specific audit required in any fiscal year the District expends $1,000,000 or more in federal awards.",
+	"type": "audit",
+	"preparedBy": "District",
+	"recipient": "Federal agencies (per federal audit requirements)",
+	"recipientType": "federal-agency",
+	"frequency": "annual",
+	"deadline": "Each fiscal year federal expenditures reach $1,000,000",
+	"quote": "For any fiscal year in which the district expends $1,000,000 or more in federal awards, the district is required to have a single or program-specific audit in compliance with federal requirements."
+}

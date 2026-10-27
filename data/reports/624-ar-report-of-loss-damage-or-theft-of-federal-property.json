@@ -1,0 +1,13 @@
+{
+	"id": "624-ar-report-of-loss-damage-or-theft-of-federal-property",
+	"policyId": "DN7VEG8062B6",
+	"name": "Report of Loss, Damage or Theft of Federal Property",
+	"description": "Investigated and documented report of loss, damage or theft affecting the program; if stolen items are not recovered, copies of the investigative report and insurance claim go to the awarding agency.",
+	"type": "report",
+	"preparedBy": "District / Director of Business Services",
+	"recipient": "Federal agency or pass-through entity (and optionally local law enforcement)",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Any loss, damage or theft must be investigated, fully documented and reported to the federal agency or pass-through entity of any loss, damage or theft that will have an impact on the program."
+}

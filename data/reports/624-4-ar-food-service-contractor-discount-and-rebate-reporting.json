@@ -1,0 +1,13 @@
+{
+	"id": "624-4-ar-food-service-contractor-discount-and-rebate-reporting",
+	"policyId": "DUMLKZ570262",
+	"name": "Food Service Contractor Discount and Rebate Reporting",
+	"description": "Contractors identify each discount, rebate and credit on bills and invoices; with state agency approval, may report less often than monthly but at least annually.",
+	"type": "data-submission",
+	"preparedBy": "Food service contractors (cost reimbursable contracts)",
+	"recipient": "School food authority (District)",
+	"recipientType": "administration",
+	"frequency": "monthly",
+	"deadline": "Monthly, or no less than annually if approved by the state agency",
+	"quote": "The contractor must identify the amount of each discount, rebate and other applicable credit on bills and invoices presented to the school food authority for payment and individually identify the amount as a discount, rebate, or in the case of other applicable credits, the nature of the credit."
+}

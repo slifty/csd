@@ -1,0 +1,13 @@
+{
+	"id": "233-ar-notice-of-informal-hearing-outcome-and-expulsion-referral",
+	"policyId": "D4K2X80446EF",
+	"name": "Notice of Informal Hearing Outcome and Expulsion Referral",
+	"description": "After an informal hearing, parents are advised if the suspension is extended or the matter is referred to the Superintendent for expulsion; Attachment 3 may be used.",
+	"type": "notification",
+	"preparedBy": "Principal or designee",
+	"recipient": "Parent/guardian; Superintendent (referral)",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "as soon as possible following the informal hearing",
+	"quote": "After the informal hearing, if the principal or designee extends the student’s suspension for a period not to exceed ten (10) total school days, or if the principal or designee decides to refer the matter to the Superintendent for possible expulsion proceedings, the student’s parent/guardian shall be so advised and the referral shall take place as soon as possible following the informal hearing."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "624-3-ar-subrecipient-monitoring-results",
+	"policyId": "DN7W2A83498B",
+	"name": "Subrecipient Monitoring Results",
+	"description": "Written documentation of monitoring results listing identified deficiencies.",
+	"type": "report",
+	"preparedBy": "Director of Business Services or designee",
+	"recipient": "Subrecipients",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "After monitoring",
+	"quote": "The Director of Business Services or designee shall provide subrecipients with written documentation detailing their monitoring results and listing any identified deficiencies."
+}

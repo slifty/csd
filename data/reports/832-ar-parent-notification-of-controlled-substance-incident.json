@@ -1,0 +1,13 @@
+{
+	"id": "832-ar-parent-notification-of-controlled-substance-incident",
+	"policyId": "DDYPVA666E51",
+	"name": "Parent Notification of Controlled Substance Incident",
+	"description": "Parents of students directly involved in a controlled substance incident are notified and told whether law enforcement has been or may be notified; attempts to reach them are documented.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parents/guardians of students directly involved",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "immediately, as soon as practicable",
+	"quote": "The Superintendent or designee shall notify the parent/guardian of any student directly involved in an incident involving use of controlled substances immediately, as soon as practicable. The Superintendent or designee shall inform the parent/guardian whether or not the law enforcement agency that has jurisdiction over the school property has been or may be notified of the incident."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "356-report-of-violence-and-weapons-incidents-to-pde",
+	"policyId": "DQGPTK662C32",
+	"name": "Report of Violence and Weapons Incidents to PDE",
+	"description": "Report of all incidents of violence or unapproved weapon possession by any person on District property.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "as-required",
+	"deadline": "As required by PDE",
+	"quote": "The Superintendent or designee will report as required to the Pennsylvania Department of Education all incidents relating to acts of violence or unapproved possession of a weapon by any person on District property."
+}

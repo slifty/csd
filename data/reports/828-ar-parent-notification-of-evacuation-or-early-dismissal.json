@@ -1,0 +1,13 @@
+{
+	"id": "828-ar-parent-notification-of-evacuation-or-early-dismissal",
+	"policyId": "DKJU7X7ABE84",
+	"name": "Parent Notification of Evacuation or Early Dismissal",
+	"description": "During an evacuation or early dismissal, parents are told by phone and email (School Messenger) when and where to pick up their children.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "as soon as possible",
+	"quote": "In the event of a school evacuation or early dismissal, parents/guardians will be informed by phone and email through the District’s School Messenger system as soon as possible. Information will be communicated about when and where (i.e. rally points) children may be picked up."
+}

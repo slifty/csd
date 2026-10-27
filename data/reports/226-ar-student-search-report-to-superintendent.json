@@ -1,0 +1,13 @@
+{
+	"id": "226-ar-student-search-report-to-superintendent",
+	"policyId": "BUYRJC68B2BC",
+	"name": "Student Search Report to Superintendent",
+	"description": "Immediate report of any search to the Superintendent, followed by a written record of time, date, individuals involved, reason, results and other pertinent facts.",
+	"type": "report",
+	"preparedBy": "Administrator conducting the search",
+	"recipient": "Superintendent",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately; written record as soon as possible",
+	"quote": "A report of any search shall be made immediately by the administrator to the Superintendent followed as soon as possible by a written record, containing the time, date, individuals involved, reason for the search, results, and all other pertinent facts."
+}

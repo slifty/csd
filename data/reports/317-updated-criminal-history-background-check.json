@@ -1,0 +1,13 @@
+{
+	"id": "317-updated-criminal-history-background-check",
+	"policyId": "DKJT7V760730",
+	"name": "Updated Criminal History Background Check",
+	"description": "New criminal history background check reports required when the Superintendent reasonably believes an unreported arrest or conviction occurred.",
+	"type": "report",
+	"preparedBy": "Employee",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "An employee shall be required to submit new criminal history background check reports if the Superintendent or designee has a reasonable belief that the employee was arrested or has been convicted of an offense required to be reported by law, and the employee has not notified the Superintendent or designee."
+}

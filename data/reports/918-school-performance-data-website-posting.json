@@ -1,0 +1,13 @@
+{
+	"id": "918-school-performance-data-website-posting",
+	"policyId": "CW82YY04887A",
+	"name": "School Performance Data Website Posting",
+	"description": "Posting of school performance data on the District website.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Post school performance data on the District's website."
+}

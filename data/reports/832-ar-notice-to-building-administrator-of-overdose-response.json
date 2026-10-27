@@ -1,0 +1,13 @@
+{
+	"id": "832-ar-notice-to-building-administrator-of-overdose-response",
+	"policyId": "DDYPVA666E51",
+	"name": "Notice to Building Administrator of Overdose Response",
+	"description": "After responding to a suspected overdose, employees notify the building administrator of the incident.",
+	"type": "notification",
+	"preparedBy": "District employees responding",
+	"recipient": "Building administrator or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Notify the building administrator or designee of the incident."
+}

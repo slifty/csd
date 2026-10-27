@@ -1,0 +1,13 @@
+{
+	"id": "136-ar-home-education-letter-of-transfer",
+	"policyId": "CPW4JG0BB657",
+	"name": "Home Education Letter of Transfer",
+	"description": "Letter of transfer for a home education program relocating to another district.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Home education program supervisor",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "within 30 days after receipt of the registered mail request",
+	"quote": "The Superintendent or designee shall issue the letter of transfer within thirty (30) days after receipt of the registered mail request of the home education program supervisor."
+}

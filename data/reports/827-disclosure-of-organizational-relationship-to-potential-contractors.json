@@ -1,0 +1,13 @@
+{
+	"id": "827-disclosure-of-organizational-relationship-to-potential-contractors",
+	"policyId": "DSBVV4827E80",
+	"name": "Disclosure of Organizational Relationship to Potential Contractors",
+	"description": "When a potential organizational conflict exists in a federally funded procurement, the relationship is disclosed in notices to potential contractors.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Potential contractors",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The organizational relationship shall be disclosed as part of any notices to potential contractors;"
+}

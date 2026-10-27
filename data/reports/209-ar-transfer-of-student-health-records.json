@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-transfer-of-student-health-records",
+	"policyId": "BYXPKV650D2C",
+	"name": "Transfer of Student Health Records",
+	"description": "Student health records move with the child to another school or district.",
+	"type": "data-submission",
+	"preparedBy": "Not specified",
+	"recipient": "Receiving school or district",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Such records shall be transferred with the child when they move from one school to another or from one district to another."
+}

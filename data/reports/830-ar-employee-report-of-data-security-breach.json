@@ -1,0 +1,13 @@
+{
+	"id": "830-ar-employee-report-of-data-security-breach",
+	"policyId": "CTEPZQ6714D7",
+	"name": "Employee Report of Data Security Breach",
+	"description": "Employees promptly report any breach of District computerized data that compromises personal information.",
+	"type": "notification",
+	"preparedBy": "Employees",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Employees shall promptly report to the Superintendent or designee any security breach of the District’s computerized data that compromises the security, confidentiality or integrity of personal information maintained by the District."
+}

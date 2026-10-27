@@ -1,0 +1,13 @@
+{
+	"id": "206-annual-notification-of-student-records-rights",
+	"policyId": "AWL5H41045A3",
+	"name": "Annual Notification of Student Records Rights",
+	"description": "Notice of rights concerning student records (FERPA), adapted for people with disabilities or whose dominant language is not English.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians and eligible students",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "upon initial enrollment and annually thereafter",
+	"quote": "Parents/Guardians and eligible students, as defined in the accompanying Administrative Regulation, shall be notified upon initial enrollment and annually thereafter of their rights concerning student records."
+}

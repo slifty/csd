@@ -1,0 +1,13 @@
+{
+	"id": "113-2-restraint-reports-from-outside-placements",
+	"policyId": "CKY3AG05E36E",
+	"name": "Restraint Reports from Outside Placements",
+	"description": "Outside entities educating District students with disabilities must report restraint use to the District.",
+	"type": "report",
+	"preparedBy": "Private schools, agencies, intermediate units and CTE schools educating District students",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "Procedures shall be established requiring reports to be made to the District by entities educating students with disabilities who attend programs or classes outside the District, including private schools, agencies, intermediate units and career and technical schools."
+}

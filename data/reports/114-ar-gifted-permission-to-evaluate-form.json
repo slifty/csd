@@ -1,0 +1,13 @@
+{
+	"id": "114-ar-gifted-permission-to-evaluate-form",
+	"policyId": "BF89GP22F647",
+	"name": "Gifted Permission to Evaluate Form",
+	"description": "Permission to Evaluate form provided to parents requesting a gifted evaluation.",
+	"type": "notification",
+	"preparedBy": "District; administrator or professional employee receiving an oral request",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "within 10 calendar days of an oral request",
+	"quote": "If an oral request is made to an administrator or professional employee, they shall provide the form to the parent/guardian within ten (10) calendar days of the oral request."
+}

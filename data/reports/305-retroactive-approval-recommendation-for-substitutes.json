@@ -1,0 +1,13 @@
+{
+	"id": "305-retroactive-approval-recommendation-for-substitutes",
+	"policyId": "BUEQNU699E54",
+	"name": "Retroactive Approval Recommendation for Substitutes",
+	"description": "Recommendation for retroactive Board approval of substitutes used before Board approval to maintain program continuity.",
+	"type": "recommendation",
+	"preparedBy": "Not specified (Superintendent or designee implied)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "At the next regular Board meeting",
+	"quote": "Utilization of substitutes prior to approval by the Board is authorized when their use is required to maintain continuity in the educational program and services of the District and the candidate has satisfied legal pre-employment requirements. Retroactive approval shall be recommended to the Board at the next regular Board meeting."
+}

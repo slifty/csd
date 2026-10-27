@@ -1,0 +1,13 @@
+{
+	"id": "808-ar-meal-charge-policy-distribution-to-households",
+	"policyId": "CJP2Y504696A",
+	"name": "Meal Charge Policy Distribution to Households",
+	"description": "Written copy of the local meal charge policy provided to every household.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Each household (and households transferring in mid-year)",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "at the beginning of the school year; upon transfer during the year",
+	"quote": "This Administrative Regulation, detailing the District’s local meal charge policy, shall be provided in writing to each household at the beginning of the school year, and during the school year to households who transfer to the District during the school year."
+}

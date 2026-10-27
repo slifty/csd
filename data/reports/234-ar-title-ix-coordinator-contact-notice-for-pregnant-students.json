@@ -1,0 +1,13 @@
+{
+	"id": "234-ar-title-ix-coordinator-contact-notice-for-pregnant-students",
+	"policyId": "DA2NJC602431",
+	"name": "Title IX Coordinator Contact Notice for Pregnant Students",
+	"description": "When informed of a student's pregnancy, an employee provides the Title IX Coordinator's contact information and documents the notification.",
+	"type": "notification",
+	"preparedBy": "District employee",
+	"recipient": "Student/parent/guardian or authorized individual",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "When a student, parent/guardian of a student, or other individual with a legal right to act on behalf of a student informs a District employee of the student’s pregnancy or related conditions, the employee shall promptly notify that individual of the Title IX Coordinator’s contact information"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "103-ar-notice-of-anticipated-investigative-report-date-to-parties",
+	"policyId": "D8375217E0F5",
+	"name": "Notice of Anticipated Investigative Report Date to Parties",
+	"description": "Parties are told when the investigative report is expected and of any changes to that date.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Complainant and respondent",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "during the investigation",
+	"quote": "The parties shall be notified of the anticipated date the investigative report will be completed and of any changes to the anticipated due date during the course of the investigation."
+}

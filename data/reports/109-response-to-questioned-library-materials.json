@@ -1,0 +1,13 @@
+{
+	"id": "109-response-to-questioned-library-materials",
+	"policyId": "CTEM2N59276F",
+	"name": "Response to Questioned Library Materials",
+	"description": "Response to a written question or concern about school library materials.",
+	"type": "notification",
+	"preparedBy": "Assistant Superintendent or designee",
+	"recipient": "Individual submitting the concern",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "generally within 15 business days",
+	"quote": "The Assistant Superintendent or designee will generally respond within 15 business days."
+}

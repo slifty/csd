@@ -1,0 +1,13 @@
+{
+	"id": "202-ar-notice-of-non-residency-determination",
+	"policyId": "DCHP896359F0",
+	"name": "Notice of Non-Residency Determination",
+	"description": "Written notice to the parent/guardian that a student has been determined ineligible (or residency proof is inadequate), the basis for it, and how to request a hearing before the Board or hearing officer.",
+	"type": "notification",
+	"preparedBy": "Administration",
+	"recipient": "Parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Upon a determination by the administration that a child is not eligible to attend school in the District, or if the District no longer has adequate proof of a student’s residence in the District, the student’s parent or guardian will be notified of such determination and the basis for such determination in writing."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "103-forwarding-of-discrimination-reports-to-title-ix-coordinator",
+	"policyId": "D8374X17DDA9",
+	"name": "Forwarding of Discrimination Reports to Title IX Coordinator",
+	"description": "Reports of Title IX sex discrimination, other discrimination or retaliation received by any employee must be forwarded to the Title IX Coordinator for response and investigation.",
+	"type": "notification",
+	"preparedBy": "School employees",
+	"recipient": "Title IX Coordinator (or Superintendent if Coordinator is the subject)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "In the event a report of Title IX sex discrimination, other discrimination, or retaliation is received by a school employee other than the Title IX Coordinator , such report shall promptly be forwarded to the Title IX Coordinator"
+}

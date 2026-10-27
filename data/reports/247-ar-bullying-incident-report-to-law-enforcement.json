@@ -1,0 +1,13 @@
+{
+	"id": "247-ar-bullying-incident-report-to-law-enforcement",
+	"policyId": "DA2QF5685545",
+	"name": "Bullying Incident Report to Law Enforcement",
+	"description": "Reporting of bullying incidents as required by law and the MOU with local law enforcement.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Local law enforcement (per MOU)",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee will report incidents of bullying as required by law and contemplated in the Memorandum of Understanding in effect with local law enforcement."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "210-ar-notice-of-nurse-refusal-to-administer-medication",
+	"policyId": "AWL5HC104F1A",
+	"name": "Notice of Nurse Refusal to Administer Medication",
+	"description": "When the nurse refuses to give a medication judged inappropriate or too high a dose, the nurse immediately contacts the family, administrators and prescriber.",
+	"type": "notification",
+	"preparedBy": "School nurse",
+	"recipient": "Parent, principal, Director of Special Education, licensed prescriber, and (if needed) District consulting physician",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "In this situation, the nurse will immediately contact the parent, principal, Director of Special Education, the student's licensed prescriber and, where necessary, the district's consulting physician."
+}

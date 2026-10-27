@@ -1,0 +1,13 @@
+{
+	"id": "259-ar-notice-to-unaccompanied-youth-of-independent-student-status",
+	"policyId": "CJQMW95D3344",
+	"name": "Notice to Unaccompanied Youth of Independent Student Status",
+	"description": "Ensure unaccompanied youth are informed of their independent-student status under the Higher Education Act and their right to verification.",
+	"type": "notification",
+	"preparedBy": "District homeless liaison",
+	"recipient": "Unaccompanied homeless youth",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "are informed of their status as independent students under section 480 of the Higher Education Act of 1965 (HEA) (20 U.S.C 1087vv), and their right to receive verification of this status from the local liaison."
+}

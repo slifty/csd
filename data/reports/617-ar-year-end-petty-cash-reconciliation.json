@@ -1,0 +1,13 @@
+{
+	"id": "617-ar-year-end-petty-cash-reconciliation",
+	"policyId": "CZHV3J7EC8CF",
+	"name": "Year-End Petty Cash Reconciliation",
+	"description": "All petty cash accounts restored to their initial value, with reimbursement for outstanding receipts requested, by fiscal year end.",
+	"type": "data-submission",
+	"preparedBy": "Petty cash fund custodians",
+	"recipient": "Business Office",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "By June 30 of each year",
+	"quote": "All petty cash accounts must be brought to the initial established value by June 30 of each year, therefore reimbursement for any receipts still outstanding must be requested by June 30."
+}

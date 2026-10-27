@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-notice-of-incomplete-fmla-certification",
+	"policyId": "C8C4T90D1273",
+	"name": "Notice of Incomplete FMLA Certification",
+	"description": "Written notice of the additional information needed to complete an insufficient certification; employee has seven days to cure.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Employee",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "Employee has 7 days to cure",
+	"quote": "If an employee submits incomplete or insufficient certification, the District will notify the employee in writing on any additional information necessary to make the certification complete and sufficient; and the employee has seven (7) days to cure the deficiency."
+}

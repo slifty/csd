@@ -1,0 +1,13 @@
+{
+	"id": "860-ar-mandated-report-of-suspected-child-abuse",
+	"policyId": "BTJJRW4E41B6",
+	"name": "Mandated Report of Suspected Child Abuse",
+	"description": "Mandated reporters who suspect child abuse report it immediately as the law requires.",
+	"type": "notification",
+	"preparedBy": "Mandated reporters",
+	"recipient": "As required by law (Child Protective Services Law)",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "Any mandated reporter who has reasonable cause to suspect that a child is the victim of child abuse shall immediately report the suspected abuse in accordance with applicable law and Board Policy."
+}

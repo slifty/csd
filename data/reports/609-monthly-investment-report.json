@@ -1,0 +1,13 @@
+{
+	"id": "609-monthly-investment-report",
+	"policyId": "CEP3DP0665D1",
+	"name": "Monthly Investment Report",
+	"description": "Amount invested, interest earned to date, types/amounts/rates of each investment, institutions, current market value, and collateralization of deposits over insurance limits; periodic reports also include collateral valuation review status.",
+	"type": "report",
+	"preparedBy": "Director of Business Services",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "monthly",
+	"deadline": "Monthly",
+	"quote": "The Director of Business Services shall report monthly to the Board the following:"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "203-report-of-suspected-communicable-diseases",
+	"policyId": "AWL5GU103CEB",
+	"name": "Report of Suspected Communicable Diseases",
+	"description": "The school nurse reports suspected communicable diseases to the appropriate local health authority as the Department of Health requires.",
+	"type": "notification",
+	"preparedBy": "School nurse",
+	"recipient": "Local health authority",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The school nurse shall report the presence of suspected communicable diseases to the appropriate local health authority as required by the Department of Health."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "304-report-of-employee-resignations-accepted",
+	"policyId": "DCHL4N54C2B3",
+	"name": "Report of Employee Resignations Accepted",
+	"description": "Informational report to the Board of all employee resignations accepted by the Superintendent or designee on the Board's behalf.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "per-meeting",
+	"deadline": "At the next regular Board meeting",
+	"quote": "The Superintendent or designee shall report all employee resignations and their acceptance as an informational item at the next regular Board meeting."
+}

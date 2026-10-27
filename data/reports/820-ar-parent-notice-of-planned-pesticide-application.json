@@ -1,0 +1,13 @@
+{
+	"id": "820-ar-parent-notice-of-planned-pesticide-application",
+	"policyId": "BP3PFZ647C4E",
+	"name": "Parent Notice of Planned Pesticide Application",
+	"description": "Notice of planned pesticide applications giving applicator name, address and phone, day of treatment, and pesticide used.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians (all, or those who requested notification)",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "at least 72 hours before each planned treatment",
+	"quote": "Providing required notice to all parents/guardians of students or to a list of parents/guardians who have requested notification of individual applications of pesticides. Such notice shall include the name, address and telephone number of the applicator providing the treatment, day of treatment and pesticide to be utilized."
+}

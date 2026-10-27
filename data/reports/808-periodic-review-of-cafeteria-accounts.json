@@ -1,0 +1,13 @@
+{
+	"id": "808-periodic-review-of-cafeteria-accounts",
+	"policyId": "CJP2XZ0464F6",
+	"name": "Periodic Review of Cafeteria Accounts",
+	"description": "Periodic review of cafeteria accounts to confirm nonprofit operation.",
+	"type": "audit",
+	"preparedBy": "Director of Business Services or designee and/or independent financial auditor",
+	"recipient": "Not specified",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": "periodic",
+	"quote": "A periodic review of the cafeteria accounts shall be made by the Director of Business Services or designee and/or the District’s independent financial auditor."
+}

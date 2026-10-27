@@ -1,0 +1,13 @@
+{
+	"id": "827-federal-award-conflict-of-interest-disclosure",
+	"policyId": "DSBVV4827E80",
+	"name": "Federal Award Conflict of Interest Disclosure",
+	"description": "Any potential conflict of interest related to a federal award is reported in writing to the awarding agency or pass-through entity.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Federal awarding agency or pass-through entity",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": "in accordance with federal awarding agency policy",
+	"quote": "The Superintendent or designee shall report in writing to the federal awarding agency or pass-through entity any potential conflict of interest related to a federal award, in accordance with federal awarding agency policy."
+}

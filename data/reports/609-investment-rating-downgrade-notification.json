@@ -1,0 +1,13 @@
+{
+	"id": "609-investment-rating-downgrade-notification",
+	"policyId": "CEP3DP0665D1",
+	"name": "Investment Rating Downgrade Notification",
+	"description": "If an investment's rating drops below Policy requirements, the Board is advised at the earliest opportunity with recommendations, or notified of the rating change, action taken and replacement investment.",
+	"type": "notification",
+	"preparedBy": "Director of Business Services or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "At the earliest opportunity",
+	"quote": "the Director of Business Services or designee shall, depending on the totality of the circumstances, either advise the Board at the earliest opportunity of such action and make recommendations for altering investments, or replace the investment and notify the Board of the rating change, action taken, and replacement investment."
+}

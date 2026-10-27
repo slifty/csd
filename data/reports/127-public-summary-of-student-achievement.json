@@ -1,0 +1,13 @@
+{
+	"id": "127-public-summary-of-student-achievement",
+	"policyId": "CPV5A40F3F3C",
+	"name": "Public Summary of Student Achievement",
+	"description": "Summary information on student achievement, including assessment results, as required by federal and state law.",
+	"type": "public-posting",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall provide or otherwise make available summary information to the public regarding student achievement, including results of assessments, in accordance with federal and state law and regulations."
+}

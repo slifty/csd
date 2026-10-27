@@ -1,0 +1,13 @@
+{
+	"id": "261-ar-parent-inspection-of-federally-funded-survey-materials",
+	"policyId": "B6NQSZ644B4F",
+	"name": "Parent Inspection of Federally Funded Survey Materials",
+	"description": "Instructional materials used with U.S. Department of Education-funded surveys are made available for parent inspection (PPRA).",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parents",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The District shall make instructional materials available for inspection by parents if those materials will be used in connection with United States Department of Education-funded survey, analysis, or evaluation in which their children participate; and"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "309-notice-of-assignments-to-employees",
+	"policyId": "BWHPC963F054",
+	"name": "Notice of Assignments to Employees",
+	"description": "Employees are informed of their assignments for the coming school year.",
+	"type": "notification",
+	"preparedBy": "Not specified (Superintendent or designee)",
+	"recipient": "District employees",
+	"recipientType": "employees",
+	"frequency": "annual",
+	"deadline": "As soon as possible preceding the school year",
+	"quote": "Employees shall be informed of their assignments as soon as possible preceding the school year in which the assignment will be effective."
+}

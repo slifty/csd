@@ -1,0 +1,13 @@
+{
+	"id": "335-fmla-rights-notice-posting",
+	"policyId": "BWKPAM63B301",
+	"name": "FMLA Rights Notice Posting",
+	"description": "Conspicuous posting of a notice explaining FMLA provisions and the complaint procedure.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Employees and applicants",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The District shall post, in conspicuous places in the District customarily used for notices to employees and applicants, a notice regarding the provisions of the FMLA and the procedure for filing a complaint."
+}

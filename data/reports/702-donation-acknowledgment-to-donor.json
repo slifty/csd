@@ -1,0 +1,13 @@
+{
+	"id": "702-donation-acknowledgment-to-donor",
+	"policyId": "CEP6G814D4A4",
+	"name": "Donation Acknowledgment to Donor",
+	"description": "Official thanks in the Board's name and acknowledgment of the receipt and value of any accepted donation.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Donor",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The donor shall be officially thanked in the Board’s name."
+}

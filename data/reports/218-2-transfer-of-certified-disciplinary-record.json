@@ -1,0 +1,13 @@
+{
+	"id": "218-2-transfer-of-certified-disciplinary-record",
+	"policyId": "DQGMKE5B9B9B",
+	"name": "Transfer of Certified Disciplinary Record",
+	"description": "Certified copy of a transferring student's disciplinary record sent to the receiving district on request.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "Receiving school district",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "within ten (10) days from receipt of the request",
+	"quote": "In the case of student transfers from the District, the District shall send to the receiving district, upon request, a certified copy of the student's disciplinary record within ten (10) days from receipt of the request to supply this record."
+}

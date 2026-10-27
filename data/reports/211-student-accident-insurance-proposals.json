@@ -1,0 +1,13 @@
+{
+	"id": "211-student-accident-insurance-proposals",
+	"policyId": "BG97UT1B5CEE",
+	"name": "Student Accident Insurance Proposals",
+	"description": "Insurance specifications and proposals from qualified carriers for student athletic accident coverage, presented for Board consideration.",
+	"type": "presentation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall prepare specifications and secure proposals from qualified insurance carriers for presentation to the Board for consideration."
+}

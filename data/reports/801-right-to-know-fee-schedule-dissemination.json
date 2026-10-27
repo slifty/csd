@@ -1,0 +1,13 @@
+{
+	"id": "801-right-to-know-fee-schedule-dissemination",
+	"policyId": "D836BF14214B",
+	"name": "Right-to-Know Fee Schedule Dissemination",
+	"description": "The District maintains the Board-approved list of fees for public records requests and disseminates it to requesters.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Requesters",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The District shall maintain a list of applicable fees and disseminate the list to requesters."
+}

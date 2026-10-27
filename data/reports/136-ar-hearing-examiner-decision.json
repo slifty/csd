@@ -1,0 +1,13 @@
+{
+	"id": "136-ar-hearing-examiner-decision",
+	"policyId": "CPW4JG0BB657",
+	"name": "Hearing Examiner Decision",
+	"description": "Decision following a hearing on home education compliance.",
+	"type": "report",
+	"preparedBy": "Hearing examiner",
+	"recipient": "Home education supervisor and Superintendent",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "hearing within 30 days; decision within 15 days of the hearing",
+	"quote": "If a hearing is required, the Board shall provide for a proper hearing by a duly qualified and impartial hearing examiner within thirty (30) days. The examiner shall render a decision within fifteen (15) days of the hearing"
+}

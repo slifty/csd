@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-notification-of-reported-threat-to-principal-and-parents",
+	"policyId": "DSC22N00188C",
+	"name": "Notification of Reported Threat to Principal and Parents",
+	"description": "The team notifies the building principal, who notifies the student's parent/guardian of the reported threat.",
+	"type": "notification",
+	"preparedBy": "Threat assessment team; building principal",
+	"recipient": "Building principal; student's parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "Notify the building principal of the school the student attends of the reported threat, who shall notify the student’s parent/guardian of the reported threat."
+}

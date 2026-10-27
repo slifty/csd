@@ -1,0 +1,13 @@
+{
+	"id": "248-hazing-incident-reporting-by-adults",
+	"policyId": "DA2N2L5DD61B",
+	"name": "Hazing Incident Reporting by Adults",
+	"description": "Adults must promptly report hazing per the accompanying AR.",
+	"type": "report",
+	"preparedBy": "Parents/guardians, coaches, sponsors, volunteers, employees, contractors",
+	"recipient": "Per AR 248 (supervisor or building principal)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Parents/guardians, coaches, activity sponsors, volunteers, District employees, representatives, agents, and contractors shall be alert to incidents of hazing and shall promptly report such conduct in accordance with the accompanying Administrative Regulations."
+}

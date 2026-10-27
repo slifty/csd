@@ -1,0 +1,13 @@
+{
+	"id": "203-notice-to-new-families-of-immunization-requirements",
+	"policyId": "AWL5GU103CEB",
+	"name": "Notice to New Families of Immunization Requirements",
+	"description": "Before a student first enters school, parents are told the immunization requirements, required proof, available religious/medical exemptions and how to claim them.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "prior to a student's entry to school for the first time",
+	"quote": "Inform parents and guardians prior to a student's entry to school for the first time of the requirements for immunization, the requisite proof of immunization, the exemption available for religious or medical reasons, and the means by which such exemptions may be claimed."
+}

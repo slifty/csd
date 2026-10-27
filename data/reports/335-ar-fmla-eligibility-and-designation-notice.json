@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-fmla-eligibility-and-designation-notice",
+	"policyId": "C8C4T90D1273",
+	"name": "FMLA Eligibility and Designation Notice",
+	"description": "Notice whether leave will be FMLA-protected; if eligible, the employee's rights and responsibilities, leave counted, and fitness-for-duty requirement; if not, the reason.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Requesting employee",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "Within 5 business days of the employee's request",
+	"quote": "The District shall notify the employee within five (5) business days of the employee’s request as to whether or not the leave will be protected under the FMLA."
+}

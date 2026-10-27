@@ -1,0 +1,13 @@
+{
+	"id": "204-ar-school-attendance-improvement-plan",
+	"policyId": "DQGQGF693CA9",
+	"name": "School Attendance Improvement Plan",
+	"description": "Written plan documenting the outcome of the attendance improvement conference, on the PDE template, kept in the student file and distributed.",
+	"type": "plan",
+	"preparedBy": "School principal or designee",
+	"recipient": "Person in parental relation, student, and appropriate District staff",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The outcome of the conference shall be documented in a written school attendance improvement plan, on the template provided by the Department of Education for this purpose. The plan shall be retained in the student's file and provided to the person in parental relation, the student, and appropriate District staff."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "829-ar-annual-curriculum-cycle-update",
+	"policyId": "C3B4AY0AB04C",
+	"name": "Annual Curriculum Cycle Update",
+	"description": "An annual update on the curriculum cycle for each content area, given through the Educational Affairs Committee.",
+	"type": "presentation",
+	"preparedBy": "Office of Education",
+	"recipient": "Educational Affairs Committee",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "annual",
+	"quote": "Establishing a curriculum cycle for each content area and providing an annual update through the Educational Affairs Committee;"
+}

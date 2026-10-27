@@ -1,0 +1,13 @@
+{
+	"id": "305-annual-approved-substitute-list",
+	"policyId": "BUEQNU699E54",
+	"name": "Annual Approved Substitute List",
+	"description": "Annual list of potential substitute employees and the positions in which they may substitute, recommended by the Superintendent for Board approval; names may be added during the year.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee (recommends); Board approves",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "Annually",
+	"quote": "The Board shall approve annually the names of potential substitute employees and the positions in which they may substitute."
+}

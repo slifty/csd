@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-parent-notice-of-scheduled-examinations-and-screenings",
+	"policyId": "BYXPKV650D2C",
+	"name": "Parent Notice of Scheduled Examinations and Screenings",
+	"description": "Notice of upcoming physical/dental examinations or screenings with date and location, invitation to attend, the private-exam option, and possible religious exemption.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": "before each scheduled examination or screening",
+	"quote": "Parents/Guardians of students who are to receive physical and/or dental examinations or screenings shall be notified. The notice shall include the date and location of the examination or screening and notice that the parent/ guardian is encouraged to attend or may have the examination or screening conducted privately at the parent's/guardian's expense."
+}

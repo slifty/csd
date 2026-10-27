@@ -1,0 +1,13 @@
+{
+	"id": "610-ar-report-of-emergency-expenditures-exceeding-appropriations",
+	"policyId": "CDLQZM6BC088",
+	"name": "Report of Emergency Expenditures Exceeding Appropriations",
+	"description": "Emergency purchases exceeding budget appropriations are reported with a recommendation of the funds to transfer to cover them.",
+	"type": "report",
+	"preparedBy": "Superintendent or Director of Business Services",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "At the next public Board meeting",
+	"quote": "Any expenditure in excess of budgetary appropriations made in accordance with this provision shall be reported to the Board at the next public meeting, with a recommendation of funds to be transferred to cover said purchase."
+}

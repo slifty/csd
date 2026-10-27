@@ -1,0 +1,13 @@
+{
+	"id": "353-annual-record-of-approved-credits",
+	"policyId": "CBDQAV686B0E",
+	"name": "Annual Record of Approved Credits",
+	"description": "Record and description of approved graduate or special course credits attained, used for reimbursement and salary adjustments.",
+	"type": "data-submission",
+	"preparedBy": "Eligible employees",
+	"recipient": "Human Resources Department",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "Annually by June 25",
+	"quote": "All eligible employees shall submit annually by June 25 a record and description of the attainment of approved credits to the Human Resources Department."
+}

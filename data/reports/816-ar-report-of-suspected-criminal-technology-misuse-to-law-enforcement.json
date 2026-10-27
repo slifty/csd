@@ -1,0 +1,13 @@
+{
+	"id": "816-ar-report-of-suspected-criminal-technology-misuse-to-law-enforcement",
+	"policyId": "CZJ2JM026E67",
+	"name": "Report of Suspected Criminal Technology Misuse to Law Enforcement",
+	"description": "Suspected criminal violations, including any involving sexually explicit depictions of individuals under 21, are reported to law enforcement.",
+	"type": "report",
+	"preparedBy": "Director of Technology or designee",
+	"recipient": "Law enforcement",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If the suspected violation is believed to be criminal in nature or in any way involving sexually explicit visual depictions of students or other individuals under 21 years of age, the Director of Technology or designee shall contact law enforcement to report the incident."
+}

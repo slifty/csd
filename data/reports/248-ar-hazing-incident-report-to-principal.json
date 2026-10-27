@@ -1,0 +1,13 @@
+{
+	"id": "248-ar-hazing-incident-report-to-principal",
+	"policyId": "DA2N2Q5DDA8B",
+	"name": "Hazing Incident Report to Principal",
+	"description": "Adults must promptly report hazing or potential hazing; the principal is notified to begin an investigation.",
+	"type": "report",
+	"preparedBy": "Parents/guardians, coaches, sponsors, volunteers, employees, contractors",
+	"recipient": "Immediate supervisor or building principal",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Parents/guardians, coaches, activity sponsors, volunteers, District employees, representatives, agents, and contractors shall be alert to incidents of hazing and potential hazing and shall promptly report such conduct to their immediate supervisor or the appropriate building principal."
+}

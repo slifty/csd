@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-fmla-return-to-work-notice",
+	"policyId": "C8C4T90D1273",
+	"name": "FMLA Return-to-Work Notice",
+	"description": "Notice of the employee's date of return from FMLA leave.",
+	"type": "notification",
+	"preparedBy": "Employee returning from FMLA leave",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "At least 5 work days before return",
+	"quote": "An employee returning to work from an FMLA leave shall provide to the District at least five (5) work days’ notice of their date of return."
+}

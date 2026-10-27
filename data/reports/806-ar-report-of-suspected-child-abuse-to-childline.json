@@ -1,0 +1,13 @@
+{
+	"id": "806-ar-report-of-suspected-child-abuse-to-childline",
+	"policyId": "DSC33A04DEEA",
+	"name": "Report of Suspected Child Abuse to ChildLine",
+	"description": "Immediate electronic or oral report of suspected child abuse; an oral report must be followed by a written electronic report.",
+	"type": "report",
+	"preparedBy": "School employees, independent contractors or volunteers",
+	"recipient": "PA Department of Human Services (ChildLine/CWIS)",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "immediately; written electronic follow-up within forty-eight (48) hours after an oral report",
+	"quote": "School employees, independent contractors or volunteers who suspect child abuse shall immediately make a written report of suspected child abuse using electronic technologies https://www.compass.state.pa.us/cwis/public/home or an oral report via the statewide toll-free telephone number, 1-800-932-0313."
+}

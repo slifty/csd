@@ -1,0 +1,13 @@
+{
+	"id": "354-sabbatical-cancellation-request",
+	"policyId": "BV83S208333D",
+	"name": "Sabbatical Cancellation Request",
+	"description": "Request to cancel an approved professional development sabbatical.",
+	"type": "notification",
+	"preparedBy": "Employee",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "No later than April 1 (fall leaves) or October 1 (spring leaves)",
+	"quote": "Absent a recommendation by the Superintendent or designee to the contrary, an approved sabbatical leave for professional development may not be canceled unless such request to cancel is forwarded to the Superintendent or designee no later than April 1 for leaves commencing in the fall semester and no later than October 1 for leaves commencing spring semester."
+}

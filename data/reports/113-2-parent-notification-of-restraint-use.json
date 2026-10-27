@@ -1,0 +1,13 @@
+{
+	"id": "113-2-parent-notification-of-restraint-use",
+	"policyId": "CKY3AG05E36E",
+	"name": "Parent Notification of Restraint Use",
+	"description": "Notice to parents of the use of restraints, followed by an IEP team meeting within 10 school days unless waived.",
+	"type": "notification",
+	"preparedBy": "Director of Special Education or designee",
+	"recipient": "Parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "as soon as practicable",
+	"quote": "The Director of Special Education or designee shall notify the parent/guardian as soon as practicable of the use of restraints to control the aggressive behavior of the student and shall convene a meeting of the IEP team within ten (10) school days of the use of restraints, unless the parent/guardian, after written notice, agrees in writing to waive the meeting."
+}

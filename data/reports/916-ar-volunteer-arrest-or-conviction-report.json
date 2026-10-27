@@ -1,0 +1,13 @@
+{
+	"id": "916-ar-volunteer-arrest-or-conviction-report",
+	"policyId": "DBWKQW52E4D0",
+	"name": "Volunteer Arrest or Conviction Report",
+	"description": "Written report of any new arrest or conviction for an offense that would bar volunteer work with children.",
+	"type": "notification",
+	"preparedBy": "Volunteers required to obtain certifications",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "within seventy-two (72) hours",
+	"quote": "Volunteers who are required to obtain certifications must report new arrests or convictions for any offense that would create a ban on volunteer work with children to the Superintendent or designee in writing within seventy-two (72) hours."
+}

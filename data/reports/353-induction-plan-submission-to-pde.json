@@ -1,0 +1,13 @@
+{
+	"id": "353-induction-plan-submission-to-pde",
+	"policyId": "CBDQAV686B0E",
+	"name": "Induction Plan Submission to PDE",
+	"description": "Induction plan for first-year teachers, long-term substitutes, educational specialists, and teachers new to the District, approved by the Board and submitted to PDE.",
+	"type": "plan",
+	"preparedBy": "District",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "every-6-years",
+	"deadline": "Every six years",
+	"quote": "The District shall develop and submit the induction plan to the Department of Education for approval every six (6) years, as required by law and regulations."
+}

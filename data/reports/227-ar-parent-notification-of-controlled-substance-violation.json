@@ -1,0 +1,13 @@
+{
+	"id": "227-ar-parent-notification-of-controlled-substance-violation",
+	"policyId": "DDYT9U76556A",
+	"name": "Parent Notification of Controlled Substance Violation",
+	"description": "Notice to the parent/guardian of any student found to have violated the controlled substances policy; attempts to reach the parent are documented.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "as soon as practicable",
+	"quote": "The parent/guardian of any student found to have violated the accompanying Board Policy shall be notified as soon as practicable by the Superintendent or designee."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "006-executive-session-notice-to-directors",
+	"policyId": "CZHVV6828964",
+	"name": "Executive Session Notice to Directors",
+	"description": "Written notice of executive sessions not previously announced; may be delivered electronically.",
+	"type": "notification",
+	"preparedBy": "Board Secretary or designee",
+	"recipient": "All school directors",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "at least twenty-four (24) hours prior to the executive session when possible",
+	"quote": "The Board Secretary or designee shall give all school directors written notice of executive sessions, if not previously announced, at least twenty-four (24) hours prior to the executive session when possible."
+}

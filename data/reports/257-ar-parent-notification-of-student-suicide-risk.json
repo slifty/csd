@@ -1,0 +1,13 @@
+{
+	"id": "257-ar-parent-notification-of-student-suicide-risk",
+	"policyId": "D3G47C0A27F5",
+	"name": "Parent Notification of Student Suicide Risk",
+	"description": "Parents of a student identified as at risk of suicide are notified and informed of crisis and community resources.",
+	"type": "notification",
+	"preparedBy": "Building principal or designee",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Parents/Guardians of a student identified as being at risk of suicide shall be notified by the building principal or designee and informed of crisis and community resources."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "204-ar-attendance-policy-website-posting",
+	"policyId": "DQGQGF693CA9",
+	"name": "Attendance Policy Website Posting",
+	"description": "The attendance AR and Board Policy are kept posted on the District's public website.",
+	"type": "public-posting",
+	"preparedBy": "Not specified",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "This Administrative Regulation and the accompanying Board Policy will be posted on the District’s publicly accessible website for review at any time."
+}

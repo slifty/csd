@@ -1,0 +1,13 @@
+{
+	"id": "121-field-trip-cancellation-notice-to-the-board",
+	"policyId": "DGU6CN144F3D",
+	"name": "Field Trip Cancellation Notice to the Board",
+	"description": "Superintendent informs the Board when a field trip is cancelled because of war, terrorism, natural disaster or other danger.",
+	"type": "notification",
+	"preparedBy": "Superintendent",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent shall inform the Board in the event of any such field trip cancellation."
+}

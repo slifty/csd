@@ -1,0 +1,13 @@
+{
+	"id": "334-accumulated-sick-leave-balance-report",
+	"policyId": "BVJTKE75ADE1",
+	"name": "Accumulated Sick Leave Balance Report",
+	"description": "Report to each employee of their accumulated unused sick leave days.",
+	"type": "report",
+	"preparedBy": "Not specified (District)",
+	"recipient": "Each employee",
+	"recipientType": "employees",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "A record shall be made of the unused sick leave days accumulated by each District employee, which shall be reported to the employee."
+}

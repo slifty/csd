@@ -1,0 +1,13 @@
+{
+	"id": "005-committee-reports-to-the-board",
+	"policyId": "DCHL3E54945D",
+	"name": "Committee Reports to the Board",
+	"description": "Each Board committee chair reports to the Board on behalf of the committee.",
+	"type": "report",
+	"preparedBy": "Committee chairperson(s)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "per-meeting",
+	"deadline": null,
+	"quote": "Each committee chairperson(s) shall make reports to the Board for the committee and shall be appointed by the President."
+}

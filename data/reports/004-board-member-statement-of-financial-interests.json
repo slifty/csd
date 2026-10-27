@@ -1,0 +1,13 @@
+{
+	"id": "004-board-member-statement-of-financial-interests",
+	"policyId": "CHHJX54F4326",
+	"name": "Board Member Statement of Financial Interests",
+	"description": "Statement of financial interests filed before taking office, annually while serving, and the year after leaving the Board.",
+	"type": "certification",
+	"preparedBy": "Each Board member",
+	"recipient": "Board Secretary or designee",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "Before taking the oath of office; annually by May 1 while serving; by May 1 of the year after leaving the Board",
+	"quote": "Shall file a statement of financial interests with the Board Secretary or designee at the following times: Before taking the oath of office or entering upon their duties. Annually by May 1 while serving on the Board. By May 1 of the year after leaving the Board."
+}

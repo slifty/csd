@@ -1,0 +1,13 @@
+{
+	"id": "218-2-referral-of-armed-student-to-threat-assessment-team",
+	"policyId": "DQGMKE5B9B9B",
+	"name": "Referral of Armed Student to Threat Assessment Team",
+	"description": "Staff report a student in possession of a weapon to the threat assessment team when the behavior indicates a threat to safety.",
+	"type": "notification",
+	"preparedBy": "District staff",
+	"recipient": "Threat assessment team",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "When the behavior of a student in possession of a weapon indicates a threat to the safety of the student, other students, school employees, school facilities, the community or others, District staff shall report the student to the threat assessment team, in accordance with applicable law and Board Policy."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "619-annual-district-audit",
+	"policyId": "DQGKN552A2A3",
+	"name": "Annual District Audit",
+	"description": "Annual independent audit of District financial accounts; the completed audit is presented to the Board and is available to the public.",
+	"type": "audit",
+	"preparedBy": "Independent certified public accountant",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "Annually",
+	"quote": "The Board shall employ an independent, certified public accountant to conduct an annual District audit in conformance with prescribed and legal standards. The completed audit shall be presented to the Board."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "810-1-drug-and-alcohol-program-statistical-records-for-fhwa",
+	"policyId": "BYXQPZ6A5802",
+	"name": "Drug and Alcohol Program Statistical Records for FHWA",
+	"description": "Statistical records and reports of the drug and alcohol testing program maintained and made available for federal inspection or audit.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "Federal Highway Administration",
+	"recipientType": "federal-agency",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Statistical records and reports shall be maintained and made available to the Federal Highway Administration for inspection or audit in accordance with federal regulations."
+}

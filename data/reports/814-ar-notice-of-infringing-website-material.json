@@ -1,0 +1,13 @@
+{
+	"id": "814-ar-notice-of-infringing-website-material",
+	"policyId": "BNQR9D694634",
+	"name": "Notice of Infringing Website Material",
+	"description": "Notice of any copyright-infringing material on the school website so the designated person can respond and remove it.",
+	"type": "notification",
+	"preparedBy": "Students and employees",
+	"recipient": "Technology department",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Students and employees must notify the technology department about any infringing material contained on the school's website."
+}

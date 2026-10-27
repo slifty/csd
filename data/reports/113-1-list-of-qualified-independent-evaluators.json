@@ -1,0 +1,13 @@
+{
+	"id": "113-1-list-of-qualified-independent-evaluators",
+	"policyId": "CKY5JL107C13",
+	"name": "List of Qualified Independent Evaluators",
+	"description": "Maintained list of qualified independent evaluators, provided promptly to any parent who requests it.",
+	"type": "notification",
+	"preparedBy": "Director of Special Education or designee",
+	"recipient": "Requesting parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "promptly upon request",
+	"quote": "The Director of Special Education or designee shall maintain a list of qualified independent evaluators in each of the various disciplines commonly relied upon to provide education-related evaluations and assessments and shall promptly make that list available to any parent/guardian who requests it."
+}

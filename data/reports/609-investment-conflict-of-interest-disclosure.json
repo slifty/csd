@@ -1,0 +1,13 @@
+{
+	"id": "609-investment-conflict-of-interest-disclosure",
+	"policyId": "CEP3DP0665D1",
+	"name": "Investment Conflict of Interest Disclosure",
+	"description": "Written disclosure of any material or potential conflict of interest with depositories, brokers, advisors or other investment providers.",
+	"type": "notification",
+	"preparedBy": "Director of Business Services and investment program employees",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Director of Business Services and any other District employee performing functions related to the investment program shall disclose in writing to the Board any material conflict of interest or material potential conflict of interest"
+}

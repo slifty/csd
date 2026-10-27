@@ -1,0 +1,13 @@
+{
+	"id": "219-ar-written-response-to-student-complaint",
+	"policyId": "BY5KAA50A16C",
+	"name": "Written Response to Student Complaint",
+	"description": "At each level of the student complaint process the complaint is considered and a written response is issued.",
+	"type": "notification",
+	"preparedBy": "Building administrator, Assistant Superintendent/central office administrator, Superintendent, or Board (at each level)",
+	"recipient": "Complaining student(s)",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "generally within fifteen (15) business days at each level",
+	"quote": "At each level, the complaint shall be considered, and a written response shall be forthcoming, generally within fifteen (15) business days, unless the student(s) is/are advised that a longer period of time is needed in order to appropriately respond."
+}

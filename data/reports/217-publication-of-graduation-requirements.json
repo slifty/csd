@@ -1,0 +1,13 @@
+{
+	"id": "217-publication-of-graduation-requirements",
+	"policyId": "CZJ3R9081776",
+	"name": "Publication of Graduation Requirements",
+	"description": "Graduation requirements are published and distributed to students and families.",
+	"type": "public-posting",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Students and parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "1. The publication and distribution of graduation requirements to students and parents/guardians."
+}

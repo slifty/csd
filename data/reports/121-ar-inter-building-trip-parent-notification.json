@@ -1,0 +1,13 @@
+{
+	"id": "121-ar-inter-building-trip-parent-notification",
+	"policyId": "DGU6G514D08F",
+	"name": "Inter-Building Trip Parent Notification",
+	"description": "Written notice of trips between District buildings (not field trips).",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians of elementary and middle school students",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "at least 1 week in advance",
+	"quote": "However, parents/guardians of elementary and middle school students should be notified in writing at least one (1) week in advance of such a trip."
+}

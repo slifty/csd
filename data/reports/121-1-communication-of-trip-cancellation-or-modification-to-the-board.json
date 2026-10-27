@@ -1,0 +1,13 @@
+{
+	"id": "121-1-communication-of-trip-cancellation-or-modification-to-the-board",
+	"policyId": "DGU6RR163A22",
+	"name": "Communication of Trip Cancellation or Modification to the Board",
+	"description": "Any school-sponsored trip that is cancelled, postponed, modified or terminated is communicated to the Board.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Any school-sponsored trip, visit or exchange that is cancelled, postponed, modified, or terminated shall be communicated to the Board."
+}

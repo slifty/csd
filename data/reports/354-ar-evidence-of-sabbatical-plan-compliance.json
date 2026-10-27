@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-evidence-of-sabbatical-plan-compliance",
+	"policyId": "BV845M09E778",
+	"name": "Evidence of Sabbatical Plan Compliance",
+	"description": "Satisfactory evidence that the approved professional development plan was fully complied with; failure forfeits benefits.",
+	"type": "report",
+	"preparedBy": "Employee returning from professional development sabbatical",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "No later than one month after return",
+	"quote": "Upon completion of the sabbatical, the employee shall provide to the Superintendent or designee satisfactory evidence that the employee’s approved plan for professional development was fully complied with during the leave of absence, no later than one (1) month after return."
+}

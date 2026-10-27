@@ -1,0 +1,13 @@
+{
+	"id": "227-parent-notification-of-controlled-substance-incident",
+	"policyId": "DDYT9R765184",
+	"name": "Parent Notification of Controlled Substance Incident",
+	"description": "Notice to parents of students directly involved in a violation, including whether police have been or may be notified; attempts documented.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "as soon as practicable",
+	"quote": "The Superintendent or designee shall notify the parent/guardian of any student directly involved in an incident involving a violation of this Policy, as soon as practicable. The Superintendent or designee shall inform the parent/guardian whether or not the local police department that has jurisdiction over the school property has been or may be notified of the incident."
+}

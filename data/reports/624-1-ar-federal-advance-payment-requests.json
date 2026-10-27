@@ -1,0 +1,13 @@
+{
+	"id": "624-1-ar-federal-advance-payment-requests",
+	"policyId": "DN7VU482624F",
+	"name": "Federal Advance Payment Requests",
+	"description": "Consolidated requests for advance payment of federal grant funds.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "monthly",
+	"deadline": "As often as necessary with EFT; at least monthly otherwise",
+	"quote": "The District shall submit payment requests as often as necessary when electronic fund transfers are used or at least monthly when electronic transfers are not used."
+}

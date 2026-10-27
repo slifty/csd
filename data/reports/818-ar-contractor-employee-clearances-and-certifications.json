@@ -1,0 +1,13 @@
+{
+	"id": "818-ar-contractor-employee-clearances-and-certifications",
+	"policyId": "CFJ6SC164FD3",
+	"name": "Contractor Employee Clearances and Certifications",
+	"description": "Before assignment to work involving direct contact with children, contractor employees submit a child abuse certification and state and federal criminal history checks.",
+	"type": "certification",
+	"preparedBy": "Contractor employees",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "prior to assignment",
+	"quote": "Prior to assignment of contractor employees to perform work for the District in a position or assignment involving direct contact with children, contractor employees shall submit an official child abuse certification statement and state and federal criminal history background checks/certifications as required by law."
+}

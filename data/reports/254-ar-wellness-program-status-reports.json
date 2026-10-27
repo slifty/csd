@@ -1,0 +1,13 @@
+{
+	"id": "254-ar-wellness-program-status-reports",
+	"policyId": "DA34EB0B2D9A",
+	"name": "Wellness Program Status Reports",
+	"description": "Staff report on the status of wellness-related programs (no frequency specified).",
+	"type": "report",
+	"preparedBy": "Staff responsible for student wellness programs",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "Staff members responsible for programs related to student wellness shall report to the Superintendent or designee regarding the status of such programs."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "006-special-and-rescheduled-meeting-public-notice",
+	"policyId": "CZHVV6828964",
+	"name": "Special and Rescheduled Meeting Public Notice",
+	"description": "Publication and posting of notice of special or rescheduled meetings (waived for actual emergencies).",
+	"type": "public-posting",
+	"preparedBy": "Not specified (District)",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "at least twenty-four (24) hours prior to the meeting",
+	"quote": "Notice of all special meetings shall be given by publication and posting of notice at least twenty-four (24) hours prior to the time of the meeting, except that such notice shall be waived when a special meeting is called to deal with an actual emergency involving a clear and present danger to life or property."
+}

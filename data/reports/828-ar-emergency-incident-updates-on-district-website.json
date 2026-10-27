@@ -1,0 +1,13 @@
+{
+	"id": "828-ar-emergency-incident-updates-on-district-website",
+	"policyId": "DKJU7X7ABE84",
+	"name": "Emergency Incident Updates on District Website",
+	"description": "During an ongoing incident, updates are given as new information becomes available and posted on the District website.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians and public",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "as new information is available",
+	"quote": "If there is an ongoing incident taking place, updates will be provided as new information is available. Information will be made available on the District’s website."
+}

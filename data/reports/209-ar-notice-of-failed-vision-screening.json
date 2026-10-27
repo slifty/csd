@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-notice-of-failed-vision-screening",
+	"policyId": "BYXPKV650D2C",
+	"name": "Notice of Failed Vision Screening",
+	"description": "Parents of a student who fails a required vision screening are notified that a comprehensive eye examination is required.",
+	"type": "notification",
+	"preparedBy": "Not specified (school nurse)",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Parents/guardians of a student who has failed a required visions screening shall be notified, and such student shall be required to undergo a comprehensive eye examination, performed by an ophthalmologist or optometrist, at the parent’s/guardian’s expense, as required by applicable law."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "224-ar-report-of-law-enforcement-proceedings-for-property-damage",
+	"policyId": "DQR2QZ035E4C",
+	"name": "Report of Law Enforcement Proceedings for Property Damage",
+	"description": "Any proceeding commenced with police or the Magisterial District Judge over property damage or unpaid fines is promptly reported to the Superintendent.",
+	"type": "notification",
+	"preparedBy": "Not specified (building principal)",
+	"recipient": "Superintendent",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Any commencement of proceedings with local law enforcement or the local Magisterial District Judge as contemplated in this Administrative Regulation shall promptly be reported to the Superintendent."
+}

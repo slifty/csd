@@ -1,0 +1,13 @@
+{
+	"id": "217-warnings-to-students-at-risk-of-not-graduating",
+	"policyId": "CZJ3R9081776",
+	"name": "Warnings to Students at Risk of Not Graduating",
+	"description": "Timely warnings to students who are in danger of not fulfilling graduation requirements, alongside counseling.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Students",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "timely",
+	"quote": "2. Counseling students regarding graduation requirements and providing timely warnings to students who are in danger of not fulfilling such requirements."
+}

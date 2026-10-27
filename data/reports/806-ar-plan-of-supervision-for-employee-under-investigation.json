@@ -1,0 +1,13 @@
+{
+	"id": "806-ar-plan-of-supervision-for-employee-under-investigation",
+	"policyId": "DSC33A04DEEA",
+	"name": "Plan of Supervision for Employee Under Investigation",
+	"description": "When an investigation involves suspected abuse by a school employee, a Superintendent-approved supervision or alternative arrangement plan is submitted to the county agency for approval.",
+	"type": "plan",
+	"preparedBy": "Building principal or administrator",
+	"recipient": "County agency",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "immediately upon notification of the investigation",
+	"quote": "The plan of supervision or alternative arrangement shall be submitted to the county agency for approval."
+}

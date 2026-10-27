@@ -1,0 +1,13 @@
+{
+	"id": "138-ar-el-identification-and-placement-notice",
+	"policyId": "BE3ARM28F559",
+	"name": "EL Identification and Placement Notice",
+	"description": "Notice of the EL identification process and results and the recommended program placement, along with detailed LIEP information, exit criteria, and the right to refuse services with a waiver form.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians of identified ELs",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "within 30 days of the beginning of each school year, or within 14 days of enrollment during the year",
+	"quote": "Within thirty (30) days of the beginning of each school year, or within fourteen (14) days of enrollment during the school year, the District shall notify parents/guardians of students identified as ELs about the process for identifying their children as an EL, the results of that process, and the recommended program placement."
+}

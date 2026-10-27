@@ -1,0 +1,13 @@
+{
+	"id": "006-annual-regular-meeting-schedule-notice",
+	"policyId": "CZHVV6828964",
+	"name": "Annual Regular Meeting Schedule Notice",
+	"description": "Publication in the designated newspaper(s) and posting at the administrative offices of the date, place and time of all regular meetings for the calendar year.",
+	"type": "public-posting",
+	"preparedBy": "Not specified (District)",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "annual",
+	"deadline": "at least three (3) days prior to the first regular meeting of the calendar year",
+	"quote": "Notice of regular meetings shall be given by publication and posting of a schedule showing the date, place and time of all regular meetings for the calendar year at least three (3) days prior to the time of the first regular meeting."
+}

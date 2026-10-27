@@ -1,0 +1,13 @@
+{
+	"id": "816-device-cost-sharing-fee-communication",
+	"policyId": "CZJ2JJ026B1F",
+	"name": "Device Cost-Sharing Fee Communication",
+	"description": "Communication of any Board-approved cost-sharing fees for District-issued student devices.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall be responsible for communicating to parents/guardians regarding any Board-approved cost sharing fees related to a student’s receipt of a District-issued device."
+}

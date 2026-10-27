@@ -38,6 +38,75 @@ breaks once deployed.
 into `node_modules`. The `prepare` script runs that on install. If type
 checking complains that the config cannot be found, run `npx svelte-kit sync`.
 
+## Data
+
+```
+data/
+├── boarddocs/                 # Raw policy manual, exactly as BoardDocs served it
+│   ├── index.json             # The listing: id, code, title, section, attachments
+│   ├── policies/<id>.html
+│   └── attachments/<id>/<file>
+├── policies/<id>.json         # One Policy each, generated from boarddocs/
+└── reports/<id>.json          # One Report each, written by hand
+tools/
+└── extract-policies.ts        # boarddocs/ -> policies/
+src/lib/
+├── policy.ts                  # The Policy type and its BoardDocs link
+├── report.ts                  # The Report type and its vocabularies
+└── server/
+    ├── boarddocs.ts           # Raw BoardDocs item -> Policy
+    ├── boarddocs-snapshot.ts  # Reads boarddocs/ from disk, for the tool and tests
+    ├── html.ts                # Entity decoding and text extraction
+    ├── policies.ts            # Every policy in data/policies/
+    ├── policy-file.ts         # How a Policy is written to its file
+    └── reports.ts             # Every report in data/reports/, validated
+```
+
+**The JSON holds only what the application uses.** A policy file has the
+metadata the site shows and a `source` path to its raw HTML. It has no body
+text and no attachments. Anything else about a policy stays in
+`data/boarddocs/`, and the tool can add it to the JSON if the site starts using
+it.
+
+**The site never reads the raw snapshot.** Only `boarddocs-snapshot.ts` reads
+`data/boarddocs/`, and only the extraction tool and the tests import it, so the
+raw HTML never enters the site's module graph. Everything under
+`src/lib/server/` is also kept out of the browser, because SvelteKit refuses to
+bundle a module from any `server` directory into client code. A page loads what
+it needs in a server `load` function, so only the fields it returns end up in
+the built site. To show a policy's text, link to BoardDocs with
+`boardDocsUrl()`. Don't copy the text into the page.
+
+**Policy files are generated; don't edit them.** `npm run extract:policies`
+rewrites `data/policies/` from the snapshot and removes files for policies no
+longer listed. `policies.test.ts` fails when any file differs from what the tool
+would write, so a hand edit or a refreshed snapshot without a re-run shows up
+in CI.
+
+**Report files are hand-written, so they're validated.** `reports.ts` checks
+each file's fields from scratch: every required string is present, each type,
+recipient, and frequency is a known value, the cited policy exists, and the
+`id` matches the file name.
+
+**Raw files stay byte-for-byte.** `.prettierignore` excludes
+`data/boarddocs/`. Formatting the HTML would change what the quotes in the
+reports are checked against.
+
+**Read metadata from the item, not the listing.** The listing's titles have
+"This Policy Contains an Attachment." appended to some of them, and its codes
+can contain stray spaces (`916- Ar`). The item's own metadata rows are clean, so
+`parsePolicy` reads code, title, section, and dates from those.
+
+**Every report quotes its policy word for word.** `reports.test.ts` checks
+each `quote` against the text of the policy it cites, after removing soft
+hyphens and byte-order marks (BoardDocs puts both inside words) and collapsing
+whitespace. A report whose quote no longer matches means either the policy
+changed or the report is wrong. Either way it needs a person to look.
+
+`data/reports/` was compiled by reading each policy in full and recording
+every duty to produce information for someone. The names, descriptions,
+recipients, and frequencies are judgment calls. The quotes are not.
+
 ## After Making Changes
 
 **Always run the formatter and linter after making ANY changes, including
@@ -71,8 +140,12 @@ factories shared across suites, not fixtures.
 Import the helpers explicitly — `import { describe, expect, it } from "vitest"`.
 Globals are deliberately off.
 
-`vitest.config.ts` sets `passWithNoTests`, so an empty suite passes. Take it out
-when the first suite lands, or a mistake in `include` will pass silently.
+`vitest.config.ts` extends `vite.config.ts`, so tests resolve imports the way
+the build does, including `import.meta.glob`.
+
+**Invented data never wears a real name.** Fixtures use ids like
+`TESTID000001` and put `TEST` in titles, so a fixture can't be mistaken for a
+real policy.
 
 ### Formatting
 

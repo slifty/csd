@@ -1,0 +1,13 @@
+{
+	"id": "122-recommendation-for-board-sponsorship-of-activities",
+	"policyId": "AWL5FS101492",
+	"name": "Recommendation for Board Sponsorship of Activities",
+	"description": "Activities become Board-sponsored when approved by the Board on the Superintendent's recommendation.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Any extracurricular or co-curricular activity shall be considered to be under the sponsorship of this Board when it has been approved by the Board on recommendation of the Superintendent."
+}

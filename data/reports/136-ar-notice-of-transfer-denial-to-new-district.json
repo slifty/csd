@@ -1,0 +1,13 @@
+{
+	"id": "136-ar-notice-of-transfer-denial-to-new-district",
+	"policyId": "CPW4JG0BB657",
+	"name": "Notice of Transfer Denial to New District",
+	"description": "When a relocating program is out of compliance or in hearing procedures, the supervisor and new district's superintendent are told of the status and reason for denying the transfer letter.",
+	"type": "notification",
+	"preparedBy": "Superintendent",
+	"recipient": "Home education supervisor; superintendent of new district (and hearing examiner if in hearing)",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If a home education program is out of compliance, the Superintendent shall inform the home education supervisor and Superintendent of the new district of residence of this status and the reason for denial of the transfer letter."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "832-ar-opioid-antagonist-standing-order",
+	"policyId": "DDYPVA666E51",
+	"name": "Opioid Antagonist Standing Order",
+	"description": "The school physician issues and renews a standing order (antagonist type, date, dosage, signature) authorizing administration of an opioid antagonist.",
+	"type": "certification",
+	"preparedBy": "School physician",
+	"recipient": "District (maintained by Director of Student Services)",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "annually renewed",
+	"quote": "The school physician shall provide and annually renew a standing order for administration of an opioid antagonist to students, staff members or other individuals believed or suspected to be experiencing an opioid overdose."
+}

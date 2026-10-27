@@ -1,0 +1,13 @@
+{
+	"id": "609-annual-investment-advisor-qualification-submissions",
+	"policyId": "CEP3DP0665D1",
+	"name": "Annual Investment Advisor Qualification Submissions",
+	"description": "Audited financial statements, FINRA certification and proof of state registration, as appropriate.",
+	"type": "data-submission",
+	"preparedBy": "Investment advisors/bidders",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "Annually",
+	"quote": "The District shall require all investment advisors/bidders to submit annually any or all of the following, as appropriate:"
+}

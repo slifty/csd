@@ -1,0 +1,13 @@
+{
+	"id": "254-wellness-committee-recommendations-to-the-board",
+	"policyId": "DA34E70B28FD",
+	"name": "Wellness Committee Recommendations to the Board",
+	"description": "The Wellness Committee reviews wellness policies and practices and recommends revisions to the Board and administration.",
+	"type": "recommendation",
+	"preparedBy": "Wellness Committee",
+	"recipient": "Board and administration",
+	"recipientType": "board",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The purpose of the Wellness Committee is to review Board Policies and Administrative Regulations, procedures and practices regarding wellness and nutrition, and to recommend revisions to the Board and administration."
+}

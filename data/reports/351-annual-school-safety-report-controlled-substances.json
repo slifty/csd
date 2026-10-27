@@ -1,0 +1,13 @@
+{
+	"id": "351-annual-school-safety-report-controlled-substances",
+	"policyId": "DDYRLZ6E637C",
+	"name": "Annual School Safety Report (Controlled Substances)",
+	"description": "Report on the required form of all incidents of prohibited possession, use, or sale of controlled substances or drug paraphernalia.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "annual",
+	"deadline": "Annually, by the required deadline",
+	"quote": "In accordance with state law, the Superintendent or designee shall annually, by the required deadline, report all incidents of prohibited possession, use or sale of controlled substances or drug paraphernalia to the PA Department of Education on the required form."
+}

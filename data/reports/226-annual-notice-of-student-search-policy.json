@@ -1,0 +1,13 @@
+{
+	"id": "226-annual-notice-of-student-search-policy",
+	"policyId": "AWL5JB107359",
+	"name": "Annual Notice of Student Search Policy",
+	"description": "Superintendent's guidelines must ensure students and parents are notified annually of the search policy and guidelines.",
+	"type": "notification",
+	"preparedBy": "Superintendent",
+	"recipient": "Students and parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "at least annually",
+	"quote": "Ensure that students and their parents/guardians are notified at least annually of the contents of this policy and the accompanying administrative guidelines"
+}

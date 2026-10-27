@@ -1,0 +1,13 @@
+{
+	"id": "136-2-grades-to-home-education-program-supervisor",
+	"policyId": "CPW5H2104307",
+	"name": "Grades to Home Education Program Supervisor",
+	"description": "A grade for each cocurricular activity and academic course completed by a home education student.",
+	"type": "report",
+	"preparedBy": "District",
+	"recipient": "Home education program supervisor",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "upon completion of each activity/course",
+	"quote": "The District shall provide the student’s home education program supervisor with a grade for each cocurricular activity and academic course completed by a student enrolled in a home education program"
+}

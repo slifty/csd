@@ -1,0 +1,13 @@
+{
+	"id": "003-report-of-superintendent-action-not-provided-for-in-policy",
+	"policyId": "CHHJX24F3FC5",
+	"name": "Report of Superintendent Action Not Provided for in Policy",
+	"description": "Report to the Board of any action the Superintendent took in circumstances not covered by Board policy.",
+	"type": "report",
+	"preparedBy": "Superintendent",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "at the Board meeting next following such action",
+	"quote": "The Superintendent shall be delegated the authority to take necessary action in circumstances not provided for in Board policy, provided that such action shall be reported to the Board at a meeting next following such action."
+}

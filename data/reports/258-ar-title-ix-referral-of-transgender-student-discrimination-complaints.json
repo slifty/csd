@@ -1,0 +1,13 @@
+{
+	"id": "258-ar-title-ix-referral-of-transgender-student-discrimination-complaints",
+	"policyId": "DA2NSV61643F",
+	"name": "Title IX Referral of Transgender Student Discrimination Complaints",
+	"description": "Complaints that could be Title IX discrimination or sex-based harassment against transgender/gender expansive students are referred to the Title IX Coordinator.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Title IX Coordinator",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Any such complaints or allegations raised under these Administrative Regulations or the accompanying Board Policy that could be construed as an allegation or complaint of Title IX discrimination or sex-based harassment must be referred to the Title IX Coordinator and handled in accordance with the District's Title IX obligations."
+}

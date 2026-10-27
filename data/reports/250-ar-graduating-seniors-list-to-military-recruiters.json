@@ -1,0 +1,13 @@
+{
+	"id": "250-ar-graduating-seniors-list-to-military-recruiters",
+	"policyId": "DDYQDQ68D666",
+	"name": "Graduating Seniors List to Military Recruiters",
+	"description": "Upon request, list of graduating seniors (excluding opt-outs) provided to military recruiters.",
+	"type": "data-submission",
+	"preparedBy": "Building principal or designee",
+	"recipient": "Military recruiters",
+	"recipientType": "other-external",
+	"frequency": "annual",
+	"deadline": "upon request, by the first day of the academic year of graduation",
+	"quote": "The building principal or designee shall, upon request, provide a list of graduating seniors to military recruiters by the first day of the academic year of graduation."
+}

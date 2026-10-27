@@ -1,0 +1,13 @@
+{
+	"id": "921-ar-district-public-information-program",
+	"policyId": "C4FK6M505C15",
+	"name": "District Public Information Program",
+	"description": "Communications and public information program keeping the community informed of District planning, policies, programs, services and operations (website, social media, weekly News Share, e-blasts, TV).",
+	"type": "public-posting",
+	"preparedBy": "Director of Communications",
+	"recipient": "Community",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Planning, supporting, and executing appropriate communications and a public information program designed to keep the community informed of the planning, policies, programs, services, and operations of the District; and"
+}

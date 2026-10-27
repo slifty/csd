@@ -1,0 +1,13 @@
+{
+	"id": "113-2-restraint-data-report-to-pde",
+	"policyId": "CKY3AG05E36E",
+	"name": "Restraint Data Report to PDE",
+	"description": "Data on the use of restraints, reported as PDE requires; includes data from outside programs educating District students with disabilities.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "as-required",
+	"deadline": "as required by PDE",
+	"quote": "The Superintendent or designee shall maintain and report data on the use of restraints, as required by the Pennsylvania Department of Education."
+}

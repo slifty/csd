@@ -1,0 +1,13 @@
+{
+	"id": "810-ar-back-to-school-bus-route-stop-and-rules-mailing",
+	"policyId": "B6NTKT704CA8",
+	"name": "Back-to-School Bus Route, Stop and Rules Mailing",
+	"description": "Each student's route number and stop location, sent with a copy of the school bus rules and regulations.",
+	"type": "notification",
+	"preparedBy": "Transportation Office",
+	"recipient": "All students",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "at the beginning of each school year",
+	"quote": "At the beginning of each school year, all students will receive the route number and stop location in the Back to School mailing, along with a copy of the school bus rules and regulations."
+}

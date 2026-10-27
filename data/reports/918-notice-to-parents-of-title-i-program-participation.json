@@ -1,0 +1,13 @@
+{
+	"id": "918-notice-to-parents-of-title-i-program-participation",
+	"policyId": "CW82YY04887A",
+	"name": "Notice to Parents of Title I Program Participation",
+	"description": "Notice of the Title I program with the reasons for the child's selection, goals and expectations, description of services, and copies of the policy and School-Parent and Family Compact.",
+	"type": "notification",
+	"preparedBy": "Building principal and/or Title I staff",
+	"recipient": "Parents and family members",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The building principal and/or Title I staff shall notify parents and family members of the existence of the Title I programs and provide:"
+}

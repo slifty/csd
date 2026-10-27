@@ -1,0 +1,13 @@
+{
+	"id": "203-ar-notice-of-blood-borne-infection-policy",
+	"policyId": "BCFR8C6CBB64",
+	"name": "Notice of Blood Borne Infection Policy",
+	"description": "Building administrators inform students, families and staff about current Board Policy on blood borne infection and provide opportunities to discuss it.",
+	"type": "notification",
+	"preparedBy": "Building administrators",
+	"recipient": "Students, parents/guardians, and employees",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Building administrators shall notify students, parents/guardians, and employees about current Board Policy concerning blood borne infection and shall provide reasonable opportunities to discuss the Policy and related concerns."
+}

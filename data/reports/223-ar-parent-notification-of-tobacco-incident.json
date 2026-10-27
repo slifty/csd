@@ -1,0 +1,13 @@
+{
+	"id": "223-ar-parent-notification-of-tobacco-incident",
+	"policyId": "DDYT9M764D48",
+	"name": "Parent Notification of Tobacco Incident",
+	"description": "Immediate notice to parents of any student directly involved in possession, use, purchase or sale of tobacco, including whether police have been or may be notified; attempts are documented.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parents/guardians of students directly involved",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "immediately, as soon as practicable",
+	"quote": "The Superintendent or designee shall notify the parent/guardian of any student directly involved in an incident involving possession, use, purchase or sale of a tobacco product, immediately, as soon as practicable."
+}

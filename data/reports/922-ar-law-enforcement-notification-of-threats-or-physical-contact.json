@@ -1,0 +1,13 @@
+{
+	"id": "922-ar-law-enforcement-notification-of-threats-or-physical-contact",
+	"policyId": "CAWQ7V67FC05",
+	"name": "Law Enforcement Notification of Threats or Physical Contact",
+	"description": "Prompt notice to law enforcement when anyone threatens harm or makes inappropriate physical contact.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Law enforcement",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "If at any time any individual threatens harm or makes inappropriate physical contact with another individual, law enforcement should be promptly notified."
+}

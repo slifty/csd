@@ -1,0 +1,13 @@
+{
+	"id": "361-ar-crowdfunding-request-decision-notice",
+	"policyId": "C7WR2N66971A",
+	"name": "Crowdfunding Request Decision Notice",
+	"description": "Written approval, denial, or conditional approval of a crowdfunding proposal, with the basis for any denial or limitation.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Employee(s) who submitted the request",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "Within 10 days of receipt of the request",
+	"quote": "The Superintendent or designee shall respond in writing to the individual(s) who submitted the crowdfunding request/proposal advising whether the request has been approved, denied, or approved subject to certain conditions within 10 days of receipt of such request/proposal."
+}

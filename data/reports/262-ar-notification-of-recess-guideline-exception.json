@@ -1,0 +1,13 @@
+{
+	"id": "262-ar-notification-of-recess-guideline-exception",
+	"policyId": "BF2TUK791328",
+	"name": "Notification of Recess Guideline Exception",
+	"description": "The Assistant Superintendent is notified whenever a principal approves an exception to the recess weather guidelines.",
+	"type": "notification",
+	"preparedBy": "Not specified (building principal or designee)",
+	"recipient": "Assistant Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "any time an exception is approved",
+	"quote": "The Assistant Superintendent or designee shall be notified any time a building principal or their designee has approved an exception to the below guidelines."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "138-ar-former-el-monitoring-report-to-state",
+	"policyId": "BE3ARM28F559",
+	"name": "Former EL Monitoring Report to State",
+	"description": "Monitoring and reporting the progress of former ELs for two years after exit, plus reporting students to the state in monitor status for two more years.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "State (PA Department of Education)",
+	"recipientType": "state-agency",
+	"frequency": "as-required",
+	"deadline": "for 2 years after reclassification, plus 2 additional years in monitor status",
+	"quote": "former ELs for a period of two (2) years following reclassification and program exit, and reporting students to the state in a monitor status for an additional two (2) years, to ensure students are meeting academic standards."
+}

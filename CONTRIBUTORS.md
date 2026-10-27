@@ -29,6 +29,29 @@ runs the same checks.
 Every push to `main` builds the site and publishes it to GitHub Pages. The
 repository's Pages source must be set to "GitHub Actions".
 
+## Data
+
+`data/boarddocs/` holds the district's Board Policy Manual exactly as
+[BoardDocs](https://go.boarddocs.com/pa/ctsd/Board.nsf/Public) served it: every
+active policy and Administrative Regulation, plus their attachments. It is the
+source material, not part of the site. Pages link to BoardDocs for the text.
+Don't edit these files by hand. They are a snapshot of what the district
+published.
+
+`data/policies/` has one JSON file per policy, holding the metadata the site
+uses and the path to its raw HTML. These files are generated. After changing
+anything in `data/boarddocs/`, run:
+
+```bash
+npm run extract:policies
+```
+
+`data/reports/` has one JSON file per report, notice, certification, or posting
+that a policy requires. To add one, create a file named for its `id`. To
+correct one, edit its file. Each report's `quote` must be the sentence from the
+policy that creates the duty, copied exactly. `npm test` checks every quote
+against the policy it cites.
+
 ## Conventions
 
 - **No code comments.** Code should explain itself. If something seems to need

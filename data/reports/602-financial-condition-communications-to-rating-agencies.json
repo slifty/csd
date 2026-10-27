@@ -1,0 +1,13 @@
+{
+	"id": "602-financial-condition-communications-to-rating-agencies",
+	"policyId": "AWL5VT1222B0",
+	"name": "Financial Condition Communications to Rating Agencies",
+	"description": "Ongoing communication with bond rating agencies about the District's financial condition, with full disclosure in every financial report and official statement provided to them and to investors.",
+	"type": "report",
+	"preparedBy": "District",
+	"recipient": "Bond rating agencies, bond service providers and investors",
+	"recipientType": "other-external",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The district will also maintain communication with bond rating agencies about its financial condition and will follow a policy of full disclosure in every financial report and official statement provided to bond rating agencies, to legal and professional service providers for bond issues, and to investors."
+}

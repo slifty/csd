@@ -1,0 +1,13 @@
+{
+	"id": "810-annual-contractor-driver-criminal-charge-disclosure",
+	"policyId": "DKJVDG803D8C",
+	"name": "Annual Contractor/Driver Criminal Charge Disclosure",
+	"description": "Written statement whether any driver has been charged with a disqualifying offense or charged/convicted of crimes affecting suitability for direct contact with children.",
+	"type": "certification",
+	"preparedBy": "School vehicle drivers and/or transportation contract carriers",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "at the beginning of each school year",
+	"quote": "School vehicle drivers and/or the District’s transportation contract carriers shall be responsible to inform the District in writing at the beginning of each school year whether or not they or any of their employees:"
+}

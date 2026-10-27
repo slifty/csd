@@ -1,0 +1,13 @@
+{
+	"id": "136-ar-compliance-certification-demand-letter",
+	"policyId": "CPW4JG0BB657",
+	"name": "Compliance Certification Demand Letter",
+	"description": "When the program is reasonably believed out of compliance, a certified-mail letter stating the basis and requiring a compliance certification within 30 days.",
+	"type": "notification",
+	"preparedBy": "Superintendent",
+	"recipient": "Home education program supervisor",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "certification due within 30 days of receipt",
+	"quote": "If the Superintendent has a reasonable belief that the home education program is out of compliance, the Superintendent shall submit a letter to the home education program supervisor requiring a certification to be submitted within thirty (30) days indicating the program is in compliance. The letter shall include the basis for the Superintendent’s reasonable belief."
+}

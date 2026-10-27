@@ -1,0 +1,13 @@
+{
+	"id": "624-1-ar-federal-expenditure-source-documentation-for-pde-review",
+	"policyId": "DN7VU482624F",
+	"name": "Federal Expenditure Source Documentation for PDE Review",
+	"description": "Source documentation (invoices, payroll records, award letters, budget justifications) supporting federal expenditures, made available to PDE.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "Upon request",
+	"quote": "Consistent with state and federal requirements, the District will maintain source documentation supporting the federal expenditures (invoices and receipts, time and payroll records, grant award letters, budget justifications, etc.) and will make such documentation available for PDE to review upon request."
+}
