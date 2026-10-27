@@ -21,7 +21,7 @@ const FILTER_PARAMS = {
 
 type ReadableSearchParams = Pick<URLSearchParams, "get">;
 
-const DEFAULT_VIEW: ReportView = "recurring";
+const DEFAULT_VIEW: ReportView = "all";
 const LIST_SEPARATOR = ",";
 
 const isReportView = (value: string): value is ReportView =>

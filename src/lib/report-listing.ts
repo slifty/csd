@@ -58,7 +58,7 @@ const RECIPIENT_GROUPS = [
 type RecipientGroup = (typeof RECIPIENT_GROUPS)[number];
 type RecipientGroupId = RecipientGroup["id"];
 
-const REPORT_VIEWS = ["recurring", "non-recurring", "all"] as const;
+const REPORT_VIEWS = ["all", "recurring", "non-recurring"] as const;
 type ReportView = (typeof REPORT_VIEWS)[number];
 
 interface ReportFilter {

@@ -2,11 +2,6 @@ import { describe, expect, it } from "vitest";
 import { createReportFilter } from "../../test/report-listing.ts";
 import { readReportFilter, writeReportFilter } from "../report-filter-url.ts";
 
-const createDefaultFilter = (
-	filter: Parameters<typeof createReportFilter>[0] = {},
-): ReturnType<typeof createReportFilter> =>
-	createReportFilter({ view: "recurring", ...filter });
-
 const SECTION_NUMBERS: ReadonlySet<string> = new Set(["200", "800"]);
 
 const read = (query: string): ReturnType<typeof readReportFilter> =>
@@ -14,17 +9,17 @@ const read = (query: string): ReturnType<typeof readReportFilter> =>
 
 describe("readReportFilter", () => {
 	it("starts from the default view with nothing filtered", () => {
-		expect(read("")).toEqual(createDefaultFilter());
+		expect(read("")).toEqual(createReportFilter());
 	});
 
 	it("reads every filter", () => {
 		expect(
 			read(
-				"view=all&q=wellness&frequency=annual&type=plan&section=200&to=board,government&from=superintendent,employees",
+				"view=recurring&q=wellness&frequency=annual&type=plan&section=200&to=board,government&from=superintendent,employees",
 			),
 		).toEqual(
 			createReportFilter({
-				view: "all",
+				view: "recurring",
 				search: "wellness",
 				frequency: "annual",
 				reportType: "plan",
@@ -37,7 +32,7 @@ describe("readReportFilter", () => {
 
 	it("reads an old multi-year frequency as extra-annually", () => {
 		expect(read("frequency=every-3-years")).toEqual(
-			createDefaultFilter({ frequency: "extra-annually" }),
+			createReportFilter({ frequency: "extra-annually" }),
 		);
 	});
 
@@ -46,24 +41,24 @@ describe("readReportFilter", () => {
 			read(
 				"view=TEST&frequency=TEST&type=TEST&section=TEST&to=TEST,public&from=TEST",
 			),
-		).toEqual(createDefaultFilter({ recipientGroupIds: new Set(["public"]) }));
+		).toEqual(createReportFilter({ recipientGroupIds: new Set(["public"]) }));
 	});
 });
 
 describe("writeReportFilter", () => {
 	it("leaves defaults out of the query", () => {
-		expect(writeReportFilter(createDefaultFilter()).toString()).toBe("");
+		expect(writeReportFilter(createReportFilter()).toString()).toBe("");
 	});
 
 	it("lists recipient groups in their display order", () => {
-		const filter = createDefaultFilter({
+		const filter = createReportFilter({
 			recipientGroupIds: new Set(["government", "board"]),
 		});
 		expect(writeReportFilter(filter).get("to")).toBe("board,government");
 	});
 
 	it("lists preparer types in their display order", () => {
-		const filter = createDefaultFilter({
+		const filter = createReportFilter({
 			preparerTypes: new Set(["employees", "board"]),
 		});
 		expect(writeReportFilter(filter).get("from")).toBe("board,employees");

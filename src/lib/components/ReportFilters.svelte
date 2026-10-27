@@ -50,9 +50,9 @@
 	}: Props = $props();
 
 	const VIEW_LABELS: Readonly<Record<ReportView, string>> = {
-		recurring: "Recurring",
-		"non-recurring": "Triggered or one-time",
 		all: "All",
+		recurring: "Recurring",
+		"non-recurring": "Ad hoc",
 	};
 	const VIEWS = Object.keys(VIEW_LABELS) as ReportView[];
 

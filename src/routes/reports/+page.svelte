@@ -26,7 +26,7 @@
 
 	const { data }: PageProps = $props();
 
-	let view: ReportView = $state("recurring");
+	let view: ReportView = $state("all");
 	let search = $state("");
 	let frequency: FrequencyChoice | null = $state(null);
 	let reportType: ReportType | null = $state(null);
