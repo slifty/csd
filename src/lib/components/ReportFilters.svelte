@@ -5,16 +5,19 @@
 		frequencyChoiceLabel,
 		frequencyChoiceOf,
 	} from "#lib/frequency.ts";
-	import { PREPARER_TYPE_LABELS } from "#lib/report-labels.ts";
+	import {
+		PREPARER_TYPE_LABELS,
+		REPORT_TYPE_LABELS,
+	} from "#lib/report-labels.ts";
 	import { RECIPIENT_GROUPS, isInView } from "#lib/report-listing.ts";
-	import { PREPARER_TYPES } from "#lib/report.ts";
+	import { PREPARER_TYPES, REPORT_TYPES } from "#lib/report.ts";
 	import type {
 		RecipientGroupId,
 		ReportListing,
 		ReportView,
 	} from "#lib/report-listing.ts";
 	import type { FrequencyChoice } from "#lib/frequency.ts";
-	import type { PreparerType } from "#lib/report.ts";
+	import type { PreparerType, ReportType } from "#lib/report.ts";
 
 	interface Props {
 		listings: readonly ReportListing[];
@@ -24,6 +27,7 @@
 		view: ReportView;
 		search: string;
 		frequency: FrequencyChoice | null;
+		reportType: ReportType | null;
 		sectionNumber: string | null;
 		recipientGroupIds: SvelteSet<RecipientGroupId>;
 		preparerTypes: SvelteSet<PreparerType>;
@@ -38,6 +42,7 @@
 		view = $bindable(),
 		search = $bindable(),
 		frequency = $bindable(),
+		reportType = $bindable(),
 		sectionNumber = $bindable(),
 		recipientGroupIds,
 		preparerTypes,
@@ -112,6 +117,12 @@
 			<option value={null}>Any frequency</option>
 			{#each frequenciesInView as candidate (candidate)}
 				<option value={candidate}>{frequencyChoiceLabel(candidate)}</option>
+			{/each}
+		</select>
+		<select id="report-type" aria-label="Type" bind:value={reportType}>
+			<option value={null}>Any type</option>
+			{#each REPORT_TYPES as candidate (candidate)}
+				<option value={candidate}>{REPORT_TYPE_LABELS[candidate]}</option>
 			{/each}
 		</select>
 		<select
