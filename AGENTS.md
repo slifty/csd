@@ -57,7 +57,7 @@ src/
     ├── components/               # The viewer's filters and table
     ├── dates.ts                  # ISO date -> "March 9, 2021" or "03/09/2021"
     ├── report-filter-url.ts      # Filters <-> the page's query string
-    ├── report-labels.ts          # What each type, recipient, preparer, and frequency is called
+    ├── report-labels.ts          # Labels for each vocabulary, and what each type means
     └── report-listing.ts         # Recipient groups, views, and filtering
 ```
 
@@ -141,29 +141,21 @@ every duty to produce information for someone. The names, descriptions,
 recipients, frequencies, and types are judgment calls. The quotes are not.
 
 **A report's type says what kind of thing is produced**, not what the policy
-calls it. Pick the first that fits:
+calls it. `REPORT_TYPE_DEFINITIONS` in `report-labels.ts` defines each one, and
+the site shows that definition next to the type. Check the types in this order
+and pick the first that fits: audit, certification, plan, recommendation,
+presentation, public posting, notification, data submission, report. The
+borderline cases:
 
-- `audit` — an examination of accounts or records, usually independent.
-- `certification` — proof that a requirement is met: a signed statement,
-  affidavit, credential, clearance, or evidence of completion.
-- `plan` — a document setting out future action, for approval or adoption.
-- `recommendation` — something brought to a decision-maker for approval: a
-  proposal, a candidate, a list to ratify.
-- `presentation` — delivered in person, such as a meeting or a review with
-  students. Most things go to the Board "presented"; that alone isn't one.
-- `public-posting` — made available to anyone who looks: posted, published,
-  kept on file for inspection.
-- `notification` — tells particular people that something happened, was
-  decided, or is coming, or what their rights are. Alerting the police,
-  ChildLine, or a principal to an incident is a notification, as are decisions
-  and responses sent to a complainant.
-- `data-submission` — records or data filed in a set form for an agency or
-  office to process or keep: state forms, financial filings, reimbursement
-  requests, record transfers.
-- `report` — a written account of findings, results, data, or status for its
-  recipient to review. A write-up for a supervisor or the Board is a report,
-  not a data submission. So is a written record of an incident's details —
-  who, what, when, witnesses — even when an alert went out first.
+- Most things go to the Board "presented". That alone doesn't make them a
+  `presentation`; anything brought for approval is a `recommendation`.
+- Alerting the police, ChildLine, or a principal to an incident is a
+  `notification`, as are decisions and responses sent to a complainant.
+- A written record of an incident's details — who, what, when, witnesses — is a
+  `report`, even when an alert went out first.
+- A write-up for a supervisor or the Board is a `report`, not a
+  `data-submission`. Data submissions are forms filed for an office to process
+  or keep.
 
 ## After Making Changes
 
