@@ -1,0 +1,14 @@
+{
+	"extends": "@tsconfig/node24/tsconfig.json",
+	"compilerOptions": {
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"noUncheckedIndexedAccess": true,
+		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+		"allowImportingTsExtensions": true,
+		"erasableSyntaxOnly": true,
+		"types": ["node"]
+	},
+	"include": ["eslint.config.mjs", "vitest.config.ts"]
+}
