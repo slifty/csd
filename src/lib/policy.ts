@@ -22,8 +22,13 @@ interface Policy {
 const BOARD_DOCS_ITEM_URL =
 	"https://go.boarddocs.com/pa/ctsd/Board.nsf/goto?open&id=";
 
+const REGULATION_SUFFIX_PATTERN = /-ar\b/iv;
+
 const boardDocsUrl = (policy: Pick<Policy, "id">): string =>
 	`${BOARD_DOCS_ITEM_URL}${encodeURIComponent(policy.id)}`;
 
-export { boardDocsUrl };
+const policyNumber = (policy: Pick<Policy, "code">): string =>
+	policy.code.replace(REGULATION_SUFFIX_PATTERN, "");
+
+export { boardDocsUrl, policyNumber };
 export type { IsoDate, Policy, PolicyKind, PolicySection };

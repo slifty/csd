@@ -8,9 +8,7 @@
 	--accent-soft: #e3eef6;
 	--mark: #8a5a00;
 	--mark-soft: #f7ecd6;
-	--display: "Newsreader", "Iowan Old Style", Georgia, serif;
 	--body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
-	--mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
 	color-scheme: light;
 }
 
@@ -55,8 +53,7 @@ a {
 
 h1,
 h2 {
-	font-family: var(--display);
-	font-weight: 600;
+	font-weight: 800;
 	text-wrap: balance;
 }
 

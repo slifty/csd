@@ -1,8 +1,16 @@
 <script lang="ts">
+	import { onMount, untrack } from "svelte";
 	import { SvelteSet } from "svelte/reactivity";
+	import { replaceState } from "$app/navigation";
+	import { resolve } from "$app/paths";
+	import { page } from "$app/state";
 	import ReportFilters from "#lib/components/ReportFilters.svelte";
 	import ReportTable from "#lib/components/ReportTable.svelte";
 	import ReportTallies from "#lib/components/ReportTallies.svelte";
+	import {
+		readReportFilter,
+		writeReportFilter,
+	} from "#lib/report-filter-url.ts";
 	import { countByRecipientGroup, matchesFilter } from "#lib/report-listing.ts";
 	import type {
 		RecipientGroupId,
@@ -33,27 +41,50 @@
 	const recipientCounts = $derived(
 		countByRecipientGroup(filter, data.listings),
 	);
+
+	let hasReadUrl = $state(false);
+
+	onMount(() => {
+		const sectionNumbers = new Set(
+			data.listings.map(({ policy }) => policy.section.number),
+		);
+		const initial = readReportFilter(page.url.searchParams, sectionNumbers);
+		view = initial.view;
+		search = initial.search;
+		frequency = initial.frequency;
+		sectionNumber = initial.sectionNumber;
+		recipientGroupIds.clear();
+		for (const id of initial.recipientGroupIds) {
+			recipientGroupIds.add(id);
+		}
+		hasReadUrl = true;
+	});
+
+	$effect(() => {
+		if (!hasReadUrl) {
+			return;
+		}
+		const query = writeReportFilter(filter).toString();
+		const currentQuery = new URLSearchParams(window.location.search).toString();
+		if (query !== currentQuery) {
+			const reportsPath = resolve("/reports");
+			void replaceState(
+				query === "" ? reportsPath : `${reportsPath}?${query}`,
+				untrack(() => page.state),
+			);
+		}
+	});
 </script>
 
 <svelte:head>
-	<title>Cheltenham Required Reports</title>
+	<title>The Unofficial Official Report Report</title>
 	<meta
 		name="description"
-		content="Every report, notice, certification and public posting required by the Cheltenham Township School District's Board policies and Administrative Regulations."
+		content="Reports required by the Cheltenham Township School District's Board policies and Administrative Regulations."
 	/>
 </svelte:head>
 
-<header>
-	<div class="eyebrow">
-		Cheltenham Township School District · Board Policy Manual
-	</div>
-	<h1>Reports the policy manual requires</h1>
-	<p class="lede">
-		Every report, notice, certification and public posting that a Board policy
-		or Administrative Regulation calls for, drawn from all of the district's
-		active policies. Open a report to see the exact sentence that requires it.
-	</p>
-</header>
+<h1>The Unofficial Official Report Report</h1>
 
 <ReportTallies listings={data.listings} />
 
@@ -70,61 +101,10 @@
 
 <ReportTable listings={shownListings} />
 
-<section class="notes">
-	<h2>How this was compiled</h2>
-	<p>
-		The full text of every active policy and Administrative Regulation was taken
-		from the district's BoardDocs site, and each one was read in full. Every
-		duty to produce information for someone was recorded: reports,
-		notifications, certifications, plans, recommendations and public postings.
-		Each quoted sentence is checked automatically against the policy text.
-	</p>
-	<p>
-		The same report can show up in both a policy and its Administrative
-		Regulation. Rows are kept per document and sorted by policy number, so these
-		pairs sit next to each other.
-	</p>
-	<p>
-		This register was compiled with the help of Claude, an AI model. Report
-		names, descriptions, frequency and recipient categories involve judgment, so
-		check the linked policy before relying on any single row.
-	</p>
-</section>
-
 <style>
-	header {
-		display: grid;
-		gap: 10px;
-		max-width: 72ch;
-	}
-
 	h1 {
 		font-size: clamp(30px, 5vw, 44px);
 		line-height: 1.08;
-		margin: 0;
-	}
-
-	.lede {
-		margin: 0;
-		color: var(--ink-2);
-		font-size: 16px;
-	}
-
-	.notes {
-		display: grid;
-		gap: 10px;
-		max-width: 75ch;
-		font-size: 14px;
-		color: var(--ink-2);
-	}
-
-	.notes h2 {
-		font-size: 22px;
-		color: var(--ink);
-		margin: 0;
-	}
-
-	.notes p {
 		margin: 0;
 	}
 </style>

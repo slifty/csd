@@ -43,14 +43,18 @@ const RECIPIENT_TYPE_LABELS: Readonly<Record<RecipientType, string>> = {
 const REPORT_COLUMN_LABELS = {
 	report: "Report",
 	frequency: "Frequency / deadline",
+	preparedBy: "Prepared by",
 	recipient: "Goes to",
 	type: "Type",
 	source: "Required by",
 } as const;
 
+const { length: REPORT_COLUMN_COUNT } = Object.keys(REPORT_COLUMN_LABELS);
+
 export {
 	FREQUENCY_LABELS,
 	RECIPIENT_TYPE_LABELS,
+	REPORT_COLUMN_COUNT,
 	REPORT_COLUMN_LABELS,
 	REPORT_TYPE_LABELS,
 };

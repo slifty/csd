@@ -1,6 +1,9 @@
 <script lang="ts">
 	import ReportTableRow from "./ReportTableRow.svelte";
-	import { REPORT_COLUMN_LABELS } from "#lib/report-labels.ts";
+	import {
+		REPORT_COLUMN_COUNT,
+		REPORT_COLUMN_LABELS,
+	} from "#lib/report-labels.ts";
 	import type { ReportListing } from "#lib/report-listing.ts";
 
 	const { listings }: { listings: readonly ReportListing[] } = $props();
@@ -20,7 +23,7 @@
 				<ReportTableRow {listing} />
 			{:else}
 				<tr>
-					<td colspan="5" class="empty">
+					<td colspan={REPORT_COLUMN_COUNT} class="empty">
 						No reports match these filters. Clear the search or pick another
 						recipient.
 					</td>
