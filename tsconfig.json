@@ -1,14 +1,11 @@
 {
-	"extends": "@tsconfig/node24/tsconfig.json",
+	"extends": "$app/tsconfig",
 	"compilerOptions": {
-		"noEmit": true,
-		"resolveJsonModule": true,
+		"strict": true,
 		"noUncheckedIndexedAccess": true,
-		"isolatedModules": true,
-		"verbatimModuleSyntax": true,
-		"allowImportingTsExtensions": true,
 		"erasableSyntaxOnly": true,
-		"types": ["node"]
+		"types": ["$app/types", "node"]
 	},
-	"include": ["eslint.config.mjs", "vitest.config.ts"]
+	"include": ["src", "*.ts", "*.mjs"],
+	"exclude": ["src/service-worker"]
 }

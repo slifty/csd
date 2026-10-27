@@ -1,12 +1,32 @@
 import biffud from "@biffud/eslint-config";
+import svelte from "eslint-plugin-svelte";
+import ts from "typescript-eslint";
 
 const testFiles = ["**/*.test.ts", "**/__tests__/**", "src/test/**"];
+const svelteFiles = ["**/*.svelte", "**/*.svelte.ts"];
 
 export default [
 	{
-		ignores: ["coverage/"],
+		ignores: ["coverage/", "build/", ".svelte-kit/"],
 	},
 	...biffud,
+	...svelte.configs.recommended,
+	{
+		languageOptions: {
+			parserOptions: {
+				extraFileExtensions: [".svelte"],
+			},
+		},
+	},
+	{
+		files: svelteFiles,
+		languageOptions: {
+			parserOptions: {
+				projectService: true,
+				parser: ts.parser,
+			},
+		},
+	},
 	{
 		files: testFiles,
 		rules: {
