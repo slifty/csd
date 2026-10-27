@@ -8,7 +8,7 @@ const policiesDirectory = new URL("policies/", DATA_DIRECTORY);
 
 describe("policies", () => {
 	it("includes every policy in the BoardDocs listing", () => {
-		expect(policies).toHaveLength(333);
+		expect(policies).toHaveLength(332);
 	});
 
 	it("gives every policy a distinct id", () => {

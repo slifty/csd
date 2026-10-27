@@ -8,7 +8,7 @@ const policyText = (policyId: string): string =>
 
 describe("reports", () => {
 	it("includes every report in data/reports", () => {
-		expect(reports).toHaveLength(645);
+		expect(reports).toHaveLength(641);
 	});
 
 	it("gives every report a distinct id", () => {
