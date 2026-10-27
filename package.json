@@ -7,6 +7,7 @@
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite dev",
+		"extract:policies": "node tools/extract-policies.ts",
 		"format": "npm run format:eslint && npm run format:prettier",
 		"format:eslint": "eslint . --fix || true",
 		"format:prettier": "prettier . --write",

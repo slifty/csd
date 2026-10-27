@@ -1,0 +1,13 @@
+{
+	"id": "335-written-leave-requests",
+	"policyId": "BWKPAM63B301",
+	"name": "Written Leave Requests",
+	"description": "Written requests for FMLA and non-FMLA leave.",
+	"type": "notification",
+	"preparedBy": "Employees",
+	"recipient": "Director of Human Resources or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Employee requests for leave, both FMLA and non-FMLA, shall be submitted in writing to the Director of Human Resources or designee."
+}

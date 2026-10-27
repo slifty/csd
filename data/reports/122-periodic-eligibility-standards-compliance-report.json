@@ -1,0 +1,13 @@
+{
+	"id": "122-periodic-eligibility-standards-compliance-report",
+	"policyId": "AWL5FS101492",
+	"name": "Periodic Eligibility Standards Compliance Report",
+	"description": "Periodic report evaluating compliance with eligibility standards for extracurricular and cocurricular activities.",
+	"type": "report",
+	"preparedBy": "Not specified",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "as-required",
+	"deadline": "periodically",
+	"quote": "The Board will receive a periodic report evaluating compliance with such standards."
+}

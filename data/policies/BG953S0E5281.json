@@ -1,0 +1,14 @@
+{
+	"id": "BG953S0E5281",
+	"code": "314",
+	"kind": "policy",
+	"title": "Medical Examination",
+	"section": {
+		"number": "300",
+		"name": "Employees"
+	},
+	"adopted": "2019-12-10",
+	"lastRevised": null,
+	"lastReviewed": null,
+	"source": "boarddocs/policies/BG953S0E5281.html"
+}

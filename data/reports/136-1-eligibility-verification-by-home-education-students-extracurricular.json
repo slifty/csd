@@ -1,0 +1,13 @@
+{
+	"id": "136-1-eligibility-verification-by-home-education-students-extracurricular",
+	"policyId": "CPW5GZ1041DD",
+	"name": "Eligibility Verification by Home Education Students (Extracurricular)",
+	"description": "Required documents and written verification of eligibility before try-outs or joining an activity.",
+	"type": "certification",
+	"preparedBy": "Home education student / parent or supervisor",
+	"recipient": "Building principal or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "prior to trying out or joining",
+	"quote": "Prior to trying-out or joining an activity, a home education student shall submit required documents and written verification of eligibility to the building principal or designee."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "609-bond-proceeds-investment-report",
+	"policyId": "CEP3DP0665D1",
+	"name": "Bond Proceeds Investment Report",
+	"description": "Investment of bond proceeds is reported to the Board consistent with the Local Government Unit Debt Act and other law.",
+	"type": "report",
+	"preparedBy": "Not specified",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "Investment of bond proceeds shall be managed and reported to the Board in accordance with the Local Government Unit Debt Act, this Policy, and applicable federal and state laws."
+}

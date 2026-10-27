@@ -1,0 +1,13 @@
+{
+	"id": "825-ar-whistleblower-policy-website-posting",
+	"policyId": "CNY6P315D518",
+	"name": "Whistleblower Policy Website Posting",
+	"description": "The whistleblower regulation and policy are posted on the District website for employees to review.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "District employees / public",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "A copy of this Administrative Regulation and the accompanying Board Policy will be posted on the District's website for review by all District employees."
+}

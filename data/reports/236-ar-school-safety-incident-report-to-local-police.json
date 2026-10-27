@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-school-safety-incident-report-to-local-police",
+	"policyId": "DSC22N00188C",
+	"name": "School Safety Incident Report to Local Police",
+	"description": "When a threat also meets the definition of an incident, required incidents are reported immediately to local police per law and the MOU.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Local police department with jurisdiction",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "When a reported threat also meets the definition of an incident, in accordance with reporting requirements, the Superintendent or designee shall immediately report required incidents, if not previously reported by District staff,"
+}

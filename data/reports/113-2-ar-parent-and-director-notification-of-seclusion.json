@@ -1,0 +1,13 @@
+{
+	"id": "113-2-ar-parent-and-director-notification-of-seclusion",
+	"policyId": "CQGUDE7B8B7A",
+	"name": "Parent and Director Notification of Seclusion",
+	"description": "Notice of each use of seclusion; a written report of the seclusion must be completed within one working day and kept in the student's file.",
+	"type": "notification",
+	"preparedBy": "Building administrator",
+	"recipient": "Parent/guardian; Director of Special Education",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "as soon as reasonably possible, no more than 24 hours after the seclusion",
+	"quote": "The building administrator must notify the parent/guardian of the secluded student and the Director of Special Education as soon as reasonably possible, but in no event more than 24-hours after the use of seclusion with their child."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "610-ar-competitive-bid-advertisements",
+	"policyId": "CDLQZM6BC088",
+	"name": "Competitive Bid Advertisements",
+	"description": "Advertisement of bid requests for purchases and construction work requiring competitive bidding.",
+	"type": "public-posting",
+	"preparedBy": "Director of Business Services or designee",
+	"recipient": "Public (two newspapers of general circulation)",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "Once a week for three weeks",
+	"quote": "Where competitive bidding is required, the Director of Business Services or designee shall arrange for the advertisement of the bid requests once a week for three (3) weeks in not less than two (2) newspapers of general circulation, as required by law."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "315-ar-notification-of-bloodborne-pathogens-policy",
+	"policyId": "C9APRB659B34",
+	"name": "Notification of Bloodborne Pathogens Policy",
+	"description": "Notice of current Board Policy on bloodborne infection, with reasonable opportunities to discuss it.",
+	"type": "notification",
+	"preparedBy": "Building administrators",
+	"recipient": "Students, parents/guardians, and employees",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Building administrators shall notify students, parents/guardians, and employees about current Board Policy concerning bloodborne infection and shall provide reasonable opportunities to discuss the Policy and related concerns."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "624-4-ar-contractor-debarment-suspension-certification",
+	"policyId": "DUMLKZ570262",
+	"name": "Contractor Debarment/Suspension Certification",
+	"description": "Written certification from contractors that they are not suspended or debarred from federal projects, verified by the Director of Business Services.",
+	"type": "certification",
+	"preparedBy": "Successful contractors",
+	"recipient": "Director of Business Services",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Upon contract award",
+	"quote": "All successful contractors must provide written certification that they have not been suspended or debarred from federal projects."
+}

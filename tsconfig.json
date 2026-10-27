@@ -6,6 +6,6 @@
 		"erasableSyntaxOnly": true,
 		"types": ["$app/types", "node"]
 	},
-	"include": ["src", "*.ts", "*.mjs"],
+	"include": ["src", "tools", "*.ts", "*.mjs"],
 	"exclude": ["src/service-worker"]
 }

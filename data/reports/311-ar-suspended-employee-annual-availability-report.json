@@ -1,0 +1,13 @@
+{
+	"id": "311-ar-suspended-employee-annual-availability-report",
+	"policyId": "BVJ5VQ121EBB",
+	"name": "Suspended Employee Annual Availability Report",
+	"description": "Written report of current address and intent to accept the same or similar position, required for a suspended employee to be considered available for reinstatement.",
+	"type": "report",
+	"preparedBy": "Suspended professional employees",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "Annually",
+	"quote": "To be considered available, suspended professional employees shall annually report in writing to the Board their current address and intent to accept the same or similar position when offered."
+}

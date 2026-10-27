@@ -1,0 +1,13 @@
+{
+	"id": "204-ar-official-notice-of-truancy",
+	"policyId": "DQGQGF693CA9",
+	"name": "Official Notice of Truancy",
+	"description": "Notice after a third unexcused absence describing consequences of habitual truancy, the cyber charter transfer restriction, and available resources; may set an attendance improvement conference.",
+	"type": "notification",
+	"preparedBy": "School principal, vice principal, assistant principal or designee",
+	"recipient": "Person in parental relation (and biological/adoptive parent where applicable)",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "within ten (10) school days of a child's third unexcused absence",
+	"quote": "Within ten (10) school days of a child’s third unexcused absence, the school principal, vice principal, assistant principal or designee shall send an Official Notice of Truancy."
+}

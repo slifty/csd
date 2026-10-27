@@ -1,0 +1,13 @@
+{
+	"id": "860-ar-report-of-concerns-about-adult-student-boundaries",
+	"policyId": "BTJJRW4E41B6",
+	"name": "Report of Concerns About Adult-Student Boundaries",
+	"description": "Anyone uneasy about a relationship or interaction between a District adult and a student must notify an administrator immediately.",
+	"type": "notification",
+	"preparedBy": "Any person, including students",
+	"recipient": "Superintendent, Title IX Coordinator, or building principal",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "Any person, including a student, who has concerns about or is uncomfortable with a relationship or interaction between a District Adult and a student, shall immediately notify the Superintendent, Title IX Coordinator, or building principal."
+}

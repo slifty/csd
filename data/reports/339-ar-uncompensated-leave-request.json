@@ -1,0 +1,13 @@
+{
+	"id": "339-ar-uncompensated-leave-request",
+	"policyId": "DKJN455E0F3D",
+	"name": "Uncompensated Leave Request",
+	"description": "Written request for uncompensated leave specifying its termination date.",
+	"type": "notification",
+	"preparedBy": "Employee",
+	"recipient": "Director of Human Resources or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "At least 60 calendar days before leave begins (waivable for good cause)",
+	"quote": "Requests shall be submitted at least sixty (60) calendar days in advance of the date leave is to begin, unless this timeline is waived by the Director of Human Resources or designee for good cause shown."
+}

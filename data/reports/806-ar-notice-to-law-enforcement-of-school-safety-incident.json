@@ -1,0 +1,13 @@
+{
+	"id": "806-ar-notice-to-law-enforcement-of-school-safety-incident",
+	"policyId": "DSC33A04DEEA",
+	"name": "Notice to Law Enforcement of School Safety Incident",
+	"description": "If reported abuse conduct also involves a reportable school safety and security incident, local law enforcement is informed.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Local law enforcement",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If the Superintendent or designee reasonably suspects that conduct being reported involves a school safety and security incident required to be reported under law, the Superintendent or designee shall inform local law enforcement, in accordance with applicable law, regulations, and Board Policy."
+}

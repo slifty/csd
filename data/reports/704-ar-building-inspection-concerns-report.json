@@ -1,0 +1,13 @@
+{
+	"id": "704-ar-building-inspection-concerns-report",
+	"policyId": "DKJTZF79CA74",
+	"name": "Building Inspection Concerns Report",
+	"description": "Written report of concerns found during regular physical building inspections.",
+	"type": "report",
+	"preparedBy": "Building principals with building-level Facilities and Maintenance staff",
+	"recipient": "Director of Facilities and Maintenance or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Building principals, in conjunction with the building-level Facilities and Maintenance Department staff, shall conduct a physical inspection of the building on a regular basis. Any concerns shall be reported in writing to the Director of Facilities and Maintenance or designee."
+}

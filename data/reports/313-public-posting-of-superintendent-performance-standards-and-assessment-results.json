@@ -1,0 +1,13 @@
+{
+	"id": "313-public-posting-of-superintendent-performance-standards-and-assessment-results",
+	"policyId": "C75NTV618A16",
+	"name": "Public Posting of Superintendent Performance Standards and Assessment Results",
+	"description": "Public posting of the Superintendent's and Assistant Superintendent's objective performance standards and, after each annual assessment, its date and whether the standards were met.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "annual",
+	"deadline": "Upon completion of the annual performance assessment",
+	"quote": "The District shall comply with all legal requirements regarding the public posting of information related to the Superintendent’s and Assistant Superintendent's objective performance standards and, upon completion of the annual performance assessment, the date of the assessment and whether or not the Superintendent and Assistant Superintendent met the agreed upon objective performance standards."
+}

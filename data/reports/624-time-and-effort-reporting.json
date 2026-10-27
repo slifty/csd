@@ -1,0 +1,13 @@
+{
+	"id": "624-time-and-effort-reporting",
+	"policyId": "DQGQB96879FF",
+	"name": "Time and Effort Reporting",
+	"description": "Documentation of time worked in support of each federal program by federally paid employees.",
+	"type": "data-submission",
+	"preparedBy": "Employees paid with federal funds",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "All district employees paid with federal funds shall document their time working in support of each federal program, in accordance with law."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "248-ar-annual-hazing-policy-distribution-to-student-organizations",
+	"policyId": "DA2N2Q5DDA8B",
+	"name": "Annual Hazing Policy Distribution to Student Organizations",
+	"description": "Annual copy of the hazing Policy and AR to each student activity or organization.",
+	"type": "notification",
+	"preparedBy": "Principal or designee",
+	"recipient": "Each student activity or organization",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The principal or designee shall annually provide a copy of the District's hazing Policy and Administrative Regulations to each student activity or organization within the District."
+}

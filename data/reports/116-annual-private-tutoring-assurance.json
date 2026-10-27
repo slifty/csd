@@ -1,0 +1,13 @@
+{
+	"id": "116-annual-private-tutoring-assurance",
+	"policyId": "BJPP226270D3",
+	"name": "Annual Private Tutoring Assurance",
+	"description": "Written assurance that all instructional requirements are being met for a privately tutored student.",
+	"type": "certification",
+	"preparedBy": "Parent/guardian",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "Annually, the parent/guardian shall provide written assurance to the Superintendent or designee that all instructional requirements are being met."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "621-local-taxpayer-bill-of-rights-notice",
+	"policyId": "C9APER644BE1",
+	"name": "Local Taxpayer Bill of Rights Notice",
+	"description": "Notice to taxpayers of the District's Local Taxpayer Bill of Rights when contacted about assessment, audit, review or collection of eligible taxes (realty transfer, business privilege, mercantile license, earned income).",
+	"type": "notification",
+	"preparedBy": "Board / Director of Business Services or designee",
+	"recipient": "Taxpayers",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "When the District contacts a taxpayer about an eligible tax",
+	"quote": "The Board shall ensure that a taxpayer is notified about the District's Local Taxpayer Bill of Rights when the District is contacted regarding the assessment, audit, determination, review, and collection of the realty transfer tax, business privilege tax, mercantile license tax, or earned income tax imposed by the District."
+}

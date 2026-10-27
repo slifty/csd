@@ -1,0 +1,13 @@
+{
+	"id": "621-local-taxpayer-bill-of-rights-copies-on-request",
+	"policyId": "C9APER644BE1",
+	"name": "Local Taxpayer Bill of Rights Copies on Request",
+	"description": "Copies of the Local Taxpayer Bill of Rights made available at the administrative offices or mailed at District expense.",
+	"type": "notification",
+	"preparedBy": "Director of Business Services or designee",
+	"recipient": "Requesting taxpayers",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "Upon request",
+	"quote": "The Director of Business Services or designee shall respond to taxpayer requests for the Local Taxpayer Bill of Rights by making copies available at the District's administrative offices or mailing at the District's expense."
+}

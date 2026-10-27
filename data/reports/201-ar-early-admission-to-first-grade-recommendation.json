@@ -1,0 +1,13 @@
+{
+	"id": "201-ar-early-admission-to-first-grade-recommendation",
+	"policyId": "BET4M50C2C55",
+	"name": "Early Admission to First Grade Recommendation",
+	"description": "After the District assesses a child for whom early admission to first grade is requested, the Director reviews the results and recommends to the Superintendent whether to approve.",
+	"type": "recommendation",
+	"preparedBy": "Director of Student Services or designee",
+	"recipient": "Superintendent",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Parent request due by April 30 of the preceding school year",
+	"quote": "The Director of Student Services or designee will review the results of the assessment and make a recommendation to the Superintendent regarding whether to approve the request."
+}

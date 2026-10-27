@@ -1,0 +1,13 @@
+{
+	"id": "121-ar-field-trip-proposal-for-approval",
+	"policyId": "DGU6G514D08F",
+	"name": "Field Trip Proposal for Approval",
+	"description": "Field trip proposals are presented to the principal and, if approved, forwarded to the Assistant Superintendent; includes the adult-supervision plan.",
+	"type": "plan",
+	"preparedBy": "District staff member proposing the trip",
+	"recipient": "Building principal, then Assistant Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "at least 1 month in advance of the trip",
+	"quote": "All field trip proposals of District staff members shall be presented to their building principal at least one (1) month in advance of the proposed trip for approval. If approved by the building principal, the proposal shall be forwarded to the Assistant Superintendent or designee for approval."
+}

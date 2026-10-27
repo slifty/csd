@@ -1,0 +1,13 @@
+{
+	"id": "827-report-of-conflict-of-interest-violation-to-federal-awarding-agency",
+	"policyId": "DSBVV4827E80",
+	"name": "Report of Conflict of Interest Violation to Federal Awarding Agency",
+	"description": "When an investigation finds a violation of the policy, the violation is reported to the federal awarding agency.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Federal awarding agency",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": "upon determination of a violation",
+	"quote": "In the event an investigation determines that a violation of this Policy has occurred, the violation shall be reported to the federal awarding agency in accordance with that agency’s policies."
+}

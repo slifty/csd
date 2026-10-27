@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-final-sabbatical-report",
+	"policyId": "BV845M09E778",
+	"name": "Final Sabbatical Report",
+	"description": "Final written report on the professional benefits derived and how they will be shared with others in the District.",
+	"type": "report",
+	"preparedBy": "Employee returning from sabbatical",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within 60 calendar days after return to service",
+	"quote": "The employee shall file a final written report with the Superintendent or designee concerning the professional benefits derived by the employee and the benefit to be shared with the others in the District. The final report shall be filed within sixty (60) calendar days after return to service."
+}

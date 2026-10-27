@@ -1,0 +1,13 @@
+{
+	"id": "113-annual-child-find-public-notice",
+	"policyId": "CKY5JK107C0B",
+	"name": "Annual Child Find Public Notice",
+	"description": "Annual written notice in newspapers and other media on child identification activities, available special education services and how to request them, and confidentiality procedures; also published in handbooks and on the District website.",
+	"type": "public-posting",
+	"preparedBy": "District (Superintendent or designee)",
+	"recipient": "District residents",
+	"recipientType": "public",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The District's public awareness activities shall include annual publication of a written notice in newspapers and other media notifying residents about child identification activities; available special education services and programs and how to request them; and procedures used to ensure confidentiality of student information."
+}

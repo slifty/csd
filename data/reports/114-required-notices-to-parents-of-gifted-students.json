@@ -1,0 +1,13 @@
+{
+	"id": "114-required-notices-to-parents-of-gifted-students",
+	"policyId": "AWL5CZ0FAC3F",
+	"name": "Required Notices to Parents of Gifted Students",
+	"description": "All legally required notices and information are provided to parents of gifted students within established timelines.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians of gifted students",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": "per established timelines",
+	"quote": "The District shall provide all required notices and information to parents/guardians of gifted students, document all consents and responses of parents/guardians, and adhere to all established timelines."
+}

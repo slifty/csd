@@ -1,0 +1,13 @@
+{
+	"id": "810-1-prescribed-medication-fitness-statement",
+	"policyId": "BYXQPZ6A5802",
+	"name": "Prescribed Medication Fitness Statement",
+	"description": "Practitioner's written statement that a prescribed controlled substance will not impair safe driving; drivers also inform supervisors of drowsiness-warning medications.",
+	"type": "certification",
+	"preparedBy": "Covered driver",
+	"recipient": "District (supervisors)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "in advance of driving",
+	"quote": "Covered drivers using controlled substances prescribed for therapeutic purposes by a licensed medical practitioner shall submit the practitioner’s written statement that the prescribed substance will not adversely affect the employee’s ability to safely operate a school bus or commercial motor vehicle."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "259-ar-enrollment-forms-and-information-to-shelters",
+	"policyId": "CJQMW95D3344",
+	"name": "Enrollment Forms and Information to Shelters",
+	"description": "Provide standard forms and information about enrollment procedures and key programs to each shelter.",
+	"type": "notification",
+	"preparedBy": "District homeless liaison",
+	"recipient": "Each shelter in the District",
+	"recipientType": "other-external",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Provide standard forms and information about enrollment procedures and key school programs to each shelter in the District."
+}

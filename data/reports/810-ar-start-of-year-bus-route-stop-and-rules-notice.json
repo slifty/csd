@@ -1,0 +1,13 @@
+{
+	"id": "810-ar-start-of-year-bus-route-stop-and-rules-notice",
+	"policyId": "DKJVQN804132",
+	"name": "Start-of-Year Bus Route, Stop and Rules Notice",
+	"description": "Each student's route number and stop location, sent with a copy of the school bus rules and regulations.",
+	"type": "notification",
+	"preparedBy": "Transportation Office",
+	"recipient": "All students",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "at the beginning of each school year",
+	"quote": "At the beginning of each school year, all students will receive the route number and stop location, along with a copy of the school bus rules and regulations."
+}

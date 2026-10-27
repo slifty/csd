@@ -1,0 +1,13 @@
+{
+	"id": "916-ar-volunteer-names-for-board-ratification",
+	"policyId": "DBWKQW52E4D0",
+	"name": "Volunteer Names for Board Ratification",
+	"description": "Names of volunteers approved by the Superintendent presented to the Board for ratification.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "per-meeting",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall initially be responsible for the approval of all volunteers, whose names shall subsequently be presented to the Board for ratification."
+}

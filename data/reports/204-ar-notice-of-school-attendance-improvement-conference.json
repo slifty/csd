@@ -1,0 +1,13 @@
+{
+	"id": "204-ar-notice-of-school-attendance-improvement-conference",
+	"policyId": "DQGQGF693CA9",
+	"name": "Notice of School Attendance Improvement Conference",
+	"description": "Advance written notice scheduling a school attendance improvement conference when unlawful absences continue after the Official Notice of Truancy.",
+	"type": "notification",
+	"preparedBy": "School",
+	"recipient": "Child and person in parental relation",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "advance written notice",
+	"quote": "If the child continues to incur unlawful absences after the issuance of the Official Notice of Truancy, the school shall then schedule by advance written notice a school attendance improvement conference to the child and the person in parental relation to the child, unless a conference was previously held following the Official Notice of Truancy"
+}

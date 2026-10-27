@@ -1,0 +1,13 @@
+{
+	"id": "920-ar-scholarship-award-information-submission",
+	"policyId": "CNY5NU111C98",
+	"name": "Scholarship/Award Information Submission",
+	"description": "All pertinent information on an outside scholarship or award submitted for review before it is presented.",
+	"type": "data-submission",
+	"preparedBy": "Offering organization",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "prior to the date on which it is to be presented",
+	"quote": "All pertinent information regarding the scholarship or award shall be submitted for review by the Superintendent or designee prior to the date on which it is to be presented."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "810-3-driver-certification-of-policy-receipt",
+	"policyId": "BYXQQ26A5A0F",
+	"name": "Driver Certification of Policy Receipt",
+	"description": "Signed statement certifying receipt of the school vehicle driver policy; a copy is given to the driver.",
+	"type": "certification",
+	"preparedBy": "School vehicle driver",
+	"recipient": "District (personnel file)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Each school vehicle driver shall sign a statement certifying that they have received a copy of this Policy."
+}

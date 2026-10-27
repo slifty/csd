@@ -1,0 +1,13 @@
+{
+	"id": "624-3-ar-notice-to-federal-agency-of-subaward-specific-conditions",
+	"policyId": "DN7W2A83498B",
+	"name": "Notice to Federal Agency of Subaward Specific Conditions",
+	"description": "Notice of specific conditions the District imposes on a subaward based on risk evaluation.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Federal agency",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Based on the results of the risk evaluation, the District may consider imposing specific conditions on implementation of the subaward and shall notify the federal agency of the specific conditions, in accordance with applicable law and regulations."
+}

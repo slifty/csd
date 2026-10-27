@@ -1,0 +1,13 @@
+{
+	"id": "601-ar-periodic-budget-reports-to-the-board",
+	"policyId": "BKD65L1346BB",
+	"name": "Periodic Budget Reports to the Board",
+	"description": "Periodic reports and prepared documents keeping the Board informed about the budget so it can develop, deliberate and adopt the annual budget.",
+	"type": "report",
+	"preparedBy": "Superintendent and/or Business Manager",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "as-required",
+	"deadline": "Periodically, in advance of annual budget adoption",
+	"quote": "The Superintendent and/or Business Manager will keep the Board sufficiently informed regarding the budget through periodic reports, prepared documents and other appropriate means so that the Board can develop, deliberate and adopt an annual budget."
+}

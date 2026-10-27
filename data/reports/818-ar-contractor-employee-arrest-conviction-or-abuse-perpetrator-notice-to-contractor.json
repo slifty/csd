@@ -1,0 +1,13 @@
+{
+	"id": "818-ar-contractor-employee-arrest-conviction-or-abuse-perpetrator-notice-to-contractor",
+	"policyId": "CFJ6SC164FD3",
+	"name": "Contractor Employee Arrest, Conviction, or Abuse Perpetrator Notice to Contractor",
+	"description": "Contractor employees with direct contact with children must notify their employer in writing of a reportable arrest or conviction, or of being named a perpetrator in a founded or indicated abuse report.",
+	"type": "notification",
+	"preparedBy": "Contractor employees",
+	"recipient": "Independent contractor",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "within 72 hours of the occurrence / of notification",
+	"quote": "All independent contractors shall require their employees who are providing services to the District and who have direct contact with children to notify the independent contractor, in writing, within seventy-two (72) hours of the occurrence, of an arrest or conviction required to be reported by law."
+}

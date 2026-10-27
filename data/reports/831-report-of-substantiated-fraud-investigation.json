@@ -1,0 +1,13 @@
+{
+	"id": "831-report-of-substantiated-fraud-investigation",
+	"policyId": "D3A3U8088527",
+	"name": "Report of Substantiated Fraud Investigation",
+	"description": "When an investigation substantiates fraudulent activity, a report goes to the Board and designated individuals.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board and designated individuals",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "upon substantiation",
+	"quote": "If an investigation substantiates the occurrence of a fraudulent activity, the Superintendent or designee shall issue a report to the Board and designated individuals."
+}

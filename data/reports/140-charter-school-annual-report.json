@@ -1,0 +1,13 @@
+{
+	"id": "140-charter-school-annual-report",
+	"policyId": "BY5NHG60027F",
+	"name": "Charter School Annual Report",
+	"description": "Annual report used by the Board to assess whether each charter school is meeting the goals of its charter.",
+	"type": "report",
+	"preparedBy": "Each charter school",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "no later than August 1 of each year",
+	"quote": "The Board shall annually assess whether each charter school is meeting the goals of its charter and shall require each charter school to submit an annual report no later than August 1 of each year."
+}

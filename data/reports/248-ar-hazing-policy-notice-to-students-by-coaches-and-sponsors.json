@@ -1,0 +1,13 @@
+{
+	"id": "248-ar-hazing-policy-notice-to-students-by-coaches-and-sponsors",
+	"policyId": "DA2N2Q5DDA8B",
+	"name": "Hazing Policy Notice to Students by Coaches and Sponsors",
+	"description": "Students are informed of the hazing Policy and AR; coaches and sponsors inform participants at the start of each activity/season and as needed.",
+	"type": "notification",
+	"preparedBy": "Principal or designee; coaches and activity sponsors",
+	"recipient": "Students",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": "at the start of the activity/season and as needed",
+	"quote": "Coaches and activity sponsors shall be familiar with the District’s Policy and Administrative Regulations regarding hazing and inform students of their requirements at the start of the activity/season and on an as-needed basis during the activity/season."
+}

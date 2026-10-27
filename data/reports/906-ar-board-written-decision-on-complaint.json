@@ -1,0 +1,13 @@
+{
+	"id": "906-ar-board-written-decision-on-complaint",
+	"policyId": "BMJNA75EA9AF",
+	"name": "Board Written Decision on Complaint",
+	"description": "Written decision to the complainant after the Board reviews a fourth-level complaint.",
+	"type": "notification",
+	"preparedBy": "Board",
+	"recipient": "Complainant",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "After reviewing all information relative to the complaint, the Board shall provide the complainant with its written decision."
+}

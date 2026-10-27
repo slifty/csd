@@ -1,0 +1,13 @@
+{
+	"id": "234-ar-notice-of-nondiscrimination-responsibilities-and-reasonable-modifications",
+	"policyId": "DA2NJC602431",
+	"name": "Notice of Nondiscrimination Responsibilities and Reasonable Modifications",
+	"description": "When informed of a student's pregnancy, the Title IX Coordinator notifies the person of District nondiscrimination responsibilities and offers reasonable modifications.",
+	"type": "notification",
+	"preparedBy": "Title IX Coordinator",
+	"recipient": "Student/parent/guardian or authorized individual",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "the Title IX Coordinator shall (1) notify that person of the District’s responsibilities and Board Policy regarding nondiscrimination; and (2) offer reasonable modifications for the student in accordance with the District’s legal obligations."
+}

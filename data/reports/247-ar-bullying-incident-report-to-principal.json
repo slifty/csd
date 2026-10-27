@@ -1,0 +1,13 @@
+{
+	"id": "247-ar-bullying-incident-report-to-principal",
+	"policyId": "DA2QF5685545",
+	"name": "Bullying Incident Report to Principal",
+	"description": "Adults must promptly report bullying or potential bullying; the principal is notified to begin an investigation.",
+	"type": "report",
+	"preparedBy": "Parents/guardians, coaches, sponsors, volunteers, employees, contractors",
+	"recipient": "Immediate supervisor or building principal",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Parents/guardians, coaches, activity sponsors, volunteers, District employees, representatives, agents, and contractors shall be alert to incidents of bullying and potential bullying and shall promptly report such conduct to their immediate supervisor or the appropriate building principal."
+}

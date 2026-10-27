@@ -1,0 +1,13 @@
+{
+	"id": "625-ar-procurement-card-statement-reconciliation",
+	"policyId": "D3G2LA02AD70",
+	"name": "Procurement Card Statement Reconciliation",
+	"description": "Cardholder reconciles the card billing statement with purchases and attaches receipts; supervisor reviews and signs approval.",
+	"type": "data-submission",
+	"preparedBy": "Cardholder; supervisor",
+	"recipient": "Supervisor / Business Office",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": "Each billing statement",
+	"quote": "Cardholder verifies receipt of purchased items, reconciles the billing statement with purchases, and attaches receipts."
+}

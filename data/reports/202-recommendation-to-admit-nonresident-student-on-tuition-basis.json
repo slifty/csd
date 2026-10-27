@@ -1,0 +1,13 @@
+{
+	"id": "202-recommendation-to-admit-nonresident-student-on-tuition-basis",
+	"policyId": "DCHP866356D2",
+	"name": "Recommendation to Admit Nonresident Student on Tuition Basis",
+	"description": "For nonresident students with unusual circumstances not covered by the policy, the Superintendent recommends admission or retention on an advanced tuition basis for Board approval.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Nonresident students, because of unusual or unique circumstances not covered above, may be admitted or retained on an advanced tuition basis when recommended by the Superintendent and approved by the Board."
+}

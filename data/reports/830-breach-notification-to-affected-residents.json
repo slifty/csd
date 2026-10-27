@@ -1,0 +1,13 @@
+{
+	"id": "830-breach-notification-to-affected-residents",
+	"policyId": "CTENY8622D15",
+	"name": "Breach Notification to Affected Residents",
+	"description": "When a breach is determined, residents whose unencrypted and unredacted personal information was accessed are notified, including when encrypted data was acquired in unencrypted form or the encryption key was compromised.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Affected Commonwealth residents",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "without unreasonable delay (law enforcement delay permitted)",
+	"quote": "Upon determination of a breach of the security of the system, the Superintendent or designee shall provide notice to the District Attorney in the county where the breach occurred and to any resident of the Commonwealth whose unencrypted and unredacted personal information was or is reasonably believed to have been accessed and acquired by an unauthorized person."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "609-investment-advisor-policy-acknowledgment",
+	"policyId": "CEP3DP0665D1",
+	"name": "Investment Advisor Policy Acknowledgment",
+	"description": "Written verification that each advisor received and reviewed the policy and agrees to comply with it and applicable law.",
+	"type": "certification",
+	"preparedBy": "Investment advisors",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Upon engagement",
+	"quote": "All investment advisors shall verify in writing that they have received and reviewed a copy of this Board Policy and agree to comply with this Policy and all applicable laws related to District investments."
+}

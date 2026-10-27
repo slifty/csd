@@ -1,0 +1,13 @@
+{
+	"id": "712-ar-service-animal-regulations-notice-to-involved-individuals",
+	"policyId": "DKJSKL731376",
+	"name": "Service Animal Regulations Notice to Involved Individuals",
+	"description": "Informing everyone involved where a service animal will regularly be present of the contents of the regulation and policy.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Administrators, employees, students and parents/guardians involved",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall ensure that all individuals involved in a situation where a service animal will regularly accompany an owner or handler in District buildings, on District property, or on vehicles that are owned, leased, or controlled by the District are informed of the contents of these Administrative Regulations and the accompanying Board Policy."
+}

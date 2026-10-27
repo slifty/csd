@@ -1,0 +1,13 @@
+{
+	"id": "217-graduation-plan-for-students-experiencing-educational-instability",
+	"policyId": "CZJ3R9081776",
+	"name": "Graduation Plan for Students Experiencing Educational Instability",
+	"description": "A graduation plan is developed for high school students experiencing educational instability to support timely graduation.",
+	"type": "plan",
+	"preparedBy": "Not specified",
+	"recipient": "Student (grades 9-12)",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "A graduation plan shall be developed to facilitate this process for students in grades nine (9) through twelve (12) who are experiencing educational instability."
+}

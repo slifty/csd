@@ -1,0 +1,13 @@
+{
+	"id": "806-ar-annual-notice-of-mandated-reporter-responsibilities",
+	"policyId": "DSC33A04DEEA",
+	"name": "Annual Notice of Mandated Reporter Responsibilities",
+	"description": "Annual reminder to staff, contractors and volunteers of their duty to report suspected child abuse.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "District staff, independent contractors and volunteers",
+	"recipientType": "employees",
+	"frequency": "annual",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall annually notify District staff, independent contractors, and volunteers of their responsibility for reporting suspected child abuse in accordance with Board Policy and Administrative Regulations."
+}

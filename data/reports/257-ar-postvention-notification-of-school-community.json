@@ -1,0 +1,13 @@
+{
+	"id": "257-ar-postvention-notification-of-school-community",
+	"policyId": "D3G47C0A27F5",
+	"name": "Postvention Notification of School Community",
+	"description": "Upon confirmation of a suicide, postvention procedures include informing the school community and providing resources.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "School community (students, staff, families)",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "immediately upon confirmation of a suicide",
+	"quote": "Upon confirmation of a suicide, the District shall immediately implement established postvention procedures which shall include methods for informing the school community; identifying and monitoring at-risk youth; and providing resources and supports for students, staff and families."
+}

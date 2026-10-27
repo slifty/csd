@@ -1,0 +1,13 @@
+{
+	"id": "113-2-ar-seclusion-update-to-the-board",
+	"policyId": "CQGUDE7B8B7A",
+	"name": "Seclusion Update to the Board",
+	"description": "Updates to the Board on any use of seclusion in District schools.",
+	"type": "report",
+	"preparedBy": "Not specified (Director of Special Education monitors seclusion reports)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "semiannual",
+	"deadline": "twice a school year",
+	"quote": "The Board will be provided with updates twice a school year on any use of seclusion in District schools."
+}

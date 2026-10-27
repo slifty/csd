@@ -1,0 +1,13 @@
+{
+	"id": "806-ar-annual-notice-of-child-abuse-policy",
+	"policyId": "DSC33A04DEEA",
+	"name": "Annual Notice of Child Abuse Policy",
+	"description": "Annual notice of the contents of the child/student abuse policy and administrative regulation.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Students, parents/guardians, independent contractors, volunteers and District staff",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall annually inform students, parents/guardians, independent contractors, volunteers and District staff regarding the contents of this Administrative Regulation and the accompanying Board Policy."
+}

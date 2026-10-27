@@ -1,0 +1,13 @@
+{
+	"id": "806-ar-evidence-photographs-to-county-agency",
+	"policyId": "DSC33A04DEEA",
+	"name": "Evidence Photographs to County Agency",
+	"description": "Photographs taken to preserve evidence of suspected abuse are sent to the county agency; the principal is notified when photos are taken.",
+	"type": "report",
+	"preparedBy": "School employee",
+	"recipient": "County agency",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "at the time the written report is sent or within forty-eight (48) hours after an electronic report",
+	"quote": "Any such photographs shall be sent to the county agency at the time the written report is sent or within forty-eight (48) hours after a report is made by electronic technologies or as soon thereafter as possible."
+}

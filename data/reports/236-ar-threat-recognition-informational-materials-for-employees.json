@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-threat-recognition-informational-materials-for-employees",
+	"policyId": "DSC22N00188C",
+	"name": "Threat Recognition Informational Materials for Employees",
+	"description": "Materials on recognizing threatening behavior and reporting, including a list of threat assessment team members.",
+	"type": "notification",
+	"preparedBy": "Threat assessment team",
+	"recipient": "School employees",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Information for school employees shall include a list of the staff members who have been appointed to the threat assessment team."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "622-management-discussion-and-analysis-gasb-34",
+	"policyId": "CDLQWE6A7F2A",
+	"name": "Management Discussion and Analysis (GASB 34)",
+	"description": "Required MD&A accompanying the financial statements in GASB 34 form, reviewed by the independent auditors.",
+	"type": "report",
+	"preparedBy": "Director of Business Services or designee",
+	"recipient": "Independent auditors / financial statement users",
+	"recipientType": "other-external",
+	"frequency": "annual",
+	"deadline": "With the annual audited financial statements",
+	"quote": "The Director of Business Services or designee shall be responsible for preparing the required Management Discussion and Analysis (MD&A) in the form required by GASB Statement 34."
+}

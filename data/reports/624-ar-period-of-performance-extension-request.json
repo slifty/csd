@@ -1,0 +1,13 @@
+{
+	"id": "624-ar-period-of-performance-extension-request",
+	"policyId": "DN7VEG8062B6",
+	"name": "Period of Performance Extension Request",
+	"description": "Written request for agency approval of an extension when required (e.g. additional funds or scope change), with notice to the Superintendent.",
+	"type": "notification",
+	"preparedBy": "Director of Business Services",
+	"recipient": "Federal awarding agency; Superintendent",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Director of Business Services will determine when an extension must be requested for approval by the federal awarding agency, draft the written request and notify the Superintendent of the requested extension."
+}

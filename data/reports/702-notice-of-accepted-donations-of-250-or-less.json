@@ -1,0 +1,13 @@
+{
+	"id": "702-notice-of-accepted-donations-of-250-or-less",
+	"policyId": "CEP6G814D4A4",
+	"name": "Notice of Accepted Donations of $250 or Less",
+	"description": "Notification to the Board of donations valued at $250 or less accepted on the Board's behalf.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee is authorized to accept donations to the District valued at $250 or less on behalf of the Board and shall notify the Board of the acceptance of such donations."
+}

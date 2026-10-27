@@ -1,0 +1,13 @@
+{
+	"id": "624-3-ar-subrecipient-corrective-action-plan",
+	"policyId": "DN7W2A83498B",
+	"name": "Subrecipient Corrective Action Plan",
+	"description": "Corrective action plan addressing other identified deficiencies or noncompliance, which the District then monitors.",
+	"type": "plan",
+	"preparedBy": "Subrecipients",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within 60 days",
+	"quote": "The District shall require subrecipients to develop a corrective action plan to address other identified deficiencies or noncompliance issues; such plan shall be submitted to the District within sixty (60) days"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "212-course-expectations-notice-to-students",
+	"policyId": "DKJLCA55E160",
+	"name": "Course Expectations Notice to Students",
+	"description": "At the start of each course, students are told the course expectations and academic standards to be attained.",
+	"type": "notification",
+	"preparedBy": "Not specified (teachers)",
+	"recipient": "Students",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": "at the outset of any course",
+	"quote": "At the outset of any course, each student should be informed about the course expectations and academic standards to be attained."
+}

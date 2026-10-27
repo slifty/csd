@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-private-medical-or-dental-examination-report",
+	"policyId": "BYXPKV650D2C",
+	"name": "Private Medical or Dental Examination Report",
+	"description": "A private exam report on the Secretary of Health's form may be furnished in lieu of the school exam (health exams at entry, grades 6 and 11; dental at entry, grades 3 and 7).",
+	"type": "report",
+	"preparedBy": "Parent/guardian (family physician or dentist)",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": "prior to the date fixed for the regularly scheduled examination, but no earlier than one year prior to the opening of that school term",
+	"quote": "The in lieu examinations shall be made and the report shall be furnished prior to the date fixed for the regularly scheduled examination, but no earlier than one year prior to the opening of the school term during which the regular examination is scheduled."
+}

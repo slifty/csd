@@ -1,0 +1,13 @@
+{
+	"id": "136-ar-past-due-certification-letter",
+	"policyId": "CPW4JG0BB657",
+	"name": "Past-Due Certification Letter",
+	"description": "Certified letter stating the certification is past due and must be submitted within 10 days of receipt.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Home education program supervisor",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "after June 30 deadline is missed; response due within 10 days",
+	"quote": "If the supervisor fails to submit the certification due on June 30, the Superintendent or designee shall send a letter by certified mail, return receipt requested, to the supervisor of the home education program, stating that the certification is past due and to submit the certification within ten (10) days of receipt of the certified letter."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "204-ar-attendance-policy-provided-to-new-families",
+	"policyId": "DQGQGF693CA9",
+	"name": "Attendance Policy Provided to New Families",
+	"description": "Copies of the attendance Policy and Administrative Regulation are given to parents/guardians of new students at enrollment, upon request.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians of new students",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "at the time of enrollment, upon request",
+	"quote": "Parents/guardians shall be given copies of the District’s attendance Policy and Administrative Regulations at the time of enrollment for new students, upon request."
+}

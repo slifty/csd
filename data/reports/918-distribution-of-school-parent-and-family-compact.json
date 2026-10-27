@@ -1,0 +1,13 @@
+{
+	"id": "918-distribution-of-school-parent-and-family-compact",
+	"policyId": "CW82YY04887A",
+	"name": "Distribution of School-Parent and Family Compact",
+	"description": "Distribution and discussion of each Title I school's jointly developed School-Parent and Family Compact.",
+	"type": "notification",
+	"preparedBy": "District / Title I schools",
+	"recipient": "Parents and family members",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "Distribute and discuss the School-Parent and Family Compact."
+}

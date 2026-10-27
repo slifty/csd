@@ -1,0 +1,13 @@
+{
+	"id": "204-ar-verification-of-attendance-improvement-conference-for-truancy-referral",
+	"policyId": "DQGQGF693CA9",
+	"name": "Verification of Attendance Improvement Conference for Truancy Referral",
+	"description": "When referring a habitually truant child to Children and Youth or filing a citation, the District must verify that an attendance improvement conference was held.",
+	"type": "certification",
+	"preparedBy": "Director of Student Services or designee",
+	"recipient": "Montgomery County Office of Children and Youth or magisterial district judge",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "When referring a habitually truant child to the Montgomery County Office of Children and Youth or filing a citation with the magisterial district judge having jurisdiction over the region, the Director of Student Services or designee shall provide verification that a school attendance improvement conference was held."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "816-ar-security-threat-or-breach-notification",
+	"policyId": "CZJ2JM026E67",
+	"name": "Security Threat or Breach Notification",
+	"description": "Immediate notice when a user identifies a possible security threat or breach.",
+	"type": "notification",
+	"preparedBy": "Users of District technology resources",
+	"recipient": "Teacher, building principal, immediate supervisor or Director of Technology",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "Users of District technology resources shall immediately notify their teacher, building principal, immediate supervisor or the Director of Technology or designee if they have identified a possible security threat or breach."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-parent-notification-of-school-safety-incident",
+	"policyId": "DSC22N00188C",
+	"name": "Parent Notification of School Safety Incident",
+	"description": "Notice to parents of students directly involved in an incident as victim or suspect, including whether police were or may be notified.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parent/guardian of victim or suspect",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "immediately, or as soon as practicable",
+	"quote": "The Superintendent or designee will inform the parent/guardian whether or not the local police department that has jurisdiction over the school property has been or may be notified of the incident."
+}

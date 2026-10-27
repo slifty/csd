@@ -1,0 +1,13 @@
+{
+	"id": "618-ar-annual-audit-of-student-activity-funds",
+	"policyId": "D3G3EX06943C",
+	"name": "Annual Audit of Student Activity Funds",
+	"description": "All student activity funds are audited annually by the independent auditor.",
+	"type": "audit",
+	"preparedBy": "District's independent auditor",
+	"recipient": "Not specified",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "Annually",
+	"quote": "All student activity funds are subject to annual audit by the District's independent auditor, in accordance with Board Policy and applicable law."
+}

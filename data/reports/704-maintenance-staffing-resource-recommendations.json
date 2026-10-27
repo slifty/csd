@@ -1,0 +1,13 @@
+{
+	"id": "704-maintenance-staffing-resource-recommendations",
+	"policyId": "DKJTZD79C7E7",
+	"name": "Maintenance Staffing/Resource Recommendations",
+	"description": "Recommendations to the Board when additional staff or resources are needed for custodial, grounds or maintenance initiatives.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall also make recommendations to the Board when additional staff or resources are needed to adequately support the District’s custodial, grounds and/or maintenance initiatives."
+}

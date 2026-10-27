@@ -1,0 +1,13 @@
+{
+	"id": "210-ar-emergency-call-for-suspected-opiate-overdose",
+	"policyId": "AWL5HC104F1A",
+	"name": "Emergency Call for Suspected Opiate Overdose",
+	"description": "Staff should call 911 for any suspected opiate overdose and naloxone administration.",
+	"type": "notification",
+	"preparedBy": "District professionals",
+	"recipient": "911",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Under any circumstances, district professionals should contact 911 in case suspected opiate overdose and administration of Naloxone."
+}

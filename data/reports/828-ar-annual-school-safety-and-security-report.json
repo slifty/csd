@@ -1,0 +1,13 @@
+{
+	"id": "828-ar-annual-school-safety-and-security-report",
+	"policyId": "DKJU7X7ABE84",
+	"name": "Annual School Safety and Security Report",
+	"description": "Report on current safety and security practices and strategies to improve them, presented to the Board in executive session and submitted to the statewide School Safety and Security Committee; exempt from Right-to-Know.",
+	"type": "report",
+	"preparedBy": "School Safety and Security Coordinator (District Safety and Security Manager)",
+	"recipient": "Board (executive session); statewide School Safety and Security Committee",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "no later than June 30 each year",
+	"quote": "Make a report, no later than June 30 each year, to the Board on the District’s current safety and security practices and strategies to improve school safety and security. The report shall be presented to the Board at an executive session, and such report shall be submitted to the statewide School Safety and Security Committee and not subject to the Right-to-Know law."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "138-ar-annual-liep-effectiveness-evaluation-results",
+	"policyId": "BE3ARM28F559",
+	"name": "Annual LIEP Effectiveness Evaluation Results",
+	"description": "Annual evaluation of the Language Instruction Educational Program based on student outcomes, with the LIEP and results made available to staff and EL parents.",
+	"type": "report",
+	"preparedBy": "District",
+	"recipient": "District staff working with ELs; parents/guardians of ELs",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "at least annually",
+	"quote": "The LIEP will be evaluated for effectiveness based on student outcomes at least annually, and the results documented in accordance with state and federal laws and regulations, and state guidelines. The District's LIEP and evaluation results will be made available to District staff working with ELs and parents/guardians of ELs."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "215-ar-notice-of-retention-recommendation-k-8",
+	"policyId": "BLGUMZ79A845",
+	"name": "Notice of Retention Recommendation (K-8)",
+	"description": "Written advice whether retention is ultimately recommended for a K-8 student, with an offer of a follow-up conference.",
+	"type": "notification",
+	"preparedBy": "Not specified (school principal)",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "prior to the end of the school year",
+	"quote": "Prior to the end of the school year, the student’s parent(s)/guardian(s) shall be advised, in writing, if retention is ultimately recommended, and, if so, offer the parent(s)/guardian(s) a follow-up conference to further review the student’s academic progress and to discuss the recommendation for retention."
+}

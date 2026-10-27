@@ -1,0 +1,13 @@
+{
+	"id": "248-ar-title-ix-coordinator-notification-in-hazing-investigations",
+	"policyId": "DA2N2Q5DDA8B",
+	"name": "Title IX Coordinator Notification in Hazing Investigations",
+	"description": "Prompt notice to the Title IX Coordinator when a hazing investigation identifies potential Title IX issues.",
+	"type": "notification",
+	"preparedBy": "Investigator (not specified)",
+	"recipient": "Title IX Coordinator",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "If, in the course of a hazing investigation, potential issues of Title IX discrimination or sex-based harassment are identified, the Title IX Coordinator shall be promptly notified."
+}

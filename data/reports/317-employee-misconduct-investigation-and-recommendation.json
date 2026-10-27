@@ -1,0 +1,13 @@
+{
+	"id": "317-employee-misconduct-investigation-and-recommendation",
+	"policyId": "DKJT7V760730",
+	"name": "Employee Misconduct Investigation and Recommendation",
+	"description": "Investigation of alleged policy violations and recommendation of appropriate action to the Board, including before any demotion or dismissal.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "Prior to considering demotion or dismissal, or when conduct is reported",
+	"quote": "Prior to considering demotion or dismissal of an employee, and at other times when employee conduct has been reported, the Superintendent or designee shall investigate allegations that an employee has violated Board Policy, Administrative Regulations, rules or procedures and shall recommend appropriate action to the Board, in accordance with applicable law and regulations."
+}

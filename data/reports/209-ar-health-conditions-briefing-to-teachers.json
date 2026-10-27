@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-health-conditions-briefing-to-teachers",
+	"policyId": "BYXPKV650D2C",
+	"name": "Health Conditions Briefing to Teachers",
+	"description": "Teachers are informed of student health conditions that may affect behavior, appearance or scholastic performance.",
+	"type": "notification",
+	"preparedBy": "School physicians or school nurses",
+	"recipient": "Teachers",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "School physicians or school nurses shall inform teachers of the health conditions of students which may affect behavior, appearance or scholastic performance."
+}

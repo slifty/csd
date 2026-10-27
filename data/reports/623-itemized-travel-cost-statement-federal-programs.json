@@ -1,0 +1,13 @@
+{
+	"id": "623-itemized-travel-cost-statement-federal-programs",
+	"policyId": "DQGQ2J673348",
+	"name": "Itemized Travel Cost Statement (Federal Programs)",
+	"description": "Itemized, verified statement of travel costs under federal awards, required before reimbursement.",
+	"type": "data-submission",
+	"preparedBy": "School officials, employees and participants",
+	"recipient": "Director of Business Services or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Prior to reimbursement",
+	"quote": "All travel costs must be presented with an itemized, verified statement prior to reimbursement."
+}

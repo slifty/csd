@@ -1,0 +1,13 @@
+{
+	"id": "203-ar-bodily-fluid-exposure-incident-notification",
+	"policyId": "BCFR8C6CBB64",
+	"name": "Bodily Fluid Exposure Incident Notification",
+	"description": "Employees report every incident of exposure to bodily fluids and any student health condition or behavior that presents a reasonable risk of transmitting infection.",
+	"type": "notification",
+	"preparedBy": "All employees",
+	"recipient": "Superintendent or designee, building principal, and school nurse",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Employees shall notify the Superintendent or designee, building principal, and school nurse of all incidents of exposure to bodily fluids and when a student’s health condition or behavior presents a reasonable risk of transmitting an infection."
+}

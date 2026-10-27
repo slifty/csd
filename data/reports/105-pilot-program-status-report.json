@@ -1,0 +1,13 @@
+{
+	"id": "105-pilot-program-status-report",
+	"policyId": "BGB5J91070A0",
+	"name": "Pilot Program Status Report",
+	"description": "Periodic reports to the Board on the status of each Board-approved pilot program, including objectives, evaluative criteria and costs.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "as-required",
+	"deadline": "periodically",
+	"quote": "The Superintendent or designee shall report periodically to the Board on the status of each pilot program, along with its objectives, evaluative criteria, and costs."
+}

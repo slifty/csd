@@ -1,0 +1,13 @@
+{
+	"id": "350-ar-investigation-outcome-report-to-pde",
+	"policyId": "DSC2V303F61E",
+	"name": "Investigation Outcome Report to PDE",
+	"description": "Outcome of a PDE-directed investigation and whether the District will pursue local employment action; may include a discipline recommendation.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "Within 90 days of PDE notification (extensions may be requested)",
+	"quote": "Within ninety (90) days of receipt of notification from the Pennsylvania Department of Education directing the school district to conduct an investigation (extensions may be requested), the Superintendent or designee shall report to the Department the outcome of its investigation and whether it will pursue local employment action."
+}

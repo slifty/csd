@@ -1,0 +1,13 @@
+{
+	"id": "217-ar-annual-graduating-class-approval",
+	"policyId": "CZJ3RF081E05",
+	"name": "Annual Graduating Class Approval",
+	"description": "Each year the slate of graduating candidates is brought to the Board for official approval before diplomas are awarded.",
+	"type": "recommendation",
+	"preparedBy": "Not specified",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "before diplomas are awarded",
+	"quote": "Annually, the Board shall approve the graduating class before diplomas are awarded."
+}

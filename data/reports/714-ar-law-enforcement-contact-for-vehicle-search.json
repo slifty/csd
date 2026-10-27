@@ -1,0 +1,13 @@
+{
+	"id": "714-ar-law-enforcement-contact-for-vehicle-search",
+	"policyId": "BNRLJ956759A",
+	"name": "Law Enforcement Contact for Vehicle Search",
+	"description": "Law enforcement is contacted to facilitate a vehicle search when there is reasonable suspicion of a direct and immediate threat.",
+	"type": "notification",
+	"preparedBy": "Authorized administrator",
+	"recipient": "Law enforcement",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "In the event that an authorized administrator determines that this level of reasonable suspicion exists (i.e. direct and immediate threat to the health, safety and welfare of the school community), law enforcement shall be contacted in order to facilitate the search and in order to retrieve any items posing a direct and immediate threat to the health, safety and welfare of the school community."
+}

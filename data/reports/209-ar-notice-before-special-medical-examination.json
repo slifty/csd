@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-notice-before-special-medical-examination",
+	"policyId": "BYXPKV650D2C",
+	"name": "Notice Before Special Medical Examination",
+	"description": "If a parent fails to report results after a care recommendation, a special medical exam is arranged and the parent is notified beforehand.",
+	"type": "notification",
+	"preparedBy": "School nurse or school physician",
+	"recipient": "Parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "prior to the special examination",
+	"quote": "The parent/guardian shall be notified prior to any such special medical examination taking place."
+}

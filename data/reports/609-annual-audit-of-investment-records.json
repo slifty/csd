@@ -1,0 +1,13 @@
+{
+	"id": "609-annual-audit-of-investment-records",
+	"policyId": "CEP3DP0665D1",
+	"name": "Annual Audit of Investment Records",
+	"description": "Annual independent audit of all investment records, including verification of amounts and transactions.",
+	"type": "audit",
+	"preparedBy": "District's independent auditors",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "Annually",
+	"quote": "The Board directs that all investment records be subject to annual audit by the District's independent auditors."
+}

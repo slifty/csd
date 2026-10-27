@@ -1,0 +1,13 @@
+{
+	"id": "233-ar-notice-of-right-to-appeal-expulsion",
+	"policyId": "D4K2X80446EF",
+	"name": "Notice of Right to Appeal Expulsion",
+	"description": "Notice of the right to appeal the hearing results, provided with the expulsion decision.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Student",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "with the expulsion decision",
+	"quote": "Notice of a right to appeal the results of the hearing shall be provided to the student with the expulsion decision."
+}

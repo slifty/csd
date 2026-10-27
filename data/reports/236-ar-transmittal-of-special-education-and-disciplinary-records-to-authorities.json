@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-transmittal-of-special-education-and-disciplinary-records-to-authorities",
+	"policyId": "DSC22N00188C",
+	"name": "Transmittal of Special Education and Disciplinary Records to Authorities",
+	"description": "When reporting an incident by a student with a disability, required information and copies of special education and disciplinary records are transmitted, in compliance with FERPA.",
+	"type": "report",
+	"preparedBy": "District",
+	"recipient": "Law enforcement / reporting authorities",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "When reporting an incident committed by a student with a disability or referring a student with a disability to a law enforcement agency, the District shall provide the information required by state and federal laws and regulations and shall ensure that copies of the special education and disciplinary records of the student are transmitted for consideration by these authorities."
+}

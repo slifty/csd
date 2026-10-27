@@ -1,0 +1,13 @@
+{
+	"id": "006-accessible-posting-of-committee-meeting-materials",
+	"policyId": "CZHVV6828964",
+	"name": "Accessible Posting of Committee Meeting Materials",
+	"description": "Committee presentations and handouts posted to the District website in formats accessible to individuals with disabilities.",
+	"type": "public-posting",
+	"preparedBy": "Not specified (District)",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "per-meeting",
+	"deadline": null,
+	"quote": "Meeting materials (i.e. presentations, handouts) that are presented to the committee and posted to the District's website for review by the public will be posted in formats that are accessible, particularly to individuals with disabilities."
+}

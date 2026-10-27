@@ -1,0 +1,13 @@
+{
+	"id": "816-notice-of-district-issued-device-to-parents",
+	"policyId": "CZJ2JJ026B1F",
+	"name": "Notice of District-Issued Device to Parents",
+	"description": "Parents/guardians are advised when their child will be issued a District device, which is governed by the policy.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall advise parents/guardians if their child will be issued a District-issued device (i.e. laptop, Chromebook, iPad, etc.)"
+}

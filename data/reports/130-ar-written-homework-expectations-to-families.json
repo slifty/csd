@@ -1,0 +1,13 @@
+{
+	"id": "130-ar-written-homework-expectations-to-families",
+	"policyId": "CR63640548A6",
+	"name": "Written Homework Expectations to Families",
+	"description": "Each school's homework expectations are communicated in writing to parents and students.",
+	"type": "notification",
+	"preparedBy": "School grade level teams/departments",
+	"recipient": "Parents/guardians and students",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "School grade level teams/departments will work together to communicate homework expectations at each school. These expectations will be provided to parents/guardians and students in writing."
+}

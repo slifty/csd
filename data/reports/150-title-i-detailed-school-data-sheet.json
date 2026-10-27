@@ -1,0 +1,13 @@
+{
+	"id": "150-title-i-detailed-school-data-sheet",
+	"policyId": "BYXPG2647D0B",
+	"name": "Title I Detailed School Data Sheet",
+	"description": "Detailed School Data Sheet completed when the District has more than one building per grade span.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Not specified (Title I comparability compliance)",
+	"recipientType": "other-external",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "If the District has more than one (1) building per grade span, the Superintendent or designee shall complete a Detailed School Data Sheet."
+}

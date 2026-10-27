@@ -1,0 +1,13 @@
+{
+	"id": "113-2-notice-to-responsible-district-iu-of-need-to-update-fba-and-pbsp",
+	"policyId": "CKY3AG05E36E",
+	"name": "Notice to Responsible District/IU of Need to Update FBA and PBSP",
+	"description": "If a referred student is detained or placed in a residential setting outside the District, the responsible district/IU is informed the FBA and Behavior Support Plan need updating.",
+	"type": "notification",
+	"preparedBy": "Director of Special Education or designee",
+	"recipient": "Responsible school district or intermediate unit",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If, as a result of such referral, the student is detained or otherwise placed in a residential setting located outside the district, the Director of Special Education or designee shall ensure that the responsible school district or intermediate unit is informed of the need to update the student’s functional behavioral assessment and Positive Behavior Support Plan."
+}

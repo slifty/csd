@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-fmla-status-and-intent-to-return-report",
+	"policyId": "C8C4T90D1273",
+	"name": "FMLA Status and Intent to Return Report",
+	"description": "Report of the employee's status and intention regarding return to work.",
+	"type": "report",
+	"preparedBy": "Employee on FMLA leave",
+	"recipient": "Director of Human Resources (District)",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": "At least every four weeks",
+	"quote": "An employee on FMLA leave shall report their status and intention regarding returning to work at least every four (4) weeks, unless alternative arrangements are made with the Director of Human Resources."
+}

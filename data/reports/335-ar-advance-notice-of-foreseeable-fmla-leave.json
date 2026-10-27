@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-advance-notice-of-foreseeable-fmla-leave",
+	"policyId": "C8C4T90D1273",
+	"name": "Advance Notice of Foreseeable FMLA Leave",
+	"description": "Notice of foreseeable FMLA leave (expected birth or placement, or planned medical treatment), or as soon as practicable if leave begins sooner.",
+	"type": "notification",
+	"preparedBy": "Employee",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "At least 30 days before leave begins",
+	"quote": "If the necessity for leave is foreseeable based on an expected birth or placement, the employee shall notify the District at least thirty (30) days prior to the beginning date of the leave."
+}

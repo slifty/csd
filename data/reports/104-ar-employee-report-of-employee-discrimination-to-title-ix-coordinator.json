@@ -1,0 +1,13 @@
+{
+	"id": "104-ar-employee-report-of-employee-discrimination-to-title-ix-coordinator",
+	"policyId": "D8375717E6DB",
+	"name": "Employee Report of Employee Discrimination to Title IX Coordinator",
+	"description": "Any employee told that another employee was subjected to discrimination or harassment must report it at once; others receiving complaints must notify the Coordinator.",
+	"type": "notification",
+	"preparedBy": "School employees",
+	"recipient": "Title IX Coordinator",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "A school employee who is notified that another employee has been subject to conduct that constitutes a violation of this Administrative Regulation or the accompanying Board Policy shall immediately report the incident to the Title IX Coordinator."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "317-updated-child-abuse-history-certification",
+	"policyId": "DKJT7V760730",
+	"name": "Updated Child Abuse History Certification",
+	"description": "New child abuse history certification required when the employee is reasonably believed to be named as a perpetrator in a founded or indicated report.",
+	"type": "certification",
+	"preparedBy": "Employee",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Immediately",
+	"quote": "An employee shall be required to immediately submit a new child abuse history certification if the Superintendent of designee has a reasonable belief that the employee was named as a perpetrator in a founded or indicated report or has provided written notice of such occurrence."
+}

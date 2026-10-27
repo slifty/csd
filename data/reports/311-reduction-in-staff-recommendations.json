@@ -1,0 +1,13 @@
+{
+	"id": "311-reduction-in-staff-recommendations",
+	"policyId": "BVJ5NX1120F0",
+	"name": "Reduction in Staff Recommendations",
+	"description": "Recommendations for staff reductions arising from continuous review of District organization and staffing efficiency.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "When deemed in the best interests of the District",
+	"quote": "The Superintendent or designee shall be responsible for the continuous review of the efficiency and effectiveness of District organization and staffing, and shall present recommendations for reduction in staff for Board consideration when such actions are deemed to be in the best interests of the District."
+}

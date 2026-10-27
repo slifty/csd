@@ -1,0 +1,13 @@
+{
+	"id": "257-ar-children-and-youth-services-notification-of-suspected-abuse",
+	"policyId": "D3G47C0A27F5",
+	"name": "Children and Youth Services Notification of Suspected Abuse",
+	"description": "If a student's suicide risk is suspected to result from abuse or neglect, staff immediately notify Children and Youth Services.",
+	"type": "report",
+	"preparedBy": "School staff",
+	"recipient": "Children and Youth Services",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "If the school suspects that the student’s risk status is the result of abuse or neglect, school staff shall immediately notify Children and Youth Services, in accordance with applicable law and Board Policy."
+}

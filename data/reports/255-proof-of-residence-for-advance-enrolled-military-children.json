@@ -1,0 +1,13 @@
+{
+	"id": "255-proof-of-residence-for-advance-enrolled-military-children",
+	"policyId": "DSBVZ6831FC3",
+	"name": "Proof of Residence for Advance-Enrolled Military Children",
+	"description": "Parents of advance-enrolled military children provide proof of residence after arrival.",
+	"type": "certification",
+	"preparedBy": "Parent/guardian",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "within 45 days after the arrival date in military orders",
+	"quote": "Within forty-five (45) days after the arrival date specified in the military orders, the parent/guardian shall provide the District with proof of residence in the District."
+}

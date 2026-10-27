@@ -1,0 +1,13 @@
+{
+	"id": "136-ar-annual-evaluator-certification-of-appropriate-education",
+	"policyId": "CPW4JG0BB657",
+	"name": "Annual Evaluator Certification of Appropriate Education",
+	"description": "Evaluator's certification, based on an interview and portfolio review, that an appropriate education is occurring.",
+	"type": "certification",
+	"preparedBy": "Home education program supervisor",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "by June 30 of each year",
+	"quote": "An evaluator’s certification stating that an appropriate education is occurring for the school year under review must be provided by the supervisor to the Superintendent or designee by June 30 of each year."
+}

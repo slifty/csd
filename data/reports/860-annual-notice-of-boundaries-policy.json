@@ -1,0 +1,13 @@
+{
+	"id": "860-annual-notice-of-boundaries-policy",
+	"policyId": "DSC3TT087753",
+	"name": "Annual Notice of Boundaries Policy",
+	"description": "Annual notice of the boundaries policy and regulation, for example by posting on the District website or in handbooks.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Students, parents/guardians, and District Adults",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The Superintendent or designee shall annually inform students, parents/guardians, and District Adults regarding the contents of this Board Policy and the accompanying Administrative Regulations. The means of notification may include, but are not limited to, posting of this Policy and the accompanying Administrative Regulations on the District's website, publication or reference in handbooks"
+}

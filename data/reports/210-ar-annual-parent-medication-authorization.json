@@ -1,0 +1,13 @@
+{
+	"id": "210-ar-annual-parent-medication-authorization",
+	"policyId": "AWL5HC104F1A",
+	"name": "Annual Parent Medication Authorization",
+	"description": "Yearly written authorization for medications to be given at school, with emergency contact, approval for nurse/licensed staff to administer, and a list of all current medications.",
+	"type": "certification",
+	"preparedBy": "Parent/guardian",
+	"recipient": "School nurse",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "renewed at the start of each school year",
+	"quote": "The parent/guardian must also annually provide written authorization for medications to be given in the school setting. The written authorization, renewed at the start of each school year by the parent/guardian, should contain:"
+}

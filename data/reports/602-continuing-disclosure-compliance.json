@@ -1,0 +1,13 @@
+{
+	"id": "602-continuing-disclosure-compliance",
+	"policyId": "AWL5VT1222B0",
+	"name": "Continuing Disclosure Compliance",
+	"description": "The District commits to timely compliance with all bond continuing disclosure agreements; details are in 602-Ar.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "Bond market (per continuing disclosure agreements)",
+	"recipientType": "other-external",
+	"frequency": "as-required",
+	"deadline": "In a timely manner per each agreement",
+	"quote": "The district will comply with all of its continuing disclosure agreements in a timely manner."
+}

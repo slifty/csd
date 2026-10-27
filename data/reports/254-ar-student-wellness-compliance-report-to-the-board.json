@@ -1,0 +1,13 @@
+{
+	"id": "254-ar-student-wellness-compliance-report-to-the-board",
+	"policyId": "DA34EB0B2D9A",
+	"name": "Student Wellness Compliance Report to the Board",
+	"description": "As-needed report on compliance with wellness law and policy; may include environment assessment, food service evaluation, food review, programs, recommendations and stakeholder feedback.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "as needed",
+	"quote": "The Superintendent or designee shall report to the Board on the District’s compliance with law and policies related to student wellness on an as-needed basis."
+}

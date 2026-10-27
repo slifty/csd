@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-threat-assessment-data-in-annual-safety-and-security-report-to-state",
+	"policyId": "DSC22N00188C",
+	"name": "Threat Assessment Data in Annual Safety and Security Report to State",
+	"description": "Threat assessment compliance verification, team counts/composition and number of threats assessed are included in the Coordinator's annual safety and security report to the state committee.",
+	"type": "report",
+	"preparedBy": "School Safety and Security Coordinator",
+	"recipient": "PA School Safety and Security Committee",
+	"recipientType": "state-agency",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "shall be included in the School Safety and Security Coordinator’s annual report on District safety and security practices that is submitted to the state’s School Safety and Security Committee."
+}

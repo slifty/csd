@@ -1,0 +1,13 @@
+{
+	"id": "808-monthly-cafeteria-fund-receipts-and-expenditures-statement",
+	"policyId": "CJP2XZ0464F6",
+	"name": "Monthly Cafeteria Fund Receipts and Expenditures Statement",
+	"description": "Statement of cafeteria fund receipts and expenditures presented for Board approval.",
+	"type": "report",
+	"preparedBy": "Director of Business Services or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "monthly",
+	"deadline": "each month",
+	"quote": "The Director of Business Services or designee shall present to the Board each month for its approval a statement of receipts and expenditures for cafeteria funds."
+}

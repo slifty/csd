@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-formal-report-on-sabbatical-activities",
+	"policyId": "BV845M09E778",
+	"name": "Formal Report on Sabbatical Activities",
+	"description": "Formal report describing the educational activities pursued and their benefits and relevancy.",
+	"type": "report",
+	"preparedBy": "Employee returning from non-credit professional development sabbatical",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within the first month after return",
+	"quote": "Upon return from professional development leave, the employee shall submit to the Superintendent or designee within the first month a formal report describing the educational activities pursued and their benefits and relevancy."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "907-ar-notice-to-parents-of-school-visit-guidelines",
+	"policyId": "CHYLVV587453",
+	"name": "Notice to Parents of School Visit Guidelines",
+	"description": "Communication of school and classroom visit guidelines and conditions through handbooks, school postings and posting of the policy/AR on the website.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The District will notify parents/guardians of the guidelines applicable to school visits, including those related to classroom visits, and the conditions to be observed for such visitations through appropriate communication channels"
+}

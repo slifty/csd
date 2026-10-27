@@ -1,0 +1,2478 @@
+[
+	{
+		"id": "CHHJWS4F3651",
+		"code": "001",
+		"title": "Name And Classification",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "CHHJWW4F3B5A",
+		"code": "002",
+		"title": "Authority And Powers",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "CHHJX24F3FC5",
+		"code": "003",
+		"title": "Functions",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "CHHJX54F4326",
+		"code": "004",
+		"title": "Memberships",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "DCHL3E54945D",
+		"code": "005",
+		"title": "Organization",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "CZHVV6828964",
+		"code": "006",
+		"title": "Meetings",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "BV84FX0B6A10",
+		"code": "007",
+		"title": "Remote Attendance and Participation at Board Meetings",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "CHHJXE4F4DAC",
+		"code": "008",
+		"title": "Board Orientation",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "CNY4UP0D48AF",
+		"code": "011",
+		"title": "Principles for Governance and Leadership",
+		"section": "000 - Local Board Procedures & Goals",
+		"attachments": []
+	},
+	{
+		"id": "DKJUXA7E29D5",
+		"code": "102",
+		"title": "Academic Standards",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "D8374X17DDA9",
+		"code": "103",
+		"title": "Equal Opportunity and Nondiscrimination in School and Classroom Practices",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "D8375217E0F5",
+		"code": "103-Ar",
+		"title": "Equal Opportunity and Nondiscrimination in School and Classroom Practices",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "D8375417E3E6",
+		"code": "104",
+		"title": "Equal Opportunity and Nondiscrimination in Employment and Contract Practices",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "D8375717E6DB",
+		"code": "104-Ar",
+		"title": "Equal Opportunity and Nondiscrimination in Employment and Contract Practices",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BGB5J91070A0",
+		"code": "105",
+		"title": "Curriculum Development",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BLW4FJ0B5A5B",
+		"code": "105.1",
+		"title": "Review of Curriculum and Instructional Materials by Parents/Guardians and Students",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BLW6NN15C640",
+		"code": "105.1-Ar",
+		"title": "Review of Curriculum and Instructional Materials by Parents/Guardians and Students",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BLW4FN0B5F4F",
+		"code": "105.2",
+		"title": "Exemption From Specific Instruction and/or State Assessments",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BLW4W90D8351",
+		"code": "105.2-Ar",
+		"title": "Exemption from Specific Instruction and/or State Assessments",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BH22ZJ049D98",
+		"code": "106",
+		"title": "Course Guides and Planned Instruction",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BLX26X00B7C4",
+		"code": "108",
+		"title": "Adoption of Textbooks",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BLX2A2012D1C",
+		"code": "108-Ar",
+		"title": "Adoption of Textbooks",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CTEM2N59276F",
+		"code": "109",
+		"title": "School Library Materials",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BJPPHH5C1047",
+		"code": "110",
+		"title": "Instructional Supplies",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BKDN9A5ED097",
+		"code": "110-Ar",
+		"title": "Instructional Supplies",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BVJ4Q60C9E94",
+		"code": "111",
+		"title": "Planning and Preparation of Professional Staff",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BVJ4Y40DC7DD",
+		"code": "111-Ar",
+		"title": "Planning and Preparation of Professional Staff",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CJNMWF5D24DE",
+		"code": "112",
+		"title": "School Counseling",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CKY5JK107C0B",
+		"code": "113",
+		"title": "Special Education",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CKY5JL107C13",
+		"code": "113.1",
+		"title": "Screening and Evaluations for Students with Disabilities",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CKY3AG05E36E",
+		"code": "113.2",
+		"title": "Behavior Support",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CQGUDE7B8B7A",
+		"code": "113.2-Ar",
+		"title": "Behavior Support",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CKY3AK05E553",
+		"code": "113.3",
+		"title": "Discipline of Students With Disabilities",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "AWL5CZ0FAC3F",
+		"code": "114",
+		"title": "Gifted Education",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BF89GP22F647",
+		"code": "114-Ar",
+		"title": "Gifted EducationThis Policy Contains an Attachment.",
+		"section": "100 - Programs",
+		"attachments": [
+			{
+				"name": "AR 114 - Exhibit A - Notice of Parental Rights for Gifted Students.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/BF94JA0BC146/$file/AR%20114%20-%20Exhibit%20A%20-%20Notice%20of%20Parental%20Rights%20for%20Gifted%20Students.pdf",
+				"file": "attachments/BF89GP22F647/AR 114 - Exhibit A - Notice of Parental Rights for Gifted Students.pdf"
+			}
+		]
+	},
+	{
+		"id": "BLCUF97BCFCF",
+		"code": "115",
+		"title": "Career and Technical Education",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BJPP226270D3",
+		"code": "116",
+		"title": "Tutorial Instruction",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "DA33UW08A035",
+		"code": "117",
+		"title": "Homebound Instruction",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "DA33UY08A2EB",
+		"code": "117-Ar",
+		"title": "Homebound Instruction",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BKDKBE5110B0",
+		"code": "119",
+		"title": "Current Events",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "DGU6CN144F3D",
+		"code": "121",
+		"title": "Field Trips",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "DGU6G514D08F",
+		"code": "121-Ar",
+		"title": "Field Trips",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "DGU6RR163A22",
+		"code": "121.1",
+		"title": "Other Student Travel",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "AWL5FS101492",
+		"code": "122",
+		"title": "Extracurricular And Cocurricular Activities",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "AWL5FQ101288",
+		"code": "122-Ar",
+		"title": "Extracurricular And Cocurricular Activities",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "AWL5FU1016A8",
+		"code": "123",
+		"title": "Student Athletics",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BJPPYZ6014F7",
+		"code": "124",
+		"title": "Alternative Instruction Opportunities",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "AWL5FX101A0D",
+		"code": "126",
+		"title": "Class Size",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CPV5A40F3F3C",
+		"code": "127",
+		"title": "Assessment System",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CR62WZ043ED5",
+		"code": "130",
+		"title": "Homework",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CR63640548A6",
+		"code": "130-Ar",
+		"title": "Homework",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CPW4JF0BB0D6",
+		"code": "136",
+		"title": "Home Education",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CPW4JG0BB657",
+		"code": "136-Ar",
+		"title": "Home Education",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CPW5GZ1041DD",
+		"code": "136.1",
+		"title": "Participation in Extracurricular Programs by Home Education Students",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CPW5H2104307",
+		"code": "136.2",
+		"title": "Participation in Cocurricular Activities and Academic Courses by Home Education Students",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CPW5H3104442",
+		"code": "136.3",
+		"title": "Participation in Career and Technical Education Programs by Home Education Students",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BD85X712567C",
+		"code": "138",
+		"title": "English Language Development Program",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BE3ARM28F559",
+		"code": "138-Ar",
+		"title": "English Language Development ProgramThis Policy Contains an Attachment.",
+		"section": "100 - Programs",
+		"attachments": [
+			{
+				"name": "138-Ar_Attachment A (Home Language Survey).pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/BE3AVS298FD9/$file/138-Ar_Attachment%20A%20(Home%20Language%20Survey).pdf",
+				"file": "attachments/BE3ARM28F559/138-Ar_Attachment A (Home Language Survey).pdf"
+			},
+			{
+				"name": "138-Ar_Attachment B (Parent-Guardian Waiver-Opt Out Form) .pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/BE3AZX2A2BB8/$file/138-Ar_Attachment%20B%20(Parent-Guardian%20Waiver-Opt%20Out%20Form)%20.pdf",
+				"file": "attachments/BE3ARM28F559/138-Ar_Attachment B (Parent-Guardian Waiver-Opt Out Form) .pdf"
+			}
+		]
+	},
+	{
+		"id": "BY5NHG60027F",
+		"code": "140",
+		"title": "Charter Schools",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "C24MHS56F2E0",
+		"code": "140-Ar",
+		"title": "Charter School Application",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "CERJDS4CB91D",
+		"code": "146",
+		"title": "Trauma-Informed Approach",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "BYXPG2647D0B",
+		"code": "150",
+		"title": "Title I - Comparability of Services",
+		"section": "100 - Programs",
+		"attachments": []
+	},
+	{
+		"id": "DCHNEM5F9924",
+		"code": "200",
+		"title": "Enrollment Of Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DCHNEP5F9B46",
+		"code": "200-Ar",
+		"title": "Enrollment Of Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BET4EV0B304D",
+		"code": "201",
+		"title": "Admission of Beginners",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BET4M50C2C55",
+		"code": "201-Ar",
+		"title": "Admission of Beginners",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DCHP866356D2",
+		"code": "202",
+		"title": "Eligibility of Non Resident Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DCHP896359F0",
+		"code": "202-Ar",
+		"title": "Eligibility of Non Resident Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "AWL5GU103CEB",
+		"code": "203",
+		"title": "Communicable Diseases and Immunization",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BCFR8C6CBB64",
+		"code": "203-Ar",
+		"title": "Communicable Diseases and Immunization",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DQGQGD693A16",
+		"code": "204",
+		"title": "Attendance",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DQGQGF693CA9",
+		"code": "204-Ar",
+		"title": "AttendanceThis Policy Contains an Attachment.",
+		"section": "200 - Pupils",
+		"attachments": [
+			{
+				"name": "204 AR _ Attachment B.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/DQGQGJ693CAA/$file/204%20AR%20_%20Attachment%20B.pdf",
+				"file": "attachments/DQGQGF693CA9/204 AR _ Attachment B.pdf"
+			}
+		]
+	},
+	{
+		"id": "DQGJZG4F9B8B",
+		"code": "205",
+		"title": "Post Graduate Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "AWL5H41045A3",
+		"code": "206",
+		"title": "Student Records",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "B6NP3P5E0201",
+		"code": "206-Ar",
+		"title": "Student RecordsThis Policy Contains an Attachment.",
+		"section": "200 - Pupils",
+		"attachments": [
+			{
+				"name": "AR 206 Student Records 6.12.18.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/B6NN965E2838/$file/AR%20206%20Student%20Records%206.12.18.pdf",
+				"file": "attachments/B6NP3P5E0201/AR 206 Student Records 6.12.18.pdf"
+			}
+		]
+	},
+	{
+		"id": "CZJ22J0013DD",
+		"code": "206.1",
+		"title": "Supplemental Discipline Records",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA349S0A82E1",
+		"code": "207",
+		"title": "Confidential Communications of Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA349U0A85C5",
+		"code": "207-Ar",
+		"title": "Confidential Communications  of Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BJJ4XT0DBD39",
+		"code": "208",
+		"title": "Withdrawal From School",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BJJ6FX14C991",
+		"code": "208-Ar",
+		"title": "Withdrawal from School",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BYXPKR650904",
+		"code": "209",
+		"title": "Health and Dental Examinations",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BYXPKV650D2C",
+		"code": "209-Ar",
+		"title": "Health and Dental Examinations",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "B5ZSBM71E8DF",
+		"code": "210",
+		"title": "Use of Medications",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "AWL5HC104F1A",
+		"code": "210-Ar",
+		"title": "Use of Medications",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BG97UT1B5CEE",
+		"code": "211",
+		"title": "Student Accident Insurance",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BG98751CDFA7",
+		"code": "211-AR",
+		"title": "Student Accident InsuranceThis Policy Contains an Attachment.",
+		"section": "200 - Pupils",
+		"attachments": [
+			{
+				"name": "Attachment A - Insurance Policy (01946857xAED82).pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/BG98K41E9EDC/$file/Attachment%20A%20-%20Insurance%20Policy%20(01946857xAED82).pdf",
+				"file": "attachments/BG98751CDFA7/Attachment A - Insurance Policy (01946857xAED82).pdf"
+			}
+		]
+	},
+	{
+		"id": "DKJLCA55E160",
+		"code": "212",
+		"title": "Assessment and Reporting of Student Progress",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DKJLCD55E431",
+		"code": "212-AR",
+		"title": "Assessment and Reporting of Student Progress",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BYSMTR5979B1",
+		"code": "214",
+		"title": "Computing Grade Point Average",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BYSMTS597D37",
+		"code": "214-Ar",
+		"title": "Computing Grade Point Average",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BLGTHE76FAC9",
+		"code": "215",
+		"title": "Promotion and Retention",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BLGUMZ79A845",
+		"code": "215-Ar",
+		"title": "Promotion and Retention",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "CCNMAD5A49DA",
+		"code": "216",
+		"title": "Assignment Within the District",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "CCNMHR5B5DB1",
+		"code": "216-Ar",
+		"title": "Assignment Within District",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "CZJ3R9081776",
+		"code": "217",
+		"title": "Graduation Requirements",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "CZJ3RF081E05",
+		"code": "217-Ar",
+		"title": "Graduation Requirements",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "C5UKG4513D6B",
+		"code": "218",
+		"title": "Student Discipline",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "C3SMJB564A46",
+		"code": "218-Ar",
+		"title": "Student DisciplineThis Policy Contains an Attachment.",
+		"section": "200 - Pupils",
+		"attachments": [
+			{
+				"name": "Elementary Discipline Chart 9.27.21 (AR 218 - Attachment A) (02441461xAED82).pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/CNTKCJ513941/$file/Elementary%20Discipline%20Chart%209.27.21%20(AR%20218%20-%20Attachment%20A)%20(02441461xAED82).pdf",
+				"file": "attachments/C3SMJB564A46/Elementary Discipline Chart 9.27.21 (AR 218 - Attachment A) (02441461xAED82).pdf"
+			},
+			{
+				"name": "Secondary Discipline Chart 9.27.21 (AR 218 - Attachment B) (02441550xAED82) (2).pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/CNTKCL51394D/$file/Secondary%20Discipline%20Chart%209.27.21%20(AR%20218%20-%20Attachment%20B)%20(02441550xAED82)%20(2).pdf",
+				"file": "attachments/C3SMJB564A46/Secondary Discipline Chart 9.27.21 (AR 218 - Attachment B) (02441550xAED82) (2).pdf"
+			}
+		]
+	},
+	{
+		"id": "DQGMKE5B9B9B",
+		"code": "218.2",
+		"title": "Weapons",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BY5KA8509CB0",
+		"code": "219",
+		"title": "Student Complaint Process",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BY5KAA50A16C",
+		"code": "219-Ar",
+		"title": "Student Complaint Process",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "AWL5HZ10680F",
+		"code": "220",
+		"title": "Student Expression",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BE39SX2476F0",
+		"code": "220-Ar",
+		"title": "Student Expression",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "AWL5J31069B1",
+		"code": "221",
+		"title": "Dress and Appearance",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BE3A75263F46",
+		"code": "221-Ar",
+		"title": "Dress and AppearanceThis Policy Contains an Attachment.",
+		"section": "200 - Pupils",
+		"attachments": [
+			{
+				"name": "221-Ar_Attachment A.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/BE3AG627916B/$file/221-Ar_Attachment%20A.pdf",
+				"file": "attachments/BE3A75263F46/221-Ar_Attachment A.pdf"
+			}
+		]
+	},
+	{
+		"id": "DDYT9H76488F",
+		"code": "223",
+		"title": "Tobacco and Vaping Products",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DDYT9M764D48",
+		"code": "223-Ar",
+		"title": "Tobacco and Vaping Products",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DQGL2A546A7F",
+		"code": "224",
+		"title": "Care of School Property",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DQR2QZ035E4C",
+		"code": "224-Ar",
+		"title": "Care Of School Property",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "C2ZN4G5A989D",
+		"code": "225",
+		"title": "Relationship with Law Enforcement",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "C2ZN4L5A9D8A",
+		"code": "225-Ar",
+		"title": "Relationship with Law EnforcementThis Policy Contains an Attachment.",
+		"section": "200 - Pupils",
+		"attachments": [
+			{
+				"name": "Exhibit A MOU 2025-2027.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/DKVUF77BCC34/$file/Exhibit%20A%20MOU%202025-2027.pdf",
+				"file": "attachments/C2ZN4L5A9D8A/Exhibit A MOU 2025-2027.pdf"
+			}
+		]
+	},
+	{
+		"id": "AWL5JB107359",
+		"code": "226",
+		"title": "Student Searches",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BUYRJC68B2BC",
+		"code": "226-Ar",
+		"title": "Student Searches",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DDYT9R765184",
+		"code": "227",
+		"title": "Controlled Substances",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DDYT9U76556A",
+		"code": "227-Ar",
+		"title": "Controlled Substances",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "AWL5JH107A89",
+		"code": "228",
+		"title": "Student Government",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BKCTM9780120",
+		"code": "229",
+		"title": "Student Fundraising",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BKCUGG7B9E78",
+		"code": "229-Ar",
+		"title": "Student Fundraising",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BKDLHQ56AD53",
+		"code": "230",
+		"title": "Public Performances by Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BKDLMB573410",
+		"code": "230-Ar",
+		"title": "Public Performances by Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "D4K2X40441E4",
+		"code": "233",
+		"title": "Suspension And Expulsion",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "D4K2X80446EF",
+		"code": "233-Ar",
+		"title": "Suspension And ExpulsionThis Policy Contains an Attachment.",
+		"section": "200 - Pupils",
+		"attachments": [
+			{
+				"name": "233-Ar_Attachment 1.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/D4K2XE0446F8/$file/233-Ar_Attachment%201.pdf",
+				"file": "attachments/D4K2X80446EF/233-Ar_Attachment 1.pdf"
+			},
+			{
+				"name": "233-Ar_Attachment 2.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/D4K2XH0446FA/$file/233-Ar_Attachment%202.pdf",
+				"file": "attachments/D4K2X80446EF/233-Ar_Attachment 2.pdf"
+			},
+			{
+				"name": "233-Ar_Attachment 3.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/D4K2XL0446FB/$file/233-Ar_Attachment%203.pdf",
+				"file": "attachments/D4K2X80446EF/233-Ar_Attachment 3.pdf"
+			},
+			{
+				"name": "233-Ar_Attachment 4.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/D4K2XB0446F4/$file/233-Ar_Attachment%204.pdf",
+				"file": "attachments/D4K2X80446EF/233-Ar_Attachment 4.pdf"
+			}
+		]
+	},
+	{
+		"id": "DA2NJ96020A4",
+		"code": "234",
+		"title": "Students Experiencing Pregnancy/Pregnancy-Related Conditions or Parenting",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA2NJC602431",
+		"code": "234-Ar",
+		"title": "Students Experiencing Pregnancy/Pregnancy-Related Conditions or Parenting",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DSC22L0013CB",
+		"code": "236",
+		"title": "Threat Assessment",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DSC22N00188C",
+		"code": "236-Ar",
+		"title": "Threat Assessment",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DCHQ8M6817A0",
+		"code": "237",
+		"title": "Student Use of Personal Devices",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DCHQ8R681C5C",
+		"code": "237-Ar",
+		"title": "Student Use Of Personal Electronic Devices",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BH23SH084607",
+		"code": "238",
+		"title": "Child Custody",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BH25B50F65AC",
+		"code": "238-Ar",
+		"title": "Child Custody",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DCHQ3D675281",
+		"code": "240",
+		"title": "Foreign Exchange Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DCHQ3G6756EE",
+		"code": "240-Ar",
+		"title": "Foreign Exchange Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BLCVML816DB3",
+		"code": "245",
+		"title": "Student Identification Cards",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BLCVMQ8172DA",
+		"code": "245-Ar",
+		"title": "Student Identification Cards",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA2QEZ68509F",
+		"code": "247",
+		"title": "Bullying",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA2QF5685545",
+		"code": "247-Ar",
+		"title": "Bullying",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA2N2L5DD61B",
+		"code": "248",
+		"title": "Hazing",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA2N2Q5DDA8B",
+		"code": "248-Ar",
+		"title": "Hazing",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DDYQAG685CE4",
+		"code": "250",
+		"title": "Student Recruitment",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DDYQDQ68D666",
+		"code": "250-Ar",
+		"title": "Student RecruitmentThis Policy Contains an Attachment.",
+		"section": "200 - Pupils",
+		"attachments": [
+			{
+				"name": "Attachment A - Policy 250.docx",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/DDYQFP691FEB/$file/Attachment%20A%20-%20Policy%20250.docx",
+				"file": "attachments/DDYQDQ68D666/Attachment A - Policy 250.docx"
+			}
+		]
+	},
+	{
+		"id": "DA34EB0B2D9A",
+		"code": "254-Ar",
+		"title": "Student Wellness",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA34E70B28FD",
+		"code": "254",
+		"title": "Student Wellness",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DSBVZ6831FC3",
+		"code": "255",
+		"title": "Educational Opportunity for Military Children",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "D3G4780A23B0",
+		"code": "257",
+		"title": "Suicide Prevention And Self-Harming Behavior",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "D3G47C0A27F5",
+		"code": "257-Ar",
+		"title": "Suicide Prevention And Self-Harming Behavior",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA2NSQ615ECA",
+		"code": "258",
+		"title": "Gender Expansive and Transgender Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "DA2NSV61643F",
+		"code": "258-Ar",
+		"title": "Gender Expansive and Transgender Students",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "CJQMW35D2B2B",
+		"code": "259",
+		"title": "Students Experiencing Homelessness",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "CJQMW95D3344",
+		"code": "259-Ar",
+		"title": "Students Experiencing Homelessness",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "D4JW3K8379D3",
+		"code": "260",
+		"title": "Make Up Work After Absence",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "D4JW3P837E20",
+		"code": "260-Ar",
+		"title": "Make Up Work After Absence",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "B6NP9X63990F",
+		"code": "261",
+		"title": "Student Surveys",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "B6NQSZ644B4F",
+		"code": "261-Ar",
+		"title": "Student Surveys",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BF2TNH782FD0",
+		"code": "262",
+		"title": "Access to Recess Guidelines",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BF2TUK791328",
+		"code": "262 -Ar",
+		"title": "Access to Recess Guidelines",
+		"section": "200 - Pupils",
+		"attachments": []
+	},
+	{
+		"id": "BG95GK1031D8",
+		"code": "301",
+		"title": "Creating a Position",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BNU2YA046F44",
+		"code": "302",
+		"title": "Employment of Superintendent/Assistant Superintendent",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BUEQNC69890B",
+		"code": "303",
+		"title": "Employment of District Staff",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BUEQNN698CC2",
+		"code": "303-Ar",
+		"title": "Employment of District Staff",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DCHL4N54C2B3",
+		"code": "304",
+		"title": "Employee Resignations",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DCHL4Q54C587",
+		"code": "304-Ar",
+		"title": "Employee ResignationsThis Policy Contains an Attachment.",
+		"section": "300 - Employees",
+		"attachments": [
+			{
+				"name": "Attachment A (02459271xAED82).pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/DCHL4T54C588/$file/Attachment%20A%20(02459271xAED82).pdf",
+				"file": "attachments/DCHL4Q54C587/Attachment A (02459271xAED82).pdf"
+			}
+		]
+	},
+	{
+		"id": "BUEQNU699E54",
+		"code": "305",
+		"title": "Employment of Substitutes",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BUEQNW69A4FB",
+		"code": "306",
+		"title": "Employment of Summer School Staff",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "CBDR9V6CF6E0",
+		"code": "307",
+		"title": "Student Teachers and Other Interns",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "CBDR9Y6CF9D0",
+		"code": "307-Ar",
+		"title": "Student Teachers and Other Interns",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BG94ER0B3DB5",
+		"code": "308",
+		"title": "Employment Contract / Board Resolution",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BWHPC963F054",
+		"code": "309",
+		"title": "Assignment and Transfer",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "CBDPMQ6552BA",
+		"code": "310",
+		"title": "Overtime",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "CBDPMT6556A3",
+		"code": "310-Ar",
+		"title": "Overtime",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BVJ5NX1120F0",
+		"code": "311",
+		"title": "Reduction in Staff",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BVJ5VQ121EBB",
+		"code": "311-Ar",
+		"title": "Reduction in Staff",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C5SSK9730606",
+		"code": "312",
+		"title": "Evaluation of Employees",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C75NTV618A16",
+		"code": "313",
+		"title": "Evaluation of Superintendent and Assistant Superintendent",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BG953S0E5281",
+		"code": "314",
+		"title": "Medical Examination",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C9APK4648891",
+		"code": "315",
+		"title": "Bloodborne Pathogens",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C9APRB659B34",
+		"code": "315-Ar",
+		"title": "Bloodborne Pathogens",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DKJT7V760730",
+		"code": "317",
+		"title": "Disciplinary Procedures",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DKJT82760DB5",
+		"code": "317-Ar",
+		"title": "Disciplinary Procedures",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BVJ6HQ150C6B",
+		"code": "318",
+		"title": "Employee Attendance Expectations",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BMJSY574E9A4",
+		"code": "319",
+		"title": "Outside Activities",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BMKJV54E9776",
+		"code": "319-Ar",
+		"title": "Outside Activities",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DKJRWT700769",
+		"code": "320",
+		"title": "Freedom of Speech/Expression by Employees",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BH23WH08DC80",
+		"code": "321",
+		"title": "Political Activities",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BL9U4L7A40A5",
+		"code": "321-Ar",
+		"title": "Political Activities",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DDYRAE6D0B36",
+		"code": "323",
+		"title": "Use of Tobacco and Vaping Products",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8CNSZ6141DD",
+		"code": "324",
+		"title": "Personnel Files",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8CNT3614914",
+		"code": "324-Ar",
+		"title": "Personnel Files",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BNRQAX686BC2",
+		"code": "328",
+		"title": "Compensation Plans/Salary Schedules",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BKCSWD74A798",
+		"code": "331",
+		"title": "Job-Related Expenses",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BKCT2K7544DE",
+		"code": "331-Ar",
+		"title": "Job-Related Expenses",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BVJTKE75ADE1",
+		"code": "334",
+		"title": "Sick Leave",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BWKPAM63B301",
+		"code": "335",
+		"title": "Family and Medical Leaves",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8C4T90D1273",
+		"code": "335-Ar",
+		"title": "Family and Medical Leaves",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DKJNQ9610119",
+		"code": "336",
+		"title": "Personal Necessity Leave",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C7XPBN63704A",
+		"code": "337",
+		"title": "Personal Electronic Devices",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C7XPBP637380",
+		"code": "337-Ar",
+		"title": "Personal Electronic Devices",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DKJMTU5CD6AF",
+		"code": "339",
+		"title": "Uncompensated Leave",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DKJN455E0F3D",
+		"code": "339-Ar",
+		"title": "Uncompensated Leave",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C7XNN960B6E5",
+		"code": "350",
+		"title": "Educator Misconduct",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DSC2V303F61E",
+		"code": "350-Ar",
+		"title": "Educator Misconduct",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DDYRLZ6E637C",
+		"code": "351",
+		"title": "Controlled Substances",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8CP6D628682",
+		"code": "352",
+		"title": "Addressing Disruptive Behavior of Students",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8CP6F628ABB",
+		"code": "352-Ar",
+		"title": "Addressing Disruptive Behavior of Students",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "CBDQAV686B0E",
+		"code": "353",
+		"title": "Professional Development",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BV83S208333D",
+		"code": "354",
+		"title": "Sabbatical Leave",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "BV845M09E778",
+		"code": "354-Ar",
+		"title": "Sabbatical Leave",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8CPRA645685",
+		"code": "355",
+		"title": "Dress and Appearance",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8CPRB645A8A",
+		"code": "355-Ar",
+		"title": "Dress and Appearance",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "DQGPTK662C32",
+		"code": "356",
+		"title": "Weapons",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8CQUE675C30",
+		"code": "357",
+		"title": "Complaint Procedure - Employee Complaints Not Covered by Collective Bargaining Agreements",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C8CQUF676014",
+		"code": "357-Ar",
+		"title": "Complaint Procedure - Employee Complaints Not Covered by Collective Bargaining AgreementsThis Policy Contains an Attachment.",
+		"section": "300 - Employees",
+		"attachments": [
+			{
+				"name": "Attachment A - Complaint Form (02473386xAED82).docx",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/C8FPF5612421/$file/Attachment%20A%20-%20Complaint%20Form%20(02473386xAED82).docx",
+				"file": "attachments/C8CQUF676014/Attachment A - Complaint Form (02473386xAED82).docx"
+			}
+		]
+	},
+	{
+		"id": "C7WR2M669190",
+		"code": "361",
+		"title": "Crowdfunding",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "C7WR2N66971A",
+		"code": "361-Ar",
+		"title": "Crowdfunding",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "CEP44H09BD19",
+		"code": "362",
+		"title": "Outside Employment and Outside Business Interests",
+		"section": "300 - Employees",
+		"attachments": []
+	},
+	{
+		"id": "CEP44R09C666",
+		"code": "362-Ar",
+		"title": "Outside Employment and Outside Business InterestsThis Policy Contains an Attachment.",
+		"section": "300 - Employees",
+		"attachments": [
+			{
+				"name": "Attachment A - Disclosure Form - Outside Business Interests (02625898xAED82).docx",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/CEP4YQ0DDE79/$file/Attachment%20A%20-%20Disclosure%20Form%20-%20Outside%20Business%20Interests%20(02625898xAED82).docx",
+				"file": "attachments/CEP44R09C666/Attachment A - Disclosure Form - Outside Business Interests (02625898xAED82).docx"
+			}
+		]
+	},
+	{
+		"id": "BKD65H1342A8",
+		"code": "601",
+		"title": "Fiscal Objectives and Procedures",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "BKD65L1346BB",
+		"code": "601-Ar",
+		"title": "Fiscal Objectives and Procedures",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "AWL5VT1222B0",
+		"code": "602",
+		"title": "Debt Management",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "AWL5VR122075",
+		"code": "602-Ar",
+		"title": "Debt Management - Continuing Disclosure",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "C9975817E890",
+		"code": "604",
+		"title": "Tax Waiver Requests",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CZHV2V7EAFD9",
+		"code": "605",
+		"title": "Tax Levy",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CZHV2X7EB30C",
+		"code": "605-Ar",
+		"title": "Tax Levy",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CZHV337EB6BF",
+		"code": "608",
+		"title": "Bank Accounts",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CEP3DP0665D1",
+		"code": "609",
+		"title": "Investment of District Funds",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CDLQZL6BBD1F",
+		"code": "610",
+		"title": "Procurement",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CDLQZM6BC088",
+		"code": "610-Ar",
+		"title": "Procurement",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "BHT84Q1C85BA",
+		"code": "614",
+		"title": "Payroll Authorization",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CZHV397EBDC3",
+		"code": "615",
+		"title": "Payroll Deductions",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "BKCSAD71B94D",
+		"code": "616",
+		"title": "Payment of Bills",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CZHV3G7EC64D",
+		"code": "617",
+		"title": "Petty Cash",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CZHV3J7EC8CF",
+		"code": "617-Ar",
+		"title": "Petty Cash",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CZHV3P7ECEF2",
+		"code": "618",
+		"title": "Student Activity Funds",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "D3G3EX06943C",
+		"code": "618-Ar",
+		"title": "Student Activity Funds",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DQGKN552A2A3",
+		"code": "619",
+		"title": "District Audit - Public",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CDLPSC65FBC8",
+		"code": "620",
+		"title": "Designation of Fund Balance",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "C9APER644BE1",
+		"code": "621",
+		"title": "Local Taxpayer Bill of Rights",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CDLQWE6A7F2A",
+		"code": "622",
+		"title": "Capital Assets and GASB Statement 34",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "CDLQXP6AFB0C",
+		"code": "622-Ar",
+		"title": "Capital Assets and GASB Statement 34",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DQGQ2J673348",
+		"code": "623",
+		"title": "Travel Reimbursement - Federal Programs",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DQGQB96879FF",
+		"code": "624",
+		"title": "Federal Fiscal Compliance",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DN7VEG8062B6",
+		"code": "624-Ar",
+		"title": "Federal Fiscal Compliance: Administration of Federal Funds - Type of Costs, Financial Obligations, and Property Management",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DN7VU482624F",
+		"code": "624.1-Ar",
+		"title": "Federal Fiscal Compliance: Cash Management – Federal Programs",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DN7VJN810001",
+		"code": "624.2-Ar",
+		"title": "Federal Fiscal Compliance: Allowability of Costs - Federal Programs",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DN7W2A83498B",
+		"code": "624.3-Ar",
+		"title": "Federal Fiscal Compliance: Grant Subrecipient Monitoring Procedures - Federal Programs",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DUMLKZ570262",
+		"code": "624.4-Ar",
+		"title": "Federal Fiscal Compliance: Procurement - Federal Programs",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "D3A3U7088522",
+		"code": "625",
+		"title": "Procurement Cards",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "D3G2LA02AD70",
+		"code": "625-Ar",
+		"title": "Procurement Cards",
+		"section": "600 - Finances",
+		"attachments": []
+	},
+	{
+		"id": "DKJTPY7866F9",
+		"code": "701",
+		"title": "Facilities Planning",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "CEP6G814D4A4",
+		"code": "702",
+		"title": "Donations to the District",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "DKJTZD79C7E7",
+		"code": "704",
+		"title": "Maintenance",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "DKJTZF79CA74",
+		"code": "704-Ar",
+		"title": "Maintenance",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "DQGLTG581AD8",
+		"code": "706",
+		"title": "Property Records",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "DQGLTK581DCA",
+		"code": "706.1",
+		"title": "Disposal of District-Owned Property",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "AWL5XY1273D5",
+		"code": "707",
+		"title": "Use of District Facilities",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "BF8ABX26F401",
+		"code": "707-Ar",
+		"title": "Use of District Facilities",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "BF8A3B25B0D8",
+		"code": "707-Ar Attachment A:Application for Use of District Facilities",
+		"title": "Use of District FacilitiesThis Policy Contains an Attachment.",
+		"section": "700 - Property",
+		"attachments": [
+			{
+				"name": "AR 707 Attachment A (Application for Use of District Facilities) Adopted 8.13.19.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/BF8A7J264D53/$file/AR%20707%20Attachment%20A%20(Application%20for%20Use%20of%20District%20Facilities)%20Adopted%208.13.19.pdf",
+				"file": "attachments/BF8A3B25B0D8/AR 707 Attachment A (Application for Use of District Facilities) Adopted 8.13.19.pdf"
+			}
+		]
+	},
+	{
+		"id": "BF8A8U268043",
+		"code": "707-Ar Attachment B:Rules for Use of Facilities",
+		"title": "Use of FacilitiesThis Policy Contains an Attachment.",
+		"section": "700 - Property",
+		"attachments": [
+			{
+				"name": "AR 707 Attachment B (Rules for Use of Facilities) Adopted 8.13.19.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/BF8ABQ26EB0A/$file/AR%20707%20Attachment%20B%20(Rules%20for%20Use%20of%20Facilities)%20Adopted%208.13.19.pdf",
+				"file": "attachments/BF8A8U268043/AR 707 Attachment B (Rules for Use of Facilities) Adopted 8.13.19.pdf"
+			}
+		]
+	},
+	{
+		"id": "BF8AHY27D68A",
+		"code": "707-Ar Attachment C: Fee Schedule",
+		"title": "Use of FacilitiesThis Policy Contains an Attachment.",
+		"section": "700 - Property",
+		"attachments": [
+			{
+				"name": "AR 707 Attachment C (Fee Schedule) Adopted 8.13.19.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/BF8AN3286E16/$file/AR%20707%20Attachment%20C%20(Fee%20Schedule)%20Adopted%208.13.19.pdf",
+				"file": "attachments/BF8AHY27D68A/AR 707 Attachment C (Fee Schedule) Adopted 8.13.19.pdf"
+			}
+		]
+	},
+	{
+		"id": "AWL5Y2127685",
+		"code": "708",
+		"title": "Lending of District Owned Equipment and Books",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "AWL5Y9127DC2",
+		"code": "710",
+		"title": "Use of Equipment and Facilities by Staff",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "CDM4BY0AD4C8",
+		"code": "711",
+		"title": "Naming Rights",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "DKJSKJ731081",
+		"code": "712",
+		"title": "Service Animals in Schools",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "DKJSKL731376",
+		"code": "712-Ar",
+		"title": "Service Animals in Schools",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "BG943Q099FE5",
+		"code": "713",
+		"title": "Commercial Advertising",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "BG944K09BF57",
+		"code": "713-AR",
+		"title": "Commercial Advertising",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "BNRL95556A48",
+		"code": "714",
+		"title": "Use of Bicycles and Motor Vehicles",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "BNRLJ956759A",
+		"code": "714-Ar",
+		"title": "Use of Bicycles and Motor Vehicles",
+		"section": "700 - Property",
+		"attachments": []
+	},
+	{
+		"id": "CTESTC743658",
+		"code": "800",
+		"title": "Records Management",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CTESTJ743D44",
+		"code": "800-Ar",
+		"title": "Records ManagementThis Policy Contains an Attachment.",
+		"section": "800 - Operations",
+		"attachments": [
+			{
+				"name": "Attachment A - Records Retention Chart (02995109xAED82).PDF",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/CVFU547A5284/$file/Attachment%20A%20-%20Records%20Retention%20Chart%20(02995109xAED82).PDF",
+				"file": "attachments/CTESTJ743D44/Attachment A - Records Retention Chart (02995109xAED82).PDF"
+			}
+		]
+	},
+	{
+		"id": "D836BF14214B",
+		"code": "801",
+		"title": "Public Access to District Records",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "D836BH1423B5",
+		"code": "801-Ar",
+		"title": "Public Access to District Records",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "C3YKWW518C15",
+		"code": "802",
+		"title": "Electronic Signatures/Records",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "D835XG126010",
+		"code": "803",
+		"title": "School Calendar",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "D835XJ126257",
+		"code": "803-Ar",
+		"title": "School Calendar",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "D836UV16AEAB",
+		"code": "804",
+		"title": "School Day",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BWHPR565D299",
+		"code": "806",
+		"title": "Child/Student Abuse",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DSC33A04DEEA",
+		"code": "806-Ar",
+		"title": "Child/Student Abuse",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "D835NT111B79",
+		"code": "807",
+		"title": "Opening Exercises/Moment of Silence/Flag Displays",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CJP2XZ0464F6",
+		"code": "808",
+		"title": "Food Services",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CJP2Y504696A",
+		"code": "808-Ar",
+		"title": "Food Services",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DKJVDG803D8C",
+		"code": "810",
+		"title": "Transportation",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "B6NTKT704CA8",
+		"code": "810-Ar",
+		"title": "Transportation",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DKJVQN804132",
+		"code": "810-Ar",
+		"title": "Transportation",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BYXQPZ6A5802",
+		"code": "810.1",
+		"title": "School Bus Drivers and School Commercial Motor Vehicle Drivers",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BYXQQ26A5A0F",
+		"code": "810.3",
+		"title": "School Vehicle Drivers",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BKCS2R709B16",
+		"code": "811",
+		"title": "Bonding",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "AWL5ZM12B1A4",
+		"code": "812",
+		"title": "Property Insurance",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "AWL5ZP12B38D",
+		"code": "813",
+		"title": "Other Insurance",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BNQR9669430E",
+		"code": "814",
+		"title": "Copyright Material",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BNQR9D694634",
+		"code": "814-Ar",
+		"title": "Copyright Material",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CZJ2JJ026B1F",
+		"code": "816",
+		"title": "Acceptable Use of Technology",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CZJ2JM026E67",
+		"code": "816-Ar",
+		"title": "Acceptable Use Of Technology",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "B6NSHZ6A5735",
+		"code": "816-Ar (Attachment A - Employee User Agreement)",
+		"title": "Acceptable Use Of TechnologyThis Policy Contains an Attachment.",
+		"section": "800 - Operations",
+		"attachments": [
+			{
+				"name": "Attachment A - AR 816 (Acceptable Use of Technology) 4.16.18 (01608362xA... (1) (1).pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/B6NSLV6A8B1B/$file/Attachment%20A%20-%20AR%20816%20(Acceptable%20Use%20of%20Technology)%204.16.18%20(01608362xA...%20(1)%20(1).pdf",
+				"file": "attachments/B6NSHZ6A5735/Attachment A - AR 816 (Acceptable Use of Technology) 4.16.18 (01608362xA... (1) (1).pdf"
+			}
+		]
+	},
+	{
+		"id": "B6NSM66A9976",
+		"code": "816-Ar (Attachment B - Student User Agreement)",
+		"title": "Acceptable User Of TechnologyThis Policy Contains an Attachment.",
+		"section": "800 - Operations",
+		"attachments": [
+			{
+				"name": "Attachment B - AR 816 (Acceptable Use of Technology) 9.12.18.pdf",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/B6NSMH6AB7FD/$file/Attachment%20B%20-%20AR%20816%20(Acceptable%20Use%20of%20Technology)%209.12.18.pdf",
+				"file": "attachments/B6NSM66A9976/Attachment B - AR 816 (Acceptable Use of Technology) 9.12.18.pdf"
+			}
+		]
+	},
+	{
+		"id": "CFJ6S8164B8A",
+		"code": "818",
+		"title": "Contracted Services",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CFJ6SC164FD3",
+		"code": "818-Ar",
+		"title": "Contracted Services",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BP3PF6645C9A",
+		"code": "820",
+		"title": "Integrated Pest Management",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BP3PFZ647C4E",
+		"code": "820-Ar",
+		"title": "Integrated Pest Management",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BYZ4ES0B3F33",
+		"code": "823",
+		"title": "Energy Management and Sustainability",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BGCG9J42BA39",
+		"code": "823-Ar",
+		"title": "Energy Management and Sustainability",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CNY6NR15C998",
+		"code": "825",
+		"title": "Reporting of Waste and Wrongdoing in District Operations (Whistleblower)",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CNY6P315D518",
+		"code": "825-Ar",
+		"title": "Reporting of Waste and Wrongdoing in District Operations (Whistleblower)",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BWKL9Q55295B",
+		"code": "826",
+		"title": "Social Media",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "C4FJRV4CE358",
+		"code": "826-Ar",
+		"title": "Social Media",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DSBVV4827E80",
+		"code": "827",
+		"title": "Conflict Of Interest",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DKJU7U7AB918",
+		"code": "828",
+		"title": "District-Wide Safety",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DKJU7X7ABE84",
+		"code": "828-Ar",
+		"title": "District-Wide Safety",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BP7LL956CFCA",
+		"code": "829",
+		"title": "Equity",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "C3B4AY0AB04C",
+		"code": "829-Ar",
+		"title": "Equity",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CTENY8622D15",
+		"code": "830",
+		"title": "Security of Computerized Personal Information/Breach Notification",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CTEPZQ6714D7",
+		"code": "830-Ar",
+		"title": "Security of Computerized Personal Information/Breach Notification",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CTENYA622E76",
+		"code": "830.1",
+		"title": "Data Governance - Storage/Security",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "CTEQJD69850E",
+		"code": "830.1-Ar",
+		"title": "Data Governance - Storage/Security",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "D3A3U8088527",
+		"code": "831",
+		"title": "Fraud",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DDYPJP64E17B",
+		"code": "832",
+		"title": "Opioid Antagonist",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DDYPVA666E51",
+		"code": "832-Ar",
+		"title": "Opioid Antagonist",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DSC3TT087753",
+		"code": "860",
+		"title": "Maintaining Appropriate Boundaries With Students",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "BTJJRW4E41B6",
+		"code": "860-Ar",
+		"title": "Maintaining Appropriate Boundaries With Students",
+		"section": "800 - Operations",
+		"attachments": []
+	},
+	{
+		"id": "DDYNKQ6056B5",
+		"code": "903",
+		"title": "Public Comment in Board Meetings",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "DQGPYP66EE39",
+		"code": "904",
+		"title": "Public Attendance in School Facilities",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "BMJ46K0A0AC4",
+		"code": "906",
+		"title": "Formal Complaints",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "BMJNA75EA9AF",
+		"code": "906-Ar",
+		"title": "Formal Complaints",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "CHYLVS58717B",
+		"code": "907",
+		"title": "Visitors to District Schools During the School Day",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "CHYLVV587453",
+		"code": "907-Ar",
+		"title": "Visitors to District Schools During the School Day",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "DCHS9C719233",
+		"code": "916",
+		"title": "Volunteers",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "DBWKQW52E4D0",
+		"code": "916- Ar",
+		"title": "VolunteersThis Policy Contains an Attachment.",
+		"section": "900 - Community",
+		"attachments": [
+			{
+				"name": "Attachment A - Volunteer Agreement (02491206xAED82).docx",
+				"boardDocsPath": "/pa/ctsd/Board.nsf/pfiles/DBWKQZ52E4D3/$file/Attachment%20A%20-%20Volunteer%20Agreement%20(02491206xAED82).docx",
+				"file": "attachments/DBWKQW52E4D0/Attachment A - Volunteer Agreement (02491206xAED82).docx"
+			}
+		]
+	},
+	{
+		"id": "CW82YY04887A",
+		"code": "918",
+		"title": "Title I Parent/Family Member Engagement",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "CNY5NP111759",
+		"code": "920",
+		"title": "Nonschool Organizations/Groups/Individuals",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "CNY5NU111C98",
+		"code": "920-Ar",
+		"title": "Nonschool Organizations/Groups/Individuals",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "C4FK6J5058F3",
+		"code": "921",
+		"title": "Public Relations",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "C4FK6M505C15",
+		"code": "921-Ar",
+		"title": "Public Relations",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "CAWQ7T67F930",
+		"code": "922",
+		"title": "Civility",
+		"section": "900 - Community",
+		"attachments": []
+	},
+	{
+		"id": "CAWQ7V67FC05",
+		"code": "922-AR",
+		"title": "Civility",
+		"section": "900 - Community",
+		"attachments": []
+	}
+]

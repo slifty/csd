@@ -1,0 +1,13 @@
+{
+	"id": "227-referral-of-controlled-substance-violations-to-law-enforcement",
+	"policyId": "DDYT9R765184",
+	"name": "Referral of Controlled Substance Violations to Law Enforcement",
+	"description": "Violations are referred to law enforcement as required by law and the MOU with local law enforcement.",
+	"type": "report",
+	"preparedBy": "Superintendent",
+	"recipient": "Appropriate law enforcement agencies",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Additionally, violations shall be referred to the appropriate law enforcement agencies as required by law and as outlined in the Memorandum of Understanding in effect with local law enforcement."
+}

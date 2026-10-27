@@ -1,0 +1,13 @@
+{
+	"id": "823-ar-renewable-energy-and-conservation-technology-recommendations",
+	"policyId": "BGCG9J42BA39",
+	"name": "Renewable Energy and Conservation Technology Recommendations",
+	"description": "New renewable energy, energy-saving and sustainability technologies are researched and presented to the Facilities Committee when found feasible and cost-effective.",
+	"type": "recommendation",
+	"preparedBy": "Director of Facilities and Maintenance or designee",
+	"recipient": "Facilities Committee",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "when determined feasible and cost-effective",
+	"quote": "The Director of Facilities and Maintenance or designee shall research any new technologies for use of renewable energy sources, saving energy and other energy conservation and sustainability concepts, and present them for consideration to the Facilities Committee if determined to be feasible and cost-effective."
+}

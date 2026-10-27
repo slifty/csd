@@ -1,0 +1,13 @@
+{
+	"id": "233-ar-written-suspension-report",
+	"policyId": "D4K2X80446EF",
+	"name": "Written Suspension Report",
+	"description": "Immediate written report of any suspension (1-10 days) to the Superintendent and the parent/guardian; Attachment 1 may be used.",
+	"type": "notification",
+	"preparedBy": "Principal or designee",
+	"recipient": "Superintendent and parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "The principal or designee may suspend any student for disobedience or misconduct for a period of one (1) to ten (10) consecutive school days and shall report the suspension to the Superintendent and the parent/guardian immediately in writing."
+}

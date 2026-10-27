@@ -1,0 +1,13 @@
+{
+	"id": "801-third-party-notice-of-records-appeal-and-proof-to-office-of-open-records",
+	"policyId": "D836BF14214B",
+	"name": "Third-Party Notice of Records Appeal and Proof to Office of Open Records",
+	"description": "Notice to affected employees, third parties or contractors of an appeal involving their records, followed by proof of that notice to the state Office of Open Records.",
+	"type": "notification",
+	"preparedBy": "Open Records Officer",
+	"recipient": "Affected third parties; PA Office of Open Records",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "within seven (7) business days of any appeal; proof within seven (7) business days of sending notice",
+	"quote": "The Open Records Officer shall also provide proof of such notice to the Office of Open Records within seven (7) business days of sending the third party notification."
+}

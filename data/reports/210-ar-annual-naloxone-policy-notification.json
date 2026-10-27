@@ -1,0 +1,13 @@
+{
+	"id": "210-ar-annual-naloxone-policy-notification",
+	"policyId": "AWL5HC104F1A",
+	"name": "Annual Naloxone Policy Notification",
+	"description": "Yearly notice of the naloxone (Narcan) policy, encouraging students to immediately report suspected overdoses to school officials.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Secondary students and their parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "once each school year",
+	"quote": "The district shall take reasonable steps to notify secondary students and their parents/guardians of this policy once each school year."
+}

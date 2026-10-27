@@ -1,0 +1,13 @@
+{
+	"id": "814-ar-distance-learning-copyright-notice-to-students",
+	"policyId": "BNQR9D694634",
+	"name": "Distance Learning Copyright Notice to Students",
+	"description": "Students are told that course materials may be subject to copyright protection.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Students in distance learning courses",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "Students will be notified that materials used in connection with a course may be subject to copyright protection."
+}

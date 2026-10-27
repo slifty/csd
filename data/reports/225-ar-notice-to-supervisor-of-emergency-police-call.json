@@ -1,0 +1,13 @@
+{
+	"id": "225-ar-notice-to-supervisor-of-emergency-police-call",
+	"policyId": "C2ZN4L5A9D8A",
+	"name": "Notice to Supervisor of Emergency Police Call",
+	"description": "Staff may call police directly in an emergency but must notify their administrative supervisor of the call as soon as possible afterward.",
+	"type": "notification",
+	"preparedBy": "Staff member who called police",
+	"recipient": "Administrative supervisor",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "as soon as possible following the call",
+	"quote": "However, the staff member’s administrative supervisor should be notified of a call made to the police as soon as possible following the call."
+}

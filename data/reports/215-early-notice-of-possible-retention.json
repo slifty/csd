@@ -1,0 +1,13 @@
+{
+	"id": "215-early-notice-of-possible-retention",
+	"policyId": "BLGTHE76FAC9",
+	"name": "Early Notice of Possible Retention",
+	"description": "Parents are informed of the possibility of retention as early in the school year as possible and may be asked to help plan to avoid it.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "as early in the school year as possible",
+	"quote": "In cases of possible retention, parents/guardians shall be informed of the possibility of retention as early in the school year as possible."
+}

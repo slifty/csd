@@ -1,0 +1,13 @@
+{
+	"id": "006-posting-of-amended-agenda",
+	"policyId": "CZHVV6828964",
+	"name": "Posting of Amended Agenda",
+	"description": "When the Board adds an item to the posted agenda by majority vote, the amended agenda is posted on the website and at the administrative office.",
+	"type": "public-posting",
+	"preparedBy": "Not specified (District)",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "no later than the first business day following the meeting",
+	"quote": "The agenda shall be amended to reflect the new item of business and the amended agenda shall be posted to the district’s website and at the administrative office no later than the first business day following the meeting at which the agenda was amended."
+}

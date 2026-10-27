@@ -1,0 +1,13 @@
+{
+	"id": "204-ar-notice-to-special-education-of-truant-student-with-possible-disability",
+	"policyId": "DQGQGF693CA9",
+	"name": "Notice to Special Education of Truant Student With Possible Disability",
+	"description": "If a truant or habitually truant student may qualify as a student with a disability, special education leadership (or the student's team) is notified so needs can be addressed.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Director of Special Education or designee / appropriate team",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If a truant or habitually truant student may qualify as a student with a disability, and require special education services or accommodations, the Director of Special Education or designee shall be notified and shall take action to address the student’s needs in accordance with applicable law, regulations and Board Policy."
+}

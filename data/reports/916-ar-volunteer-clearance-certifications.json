@@ -1,0 +1,13 @@
+{
+	"id": "916-ar-volunteer-clearance-certifications",
+	"policyId": "DBWKQW52E4D0",
+	"name": "Volunteer Clearance Certifications",
+	"description": "FBI, State Police and DHS certifications obtained before service and renewed every 60 months.",
+	"type": "certification",
+	"preparedBy": "Volunteers responsible for a child's welfare or with direct volunteer contact",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "every-5-years",
+	"deadline": "prior to commencing service; renew every 60 months from the date of the oldest certification",
+	"quote": "Volunteers who will either be responsible for a child’s welfare or have direct volunteer contact with children must obtain the certifications referenced above prior to commencing volunteer services to the District and renew them every 60 months from the date of their oldest certification."
+}

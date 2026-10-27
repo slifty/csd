@@ -1,0 +1,13 @@
+{
+	"id": "602-ar-board-notification-of-material-event-notices",
+	"policyId": "AWL5VR122075",
+	"name": "Board Notification of Material Event Notices",
+	"description": "The Board is informed of any material event notices filed regarding District bonds.",
+	"type": "notification",
+	"preparedBy": "Director of Fiscal Services",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Director of Fiscal Services shall notify the Board of any material event notices."
+}

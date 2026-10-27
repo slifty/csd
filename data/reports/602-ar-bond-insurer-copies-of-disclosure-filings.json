@@ -1,0 +1,13 @@
+{
+	"id": "602-ar-bond-insurer-copies-of-disclosure-filings",
+	"policyId": "AWL5VR122075",
+	"name": "Bond Insurer Copies of Disclosure Filings",
+	"description": "Copies of the Annual Report / Annual Financial Information and any material event notices filed with EMMA, provided to each series' insurer.",
+	"type": "data-submission",
+	"preparedBy": "Compliance Coordinator",
+	"recipient": "Bond insurers (bonds issued on or before Dec 15, 2010)",
+	"recipientType": "other-external",
+	"frequency": "annual",
+	"deadline": "Concurrently with each EMMA filing",
+	"quote": "For all series of bonds issued on or prior to December 15, 2010 , the Compliance Coordinator shall provide to the insurer for each such series of bonds, concurrently with the filing of such information with the MSRB via EMMA, the following documentation:"
+}

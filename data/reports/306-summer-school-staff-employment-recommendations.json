@@ -1,0 +1,13 @@
+{
+	"id": "306-summer-school-staff-employment-recommendations",
+	"policyId": "BUEQNW69A4FB",
+	"name": "Summer School Staff Employment Recommendations",
+	"description": "Recommendation of candidates for summer school employment so the Board can approve employment, compensation, and period of employment.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "When a summer school program is authorized",
+	"quote": "The Superintendent or designee shall be responsible for all aspects of the employment of summer school staff, including, but not limited to recruitment, screening, assigning and recommending candidates for summer school employment to the Board."
+}

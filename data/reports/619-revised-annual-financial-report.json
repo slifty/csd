@@ -1,0 +1,13 @@
+{
+	"id": "619-revised-annual-financial-report",
+	"policyId": "DQGKN552A2A3",
+	"name": "Revised Annual Financial Report",
+	"description": "If the annual financial report is not materially consistent with the audited statements, a revised report is submitted.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "No later than the required deadline for the audit certification",
+	"quote": "If the financial information submitted in the annual financial report was not deemed materially consistent with the audited financial statements, the District shall submit a revised annual financial report no later than the required deadline for such submission, as outlined above."
+}

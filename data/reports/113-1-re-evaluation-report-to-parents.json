@@ -1,0 +1,13 @@
+{
+	"id": "113-1-re-evaluation-report-to-parents",
+	"policyId": "CKY5JL107C13",
+	"name": "Re-evaluation Report to Parents",
+	"description": "Copies of the re-evaluation report are sent to parents ahead of the IEP team meeting.",
+	"type": "report",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "at least 10 days prior to the IEP team meeting unless waived in writing",
+	"quote": "Copies of the re-evaluation report shall be disseminated to parents/guardians at least ten (10) days prior to the meeting of the IEP team unless this requirement is waived in writing."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "105-1-ar-response-to-curriculum-review-request",
+	"policyId": "BLW6NN15C640",
+	"name": "Response to Curriculum Review Request",
+	"description": "District responds to a written request to review curriculum/instructional materials, setting the time and place for the review.",
+	"type": "notification",
+	"preparedBy": "District (Assistant Superintendent or designee)",
+	"recipient": "Requesting parent/guardian or student",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "within 10 school days",
+	"quote": "The District will respond to the parent/guardian (or student, if applicable) within ten (10) school days"
+}

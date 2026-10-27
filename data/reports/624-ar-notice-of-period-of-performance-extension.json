@@ -1,0 +1,13 @@
+{
+	"id": "624-ar-notice-of-period-of-performance-extension",
+	"policyId": "DN7VEG8062B6",
+	"name": "Notice of Period of Performance Extension",
+	"description": "Written notice of a no-cost extension of a federal award's period of performance, stating the reasons and revised period.",
+	"type": "notification",
+	"preparedBy": "Director of Business Services",
+	"recipient": "Federal awarding agency",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": "At least 10 calendar days before the end of the period of performance",
+	"quote": "The Director of Business Services will develop the required written notice, including the reasons for the extension and revised period of performance; the notice will be issued no later than ten (10) calendar days prior to the end of the currently documented period of performance in the federal award."
+}

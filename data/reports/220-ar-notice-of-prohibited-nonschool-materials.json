@@ -1,0 +1,13 @@
+{
+	"id": "220-ar-notice-of-prohibited-nonschool-materials",
+	"policyId": "BE39SX2476F0",
+	"name": "Notice of Prohibited Nonschool Materials",
+	"description": "If submitted materials contain unprotected expression, the student is notified they may not be distributed because they violate Board Policy.",
+	"type": "notification",
+	"preparedBy": "Building principal or designee",
+	"recipient": "Student(s)",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If the nonschool materials contain unprotected expression as stated in the accompanying Board Policy, the building principal or designee shall notify the student(s) that they may not distribute the materials because the materials constitute a violation of Board Policy."
+}

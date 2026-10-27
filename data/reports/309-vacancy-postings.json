@@ -1,0 +1,13 @@
+{
+	"id": "309-vacancy-postings",
+	"policyId": "BWHPC963F054",
+	"name": "Vacancy Postings",
+	"description": "Posting of open positions (job title, responsibilities, qualifications, location, salary range) to appropriate employees.",
+	"type": "public-posting",
+	"preparedBy": "Not specified (Superintendent or designee)",
+	"recipient": "Appropriate District employees",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "Normally posted for at least five work days",
+	"quote": "Vacancies shall be publicized to all appropriate employees. Information on open positions shall normally be posted for at least five (5) work days."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "212-ar-elementary-interim-progress-reports",
+	"policyId": "DKJLCD55E431",
+	"name": "Elementary Interim Progress Reports",
+	"description": "Written interim reports between marking periods to communicate potential academic failure or other areas of concern.",
+	"type": "report",
+	"preparedBy": "Not specified (elementary staff)",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "quarterly",
+	"deadline": "between report periods",
+	"quote": "Written interim reports of student progress shall be issued to parents/guardians between report periods to communicate potential academic failure or other area(s) or particular concern."
+}

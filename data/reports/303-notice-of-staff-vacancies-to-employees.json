@@ -1,0 +1,13 @@
+{
+	"id": "303-notice-of-staff-vacancies-to-employees",
+	"policyId": "BUEQNC69890B",
+	"name": "Notice of Staff Vacancies to Employees",
+	"description": "Staff vacancies are made known to District employees so they may apply.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "District employees",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall ensure that staff vacancies are made known to District employees so they may apply for such positions."
+}

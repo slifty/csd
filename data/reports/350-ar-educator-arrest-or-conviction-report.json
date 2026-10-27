@@ -1,0 +1,13 @@
+{
+	"id": "350-ar-educator-arrest-or-conviction-report",
+	"policyId": "DSC2V303F61E",
+	"name": "Educator Arrest or Conviction Report",
+	"description": "Report of the educator's arrest or conviction of a crime.",
+	"type": "notification",
+	"preparedBy": "Educator",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within 72 hours of the occurrence",
+	"quote": "An educator who is arrested or convicted of a crime shall report the arrest or conviction to the Superintendent or designee, within seventy-two (72) hours of the occurrence, in the manner prescribed in Board Policy."
+}

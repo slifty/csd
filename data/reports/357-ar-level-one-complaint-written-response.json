@@ -1,0 +1,13 @@
+{
+	"id": "357-ar-level-one-complaint-written-response",
+	"policyId": "C8CQUF676014",
+	"name": "Level One Complaint Written Response",
+	"description": "Written response to an employee complaint after the Level One meeting.",
+	"type": "notification",
+	"preparedBy": "Principal or direct supervisor (Level One Respondent)",
+	"recipient": "Complaining employee",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "Within 3 school days after the Level One meeting",
+	"quote": "The Level One Respondent shall issue their written response to the employee within three (3) school days following the Level One meeting, exclusive of the day of the meeting."
+}

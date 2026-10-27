@@ -1,0 +1,13 @@
+{
+	"id": "224-ar-vandalism-incident-report",
+	"policyId": "DQR2QZ035E4C",
+	"name": "Vandalism Incident Report",
+	"description": "Vandalism to District property is promptly reported, and principals forward reports they receive to the Director of Business Services.",
+	"type": "report",
+	"preparedBy": "Anyone aware of vandalism; building principals",
+	"recipient": "Building principal or Director of Business Services",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Any vandalism to District property shall promptly be reported to the building principal or Director of Business Services. Building principals who receive reports of vandalism shall promptly forward such reports to the Director of Business Services or designee."
+}

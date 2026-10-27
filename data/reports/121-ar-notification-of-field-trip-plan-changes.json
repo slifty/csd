@@ -1,0 +1,13 @@
+{
+	"id": "121-ar-notification-of-field-trip-plan-changes",
+	"policyId": "DGU6G514D08F",
+	"name": "Notification of Field Trip Plan Changes",
+	"description": "When an approved trip's plans change, the listed persons are notified.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Requesting teacher, approving principal, Assistant Superintendent, Supervisor of Transportation",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "as soon as possible",
+	"quote": "When plans for an approved trip change for any reason, the following persons are to be notified as soon as possible: the teacher requesting the trip, the principal approving the trip, the Assistant Superintendent, and the Supervisor of Transportation."
+}

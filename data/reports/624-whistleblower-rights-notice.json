@@ -1,0 +1,13 @@
+{
+	"id": "624-whistleblower-rights-notice",
+	"policyId": "DQGQB96879FF",
+	"name": "Whistleblower Rights Notice",
+	"description": "Written notice of employee whistleblower rights and protections, provided by posting the Policy on the District website.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Employees (posted on District website)",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The district shall provide written notification to employees of their rights and protections under the Whistleblower Law by posting notice via this Policy on the District's website."
+}

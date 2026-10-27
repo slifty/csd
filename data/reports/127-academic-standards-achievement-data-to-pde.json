@@ -1,0 +1,13 @@
+{
+	"id": "127-academic-standards-achievement-data-to-pde",
+	"policyId": "CPV5A40F3F3C",
+	"name": "Academic Standards Achievement Data to PDE",
+	"description": "Information on achievement of academic standards, without individually identifiable student information unless required by law.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "when requested",
+	"quote": "The Superintendent or designee shall provide information regarding the achievement of academic standards to the Pa Department of Education when requested; such information shall not include student names, identification numbers or individually identifiable information, unless required by law."
+}

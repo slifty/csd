@@ -1,0 +1,13 @@
+{
+	"id": "006-board-meeting-agenda-and-reports-packet",
+	"policyId": "CZHVV6828964",
+	"name": "Board Meeting Agenda and Reports Packet",
+	"description": "Agenda of anticipated business together with all relevant reports, provided to each director with sufficient time for review.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Each school director",
+	"recipientType": "board",
+	"frequency": "per-meeting",
+	"deadline": "in advance of the meeting, with sufficient time for review",
+	"quote": "The agenda, together with all relevant reports, shall be provided to each school director in advance of the meeting, with sufficient time for review of such material in advance."
+}

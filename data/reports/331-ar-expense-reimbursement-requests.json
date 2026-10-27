@@ -1,0 +1,13 @@
+{
+	"id": "331-ar-expense-reimbursement-requests",
+	"policyId": "BKCT2K7544DE",
+	"name": "Expense Reimbursement Requests",
+	"description": "Itemized reimbursement requests for job-related expenses and mileage; late requests are ineligible.",
+	"type": "data-submission",
+	"preparedBy": "Employees",
+	"recipient": "Business Office",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within 60 days of the expense, and by July 31 for expenses from the fiscal year ending June 30",
+	"quote": "The request must be submitted to the Business Office within 60 days of the date on which the expense was incurred; and Requests for reimbursement of any expenses incurred during any fiscal year ending June 30 must be submitted to the Business Office by July 31 of the following fiscal year."
+}

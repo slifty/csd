@@ -1,0 +1,13 @@
+{
+	"id": "820-ar-pest-control-information-sheet-to-building-staff",
+	"policyId": "BP3PFZ647C4E",
+	"name": "Pest Control Information Sheet to Building Staff",
+	"description": "The pest control information sheet is given to everyone working in the building ahead of each planned treatment.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "All individuals working in the school building",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "at least 72 hours before each planned treatment",
+	"quote": "Providing the pest control information sheet to all individuals working in the school building at least seventy-two (72) hours before each planned treatment."
+}

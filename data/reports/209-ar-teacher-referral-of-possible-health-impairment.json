@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-teacher-referral-of-possible-health-impairment",
+	"policyId": "BYXPKV650D2C",
+	"name": "Teacher Referral of Possible Health Impairment",
+	"description": "Teachers report unusual behavior or changes in appearance, attendance or achievement that may indicate a health impairment.",
+	"type": "notification",
+	"preparedBy": "All teachers",
+	"recipient": "School nurse or school physician",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "All teachers shall report to the school nurse or school physician any unusual behavior, changes in physical appearance, changes in attendance habits and changes in scholastic achievement, which may indicate impairment of a child's health."
+}

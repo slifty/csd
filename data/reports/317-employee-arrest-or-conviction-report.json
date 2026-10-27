@@ -1,0 +1,13 @@
+{
+	"id": "317-employee-arrest-or-conviction-report",
+	"policyId": "DKJT7V760730",
+	"name": "Employee Arrest or Conviction Report",
+	"description": "Report on the designated form of any legally reportable arrest or conviction.",
+	"type": "notification",
+	"preparedBy": "All employees",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within 72 hours of the occurrence",
+	"quote": "Employees shall use the designated form to report to the Superintendent or designee, within seventy-two (72) hours of the occurrence, an arrest or conviction required to be reported by law."
+}

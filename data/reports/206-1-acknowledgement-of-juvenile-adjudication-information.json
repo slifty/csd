@@ -1,0 +1,13 @@
+{
+	"id": "206-1-acknowledgement-of-juvenile-adjudication-information",
+	"policyId": "CZJ22J0013DD",
+	"name": "Acknowledgement of Juvenile Adjudication Information",
+	"description": "Written acknowledgement to the juvenile probation office that information about a student's adjudication was received, including the District's obligations and restrictions on its use.",
+	"type": "notification",
+	"preparedBy": "Building principal or designee",
+	"recipient": "Juvenile probation office",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": "upon receipt",
+	"quote": "Upon receipt, the building principal or designee shall send a written acknowledgement to the juvenile probation office of the receipt of the information, including acknowledgement of the requirements and restrictions of the District regarding such information."
+}

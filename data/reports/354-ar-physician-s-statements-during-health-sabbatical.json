@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-physician-s-statements-during-health-sabbatical",
+	"policyId": "BV845M09E778",
+	"name": "Physician's Statements During Health Sabbatical",
+	"description": "Physician statement on progress toward the leave's purpose and the employee's ability to return to work.",
+	"type": "certification",
+	"preparedBy": "Employee (from PA-licensed physician)",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": "At approximate midpoint of leave and at least 30 calendar days before its conclusion",
+	"quote": "At both the approximate midpoint of the leave and at least thirty (30) calendar days prior to the conclusion of the leave, a physician’s statement from a physician licensed in the Commonwealth of Pennsylvania shall be submitted to the Superintendent or designee, indicating the extent to which the purpose of the leave has been achieved"
+}

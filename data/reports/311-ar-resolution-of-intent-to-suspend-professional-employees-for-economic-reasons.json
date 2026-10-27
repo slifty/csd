@@ -1,0 +1,13 @@
+{
+	"id": "311-ar-resolution-of-intent-to-suspend-professional-employees-for-economic-reasons",
+	"policyId": "BVJ5VQ121EBB",
+	"name": "Resolution of Intent to Suspend Professional Employees for Economic Reasons",
+	"description": "Board resolution setting out the economic conditions, expected savings, other cost-saving actions, projected expenditures with and without suspensions, projected revenues, numbers and percentages of staff affected, and impact on academic programs.",
+	"type": "report",
+	"preparedBy": "Board",
+	"recipient": "Public (adopted at public meeting)",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "No later than 60 days prior to adoption of the final budget",
+	"quote": "No later than sixty (60) days prior to the adoption of the final budget, the Board adopts a resolution of intent to suspend professional employees in the following fiscal year, setting forth:"
+}

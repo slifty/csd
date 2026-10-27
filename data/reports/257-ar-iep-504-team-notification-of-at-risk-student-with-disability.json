@@ -1,0 +1,13 @@
+{
+	"id": "257-ar-iep-504-team-notification-of-at-risk-student-with-disability",
+	"policyId": "D3G47C0A27F5",
+	"name": "IEP/504 Team Notification of At-Risk Student with Disability",
+	"description": "Notice to the IEP or 504 team when a student with a disability is at risk for or attempts suicide.",
+	"type": "notification",
+	"preparedBy": "Team receiving the referral or other District staff",
+	"recipient": "IEP team or Section 504 team",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "For students with disabilities who are identified as being at risk for suicide or who attempt suicide, the team receiving the referral or other District staff shall notify the appropriate Individualized Education Program (IEP) team or Section 504 team"
+}

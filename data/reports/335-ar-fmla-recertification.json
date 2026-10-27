@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-fmla-recertification",
+	"policyId": "C8C4T90D1273",
+	"name": "FMLA Recertification",
+	"description": "Recertification of an ongoing condition every six months, each leave year for conditions over one year, and upon a request to extend leave.",
+	"type": "certification",
+	"preparedBy": "District (requests); employee (provides)",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "semiannual",
+	"deadline": "Every six months for ongoing conditions; each leave year; upon extension request",
+	"quote": "The District will request a recertification in the following situations: Every six (6) months in connection with absence for an ongoing condition."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "816-ar-notice-of-alleged-violation-before-search",
+	"policyId": "CZJ2JM026E67",
+	"name": "Notice of Alleged Violation Before Search",
+	"description": "Before an individualized search, the user receives notice of the alleged violation and a chance to explain, if required by law.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "User whose account is to be searched",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "prior to any individualized search",
+	"quote": "Prior to any individualized search, the user will be provided with notice of the alleged violation and be given an opportunity to present an explanation, if required by law."
+}

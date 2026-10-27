@@ -1,0 +1,13 @@
+{
+	"id": "206-1-parent-sworn-statement-on-prior-disciplinary-exclusions",
+	"policyId": "CZJ22J0013DD",
+	"name": "Parent Sworn Statement on Prior Disciplinary Exclusions",
+	"description": "At registration, a signed sworn statement or affirmation of whether the student was suspended or expelled for weapons, drugs/alcohol, violence, injury or sexual assault, with dates and school.",
+	"type": "certification",
+	"preparedBy": "Parent/guardian or person having charge of the student",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "upon registration and prior to admission",
+	"quote": "Upon registration and prior to admission to the school district, the parent/guardian or person having charge of the student shall provide a signed sworn statement or affirmation stating whether the student previously was or presently is suspended or expelled from any public or private school for an offense involving weapons, alcohol or drugs"
+}

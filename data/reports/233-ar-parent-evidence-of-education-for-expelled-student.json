@@ -1,0 +1,13 @@
+{
+	"id": "233-ar-parent-evidence-of-education-for-expelled-student",
+	"policyId": "D4K2X80446EF",
+	"name": "Parent Evidence of Education for Expelled Student",
+	"description": "Parents of an expelled compulsory-age student submit written evidence that required education is being provided, or that they cannot provide it.",
+	"type": "certification",
+	"preparedBy": "Parents/guardians",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "within 30 days of Board action",
+	"quote": "The student’s parents/guardians have the initial responsibility of providing the required education and shall, within thirty (30) days of action by the Board, submit written evidence to the Superintendent or designee that the required education is being provided or that they are unable to do so."
+}

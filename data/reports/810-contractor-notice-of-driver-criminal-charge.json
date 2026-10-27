@@ -1,0 +1,13 @@
+{
+	"id": "810-contractor-notice-of-driver-criminal-charge",
+	"policyId": "DKJVDG803D8C",
+	"name": "Contractor Notice of Driver Criminal Charge",
+	"description": "Immediate notice of a charged driver's name, offense and disposition status, reviewed with the Superintendent to decide whether the driver may continue.",
+	"type": "notification",
+	"preparedBy": "Transportation contract carriers",
+	"recipient": "Supervisor of Transportation",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "If any school vehicle drivers have been charged as stated in this Policy, the transportation contract carriers shall immediately notify the District's Supervisor of Transportation of the name of the employee, nature of the offense, and the status of the disposition."
+}

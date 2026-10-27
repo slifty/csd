@@ -1,0 +1,13 @@
+{
+	"id": "212-student-progress-reporting-to-families",
+	"policyId": "DKJLCA55E160",
+	"name": "Student Progress Reporting to Families",
+	"description": "Students and parents are kept informed of progress during each course through report cards, parent-teacher conferences and other means.",
+	"type": "report",
+	"preparedBy": "Not specified",
+	"recipient": "Students and parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Each student and their parents/guardians should be kept informed of personal progress during the course of study via report cards, parent-teacher conferences, and other appropriate means."
+}

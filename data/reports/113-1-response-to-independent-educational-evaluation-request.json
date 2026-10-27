@@ -1,0 +1,13 @@
+{
+	"id": "113-1-response-to-independent-educational-evaluation-request",
+	"policyId": "CKY5JL107C13",
+	"name": "Response to Independent Educational Evaluation Request",
+	"description": "Either notice that the District has initiated a due process hearing or prior written notice/correspondence on payment terms for an IEE, sent by certified mail with a copy of the policy.",
+	"type": "notification",
+	"preparedBy": "Director of Special Education or designee",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "within 10 school days of receipt of written request",
+	"quote": "the Director of Special Education or designee shall either initiate a due process hearing to show that the District's evaluation is appropriate and notify the parent/guardian in writing that they have done so or issue to the parent/guardian correspondence or prior written notice containing:"
+}

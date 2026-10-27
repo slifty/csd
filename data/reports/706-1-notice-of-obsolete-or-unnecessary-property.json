@@ -1,0 +1,13 @@
+{
+	"id": "706-1-notice-of-obsolete-or-unnecessary-property",
+	"policyId": "DQGLTK581DCA",
+	"name": "Notice of Obsolete or Unnecessary Property",
+	"description": "Notice that property at a building is obsolete or unnecessary so the Superintendent can decide whether it can be reused or should be disposed of.",
+	"type": "notification",
+	"preparedBy": "Building principal or department supervisor",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The building principal or department supervisor where any obsolete or unnecessary property is located shall inform the Superintendent or designee."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "114-ar-annual-gifted-education-awareness-notice",
+	"policyId": "BF89GP22F647",
+	"name": "Annual Gifted Education Awareness Notice",
+	"description": "Awareness activities informing resident parents of gifted services and how to request them, e.g., notices in newspapers, handbooks and the District website.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parents/guardians of school-aged children residing in the District",
+	"recipientType": "public",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The Superintendent or designee shall annually conduct awareness activities to inform parents/guardians of school-aged children residing within the District of its gifted education services and programs, and how to request these services and programs."
+}

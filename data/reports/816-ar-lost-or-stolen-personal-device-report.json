@@ -1,0 +1,13 @@
+{
+	"id": "816-ar-lost-or-stolen-personal-device-report",
+	"policyId": "CZJ2JM026E67",
+	"name": "Lost or Stolen Personal Device Report",
+	"description": "Prompt notice when a personal device used to access District resources is lost or stolen, to limit disclosure of confidential information.",
+	"type": "notification",
+	"preparedBy": "Employee",
+	"recipient": "Technology Department",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Should an employee’s personal technology device that is or has been used to access District technology resources become lost or stolen, the employee shall promptly advise the Technology Department so that appropriate steps can be taken to minimize the risk of the unauthorized disclosure of confidential student or personnel information."
+}

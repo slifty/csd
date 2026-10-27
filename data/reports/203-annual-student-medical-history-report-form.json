@@ -1,0 +1,13 @@
+{
+	"id": "203-annual-student-medical-history-report-form",
+	"policyId": "AWL5GU103CEB",
+	"name": "Annual Student Medical History Report Form",
+	"description": "Parents complete a medical history form, including known communicable diseases, before first admission and annually thereafter.",
+	"type": "data-submission",
+	"preparedBy": "Parents/guardians",
+	"recipient": "District (school nurse)",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "prior to first admittance, then annually",
+	"quote": "The District shall require parents or guardians to annually complete a medical history report form that includes information regarding known communicable diseases."
+}

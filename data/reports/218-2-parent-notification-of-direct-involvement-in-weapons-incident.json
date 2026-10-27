@@ -1,0 +1,13 @@
+{
+	"id": "218-2-parent-notification-of-direct-involvement-in-weapons-incident",
+	"policyId": "DQGMKE5B9B9B",
+	"name": "Parent Notification of Direct Involvement in Weapons Incident",
+	"description": "Immediate notice to parents of students directly involved as victim or suspect, including whether police have been or may be notified; attempts are documented.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Parents/guardians of student victims or suspects",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "immediately, as soon as practicable",
+	"quote": "The Superintendent or designee shall notify the parent/guardian of any student directly involved in an incident involving weapons as a victim or suspect immediately, as soon as practicable. The Superintendent or designee shall inform the parent/guardian whether or not the law enforcement agency that has jurisdiction over the school property has been or may be notified of the incident."
+}

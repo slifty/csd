@@ -1,0 +1,13 @@
+{
+	"id": "203-vaccination-information-for-families-and-secondary-students",
+	"policyId": "AWL5GU103CEB",
+	"name": "Vaccination Information for Families and Secondary Students",
+	"description": "Objective, evidence-based information on vaccinations and immunization is provided to parents and secondary-level students.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians and secondary students",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Parents, guardians and secondary level students shall be provided with objective, evidence-based information regarding vaccinations and other forms of immunization."
+}

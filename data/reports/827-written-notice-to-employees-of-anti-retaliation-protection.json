@@ -1,0 +1,13 @@
+{
+	"id": "827-written-notice-to-employees-of-anti-retaliation-protection",
+	"policyId": "DSBVV4827E80",
+	"name": "Written Notice to Employees of Anti-Retaliation Protection",
+	"description": "Employees receive written notice that good-faith reports of conflicts of interest are protected from reprisal.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "District employees",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "No reprisals or retaliation shall occur as a result of good faith reports of conflicts of interest. The District shall provide written notification of such protection to District employees."
+}

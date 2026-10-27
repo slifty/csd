@@ -1,0 +1,13 @@
+{
+	"id": "315-bodily-fluid-exposure-incident-report",
+	"policyId": "C9APK4648891",
+	"name": "Bodily Fluid Exposure Incident Report",
+	"description": "Report to the school nurse of all incidents of exposure to bodily fluids and bloodborne pathogens.",
+	"type": "notification",
+	"preparedBy": "All employees",
+	"recipient": "School nurse",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "All employees shall be required to consistently follow Universal Precautions in all settings and at all times, and shall be required to notify the school nurse of all incidents of exposure to bodily fluids and bloodborne pathogens."
+}

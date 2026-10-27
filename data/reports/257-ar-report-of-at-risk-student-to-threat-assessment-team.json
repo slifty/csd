@@ -1,0 +1,13 @@
+{
+	"id": "257-ar-report-of-at-risk-student-to-threat-assessment-team",
+	"policyId": "D3G47C0A27F5",
+	"name": "Report of At-Risk Student to Threat Assessment Team",
+	"description": "Personnel report a student whose behavior indicates a threat to their own safety.",
+	"type": "report",
+	"preparedBy": "School personnel",
+	"recipient": "Threat assessment team, team member, or suicide prevention coordinator",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "When a student’s behavior indicates a threat to the safety of the student, school personnel shall report the student to the threat assessment team, an appropriate member of the team or the suicide prevention coordinator."
+}

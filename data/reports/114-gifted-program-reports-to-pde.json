@@ -1,0 +1,13 @@
+{
+	"id": "114-gifted-program-reports-to-pde",
+	"policyId": "AWL5CZ0FAC3F",
+	"name": "Gifted Program Reports to PDE",
+	"description": "Reports of gifted students, personnel, program elements and costs as required by the Department of Education.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "as-required",
+	"deadline": "as required by the Department of Education",
+	"quote": "Reports of gifted students, personnel and program elements, and costs, as required by the Department of Education."
+}

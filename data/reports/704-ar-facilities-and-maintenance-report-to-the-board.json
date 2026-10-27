@@ -1,0 +1,13 @@
+{
+	"id": "704-ar-facilities-and-maintenance-report-to-the-board",
+	"policyId": "DKJTZF79CA74",
+	"name": "Facilities and Maintenance Report to the Board",
+	"description": "Information on five-year facilities plan updates, facility conditions and prioritized repairs, status of projects, technology use, and recommendations on future maintenance needs and staffing.",
+	"type": "presentation",
+	"preparedBy": "Director of Facilities and Maintenance",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "on an as-needed basis",
+	"quote": "On an as-needed basis, the Director of Facilities and Maintenance shall prepare and provide or present to the Board information regarding the following items:"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "248-ar-hazing-report-to-law-enforcement",
+	"policyId": "DA2N2Q5DDA8B",
+	"name": "Hazing Report to Law Enforcement",
+	"description": "Complaints that, if proven, would constitute hazing, aggravated hazing or organizational hazing are reported to law enforcement per the MOU.",
+	"type": "report",
+	"preparedBy": "Those receiving the initial report and conducting/overseeing the investigation",
+	"recipient": "Law enforcement (per MOU)",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Those receiving the initial report and conducting or overseeing the investigation will assess whether the complaint, if proven, would constitute hazing, aggravated hazing or organizational hazing and shall report it to law enforcement consistent with established procedures outlined in the Memorandum of Understanding with law enforcement."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "714-published-bicycle-and-vehicle-rules",
+	"policyId": "BNRL95556A48",
+	"name": "Published Bicycle and Vehicle Rules",
+	"description": "Developed and published rules for operation and parking of bicycles and motor vehicles.",
+	"type": "public-posting",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Students, staff and public",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall develop and publish rules and regulations for the operation and parking of bicycles and motor vehicles by students, staff and others who use bicycles and motor vehicles for travel to and from school."
+}

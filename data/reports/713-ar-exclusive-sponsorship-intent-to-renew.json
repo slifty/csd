@@ -1,0 +1,13 @@
+{
+	"id": "713-ar-exclusive-sponsorship-intent-to-renew",
+	"policyId": "BG944K09BF57",
+	"name": "Exclusive Sponsorship Intent to Renew",
+	"description": "Sponsors seeking to renew exclusive sponsorship agreements notify the District of intent to renew.",
+	"type": "notification",
+	"preparedBy": "Sponsor",
+	"recipient": "District or its agent",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "at least 90 days prior to end of the existing agreement",
+	"quote": "Sponsors who want to renew their exclusive sponsorship agreements will need to provide the District or its agent with its intent to renew at least 90 days prior to end of the existing agreement."
+}

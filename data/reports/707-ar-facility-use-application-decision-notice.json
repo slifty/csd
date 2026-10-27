@@ -1,0 +1,13 @@
+{
+	"id": "707-ar-facility-use-application-decision-notice",
+	"policyId": "BF8ABX26F401",
+	"name": "Facility Use Application Decision Notice",
+	"description": "Notice to facility-use applicants of whether the proposed use is approved.",
+	"type": "notification",
+	"preparedBy": "Director of Facilities and Maintenance or designee",
+	"recipient": "Applicants",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Director of Facilities and Maintenance or designee will review applications as they are received and notify applicants whether or not the proposed use is approved."
+}

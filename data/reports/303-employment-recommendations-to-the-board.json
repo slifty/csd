@@ -1,0 +1,13 @@
+{
+	"id": "303-employment-recommendations-to-the-board",
+	"policyId": "BUEQNC69890B",
+	"name": "Employment Recommendations to the Board",
+	"description": "Recommendation of candidates for employment for Board approval of employment, compensation, and term; a substitute recommendation is required if a candidate is rejected.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee is responsible for recommending candidates for employment to the Board."
+}

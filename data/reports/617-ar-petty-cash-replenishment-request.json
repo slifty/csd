@@ -1,0 +1,13 @@
+{
+	"id": "617-ar-petty-cash-replenishment-request",
+	"policyId": "CZHV3J7EC8CF",
+	"name": "Petty Cash Replenishment Request",
+	"description": "Signed form listing individual receipts, account numbers and amounts, with remaining cash noted to verify the fund balance.",
+	"type": "data-submission",
+	"preparedBy": "Person responsible for the petty cash fund",
+	"recipient": "Director of Business Services or designee",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": "Periodically",
+	"quote": "Replenishment of the petty cash fund shall be periodically requested through the Business Office on a form listing all individual receipts, the appropriate account number to charge and the amount."
+}
