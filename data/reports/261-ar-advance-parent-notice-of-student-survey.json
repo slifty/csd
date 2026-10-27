@@ -4,8 +4,14 @@
 	"name": "Advance Parent Notice of Student Survey",
 	"description": "For committee-approved surveys not funded by USDOE, parents are notified of the intent to administer and their right to opt out.",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "at least two weeks prior to administration",

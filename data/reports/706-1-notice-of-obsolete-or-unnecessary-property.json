@@ -4,7 +4,18 @@
 	"name": "Notice of Obsolete or Unnecessary Property",
 	"description": "Notice that property at a building is obsolete or unnecessary so the Superintendent can decide whether it can be reused or should be disposed of.",
 	"type": "notification",
-	"preparedBy": "Building principal or department supervisor",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Department supervisor",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

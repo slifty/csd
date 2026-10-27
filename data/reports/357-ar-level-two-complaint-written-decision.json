@@ -4,7 +4,13 @@
 	"name": "Level Two Complaint Written Decision",
 	"description": "Written decision following the Level Two hearing on an employee complaint.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Complaining employee",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

@@ -1,11 +1,17 @@
 {
 	"id": "808-ar-outreach-and-free-reduced-meal-application-for-five-plus-meals-owed",
 	"policyId": "CJP2Y504696A",
-	"name": "Outreach and Free/Reduced Meal Application for Five-Plus Meals Owed",
-	"description": "When a student owes for five or more meals, at least two contact attempts are made and the free/reduced-price meal application is provided with offered assistance.",
+	"name": "Outreach and Free / Reduced Meal Application for Five-Plus Meals Owed",
+	"description": "When a student owes for five or more meals, at least two contact attempts are made and the free / reduced-price meal application is provided with offered assistance.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

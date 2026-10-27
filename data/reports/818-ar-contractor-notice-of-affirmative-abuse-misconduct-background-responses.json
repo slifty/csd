@@ -1,10 +1,16 @@
 {
 	"id": "818-ar-contractor-notice-of-affirmative-abuse-misconduct-background-responses",
 	"policyId": "CFJ6SC164FD3",
-	"name": "Contractor Notice of Affirmative Abuse/Misconduct Background Responses",
+	"name": "Contractor Notice of Affirmative Abuse / Misconduct Background Responses",
 	"description": "Contractors must tell the District in writing when a contractor employee answers yes to any abuse or sexual misconduct background question, so the District can object to the assignment.",
 	"type": "notification",
-	"preparedBy": "Independent contractors",
+	"preparers": [
+		{
+			"name": "Independent contractor",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

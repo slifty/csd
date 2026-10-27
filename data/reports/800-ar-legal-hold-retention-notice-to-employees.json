@@ -4,7 +4,13 @@
 	"name": "Legal Hold Retention Notice to Employees",
 	"description": "When a legal hold is implemented, involved employees are told to retain all documents, data and communications about the matter until further notice.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee (via appropriate administrators)",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": "via appropriate administrators",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "District employees involved in the matter",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Third-Party Notification of Records Request",
 	"description": "Notice to a third party when a requested record contains its trade secrets or confidential proprietary information.",
 	"type": "notification",
-	"preparedBy": "Open Records Officer",
+	"preparers": [
+		{
+			"name": "Open Records Officer",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Third party whose trade secret or confidential proprietary information is requested",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

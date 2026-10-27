@@ -4,7 +4,13 @@
 	"name": "Notice of Charter Application Decision",
 	"description": "Written notice of approval or denial of a charter application, including reasons and deficiencies if denied.",
 	"type": "notification",
-	"preparedBy": "Board",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Applicant, PA Department of Education, State Charter School Appeal Board",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

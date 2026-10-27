@@ -4,7 +4,13 @@
 	"name": "Recommendation to Admit Nonresident Student on Tuition Basis",
 	"description": "For nonresident students with unusual circumstances not covered by the policy, the Superintendent recommends admission or retention on an advanced tuition basis for Board approval.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

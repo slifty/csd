@@ -4,7 +4,13 @@
 	"name": "Superintendent Report Under CPSL, Educator Discipline Act or Safe Schools Act",
 	"description": "If reported conduct appears reportable under the Child Protective Services Law, the Educator Discipline Act, or the Safe Schools Act, the Superintendent files the required report.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Authorities required by law (e.g., PDE, law enforcement)",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

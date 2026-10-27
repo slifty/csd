@@ -4,7 +4,13 @@
 	"name": "Acknowledgement of Juvenile Adjudication Information",
 	"description": "Written acknowledgement to the juvenile probation office that information about a student's adjudication was received, including the District's obligations and restrictions on its use.",
 	"type": "notification",
-	"preparedBy": "Building principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Juvenile probation office",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

@@ -2,10 +2,16 @@
 	"id": "202-ar-notice-of-non-residency-determination",
 	"policyId": "DCHP896359F0",
 	"name": "Notice of Non-Residency Determination",
-	"description": "Written notice to the parent/guardian that a student has been determined ineligible (or residency proof is inadequate), the basis for it, and how to request a hearing before the Board or hearing officer.",
+	"description": "Written notice to the parent / guardian that a student has been determined ineligible (or residency proof is inadequate), the basis for it, and how to request a hearing before the Board or hearing officer.",
 	"type": "notification",
-	"preparedBy": "Administration",
-	"recipient": "Parent/guardian",
+	"preparers": [
+		{
+			"name": "Administration",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

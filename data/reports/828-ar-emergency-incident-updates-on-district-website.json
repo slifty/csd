@@ -4,8 +4,14 @@
 	"name": "Emergency Incident Updates on District Website",
 	"description": "During an ongoing incident, updates are given as new information becomes available and posted on the District website.",
 	"type": "public-posting",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians and public",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians and public",
 	"recipientType": "public",
 	"frequency": "event-triggered",
 	"deadline": "as new information is available",

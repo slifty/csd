@@ -4,8 +4,14 @@
 	"name": "EL Progress Reports to Parents",
 	"description": "Regular updates on the child's progress, including achievement of academic standards and assessment results; opted-out parents also receive an opt-back-in form.",
 	"type": "report",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians of ELs (including opted-out ELs)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians of ELs (including opted-out ELs)",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": "regularly",

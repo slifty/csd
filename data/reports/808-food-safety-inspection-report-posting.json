@@ -4,7 +4,13 @@
 	"name": "Food Safety Inspection Report Posting",
 	"description": "Posting of the most recent of the two annual food safety inspection reports, with copies released to the public on request.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "semiannual",

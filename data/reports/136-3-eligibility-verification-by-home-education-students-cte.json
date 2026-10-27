@@ -4,7 +4,23 @@
 	"name": "Eligibility Verification by Home Education Students (CTE)",
 	"description": "Required documents and verification of eligibility or prerequisites before enrolling in a CTE program.",
 	"type": "certification",
-	"preparedBy": "Home education student / parent or supervisor",
+	"preparers": [
+		{
+			"name": "Home education student",
+			"detail": null,
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Home education program supervisor",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "Building principal or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

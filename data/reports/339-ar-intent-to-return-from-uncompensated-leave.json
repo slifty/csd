@@ -4,7 +4,13 @@
 	"name": "Intent to Return from Uncompensated Leave",
 	"description": "Notice of the employee's intent to return from uncompensated leave.",
 	"type": "notification",
-	"preparedBy": "Employee on uncompensated leave",
+	"preparers": [
+		{
+			"name": "Employee on uncompensated leave",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

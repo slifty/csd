@@ -4,7 +4,13 @@
 	"name": "Material Event Notices to MSRB",
 	"description": "Notice of listed material events (payment delinquencies, defaults, rating changes, bond calls, bankruptcy, failure to file annual information, etc.) for outstanding bonds and notes.",
 	"type": "notification",
-	"preparedBy": "Compliance Coordinator",
+	"preparers": [
+		{
+			"name": "Compliance Coordinator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Municipal Securities Rulemaking Board (EMMA portal)",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

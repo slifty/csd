@@ -4,7 +4,13 @@
 	"name": "Teacher Notification of GIEP Responsibilities",
 	"description": "Teachers are notified of their responsibilities to each identified gifted student under the GIEP.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Teachers of identified gifted students",
 	"recipientType": "employees",
 	"frequency": "as-required",

@@ -4,8 +4,14 @@
 	"name": "School Community Notification of Weapons Incident",
 	"description": "Notice of a weapons possession incident to the parents and staff of the affected building, shared campus, or activity population.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Parents/guardians and employees of the affected building, campus, or activity",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Parents / guardians and employees of the affected building, campus, or activity",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "within twenty-four (24) hours of the incident",

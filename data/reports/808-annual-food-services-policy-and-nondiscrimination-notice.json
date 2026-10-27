@@ -4,8 +4,14 @@
 	"name": "Annual Food Services Policy and Nondiscrimination Notice",
 	"description": "Annual notice of the food services policy and regulations, including nondiscrimination information.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Students, parents/guardians and employees",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Students, parents / guardians and employees",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": null,

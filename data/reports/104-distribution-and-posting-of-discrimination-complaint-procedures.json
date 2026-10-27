@@ -4,7 +4,13 @@
 	"name": "Distribution and Posting of Discrimination Complaint Procedures",
 	"description": "Complaint-resolution procedures for employment discrimination are distributed periodically to all employees and posted in prominent locations.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "All employees and third parties",
 	"recipientType": "employees",
 	"frequency": "as-required",

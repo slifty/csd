@@ -4,8 +4,14 @@
 	"name": "EL Program Exit Notice to Parents",
 	"description": "Written communication of the decision that a student qualifies to exit the EL program.",
 	"type": "notification",
-	"preparedBy": "ESL teacher",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "ESL teacher",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

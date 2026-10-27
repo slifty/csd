@@ -4,8 +4,14 @@
 	"name": "Notice of Non-Residency Hearing",
 	"description": "When a family timely requests a hearing, notice of the hearing (with the Procedural Safeguards Notice—Charge of Non-Residency) is sent by certified, first class and electronic mail at least three days in advance.",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Parent/guardian",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "at least three (3) days advance notice of the hearing",

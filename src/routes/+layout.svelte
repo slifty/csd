@@ -1,8 +1,9 @@
 <script lang="ts">
 	import "../app.css";
-	import type { Snippet } from "svelte";
+	import { formatNumericIsoDate } from "#lib/dates.ts";
+	import type { LayoutProps } from "./$types";
 
-	const { children }: { children: Snippet } = $props();
+	const { data, children }: LayoutProps = $props();
 </script>
 
 <svelte:head>
@@ -31,9 +32,10 @@
 
 <footer class="wrap">
 	<p>
-		Compiled with the help of Claude, an AI model, from the district's
-		<a href="https://go.boarddocs.com/pa/ctsd/Board.nsf/Public">BoardDocs</a>.
-		Check the linked policy before relying on any entry.
+		Based on policy data from the district's
+		<a href="https://go.boarddocs.com/pa/ctsd/Board.nsf/Public">BoardDocs</a>
+		as of {formatNumericIsoDate(data.boardDocsRetrievedOn)}. Check the linked
+		policy before relying on any entry.
 	</p>
 </footer>
 

@@ -4,7 +4,13 @@
 	"name": "Parent Evidence of Education for Expelled Student",
 	"description": "Parents of an expelled compulsory-age student submit written evidence that required education is being provided, or that they cannot provide it.",
 	"type": "certification",
-	"preparedBy": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

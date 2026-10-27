@@ -4,7 +4,13 @@
 	"name": "FMLA Return-to-Work Notice",
 	"description": "Notice of the employee's date of return from FMLA leave.",
 	"type": "notification",
-	"preparedBy": "Employee returning from FMLA leave",
+	"preparers": [
+		{
+			"name": "Employee returning from FMLA leave",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

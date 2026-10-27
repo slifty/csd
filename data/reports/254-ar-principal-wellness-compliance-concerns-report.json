@@ -4,7 +4,13 @@
 	"name": "Principal Wellness Compliance Concerns Report",
 	"description": "Principals report concerns about wellness compliance in their school or ideas for improving wellness initiatives.",
 	"type": "report",
-	"preparedBy": "Each building principal",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

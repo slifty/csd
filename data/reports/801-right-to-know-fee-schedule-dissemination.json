@@ -4,7 +4,13 @@
 	"name": "Right-to-Know Fee Schedule Dissemination",
 	"description": "The District maintains the Board-approved list of fees for public records requests and disseminates it to requesters.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Requesters",
 	"recipientType": "public",
 	"frequency": "ongoing",

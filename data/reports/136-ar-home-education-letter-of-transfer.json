@@ -4,7 +4,13 @@
 	"name": "Home Education Letter of Transfer",
 	"description": "Letter of transfer for a home education program relocating to another district.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Home education program supervisor",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

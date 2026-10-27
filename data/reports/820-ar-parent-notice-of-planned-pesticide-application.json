@@ -4,8 +4,14 @@
 	"name": "Parent Notice of Planned Pesticide Application",
 	"description": "Notice of planned pesticide applications giving applicator name, address and phone, day of treatment, and pesticide used.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians (all, or those who requested notification)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians (all, or those who requested notification)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "at least 72 hours before each planned treatment",

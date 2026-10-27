@@ -20,7 +20,7 @@ describe("readReportFilter", () => {
 	it("reads every filter", () => {
 		expect(
 			read(
-				"view=all&q=wellness&frequency=annual&section=200&to=board,government",
+				"view=all&q=wellness&frequency=annual&section=200&to=board,government&from=superintendent,employees",
 			),
 		).toEqual(
 			createReportFilter({
@@ -29,13 +29,14 @@ describe("readReportFilter", () => {
 				frequency: "annual",
 				sectionNumber: "200",
 				recipientGroupIds: new Set(["board", "government"]),
+				preparerTypes: new Set(["superintendent", "employees"]),
 			}),
 		);
 	});
 
 	it("ignores values it does not know", () => {
 		expect(
-			read("view=TEST&frequency=TEST&section=TEST&to=TEST,public"),
+			read("view=TEST&frequency=TEST&section=TEST&to=TEST,public&from=TEST"),
 		).toEqual(createDefaultFilter({ recipientGroupIds: new Set(["public"]) }));
 	});
 });
@@ -52,6 +53,13 @@ describe("writeReportFilter", () => {
 		expect(writeReportFilter(filter).get("to")).toBe("board,government");
 	});
 
+	it("lists preparer types in their display order", () => {
+		const filter = createDefaultFilter({
+			preparerTypes: new Set(["employees", "board"]),
+		});
+		expect(writeReportFilter(filter).get("from")).toBe("board,employees");
+	});
+
 	it("round-trips through readReportFilter", () => {
 		const filter = createReportFilter({
 			view: "non-recurring",
@@ -59,6 +67,7 @@ describe("writeReportFilter", () => {
 			frequency: "event-triggered",
 			sectionNumber: "800",
 			recipientGroupIds: new Set(["families"]),
+			preparerTypes: new Set(["outside-parties"]),
 		});
 		expect(
 			readReportFilter(writeReportFilter(filter), SECTION_NUMBERS),

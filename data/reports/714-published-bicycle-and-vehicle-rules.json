@@ -4,7 +4,13 @@
 	"name": "Published Bicycle and Vehicle Rules",
 	"description": "Developed and published rules for operation and parking of bicycles and motor vehicles.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Students, staff and public",
 	"recipientType": "public",
 	"frequency": "event-triggered",

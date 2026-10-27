@@ -4,7 +4,13 @@
 	"name": "Student Accident Insurance Proposals",
 	"description": "Insurance specifications and proposals from qualified carriers for student athletic accident coverage, presented for Board consideration.",
 	"type": "presentation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

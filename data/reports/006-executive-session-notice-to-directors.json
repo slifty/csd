@@ -4,7 +4,13 @@
 	"name": "Executive Session Notice to Directors",
 	"description": "Written notice of executive sessions not previously announced; may be delivered electronically.",
 	"type": "notification",
-	"preparedBy": "Board Secretary or designee",
+	"preparers": [
+		{
+			"name": "Board Secretary or designee",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "All school directors",
 	"recipientType": "board",
 	"frequency": "event-triggered",

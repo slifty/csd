@@ -4,8 +4,14 @@
 	"name": "Field Trip Parent Notification",
 	"description": "Written notice of a field trip; signed permission slip required before participation.",
 	"type": "notification",
-	"preparedBy": "Not specified (staff member proposing the trip)",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "staff member proposing the trip",
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "at least 3 weeks in advance of the trip",

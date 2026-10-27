@@ -4,7 +4,13 @@
 	"name": "Revised Annual Financial Report",
 	"description": "If the annual financial report is not materially consistent with the audited statements, a revised report is submitted.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

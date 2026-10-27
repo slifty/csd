@@ -4,10 +4,16 @@
 	"name": "Contractor Employee Arrest and Conviction Disclosure Form",
 	"description": "Contractor employees disclose all arrests and convictions on the designated form, and report later arrests or convictions as they occur.",
 	"type": "notification",
-	"preparedBy": "Contractor employees",
+	"preparers": [
+		{
+			"name": "Contractor employees",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",
-	"deadline": "initially and upon subsequent arrests/convictions",
+	"deadline": "initially and upon subsequent arrests / convictions",
 	"quote": "Contractor employees shall report, on the designated form, all arrests and convictions as specified on the form. Contractor employees shall likewise report arrests and/or convictions that occur subsequent to initially submitting the form."
 }

@@ -4,8 +4,14 @@
 	"name": "Published List of Offenses Leading to Exclusion",
 	"description": "The Board defines and publishes the types of offenses that would lead to suspension or expulsion.",
 	"type": "public-posting",
-	"preparedBy": "Board",
-	"recipient": "Public/students",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		}
+	],
+	"recipient": "Public / students",
 	"recipientType": "public",
 	"frequency": "ongoing",
 	"deadline": null,

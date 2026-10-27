@@ -4,7 +4,18 @@
 	"name": "Level One Complaint Written Response",
 	"description": "Written response to an employee complaint after the Level One meeting.",
 	"type": "notification",
-	"preparedBy": "Principal or direct supervisor (Level One Respondent)",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": "Level One Respondent",
+			"type": "administrators"
+		},
+		{
+			"name": "Direct supervisor",
+			"detail": "Level One Respondent",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Complaining employee",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

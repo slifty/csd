@@ -4,8 +4,19 @@
 	"name": "Permission to Evaluate Form After Oral Request",
 	"description": "When a parent orally requests a special education evaluation, the employee provides the permission-to-evaluate request form.",
 	"type": "notification",
-	"preparedBy": "Professional employee or administrator receiving the request",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Professional employee",
+			"detail": "receiving the request",
+			"type": "employees"
+		},
+		{
+			"name": "Administrator",
+			"detail": "receiving the request",
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "within 10 calendar days of the oral request",

@@ -1,10 +1,26 @@
 {
 	"id": "136-2-eligibility-verification-by-home-education-students-cocurricular-courses",
 	"policyId": "CPW5H2104307",
-	"name": "Eligibility Verification by Home Education Students (Cocurricular/Courses)",
+	"name": "Eligibility Verification by Home Education Students (Cocurricular / Courses)",
 	"description": "Required documents and verification of eligibility or prerequisites before try-outs, auditions or course enrollment.",
 	"type": "certification",
-	"preparedBy": "Home education student / parent or supervisor",
+	"preparers": [
+		{
+			"name": "Home education student",
+			"detail": null,
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Home education program supervisor",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "Building principal or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

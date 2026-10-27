@@ -4,7 +4,13 @@
 	"name": "Breach Notification to District Attorney",
 	"description": "When a breach is determined, the District Attorney in the county where it occurred is notified.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "County District Attorney",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

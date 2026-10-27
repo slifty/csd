@@ -4,7 +4,13 @@
 	"name": "Student Wellness Compliance Report to the Board",
 	"description": "As-needed report on compliance with wellness law and policy; may include environment assessment, food service evaluation, food review, programs, recommendations and stakeholder feedback.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

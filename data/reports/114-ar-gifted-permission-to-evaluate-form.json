@@ -4,8 +4,24 @@
 	"name": "Gifted Permission to Evaluate Form",
 	"description": "Permission to Evaluate form provided to parents requesting a gifted evaluation.",
 	"type": "notification",
-	"preparedBy": "District; administrator or professional employee receiving an oral request",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Administrator",
+			"detail": "receiving an oral request",
+			"type": "administrators"
+		},
+		{
+			"name": "Professional employee",
+			"detail": "receiving an oral request",
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "within 10 calendar days of an oral request",

@@ -4,7 +4,13 @@
 	"name": "Third-Party Notice of Records Appeal and Proof to Office of Open Records",
 	"description": "Notice to affected employees, third parties or contractors of an appeal involving their records, followed by proof of that notice to the state Office of Open Records.",
 	"type": "notification",
-	"preparedBy": "Open Records Officer",
+	"preparers": [
+		{
+			"name": "Open Records Officer",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Affected third parties; PA Office of Open Records",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

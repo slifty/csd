@@ -4,7 +4,18 @@
 	"name": "Vandalism Incident Report",
 	"description": "Vandalism to District property is promptly reported, and principals forward reports they receive to the Director of Business Services.",
 	"type": "report",
-	"preparedBy": "Anyone aware of vandalism; building principals",
+	"preparers": [
+		{
+			"name": "Anyone aware of vandalism",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Building principal or Director of Business Services",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Annual Controlled Substance Incident Report to PDE",
 	"description": "Annual report of all incidents of prohibited possession, use and sale of controlled substances on school property, on the required state form.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "annual",

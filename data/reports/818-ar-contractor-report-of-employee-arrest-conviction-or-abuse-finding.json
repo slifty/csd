@@ -4,7 +4,13 @@
 	"name": "Contractor Report of Employee Arrest, Conviction, or Abuse Finding",
 	"description": "When a contractor learns a contractor employee was arrested, convicted, or named a perpetrator in a founded or indicated report, it must report that in writing to the Superintendent.",
 	"type": "notification",
-	"preparedBy": "Independent contractor",
+	"preparers": [
+		{
+			"name": "Independent contractor",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

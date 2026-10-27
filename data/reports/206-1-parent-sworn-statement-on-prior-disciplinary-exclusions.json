@@ -2,9 +2,20 @@
 	"id": "206-1-parent-sworn-statement-on-prior-disciplinary-exclusions",
 	"policyId": "CZJ22J0013DD",
 	"name": "Parent Sworn Statement on Prior Disciplinary Exclusions",
-	"description": "At registration, a signed sworn statement or affirmation of whether the student was suspended or expelled for weapons, drugs/alcohol, violence, injury or sexual assault, with dates and school.",
+	"description": "At registration, a signed sworn statement or affirmation of whether the student was suspended or expelled for weapons, drugs / alcohol, violence, injury or sexual assault, with dates and school.",
 	"type": "certification",
-	"preparedBy": "Parent/guardian or person having charge of the student",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Person in charge of the student",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

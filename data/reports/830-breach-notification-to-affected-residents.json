@@ -4,7 +4,13 @@
 	"name": "Breach Notification to Affected Residents",
 	"description": "When a breach is determined, residents whose unencrypted and unredacted personal information was accessed are notified, including when encrypted data was acquired in unencrypted form or the encryption key was compromised.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Affected Commonwealth residents",
 	"recipientType": "public",
 	"frequency": "event-triggered",

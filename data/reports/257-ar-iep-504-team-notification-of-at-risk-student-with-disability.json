@@ -4,7 +4,18 @@
 	"name": "IEP/504 Team Notification of At-Risk Student with Disability",
 	"description": "Notice to the IEP or 504 team when a student with a disability is at risk for or attempts suicide.",
 	"type": "notification",
-	"preparedBy": "Team receiving the referral or other District staff",
+	"preparers": [
+		{
+			"name": "Team receiving the referral",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "District staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "IEP team or Section 504 team",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

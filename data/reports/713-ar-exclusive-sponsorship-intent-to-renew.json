@@ -4,7 +4,13 @@
 	"name": "Exclusive Sponsorship Intent to Renew",
 	"description": "Sponsors seeking to renew exclusive sponsorship agreements notify the District of intent to renew.",
 	"type": "notification",
-	"preparedBy": "Sponsor",
+	"preparers": [
+		{
+			"name": "Sponsor",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District or its agent",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

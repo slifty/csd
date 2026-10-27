@@ -4,7 +4,13 @@
 	"name": "Accumulated Sick Leave Balance Report",
 	"description": "Report to each employee of their accumulated unused sick leave days.",
 	"type": "report",
-	"preparedBy": "Not specified (District)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Each employee",
 	"recipientType": "employees",
 	"frequency": "as-required",

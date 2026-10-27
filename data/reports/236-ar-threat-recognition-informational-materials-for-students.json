@@ -4,8 +4,14 @@
 	"name": "Threat Recognition Informational Materials for Students",
 	"description": "Age-appropriate materials on recognizing threatening behavior and how to report concerns, including Safe2Say Something.",
 	"type": "public-posting",
-	"preparedBy": "Threat assessment team",
-	"recipient": "Students (available to parents/guardians)",
+	"preparers": [
+		{
+			"name": "Threat assessment team",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Students (available to parents / guardians)",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

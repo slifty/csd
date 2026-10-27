@@ -4,7 +4,13 @@
 	"name": "Annual Immunization Data Report",
 	"description": "Required student immunization data reported annually to the Pennsylvania Department of Health.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Health",
 	"recipientType": "state-agency",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "Investigation Outcome Report to PDE",
 	"description": "Outcome of a PDE-directed investigation and whether the District will pursue local employment action; may include a discipline recommendation.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

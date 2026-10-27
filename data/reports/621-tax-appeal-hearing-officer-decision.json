@@ -4,7 +4,13 @@
 	"name": "Tax Appeal Hearing Officer Decision",
 	"description": "Decision on a taxpayer petition for refund or reassessment of an eligible tax.",
 	"type": "notification",
-	"preparedBy": "Hearing Officer (EIT Collector or Director of Business Services)",
+	"preparers": [
+		{
+			"name": "Hearing Officer",
+			"detail": "EIT Collector or Director of Business Services",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Taxpayer petitioner",
 	"recipientType": "public",
 	"frequency": "event-triggered",

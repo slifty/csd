@@ -4,7 +4,13 @@
 	"name": "Annual Title I Parent and Family Engagement Policy Evaluation",
 	"description": "Annual evaluation, with parent participation, of the policy's content and effectiveness, identifying participation barriers, parent needs and strategies, using surveys, focus groups and an advisory council.",
 	"type": "report",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Parents and family members (with their participation); informs policy revision",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",

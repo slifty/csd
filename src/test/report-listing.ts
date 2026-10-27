@@ -1,5 +1,12 @@
 import type { ReportFilter, ReportListing } from "../lib/report-listing.ts";
-import type { Report } from "../lib/report.ts";
+import type { Preparer, Report } from "../lib/report.ts";
+
+const createPreparer = (preparer: Partial<Preparer> = {}): Preparer => ({
+	name: "TEST Superintendent",
+	detail: null,
+	type: "superintendent",
+	...preparer,
+});
 
 const createReportListing = (
 	report: Partial<Report> = {},
@@ -11,7 +18,7 @@ const createReportListing = (
 		name: "TEST Annual Report",
 		description: "A TEST report.",
 		type: "report",
-		preparedBy: "TEST Superintendent",
+		preparers: [createPreparer()],
 		recipient: "TEST Board",
 		recipientType: "board",
 		frequency: "annual",
@@ -38,7 +45,8 @@ const createReportFilter = (
 	frequency: null,
 	sectionNumber: null,
 	recipientGroupIds: new Set(),
+	preparerTypes: new Set(),
 	...filter,
 });
 
-export { createReportFilter, createReportListing };
+export { createPreparer, createReportFilter, createReportListing };

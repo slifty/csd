@@ -4,7 +4,13 @@
 	"name": "Start-of-Year Bus Route, Stop and Rules Notice",
 	"description": "Each student's route number and stop location, sent with a copy of the school bus rules and regulations.",
 	"type": "notification",
-	"preparedBy": "Transportation Office",
+	"preparers": [
+		{
+			"name": "Transportation Office",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "All students",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",

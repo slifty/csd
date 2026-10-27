@@ -4,7 +4,18 @@
 	"name": "Third-Level Complaint Summary",
 	"description": "Nature of the complaint, relevant facts, steps taken, action requested and reasons for or against it.",
 	"type": "data-submission",
-	"preparedBy": "Building principal or supervisor",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Supervisor",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

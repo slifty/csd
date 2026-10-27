@@ -4,7 +4,13 @@
 	"name": "Early Admission to First Grade Recommendation",
 	"description": "After the District assesses a child for whom early admission to first grade is requested, the Director reviews the results and recommends to the Superintendent whether to approve.",
 	"type": "recommendation",
-	"preparedBy": "Director of Student Services or designee",
+	"preparers": [
+		{
+			"name": "Director of Student Services or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

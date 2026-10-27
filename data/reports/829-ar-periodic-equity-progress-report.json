@@ -4,7 +4,13 @@
 	"name": "Periodic Equity Progress Report",
 	"description": "Periodic reporting on the success of equity initiatives, progress toward the Equity Policy goals, and emerging needs, for example through Board and committee presentations, Board updates, community correspondence, and strategic planning progress reports.",
 	"type": "report",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Board and community stakeholders",
 	"recipientType": "board",
 	"frequency": "as-required",

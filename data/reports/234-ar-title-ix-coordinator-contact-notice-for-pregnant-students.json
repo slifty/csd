@@ -4,8 +4,14 @@
 	"name": "Title IX Coordinator Contact Notice for Pregnant Students",
 	"description": "When informed of a student's pregnancy, an employee provides the Title IX Coordinator's contact information and documents the notification.",
 	"type": "notification",
-	"preparedBy": "District employee",
-	"recipient": "Student/parent/guardian or authorized individual",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Student / parent / guardian or authorized individual",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "promptly",

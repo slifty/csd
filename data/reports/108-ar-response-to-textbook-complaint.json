@@ -4,7 +4,13 @@
 	"name": "Response to Textbook Complaint",
 	"description": "Response to a written complaint about a textbook used in the instructional program.",
 	"type": "notification",
-	"preparedBy": "Assistant Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Assistant Superintendent or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Complainant",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

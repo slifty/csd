@@ -4,7 +4,48 @@
 	"name": "Bullying Incident Report to Principal",
 	"description": "Adults must promptly report bullying or potential bullying; the principal is notified to begin an investigation.",
 	"type": "report",
-	"preparedBy": "Parents/guardians, coaches, sponsors, volunteers, employees, contractors",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Coaches",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Activity sponsors",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Volunteers",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Representatives",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Agents",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Contractors",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Immediate supervisor or building principal",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

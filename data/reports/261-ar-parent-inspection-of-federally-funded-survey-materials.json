@@ -4,7 +4,13 @@
 	"name": "Parent Inspection of Federally Funded Survey Materials",
 	"description": "Instructional materials used with U.S. Department of Education-funded surveys are made available for parent inspection (PPRA).",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Parents",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

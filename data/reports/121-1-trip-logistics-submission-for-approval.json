@@ -4,7 +4,13 @@
 	"name": "Trip Logistics Submission for Approval",
 	"description": "All logistical details (transportation, accommodations, cost, fundraising, supervision and safety, educational value) for non-field-trip school-sponsored travel.",
 	"type": "plan",
-	"preparedBy": "Not specified (trip organizer)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "trip organizer",
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

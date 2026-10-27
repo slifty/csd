@@ -4,7 +4,13 @@
 	"name": "Advance Notice to School Nurse of Shared Classroom Food",
 	"description": "The nurse is notified in advance of food to be shared with students to address allergy and safety concerns.",
 	"type": "notification",
-	"preparedBy": "Not specified (person bringing food)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "person bringing food",
+			"type": "unspecified"
+		}
+	],
 	"recipient": "School nurse",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

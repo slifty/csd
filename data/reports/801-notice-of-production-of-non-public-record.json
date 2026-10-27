@@ -4,7 +4,13 @@
 	"name": "Notice of Production of Non-Public Record",
 	"description": "When the District produces a record that is not a public record, the provider, the subject, and the requester are notified.",
 	"type": "notification",
-	"preparedBy": "Open Records Officer",
+	"preparers": [
+		{
+			"name": "Open Records Officer",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Third party that provided the record, subject of the record, and requester",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

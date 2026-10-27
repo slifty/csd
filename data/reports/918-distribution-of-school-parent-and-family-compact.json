@@ -4,7 +4,18 @@
 	"name": "Distribution of School-Parent and Family Compact",
 	"description": "Distribution and discussion of each Title I school's jointly developed School-Parent and Family Compact.",
 	"type": "notification",
-	"preparedBy": "District / Title I schools",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Title I schools",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Parents and family members",
 	"recipientType": "parents-and-students",
 	"frequency": "as-required",

@@ -4,7 +4,18 @@
 	"name": "Annual Review of General Fund Commitments and Reserves",
 	"description": "Finance Committee agenda item reviewing general fund commitments and reserves; any recommendations to change their level or planned use go to the full Board.",
 	"type": "recommendation",
-	"preparedBy": "Director of Business Services or designee; Finance Committee",
+	"preparers": [
+		{
+			"name": "Director of Business Services or designee",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Finance Committee",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Finance Committee, then full Board",
 	"recipientType": "board",
 	"frequency": "annual",

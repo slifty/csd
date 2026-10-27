@@ -4,7 +4,13 @@
 	"name": "Donation Acknowledgment to Donor",
 	"description": "Official thanks in the Board's name and acknowledgment of the receipt and value of any accepted donation.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Donor",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

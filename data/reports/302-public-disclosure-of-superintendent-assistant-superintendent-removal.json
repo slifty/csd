@@ -1,10 +1,16 @@
 {
 	"id": "302-public-disclosure-of-superintendent-assistant-superintendent-removal",
 	"policyId": "BNU2YA046F44",
-	"name": "Public Disclosure of Superintendent/Assistant Superintendent Removal",
+	"name": "Public Disclosure of Superintendent / Assistant Superintendent Removal",
 	"description": "Public disclosure that the Superintendent or Assistant Superintendent has been removed from office.",
 	"type": "notification",
-	"preparedBy": "Board",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "event-triggered",

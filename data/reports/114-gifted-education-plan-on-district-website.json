@@ -4,7 +4,13 @@
 	"name": "Gifted Education Plan on District Website",
 	"description": "The gifted education plan, part of the Comprehensive Plan, is available on the District website.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

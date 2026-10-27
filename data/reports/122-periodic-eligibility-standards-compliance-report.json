@@ -4,7 +4,13 @@
 	"name": "Periodic Eligibility Standards Compliance Report",
 	"description": "Periodic report evaluating compliance with eligibility standards for extracurricular and cocurricular activities.",
 	"type": "report",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "as-required",

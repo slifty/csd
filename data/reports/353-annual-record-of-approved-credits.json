@@ -4,7 +4,13 @@
 	"name": "Annual Record of Approved Credits",
 	"description": "Record and description of approved graduate or special course credits attained, used for reimbursement and salary adjustments.",
 	"type": "data-submission",
-	"preparedBy": "Eligible employees",
+	"preparers": [
+		{
+			"name": "Eligible employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Human Resources Department",
 	"recipientType": "administration",
 	"frequency": "annual",

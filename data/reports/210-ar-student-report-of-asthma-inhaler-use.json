@@ -4,7 +4,13 @@
 	"name": "Student Report of Asthma Inhaler Use",
 	"description": "Students who self-carry an asthma inhaler must notify the nurse after each use by signing their medication sheet; the nurse documents each use.",
 	"type": "notification",
-	"preparedBy": "Student",
+	"preparers": [
+		{
+			"name": "Student",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "School nurse",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

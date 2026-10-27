@@ -4,7 +4,13 @@
 	"name": "Report of Conflict of Interest Violation to Federal Awarding Agency",
 	"description": "When an investigation finds a violation of the policy, the violation is reported to the federal awarding agency.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Federal awarding agency",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

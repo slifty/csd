@@ -4,7 +4,13 @@
 	"name": "Expense Reimbursement Requests",
 	"description": "Itemized reimbursement requests for job-related expenses and mileage; late requests are ineligible.",
 	"type": "data-submission",
-	"preparedBy": "Employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Business Office",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

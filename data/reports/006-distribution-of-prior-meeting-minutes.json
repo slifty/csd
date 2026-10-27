@@ -4,7 +4,13 @@
 	"name": "Distribution of Prior Meeting Minutes",
 	"description": "Copy of the minutes of the last meeting provided to each director ahead of the next regular meeting, where they are approved.",
 	"type": "report",
-	"preparedBy": "Board Secretary",
+	"preparers": [
+		{
+			"name": "Board Secretary",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Each school director",
 	"recipientType": "board",
 	"frequency": "per-meeting",

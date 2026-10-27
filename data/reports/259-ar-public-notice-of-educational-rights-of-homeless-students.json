@@ -4,7 +4,13 @@
 	"name": "Public Notice of Educational Rights of Homeless Students",
 	"description": "Dissemination of public notice of homeless students' educational rights where families and unaccompanied youth frequent, in understandable form.",
 	"type": "public-posting",
-	"preparedBy": "District homeless liaison",
+	"preparers": [
+		{
+			"name": "District homeless liaison",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public (schools, shelters, libraries, soup kitchens, food pantries)",
 	"recipientType": "public",
 	"frequency": "ongoing",

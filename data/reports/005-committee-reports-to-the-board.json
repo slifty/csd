@@ -4,7 +4,13 @@
 	"name": "Committee Reports to the Board",
 	"description": "Each Board committee chair reports to the Board on behalf of the committee.",
 	"type": "report",
-	"preparedBy": "Committee chairperson(s)",
+	"preparers": [
+		{
+			"name": "Committee chairperson(s)",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "per-meeting",

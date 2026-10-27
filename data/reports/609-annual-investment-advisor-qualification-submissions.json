@@ -4,7 +4,13 @@
 	"name": "Annual Investment Advisor Qualification Submissions",
 	"description": "Audited financial statements, FINRA certification and proof of state registration, as appropriate.",
 	"type": "data-submission",
-	"preparedBy": "Investment advisors/bidders",
+	"preparers": [
+		{
+			"name": "Investment advisors",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "annual",

@@ -1,10 +1,16 @@
 {
 	"id": "810-3-drug-and-alcohol-policy-and-materials-to-new-transferred-drivers",
 	"policyId": "BYXQQ26A5A0F",
-	"name": "Drug and Alcohol Policy and Materials to New/Transferred Drivers",
+	"name": "Drug and Alcohol Policy and Materials to New / Transferred Drivers",
 	"description": "Each school vehicle driver receives the policy and educational materials on hire or transfer; employee organizations are notified the information is available.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "School vehicle drivers; representatives of employee organizations",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

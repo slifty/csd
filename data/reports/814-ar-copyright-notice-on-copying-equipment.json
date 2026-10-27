@@ -4,8 +4,14 @@
 	"name": "Copyright Notice on Copying Equipment",
 	"description": "Required copyright-law notice displayed on or near all library or archival duplicating equipment.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
-	"recipient": "Users of library/archival copying equipment",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Users of library / archival copying equipment",
 	"recipientType": "public",
 	"frequency": "ongoing",
 	"deadline": null,

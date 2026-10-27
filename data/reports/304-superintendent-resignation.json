@@ -4,7 +4,13 @@
 	"name": "Superintendent Resignation",
 	"description": "The Superintendent's own resignation is submitted to the Board President for official Board action under the contract terms.",
 	"type": "notification",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board President",
 	"recipientType": "board",
 	"frequency": "event-triggered",

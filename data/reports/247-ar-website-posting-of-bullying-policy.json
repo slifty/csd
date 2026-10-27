@@ -4,7 +4,13 @@
 	"name": "Website Posting of Bullying Policy",
 	"description": "Bullying Policy and AR posted on a publicly accessible page of the District website.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

@@ -4,7 +4,13 @@
 	"name": "Verification of Attendance Improvement Conference for Truancy Referral",
 	"description": "When referring a habitually truant child to Children and Youth or filing a citation, the District must verify that an attendance improvement conference was held.",
 	"type": "certification",
-	"preparedBy": "Director of Student Services or designee",
+	"preparers": [
+		{
+			"name": "Director of Student Services or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Montgomery County Office of Children and Youth or magisterial district judge",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

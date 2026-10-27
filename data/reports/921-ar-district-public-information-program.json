@@ -4,7 +4,13 @@
 	"name": "District Public Information Program",
 	"description": "Communications and public information program keeping the community informed of District planning, policies, programs, services and operations (website, social media, weekly News Share, e-blasts, TV).",
 	"type": "public-posting",
-	"preparedBy": "Director of Communications",
+	"preparers": [
+		{
+			"name": "Director of Communications",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Community",
 	"recipientType": "public",
 	"frequency": "ongoing",

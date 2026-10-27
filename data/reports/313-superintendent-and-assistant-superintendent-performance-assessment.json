@@ -4,7 +4,13 @@
 	"name": "Superintendent and Assistant Superintendent Performance Assessment",
 	"description": "Formal written performance assessment against objective performance standards in the employment contracts, on the contract timeframe.",
 	"type": "report",
-	"preparedBy": "Board",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Superintendent and Assistant Superintendent",
 	"recipientType": "employees",
 	"frequency": "annual",

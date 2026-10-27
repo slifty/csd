@@ -4,10 +4,16 @@
 	"name": "Federal Program Compliance and Performance Data",
 	"description": "Data on compliance and performance of federally funded programs.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "State and federal awarding agencies",
 	"recipientType": "federal-agency",
 	"frequency": "as-required",
-	"deadline": "At intervals required by state/federal law or the awarding agency",
+	"deadline": "At intervals required by state / federal law or the awarding agency",
 	"quote": "Data on compliance and program performance shall be provided in the form, and at the time intervals required by the state and federal law or the federal awarding agency."
 }

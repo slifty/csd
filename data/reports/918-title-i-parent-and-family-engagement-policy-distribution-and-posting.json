@@ -2,9 +2,20 @@
 	"id": "918-title-i-parent-and-family-engagement-policy-distribution-and-posting",
 	"policyId": "CW82YY04887A",
 	"name": "Title I Parent and Family Engagement Policy Distribution and Posting",
-	"description": "After Board adoption, the Title I engagement policy is distributed in writing to all parents/family members, incorporated into the Title I Plan, and posted on the website.",
+	"description": "After Board adoption, the Title I engagement policy is distributed in writing to all parents / family members, incorporated into the Title I Plan, and posted on the website.",
 	"type": "public-posting",
-	"preparedBy": "District and each Title I school",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Title I schools",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Parents and family members; Public",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

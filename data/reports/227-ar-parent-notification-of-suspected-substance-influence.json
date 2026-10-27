@@ -4,8 +4,14 @@
 	"name": "Parent Notification of Suspected Substance Influence",
 	"description": "When a student is suspected of being under the influence and escorted to the health suite, the building administrator notifies the parents.",
 	"type": "notification",
-	"preparedBy": "Building administrator",
-	"recipient": "Parent(s)/guardian(s)",
+	"preparers": [
+		{
+			"name": "Building administrator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parent(s) / guardian(s)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

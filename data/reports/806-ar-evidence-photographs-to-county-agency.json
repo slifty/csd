@@ -4,7 +4,13 @@
 	"name": "Evidence Photographs to County Agency",
 	"description": "Photographs taken to preserve evidence of suspected abuse are sent to the county agency; the principal is notified when photos are taken.",
 	"type": "report",
-	"preparedBy": "School employee",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "County agency",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

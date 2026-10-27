@@ -1,7 +1,12 @@
 import { compareCodes, policiesById } from "./policies.ts";
-import { FREQUENCIES, RECIPIENT_TYPES, REPORT_TYPES } from "../report.ts";
+import {
+	FREQUENCIES,
+	PREPARER_TYPES,
+	RECIPIENT_TYPES,
+	REPORT_TYPES,
+} from "../report.ts";
 import type { Policy } from "../policy.ts";
-import type { Report } from "../report.ts";
+import type { Preparer, Report } from "../report.ts";
 
 const reportFiles = import.meta.glob<unknown>("/data/reports/*.json", {
 	import: "default",
@@ -29,7 +34,7 @@ const optionalString = (
 	file: string,
 ): string | null => {
 	const { [field]: value } = raw;
-	if (value === null) {
+	if (value === null || value === undefined) {
 		return null;
 	}
 	return requireString(raw, field, file);
@@ -47,6 +52,27 @@ const requireOneOf = <T extends string>(
 		throw new Error(`${file}: unknown ${field} "${value}"`);
 	}
 	return match;
+};
+
+const parsePreparer = (raw: unknown, context: string): Preparer => {
+	if (!isRawReport(raw)) {
+		throw new Error(`${context}: a preparer must be a JSON object`);
+	}
+	return {
+		name: requireString(raw, "name", context),
+		detail: optionalString(raw, "detail", context),
+		type: requireOneOf(PREPARER_TYPES, raw, "type", context),
+	};
+};
+
+const requirePreparers = (raw: RawReport, file: string): Preparer[] => {
+	const { preparers } = raw;
+	if (!Array.isArray(preparers) || preparers.length === 0) {
+		throw new Error(`${file}: "preparers" must be a non-empty list`);
+	}
+	return preparers.map((preparer: unknown, index) =>
+		parsePreparer(preparer, `${file} preparers[${index}]`),
+	);
 };
 
 const reportIdOfFile = (file: string): string => {
@@ -81,7 +107,7 @@ const parseReport = (file: string, raw: unknown): Report => {
 		name: requireString(raw, "name", file),
 		description: requireString(raw, "description", file),
 		type: requireOneOf(REPORT_TYPES, raw, "type", file),
-		preparedBy: requireString(raw, "preparedBy", file),
+		preparers: requirePreparers(raw, file),
 		recipient: requireString(raw, "recipient", file),
 		recipientType: requireOneOf(RECIPIENT_TYPES, raw, "recipientType", file),
 		frequency: requireOneOf(FREQUENCIES, raw, "frequency", file),

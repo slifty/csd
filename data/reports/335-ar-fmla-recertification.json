@@ -4,7 +4,18 @@
 	"name": "FMLA Recertification",
 	"description": "Recertification of an ongoing condition every six months, each leave year for conditions over one year, and upon a request to extend leave.",
 	"type": "certification",
-	"preparedBy": "District (requests); employee (provides)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": "requests",
+			"type": "administrators"
+		},
+		{
+			"name": "Employees",
+			"detail": "provides",
+			"type": "employees"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "semiannual",

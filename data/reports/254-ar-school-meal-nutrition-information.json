@@ -4,8 +4,14 @@
 	"name": "School Meal Nutrition Information",
 	"description": "Nutrition content of school meals is made available to students and parents.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
-	"recipient": "Students and parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Students and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

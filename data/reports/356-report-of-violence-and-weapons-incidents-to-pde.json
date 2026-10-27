@@ -4,7 +4,13 @@
 	"name": "Report of Violence and Weapons Incidents to PDE",
 	"description": "Report of all incidents of violence or unapproved weapon possession by any person on District property.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "as-required",

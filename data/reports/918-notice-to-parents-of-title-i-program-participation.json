@@ -4,7 +4,18 @@
 	"name": "Notice to Parents of Title I Program Participation",
 	"description": "Notice of the Title I program with the reasons for the child's selection, goals and expectations, description of services, and copies of the policy and School-Parent and Family Compact.",
 	"type": "notification",
-	"preparedBy": "Building principal and/or Title I staff",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Title I staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Parents and family members",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

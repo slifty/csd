@@ -4,7 +4,13 @@
 	"name": "Breach Notice to Consumer Reporting Agencies",
 	"description": "If more than 1,000 people are notified at once, the nationwide consumer reporting agencies are told the timing, distribution and number of notices.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Nationwide consumer reporting agencies",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

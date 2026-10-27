@@ -4,7 +4,13 @@
 	"name": "Referral of Armed Student to Threat Assessment Team",
 	"description": "Staff report a student in possession of a weapon to the threat assessment team when the behavior indicates a threat to safety.",
 	"type": "notification",
-	"preparedBy": "District staff",
+	"preparers": [
+		{
+			"name": "District staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Threat assessment team",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

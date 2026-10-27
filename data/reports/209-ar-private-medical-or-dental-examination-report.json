@@ -4,7 +4,13 @@
 	"name": "Private Medical or Dental Examination Report",
 	"description": "A private exam report on the Secretary of Health's form may be furnished in lieu of the school exam (health exams at entry, grades 6 and 11; dental at entry, grades 3 and 7).",
 	"type": "report",
-	"preparedBy": "Parent/guardian (family physician or dentist)",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": "family physician or dentist",
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "as-required",

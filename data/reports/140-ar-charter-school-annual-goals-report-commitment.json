@@ -4,9 +4,15 @@
 	"name": "Charter School Annual Goals Report Commitment",
 	"description": "Applicants must agree to submit an annual report to the District describing how far the school is meeting its goals.",
 	"type": "report",
-	"preparedBy": "Charter school applicant",
+	"preparers": [
+		{
+			"name": "Charter school applicant",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Cheltenham School District",
-	"recipientType": "other-external",
+	"recipientType": "administration",
 	"frequency": "annual",
 	"deadline": "annually",
 	"quote": "State the charter school’s agreement to submit an annual report to Cheltenham School District describing the extent to which the school is meeting its goal(s)."

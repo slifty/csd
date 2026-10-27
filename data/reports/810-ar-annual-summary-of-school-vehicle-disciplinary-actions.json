@@ -4,7 +4,13 @@
 	"name": "Annual Summary of School Vehicle Disciplinary Actions",
 	"description": "Summary of disciplinary actions arising from student conduct on school vehicles, monitored and reported to the Board.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

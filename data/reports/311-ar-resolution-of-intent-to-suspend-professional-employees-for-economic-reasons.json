@@ -4,7 +4,13 @@
 	"name": "Resolution of Intent to Suspend Professional Employees for Economic Reasons",
 	"description": "Board resolution setting out the economic conditions, expected savings, other cost-saving actions, projected expenditures with and without suspensions, projected revenues, numbers and percentages of staff affected, and impact on academic programs.",
 	"type": "report",
-	"preparedBy": "Board",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Public (adopted at public meeting)",
 	"recipientType": "public",
 	"frequency": "event-triggered",

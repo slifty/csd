@@ -4,7 +4,13 @@
 	"name": "Procurement Protest Disclosure to Awarding Agency",
 	"description": "Information regarding any procurement protest is disclosed to the awarding agency.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal awarding agency",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

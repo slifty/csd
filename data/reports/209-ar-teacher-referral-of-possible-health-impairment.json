@@ -4,7 +4,13 @@
 	"name": "Teacher Referral of Possible Health Impairment",
 	"description": "Teachers report unusual behavior or changes in appearance, attendance or achievement that may indicate a health impairment.",
 	"type": "notification",
-	"preparedBy": "All teachers",
+	"preparers": [
+		{
+			"name": "All teachers",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "School nurse or school physician",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

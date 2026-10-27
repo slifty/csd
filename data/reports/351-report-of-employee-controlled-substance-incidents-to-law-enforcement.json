@@ -4,7 +4,13 @@
 	"name": "Report of Employee Controlled Substance Incidents to Law Enforcement",
 	"description": "Report of employee possession, use, or sale of controlled substances or paraphernalia on school property, at school activities, or on school transportation, per the MOU with law enforcement.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Local law enforcement with jurisdiction",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

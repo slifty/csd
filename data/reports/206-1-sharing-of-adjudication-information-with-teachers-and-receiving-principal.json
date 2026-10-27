@@ -4,7 +4,13 @@
 	"name": "Sharing of Adjudication Information With Teachers and Receiving Principal",
 	"description": "Adjudication information is shared with the student's teacher and any receiving school's principal, solely to protect staff and students and arrange counseling and education.",
 	"type": "notification",
-	"preparedBy": "Building principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Student's teacher; principal of school to which student transfers",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

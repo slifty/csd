@@ -4,7 +4,23 @@
 	"name": "Itemized Travel Cost Statement (Federal Programs)",
 	"description": "Itemized, verified statement of travel costs under federal awards, required before reimbursement.",
 	"type": "data-submission",
-	"preparedBy": "School officials, employees and participants",
+	"preparers": [
+		{
+			"name": "School officials",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Participants",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "Director of Business Services or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

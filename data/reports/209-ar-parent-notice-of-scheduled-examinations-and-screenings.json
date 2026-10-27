@@ -2,10 +2,16 @@
 	"id": "209-ar-parent-notice-of-scheduled-examinations-and-screenings",
 	"policyId": "BYXPKV650D2C",
 	"name": "Parent Notice of Scheduled Examinations and Screenings",
-	"description": "Notice of upcoming physical/dental examinations or screenings with date and location, invitation to attend, the private-exam option, and possible religious exemption.",
+	"description": "Notice of upcoming physical / dental examinations or screenings with date and location, invitation to attend, the private-exam option, and possible religious exemption.",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "as-required",
 	"deadline": "before each scheduled examination or screening",

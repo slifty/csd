@@ -4,7 +4,23 @@
 	"name": "Statement of Financial Interests",
 	"description": "Board members must file a statement of financial interests before taking office or receiving compensation; the Solicitor and designated employees must also file one as required by law.",
 	"type": "certification",
-	"preparedBy": "Board members; District Solicitor; designated District employees",
+	"preparers": [
+		{
+			"name": "Board member",
+			"detail": null,
+			"type": "board"
+		},
+		{
+			"name": "District Solicitor",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Employees",
+			"detail": "designated",
+			"type": "employees"
+		}
+	],
 	"recipient": "Not specified (filed as required by law)",
 	"recipientType": "other-external",
 	"frequency": "as-required",

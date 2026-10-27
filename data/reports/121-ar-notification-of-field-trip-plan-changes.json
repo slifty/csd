@@ -4,7 +4,13 @@
 	"name": "Notification of Field Trip Plan Changes",
 	"description": "When an approved trip's plans change, the listed persons are notified.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Requesting teacher, approving principal, Assistant Superintendent, Supervisor of Transportation",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

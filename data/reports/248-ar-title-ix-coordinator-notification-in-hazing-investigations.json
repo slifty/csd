@@ -4,7 +4,13 @@
 	"name": "Title IX Coordinator Notification in Hazing Investigations",
 	"description": "Prompt notice to the Title IX Coordinator when a hazing investigation identifies potential Title IX issues.",
 	"type": "notification",
-	"preparedBy": "Investigator (not specified)",
+	"preparers": [
+		{
+			"name": "Investigator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Title IX Coordinator",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

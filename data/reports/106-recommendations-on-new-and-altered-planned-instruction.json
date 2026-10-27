@@ -2,9 +2,15 @@
 	"id": "106-recommendations-on-new-and-altered-planned-instruction",
 	"policyId": "BH22ZJ049D98",
 	"name": "Recommendations on New and Altered Planned Instruction",
-	"description": "Based on continuous evaluation of course effectiveness, the Superintendent recommends new or altered planned instruction/courses to the Board.",
+	"description": "Based on continuous evaluation of course effectiveness, the Superintendent recommends new or altered planned instruction / courses to the Board.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "ongoing",

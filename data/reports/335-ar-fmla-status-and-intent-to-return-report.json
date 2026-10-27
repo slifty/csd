@@ -4,7 +4,13 @@
 	"name": "FMLA Status and Intent to Return Report",
 	"description": "Report of the employee's status and intention regarding return to work.",
 	"type": "report",
-	"preparedBy": "Employee on FMLA leave",
+	"preparers": [
+		{
+			"name": "Employee on FMLA leave",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Director of Human Resources (District)",
 	"recipientType": "administration",
 	"frequency": "as-required",

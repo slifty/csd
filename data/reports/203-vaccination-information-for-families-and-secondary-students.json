@@ -4,8 +4,14 @@
 	"name": "Vaccination Information for Families and Secondary Students",
 	"description": "Objective, evidence-based information on vaccinations and immunization is provided to parents and secondary-level students.",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians and secondary students",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians and secondary students",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

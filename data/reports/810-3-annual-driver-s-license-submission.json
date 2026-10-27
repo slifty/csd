@@ -4,7 +4,13 @@
 	"name": "Annual Driver's License Submission",
 	"description": "Copy of a valid driver's license submitted before employment and every school year.",
 	"type": "certification",
-	"preparedBy": "School vehicle drivers",
+	"preparers": [
+		{
+			"name": "School vehicle driver",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "annual",

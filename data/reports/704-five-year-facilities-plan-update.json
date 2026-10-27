@@ -4,7 +4,13 @@
 	"name": "Five-Year Facilities Plan Update",
 	"description": "Five-year facilities plan, updated annually, with updates shared with the Board.",
 	"type": "plan",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

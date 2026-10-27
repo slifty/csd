@@ -4,7 +4,13 @@
 	"name": "Notice of Alleged Violation Before Search",
 	"description": "Before an individualized search, the user receives notice of the alleged violation and a chance to explain, if required by law.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "User whose account is to be searched",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Law Enforcement Notification of Threats or Physical Contact",
 	"description": "Prompt notice to law enforcement when anyone threatens harm or makes inappropriate physical contact.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Law enforcement",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Special and Rescheduled Meeting Public Notice",
 	"description": "Publication and posting of notice of special or rescheduled meetings (waived for actual emergencies).",
 	"type": "public-posting",
-	"preparedBy": "Not specified (District)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "event-triggered",

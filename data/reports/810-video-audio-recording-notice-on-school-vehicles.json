@@ -1,10 +1,16 @@
 {
 	"id": "810-video-audio-recording-notice-on-school-vehicles",
 	"policyId": "DKJVDG803D8C",
-	"name": "Video/Audio Recording Notice on School Vehicles",
-	"description": "Clearly posted notice on each equipped bus/vehicle of potential video and audio recording.",
+	"name": "Video / Audio Recording Notice on School Vehicles",
+	"description": "Clearly posted notice on each equipped bus / vehicle of potential video and audio recording.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Drivers and passengers",
 	"recipientType": "public",
 	"frequency": "ongoing",

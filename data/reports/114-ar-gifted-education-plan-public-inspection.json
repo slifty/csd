@@ -4,7 +4,13 @@
 	"name": "Gifted Education Plan Public Inspection",
 	"description": "Gifted education plan developed every six years and made available for public inspection and comment at District offices and Township public libraries before Board approval.",
 	"type": "plan",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "every-6-years",

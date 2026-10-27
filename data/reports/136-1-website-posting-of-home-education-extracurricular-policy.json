@@ -4,7 +4,13 @@
 	"name": "Website Posting of Home Education Extracurricular Policy",
 	"description": "Policy posted on the District website; participation information given on request.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

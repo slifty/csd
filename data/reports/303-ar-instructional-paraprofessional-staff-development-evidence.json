@@ -4,7 +4,13 @@
 	"name": "Instructional Paraprofessional Staff Development Evidence",
 	"description": "Evidence that each instructional paraprofessional completed 20 hours of assignment-related staff development during the school year.",
 	"type": "data-submission",
-	"preparedBy": "Instructional paraprofessionals",
+	"preparers": [
+		{
+			"name": "Instructional paraprofessionals",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Not specified (District)",
 	"recipientType": "administration",
 	"frequency": "annual",

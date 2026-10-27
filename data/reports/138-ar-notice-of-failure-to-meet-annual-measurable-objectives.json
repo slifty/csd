@@ -4,8 +4,14 @@
 	"name": "Notice of Failure to Meet Annual Measurable Objectives",
 	"description": "Notice to EL parents if the District fails to meet annual measurable performance objectives.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians of students in ELD programs",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians of students in ELD programs",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "within 30 days (or 14 days of enrollment)",

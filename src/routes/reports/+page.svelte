@@ -6,18 +6,21 @@
 	import { page } from "$app/state";
 	import ReportFilters from "#lib/components/ReportFilters.svelte";
 	import ReportTable from "#lib/components/ReportTable.svelte";
-	import ReportTallies from "#lib/components/ReportTallies.svelte";
 	import {
 		readReportFilter,
 		writeReportFilter,
 	} from "#lib/report-filter-url.ts";
-	import { countByRecipientGroup, matchesFilter } from "#lib/report-listing.ts";
+	import {
+		countByPreparerType,
+		countByRecipientGroup,
+		matchesFilter,
+	} from "#lib/report-listing.ts";
 	import type {
 		RecipientGroupId,
 		ReportFilter,
 		ReportView,
 	} from "#lib/report-listing.ts";
-	import type { Frequency } from "#lib/report.ts";
+	import type { Frequency, PreparerType } from "#lib/report.ts";
 	import type { PageProps } from "./$types";
 
 	const { data }: PageProps = $props();
@@ -27,6 +30,8 @@
 	let frequency: Frequency | null = $state(null);
 	let sectionNumber: string | null = $state(null);
 	const recipientGroupIds = new SvelteSet<RecipientGroupId>();
+	const preparerTypes = new SvelteSet<PreparerType>();
+	let filtersHeight = $state(0);
 
 	const filter: ReportFilter = $derived({
 		view,
@@ -34,6 +39,7 @@
 		frequency,
 		sectionNumber,
 		recipientGroupIds,
+		preparerTypes,
 	});
 	const shownListings = $derived(
 		data.listings.filter((listing) => matchesFilter(filter, listing)),
@@ -41,6 +47,17 @@
 	const recipientCounts = $derived(
 		countByRecipientGroup(filter, data.listings),
 	);
+	const preparerCounts = $derived(countByPreparerType(filter, data.listings));
+
+	const replaceAll = <T,>(
+		selected: SvelteSet<T>,
+		values: Iterable<T>,
+	): void => {
+		selected.clear();
+		for (const value of values) {
+			selected.add(value);
+		}
+	};
 
 	let hasReadUrl = $state(false);
 
@@ -53,10 +70,8 @@
 		search = initial.search;
 		frequency = initial.frequency;
 		sectionNumber = initial.sectionNumber;
-		recipientGroupIds.clear();
-		for (const id of initial.recipientGroupIds) {
-			recipientGroupIds.add(id);
-		}
+		replaceAll(recipientGroupIds, initial.recipientGroupIds);
+		replaceAll(preparerTypes, initial.preparerTypes);
 		hasReadUrl = true;
 	});
 
@@ -86,20 +101,21 @@
 
 <h1>The Unofficial Official Report Report</h1>
 
-<ReportTallies listings={data.listings} />
-
 <ReportFilters
 	listings={data.listings}
 	{recipientCounts}
+	{preparerCounts}
 	shownCount={shownListings.length}
 	bind:view
 	bind:search
 	bind:frequency
 	bind:sectionNumber
 	{recipientGroupIds}
+	{preparerTypes}
+	bind:height={filtersHeight}
 />
 
-<ReportTable listings={shownListings} />
+<ReportTable listings={shownListings} stickyTop={filtersHeight} />
 
 <style>
 	h1 {

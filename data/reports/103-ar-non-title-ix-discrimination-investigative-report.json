@@ -4,7 +4,13 @@
 	"name": "Non-Title IX Discrimination Investigative Report",
 	"description": "Written report summarizing the investigation, whether the complaint is substantiated, the basis for the finding, and any policy or legal violations.",
 	"type": "report",
-	"preparedBy": "Investigator",
+	"preparers": [
+		{
+			"name": "Investigator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Title IX Coordinator or Superintendent's designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

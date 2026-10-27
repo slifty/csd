@@ -4,7 +4,13 @@
 	"name": "Notification of Suspension to Superintendent",
 	"description": "Any principal suspending a student must promptly notify the Superintendent.",
 	"type": "notification",
-	"preparedBy": "Principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

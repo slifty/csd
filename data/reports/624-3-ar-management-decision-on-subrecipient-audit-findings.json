@@ -4,7 +4,13 @@
 	"name": "Management Decision on Subrecipient Audit Findings",
 	"description": "Management decision issued for audit findings pertaining to a subaward.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Subrecipients",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

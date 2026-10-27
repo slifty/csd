@@ -4,7 +4,13 @@
 	"name": "Food Service Contractor Discount and Rebate Reporting",
 	"description": "Contractors identify each discount, rebate and credit on bills and invoices; with state agency approval, may report less often than monthly but at least annually.",
 	"type": "data-submission",
-	"preparedBy": "Food service contractors (cost reimbursable contracts)",
+	"preparers": [
+		{
+			"name": "Food service contractors",
+			"detail": "cost reimbursable contracts",
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "School food authority (District)",
 	"recipientType": "administration",
 	"frequency": "monthly",

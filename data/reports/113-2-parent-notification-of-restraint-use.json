@@ -4,8 +4,14 @@
 	"name": "Parent Notification of Restraint Use",
 	"description": "Notice to parents of the use of restraints, followed by an IEP team meeting within 10 school days unless waived.",
 	"type": "notification",
-	"preparedBy": "Director of Special Education or designee",
-	"recipient": "Parent/guardian",
+	"preparers": [
+		{
+			"name": "Director of Special Education or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "as soon as practicable",

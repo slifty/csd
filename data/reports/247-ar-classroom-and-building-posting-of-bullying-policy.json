@@ -4,7 +4,13 @@
 	"name": "Classroom and Building Posting of Bullying Policy",
 	"description": "Bullying Policy and AR available in all classrooms and posted prominently in each school building.",
 	"type": "public-posting",
-	"preparedBy": "Building administrators or designees",
+	"preparers": [
+		{
+			"name": "Building administrator or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Students and staff",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",

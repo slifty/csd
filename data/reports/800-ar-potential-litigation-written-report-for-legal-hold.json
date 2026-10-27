@@ -4,7 +4,13 @@
 	"name": "Potential Litigation Written Report for Legal Hold",
 	"description": "When an employee flags a matter that may lead to litigation, the administrator forwards a written report to the Superintendent, who decides with the Solicitor whether to place a legal hold on records.",
 	"type": "report",
-	"preparedBy": "Administrator (building/central office supervisor)",
+	"preparers": [
+		{
+			"name": "Administrator",
+			"detail": "building / central office supervisor",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

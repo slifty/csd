@@ -4,7 +4,13 @@
 	"name": "Certified Employee Report of Educator Sexual Misconduct",
 	"description": "Certified staff who know of sexual abuse, exploitation, or sexual misconduct under the Educator Discipline Act report it immediately; reports to PDE on the required form follow applicable law.",
 	"type": "notification",
-	"preparedBy": "Certified employees",
+	"preparers": [
+		{
+			"name": "Certified employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent and/or Title IX Coordinator",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Meal Charge Policy Distribution to Households",
 	"description": "Written copy of the local meal charge policy provided to every household.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Each household (and households transferring in mid-year)",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",

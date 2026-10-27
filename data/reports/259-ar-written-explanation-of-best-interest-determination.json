@@ -4,8 +4,14 @@
 	"name": "Written Explanation of Best Interest Determination",
 	"description": "If the District decides against the school of origin or requested school, it provides a written explanation including appeal rights and procedures.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parent/guardian",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

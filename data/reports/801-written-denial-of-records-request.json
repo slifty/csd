@@ -4,7 +4,13 @@
 	"name": "Written Denial of Records Request",
 	"description": "Written denial describing the record, specific legal reasons for denial, the issuing officer, date, and appeal procedure.",
 	"type": "notification",
-	"preparedBy": "Open Records Officer",
+	"preparers": [
+		{
+			"name": "Open Records Officer",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Requester",
 	"recipientType": "public",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Enrollment Forms and Information to Shelters",
 	"description": "Provide standard forms and information about enrollment procedures and key programs to each shelter.",
 	"type": "notification",
-	"preparedBy": "District homeless liaison",
+	"preparers": [
+		{
+			"name": "District homeless liaison",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Each shelter in the District",
 	"recipientType": "other-external",
 	"frequency": "ongoing",

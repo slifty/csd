@@ -4,8 +4,14 @@
 	"name": "Student Progress Reporting to Families",
 	"description": "Students and parents are kept informed of progress during each course through report cards, parent-teacher conferences and other means.",
 	"type": "report",
-	"preparedBy": "Not specified",
-	"recipient": "Students and parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Students and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

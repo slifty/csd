@@ -2,9 +2,15 @@
 	"id": "247-annual-bullying-information-with-safety-and-security-incident-report",
 	"policyId": "DA2QEZ68509F",
 	"name": "Annual Bullying Information with Safety and Security Incident Report",
-	"description": "If required by law, annually provides the bullying Policy/AR, a report of bullying incidents, and information on prevention/intervention programs with the school safety and security incident report.",
+	"description": "If required by law, annually provides the bullying Policy / AR, a report of bullying incidents, and information on prevention / intervention programs with the school safety and security incident report.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "State recipient of the school safety and security incident report (not named)",
 	"recipientType": "state-agency",
 	"frequency": "annual",

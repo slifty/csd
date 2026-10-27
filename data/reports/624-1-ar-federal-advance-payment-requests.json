@@ -4,7 +4,13 @@
 	"name": "Federal Advance Payment Requests",
 	"description": "Consolidated requests for advance payment of federal grant funds.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "monthly",

@@ -4,7 +4,13 @@
 	"name": "Financial Condition Communications to Rating Agencies",
 	"description": "Ongoing communication with bond rating agencies about the District's financial condition, with full disclosure in every financial report and official statement provided to them and to investors.",
 	"type": "report",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Bond rating agencies, bond service providers and investors",
 	"recipientType": "other-external",
 	"frequency": "ongoing",

@@ -4,8 +4,14 @@
 	"name": "Notification of Bloodborne Pathogens Policy",
 	"description": "Notice of current Board Policy on bloodborne infection, with reasonable opportunities to discuss it.",
 	"type": "notification",
-	"preparedBy": "Building administrators",
-	"recipient": "Students, parents/guardians, and employees",
+	"preparers": [
+		{
+			"name": "Building administrator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Students, parents / guardians, and employees",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

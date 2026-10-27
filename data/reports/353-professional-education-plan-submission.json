@@ -4,7 +4,13 @@
 	"name": "Professional Education Plan Submission",
 	"description": "Professional education plan specifying approved courses, programs, activities, required training (including at least one hour of trauma-informed training), and approved providers.",
 	"type": "plan",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Secretary of Education (PA Department of Education)",
 	"recipientType": "state-agency",
 	"frequency": "every-3-years",

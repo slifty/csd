@@ -4,7 +4,13 @@
 	"name": "Contractor Notice to Employees of Boundaries Policy",
 	"description": "Contractors make sure their employees who interact with students or are on school grounds know the policy and regulation.",
 	"type": "notification",
-	"preparedBy": "Independent contractors",
+	"preparers": [
+		{
+			"name": "Independent contractor",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Contractor employees who interact with students",
 	"recipientType": "other-external",
 	"frequency": "ongoing",

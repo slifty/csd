@@ -4,7 +4,13 @@
 	"name": "Notice of Special and Rescheduled Meetings to Directors",
 	"description": "Notice to each school director of any rescheduled or special meeting.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Each school director",
 	"recipientType": "board",
 	"frequency": "event-triggered",

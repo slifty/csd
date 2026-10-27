@@ -4,7 +4,13 @@
 	"name": "Investment Advisor Policy Acknowledgment",
 	"description": "Written verification that each advisor received and reviewed the policy and agrees to comply with it and applicable law.",
 	"type": "certification",
-	"preparedBy": "Investment advisors",
+	"preparers": [
+		{
+			"name": "Investment advisors",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

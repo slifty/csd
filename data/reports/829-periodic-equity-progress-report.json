@@ -4,7 +4,13 @@
 	"name": "Periodic Equity Progress Report",
 	"description": "The Administrative Regulations must provide for periodic reporting on the success of equity initiatives, progress toward the policy goals, and emerging needs.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee (via Administrative Regulations)",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": "via Administrative Regulations",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board and community stakeholders",
 	"recipientType": "board",
 	"frequency": "as-required",

@@ -4,7 +4,13 @@
 	"name": "Vandalism Report to the Board",
 	"description": "Report of vandalism incidents including number and kind of incidents, the cost to the District, and related facts and comments.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

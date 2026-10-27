@@ -2,10 +2,16 @@
 	"id": "808-ar-weekly-negative-meal-balance-notice",
 	"policyId": "CJP2Y504696A",
 	"name": "Weekly Negative Meal Balance Notice",
-	"description": "Written correspondence advising parents/guardians of their child's negative school meal account balance.",
+	"description": "Written correspondence advising parents / guardians of their child's negative school meal account balance.",
 	"type": "notification",
-	"preparedBy": "District (Food Services)",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Food Service Manager",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "as-required",
 	"deadline": "weekly while the balance is negative",

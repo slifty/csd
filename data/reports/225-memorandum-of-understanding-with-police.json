@@ -4,7 +4,13 @@
 	"name": "Memorandum of Understanding With Police",
 	"description": "Safe Schools Act MOU with township police setting procedures for specified incidents on school property, at activities and on school transportation; kept current and attached to the AR.",
 	"type": "plan",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Cheltenham Township Police Department",
 	"recipientType": "law-enforcement",
 	"frequency": "as-required",

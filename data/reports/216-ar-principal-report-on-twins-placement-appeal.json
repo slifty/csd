@@ -2,9 +2,15 @@
 	"id": "216-ar-principal-report-on-twins-placement-appeal",
 	"policyId": "CCNMHR5B5DB1",
 	"name": "Principal Report on Twins Placement Appeal",
-	"description": "When a parent appeals the classroom placement of twins/multiples, the principal provides a written report stating the basis for the placement recommendation.",
+	"description": "When a parent appeals the classroom placement of twins / multiples, the principal provides a written report stating the basis for the placement recommendation.",
 	"type": "report",
-	"preparedBy": "Principal",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Charter School Annual Report",
 	"description": "Annual report used by the Board to assess whether each charter school is meeting the goals of its charter.",
 	"type": "report",
-	"preparedBy": "Each charter school",
+	"preparers": [
+		{
+			"name": "Each charter school",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

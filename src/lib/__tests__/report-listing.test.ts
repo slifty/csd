@@ -1,10 +1,12 @@
 import { describe, expect, it } from "vitest";
 import {
+	createPreparer,
 	createReportFilter,
 	createReportListing,
 } from "../../test/report-listing.ts";
 import {
 	RECIPIENT_GROUPS,
+	countByPreparerType,
 	countByRecipientGroup,
 	isInView,
 	matchesFilter,
@@ -113,6 +115,39 @@ describe("matchesFilter", () => {
 			matchesFilter(filter, createReportListing({ recipientType: "board" })),
 		).toBe(false);
 	});
+
+	it("matches a report when any of its preparers has a chosen type", () => {
+		const filter = createReportFilter({ preparerTypes: new Set(["board"]) });
+		const listing = createReportListing({
+			preparers: [
+				createPreparer({ type: "superintendent" }),
+				createPreparer({ type: "board" }),
+			],
+		});
+		expect(matchesFilter(filter, listing)).toBe(true);
+	});
+
+	it("matches any of the chosen preparer types", () => {
+		const filter = createReportFilter({
+			preparerTypes: new Set(["board", "employees"]),
+		});
+		expect(
+			matchesFilter(
+				filter,
+				createReportListing({
+					preparers: [createPreparer({ type: "employees" })],
+				}),
+			),
+		).toBe(true);
+		expect(
+			matchesFilter(
+				filter,
+				createReportListing({
+					preparers: [createPreparer({ type: "superintendent" })],
+				}),
+			),
+		).toBe(false);
+	});
 });
 
 describe("countByRecipientGroup", () => {
@@ -143,5 +178,41 @@ describe("countByRecipientGroup", () => {
 			listings,
 		);
 		expect(counts.get("government")).toBe(2);
+	});
+});
+
+describe("countByPreparerType", () => {
+	const listings = [
+		createReportListing({
+			id: "a",
+			preparers: [createPreparer({ type: "board" })],
+		}),
+		createReportListing({
+			id: "b",
+			preparers: [createPreparer({ type: "employees" })],
+			recipientType: "public",
+		}),
+		createReportListing({
+			id: "c",
+			preparers: [createPreparer({ type: "employees" })],
+		}),
+	];
+
+	it("counts what each preparer type would show under the other filters", () => {
+		const counts = countByPreparerType(
+			createReportFilter({ recipientGroupIds: new Set(["board"]) }),
+			listings,
+		);
+		expect(counts.get("board")).toBe(1);
+		expect(counts.get("employees")).toBe(1);
+		expect(counts.get("unspecified")).toBe(0);
+	});
+
+	it("ignores the preparer types already chosen", () => {
+		const counts = countByPreparerType(
+			createReportFilter({ preparerTypes: new Set(["board"]) }),
+			listings,
+		);
+		expect(counts.get("employees")).toBe(2);
 	});
 });

@@ -4,7 +4,13 @@
 	"name": "Educator Report of Sexual Misconduct",
 	"description": "Report of any action, inaction, or conduct constituting sexual abuse, exploitation, or sexual misconduct under the Educator Discipline Act.",
 	"type": "report",
-	"preparedBy": "Any educator with knowledge",
+	"preparers": [
+		{
+			"name": "Any educator with knowledge",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "PA Department of Education; Superintendent and immediate supervisor",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

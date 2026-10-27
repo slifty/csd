@@ -4,7 +4,13 @@
 	"name": "Facilities and Maintenance Report to the Board",
 	"description": "Information on five-year facilities plan updates, facility conditions and prioritized repairs, status of projects, technology use, and recommendations on future maintenance needs and staffing.",
 	"type": "presentation",
-	"preparedBy": "Director of Facilities and Maintenance",
+	"preparers": [
+		{
+			"name": "Director of Facilities and Maintenance",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

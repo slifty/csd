@@ -4,8 +4,14 @@
 	"name": "Disclosure of Student Confidential Information When Safety Is in Jeopardy",
 	"description": "Information a student shared in confidence must be communicated to parents, the principal or another authority when the health, welfare or safety of the student or others is clearly in jeopardy.",
 	"type": "notification",
-	"preparedBy": "School personnel",
-	"recipient": "Parent/guardian, building principal, or other appropriate authority",
+	"preparers": [
+		{
+			"name": "District staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Parent / guardian, building principal, or other appropriate authority",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

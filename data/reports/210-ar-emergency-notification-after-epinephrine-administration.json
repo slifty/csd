@@ -2,10 +2,21 @@
 	"id": "210-ar-emergency-notification-after-epinephrine-administration",
 	"policyId": "AWL5HC104F1A",
 	"name": "Emergency Notification After Epinephrine Administration",
-	"description": "Immediately after any child receives epinephrine, the nurse calls 911 and contacts the parent/guardian; staff handling an allergic reaction also notify the nurse.",
+	"description": "Immediately after any child receives epinephrine, the nurse calls 911 and contacts the parent / guardian; staff handling an allergic reaction also notify the nurse.",
 	"type": "notification",
-	"preparedBy": "School nurse or LPN",
-	"recipient": "911 and the child's parent/guardian",
+	"preparers": [
+		{
+			"name": "School nurse",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "LPN",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "911 and the child's parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "immediately",

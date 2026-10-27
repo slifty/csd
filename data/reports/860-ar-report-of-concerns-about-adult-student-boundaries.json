@@ -4,7 +4,13 @@
 	"name": "Report of Concerns About Adult-Student Boundaries",
 	"description": "Anyone uneasy about a relationship or interaction between a District adult and a student must notify an administrator immediately.",
 	"type": "notification",
-	"preparedBy": "Any person, including students",
+	"preparers": [
+		{
+			"name": "Anyone",
+			"detail": "including students",
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent, Title IX Coordinator, or building principal",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

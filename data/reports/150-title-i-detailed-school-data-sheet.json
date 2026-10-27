@@ -4,7 +4,13 @@
 	"name": "Title I Detailed School Data Sheet",
 	"description": "Detailed School Data Sheet completed when the District has more than one building per grade span.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Not specified (Title I comparability compliance)",
 	"recipientType": "other-external",
 	"frequency": "as-required",

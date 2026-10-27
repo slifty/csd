@@ -4,7 +4,13 @@
 	"name": "Notice of School Attendance Improvement Conference",
 	"description": "Advance written notice scheduling a school attendance improvement conference when unlawful absences continue after the Official Notice of Truancy.",
 	"type": "notification",
-	"preparedBy": "School",
+	"preparers": [
+		{
+			"name": "School",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Child and person in parental relation",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

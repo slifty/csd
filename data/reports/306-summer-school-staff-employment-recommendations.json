@@ -4,7 +4,13 @@
 	"name": "Summer School Staff Employment Recommendations",
 	"description": "Recommendation of candidates for summer school employment so the Board can approve employment, compensation, and period of employment.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

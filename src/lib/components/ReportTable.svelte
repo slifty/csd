@@ -6,10 +6,13 @@
 	} from "#lib/report-labels.ts";
 	import type { ReportListing } from "#lib/report-listing.ts";
 
-	const { listings }: { listings: readonly ReportListing[] } = $props();
+	const {
+		listings,
+		stickyTop,
+	}: { listings: readonly ReportListing[]; stickyTop: number } = $props();
 </script>
 
-<div class="ledger">
+<div class="ledger" style:--sticky-top="{stickyTop}px">
 	<table>
 		<thead>
 			<tr>
@@ -24,8 +27,7 @@
 			{:else}
 				<tr>
 					<td colspan={REPORT_COLUMN_COUNT} class="empty">
-						No reports match these filters. Clear the search or pick another
-						recipient.
+						No reports match. Clear the search or change the filters.
 					</td>
 				</tr>
 			{/each}
@@ -35,7 +37,7 @@
 
 <style>
 	.ledger {
-		overflow-x: auto;
+		overflow: clip;
 		background: var(--sheet);
 		border: 1px solid var(--rule);
 		border-radius: 8px;
@@ -47,6 +49,11 @@
 	}
 
 	th {
+		position: sticky;
+		top: calc(env(safe-area-inset-top, 0px) + var(--sticky-top));
+		z-index: 1;
+		background: var(--sheet);
+		box-shadow: inset 0 -1px 0 var(--rule);
 		text-align: left;
 		font-size: 12px;
 		font-weight: 600;
@@ -54,7 +61,6 @@
 		text-transform: uppercase;
 		color: var(--ink-2);
 		padding: 10px 14px;
-		white-space: nowrap;
 	}
 
 	.empty {
@@ -64,7 +70,7 @@
 		border-top: 1px solid var(--rule);
 	}
 
-	@media (max-width: 760px) {
+	@media (max-width: 960px) {
 		thead {
 			display: none;
 		}

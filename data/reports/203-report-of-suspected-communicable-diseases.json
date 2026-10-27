@@ -4,7 +4,13 @@
 	"name": "Report of Suspected Communicable Diseases",
 	"description": "The school nurse reports suspected communicable diseases to the appropriate local health authority as the Department of Health requires.",
 	"type": "notification",
-	"preparedBy": "School nurse",
+	"preparers": [
+		{
+			"name": "School nurse",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Local health authority",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

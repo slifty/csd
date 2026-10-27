@@ -4,7 +4,13 @@
 	"name": "Employee Report of Student Discrimination to Title IX Coordinator",
 	"description": "Any employee told that a student was subjected to discrimination or harassment must report it at once to the Title IX Coordinator; others receiving complaints must notify the Coordinator.",
 	"type": "notification",
-	"preparedBy": "School employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Title IX Coordinator",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

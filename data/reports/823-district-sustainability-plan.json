@@ -4,7 +4,13 @@
 	"name": "District Sustainability Plan",
 	"description": "The Board set a goal of adopting a sustainability plan; the policy names no preparer.",
 	"type": "plan",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "one-time",

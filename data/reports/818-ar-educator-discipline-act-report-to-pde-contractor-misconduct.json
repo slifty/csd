@@ -4,7 +4,13 @@
 	"name": "Educator Discipline Act Report to PDE (Contractor Misconduct)",
 	"description": "If reported contractor conduct appears to be an incident reportable under the Educator Discipline Act, the Superintendent notifies PDE.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

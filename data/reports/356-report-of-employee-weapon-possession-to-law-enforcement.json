@@ -4,7 +4,13 @@
 	"name": "Report of Employee Weapon Possession to Law Enforcement",
 	"description": "Report of any employee found possessing a weapon in violation of policy.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Law enforcement",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

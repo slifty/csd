@@ -4,7 +4,13 @@
 	"name": "Response to Questioned Library Materials",
 	"description": "Response to a written question or concern about school library materials.",
 	"type": "notification",
-	"preparedBy": "Assistant Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Assistant Superintendent or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Individual submitting the concern",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Wellness Program Status Reports",
 	"description": "Staff report on the status of wellness-related programs (no frequency specified).",
 	"type": "report",
-	"preparedBy": "Staff responsible for student wellness programs",
+	"preparers": [
+		{
+			"name": "Staff responsible for student wellness programs",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "as-required",

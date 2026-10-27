@@ -4,7 +4,13 @@
 	"name": "Drug-Free Workplace Statement",
 	"description": "Statement notifying employees that controlled substances are prohibited in the workplace and specifying the consequences for violations.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Employees",
 	"recipientType": "employees",
 	"frequency": "ongoing",

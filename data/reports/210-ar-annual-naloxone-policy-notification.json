@@ -4,8 +4,14 @@
 	"name": "Annual Naloxone Policy Notification",
 	"description": "Yearly notice of the naloxone (Narcan) policy, encouraging students to immediately report suspected overdoses to school officials.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Secondary students and their parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Secondary students and their parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "once each school year",

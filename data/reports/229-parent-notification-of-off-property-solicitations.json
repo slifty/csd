@@ -4,8 +4,14 @@
 	"name": "Parent Notification of Off-Property Solicitations",
 	"description": "Parents must be notified before students take part in District-sponsored solicitations or sales off school property.",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "before the activity",

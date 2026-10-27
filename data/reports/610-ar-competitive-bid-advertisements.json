@@ -4,7 +4,13 @@
 	"name": "Competitive Bid Advertisements",
 	"description": "Advertisement of bid requests for purchases and construction work requiring competitive bidding.",
 	"type": "public-posting",
-	"preparedBy": "Director of Business Services or designee",
+	"preparers": [
+		{
+			"name": "Director of Business Services or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public (two newspapers of general circulation)",
 	"recipientType": "public",
 	"frequency": "event-triggered",

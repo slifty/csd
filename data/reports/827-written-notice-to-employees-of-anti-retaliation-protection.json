@@ -4,7 +4,13 @@
 	"name": "Written Notice to Employees of Anti-Retaliation Protection",
 	"description": "Employees receive written notice that good-faith reports of conflicts of interest are protected from reprisal.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "District employees",
 	"recipientType": "employees",
 	"frequency": "ongoing",

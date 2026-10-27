@@ -4,7 +4,13 @@
 	"name": "Triennial Bullying Policy Review and Recommendations",
 	"description": "Review of the bullying Policy and AR every three years with recommended revisions to the Board.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "every-3-years",

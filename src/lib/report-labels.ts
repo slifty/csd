@@ -1,4 +1,9 @@
-import type { Frequency, RecipientType, ReportType } from "./report.ts";
+import type {
+	Frequency,
+	PreparerType,
+	RecipientType,
+	ReportType,
+} from "./report.ts";
 
 const FREQUENCY_LABELS: Readonly<Record<Frequency, string>> = {
 	"per-meeting": "Per meeting",
@@ -40,6 +45,16 @@ const RECIPIENT_TYPE_LABELS: Readonly<Record<RecipientType, string>> = {
 	"state-agency": "State agency",
 };
 
+const PREPARER_TYPE_LABELS: Readonly<Record<PreparerType, string>> = {
+	board: "Board",
+	superintendent: "Superintendent",
+	administrators: "Administration",
+	employees: "Employees",
+	"parents-and-students": "Parents & students",
+	"outside-parties": "Outside parties",
+	unspecified: "Not specified",
+};
+
 const REPORT_COLUMN_LABELS = {
 	report: "Report",
 	frequency: "Frequency / deadline",
@@ -53,6 +68,7 @@ const { length: REPORT_COLUMN_COUNT } = Object.keys(REPORT_COLUMN_LABELS);
 
 export {
 	FREQUENCY_LABELS,
+	PREPARER_TYPE_LABELS,
 	RECIPIENT_TYPE_LABELS,
 	REPORT_COLUMN_COUNT,
 	REPORT_COLUMN_LABELS,

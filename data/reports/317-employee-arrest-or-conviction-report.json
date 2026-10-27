@@ -4,7 +4,13 @@
 	"name": "Employee Arrest or Conviction Report",
 	"description": "Report on the designated form of any legally reportable arrest or conviction.",
 	"type": "notification",
-	"preparedBy": "All employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

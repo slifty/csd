@@ -4,7 +4,13 @@
 	"name": "Notice to Complainant of Corrective Action",
 	"description": "When a complaint is substantiated, the Superintendent documents the corrective action and tells the complainant, unless the law prohibits it.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Complainant",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

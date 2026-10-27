@@ -4,7 +4,13 @@
 	"name": "Board Member Statement of Financial Interests",
 	"description": "Statement of financial interests filed before taking office, annually while serving, and the year after leaving the Board.",
 	"type": "certification",
-	"preparedBy": "Each Board member",
+	"preparers": [
+		{
+			"name": "Board member",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Board Secretary or designee",
 	"recipientType": "administration",
 	"frequency": "annual",

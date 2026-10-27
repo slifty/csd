@@ -4,8 +4,14 @@
 	"name": "Emergency Pesticide Application Telephone Notice",
 	"description": "When an emergency pesticide application is authorized due to an immediate threat, the District telephones parents who asked to be notified.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians who requested notification",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians who requested notification",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

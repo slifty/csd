@@ -4,7 +4,13 @@
 	"name": "Educator Arrest or Conviction Report",
 	"description": "Report of the educator's arrest or conviction of a crime.",
 	"type": "notification",
-	"preparedBy": "Educator",
+	"preparers": [
+		{
+			"name": "Educator",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

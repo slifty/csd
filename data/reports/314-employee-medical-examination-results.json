@@ -4,7 +4,13 @@
 	"name": "Employee Medical Examination Results",
 	"description": "Confidential results of required employee medical examinations, which are also discussed with the employee.",
 	"type": "report",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Superintendent and/or Director of Human Resources",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Bond Proceeds Investment Report",
 	"description": "Investment of bond proceeds is reported to the Board consistent with the Local Government Unit Debt Act and other law.",
 	"type": "report",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "as-required",

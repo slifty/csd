@@ -30,6 +30,7 @@ const SECTION_PATTERN = /^(?<number>\d+) - (?<name>.+)$/v;
 const ADMINISTRATIVE_REGULATION_CODE_PATTERN = /-ar\b/iv;
 const SPACE_AROUND_REGULATION_DASH_PATTERN = /\s*-\s*(?=ar\b)/iv;
 const WHITESPACE_RUN_PATTERN = /\s+/gv;
+const JOINING_SLASH_PATTERN = /(?<![\s\d])(?<!\band)\/(?![\s\d])(?!or\b)/gv;
 
 const padIsoPart = (part: number): string =>
 	String(part).padStart(ISO_PART_WIDTH, "0");
@@ -55,6 +56,9 @@ const parseSection = (value: string): PolicySection => {
 
 const collapseWhitespace = (value: string): string =>
 	value.replace(WHITESPACE_RUN_PATTERN, " ").trim();
+
+const spaceJoiningSlashes = (value: string): string =>
+	value.replace(JOINING_SLASH_PATTERN, " / ");
 
 const normalizeCode = (code: string): string =>
 	collapseWhitespace(code.replace(SPACE_AROUND_REGULATION_DASH_PATTERN, "-"));
@@ -102,7 +106,9 @@ const parsePolicy = (id: string, html: string): Policy => {
 		id,
 		code,
 		kind: kindOfCode(code),
-		title: collapseWhitespace(requireRow(rows, "Title", id)),
+		title: spaceJoiningSlashes(
+			collapseWhitespace(requireRow(rows, "Title", id)),
+		),
 		section: parseSection(requireRow(rows, "Section", id)),
 		adopted: optionalDate(rows, "Adopted"),
 		lastRevised: optionalDate(rows, "Last Revised"),

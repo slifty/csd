@@ -4,7 +4,13 @@
 	"name": "Personal Care Assistant Staff Development Evidence",
 	"description": "Evidence that each personal care assistant completed 20 hours of assignment-related staff development (which may include School-Based Access Program training) during the school year.",
 	"type": "data-submission",
-	"preparedBy": "Personal care assistants",
+	"preparers": [
+		{
+			"name": "Personal care assistants",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Not specified (District)",
 	"recipientType": "administration",
 	"frequency": "annual",

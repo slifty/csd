@@ -1,10 +1,21 @@
 {
 	"id": "218-2-parent-sworn-statement-on-prior-weapons-drug-violence-discipline",
 	"policyId": "DQGMKE5B9B9B",
-	"name": "Parent Sworn Statement on Prior Weapons/Drug/Violence Discipline",
+	"name": "Parent Sworn Statement on Prior Weapons / Drug / Violence Discipline",
 	"description": "Sworn statement at registration on whether the student was previously suspended or expelled for weapons, alcohol, drugs or violent acts.",
 	"type": "certification",
-	"preparedBy": "Parent, guardian, or person in charge of the student",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Person in charge of the student",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "Superintendent (District)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

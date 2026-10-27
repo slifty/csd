@@ -4,7 +4,13 @@
 	"name": "Annual School Safety and Security Incidents Report (Tobacco)",
 	"description": "Annual report on the required form of all incidents of student possession, use or sale of tobacco products.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "Hazing Report to Law Enforcement",
 	"description": "Complaints that, if proven, would constitute hazing, aggravated hazing or organizational hazing are reported to law enforcement per the MOU.",
 	"type": "report",
-	"preparedBy": "Those receiving the initial report and conducting/overseeing the investigation",
+	"preparers": [
+		{
+			"name": "Those receiving the initial report and conducting / overseeing the investigation",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Law enforcement (per MOU)",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

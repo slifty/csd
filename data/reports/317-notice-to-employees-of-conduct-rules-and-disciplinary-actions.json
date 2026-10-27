@@ -4,7 +4,13 @@
 	"name": "Notice to Employees of Conduct Rules and Disciplinary Actions",
 	"description": "Informing employees of required and prohibited conduct during work hours and the discipline that may apply.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "All District employees",
 	"recipientType": "employees",
 	"frequency": "ongoing",

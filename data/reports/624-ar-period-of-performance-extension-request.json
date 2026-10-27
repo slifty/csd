@@ -4,7 +4,13 @@
 	"name": "Period of Performance Extension Request",
 	"description": "Written request for agency approval of an extension when required (e.g. additional funds or scope change), with notice to the Superintendent.",
 	"type": "notification",
-	"preparedBy": "Director of Business Services",
+	"preparers": [
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal awarding agency; Superintendent",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

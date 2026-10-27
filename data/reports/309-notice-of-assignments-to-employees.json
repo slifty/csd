@@ -4,7 +4,13 @@
 	"name": "Notice of Assignments to Employees",
 	"description": "Employees are informed of their assignments for the coming school year.",
 	"type": "notification",
-	"preparedBy": "Not specified (Superintendent or designee)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "Superintendent or designee implied",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "District employees",
 	"recipientType": "employees",
 	"frequency": "annual",

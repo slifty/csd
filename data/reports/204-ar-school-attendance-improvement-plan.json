@@ -4,7 +4,13 @@
 	"name": "School Attendance Improvement Plan",
 	"description": "Written plan documenting the outcome of the attendance improvement conference, on the PDE template, kept in the student file and distributed.",
 	"type": "plan",
-	"preparedBy": "School principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Person in parental relation, student, and appropriate District staff",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

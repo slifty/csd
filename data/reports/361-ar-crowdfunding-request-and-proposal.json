@@ -4,7 +4,13 @@
 	"name": "Crowdfunding Request and Proposal",
 	"description": "Written proposal for a District-benefiting crowdfunding campaign stating its goal, host website, people involved, amount, duration, and use of District logos.",
 	"type": "plan",
-	"preparedBy": "District employee",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

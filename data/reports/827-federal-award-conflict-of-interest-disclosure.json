@@ -4,7 +4,13 @@
 	"name": "Federal Award Conflict of Interest Disclosure",
 	"description": "Any potential conflict of interest related to a federal award is reported in writing to the awarding agency or pass-through entity.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Federal awarding agency or pass-through entity",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

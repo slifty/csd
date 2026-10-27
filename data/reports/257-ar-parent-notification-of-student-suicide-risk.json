@@ -4,8 +4,14 @@
 	"name": "Parent Notification of Student Suicide Risk",
 	"description": "Parents of a student identified as at risk of suicide are notified and informed of crisis and community resources.",
 	"type": "notification",
-	"preparedBy": "Building principal or designee",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

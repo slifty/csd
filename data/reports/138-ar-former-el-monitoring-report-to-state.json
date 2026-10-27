@@ -4,7 +4,13 @@
 	"name": "Former EL Monitoring Report to State",
 	"description": "Monitoring and reporting the progress of former ELs for two years after exit, plus reporting students to the state in monitor status for two more years.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "State (PA Department of Education)",
 	"recipientType": "state-agency",
 	"frequency": "as-required",

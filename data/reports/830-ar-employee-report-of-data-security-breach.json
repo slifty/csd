@@ -4,7 +4,13 @@
 	"name": "Employee Report of Data Security Breach",
 	"description": "Employees promptly report any breach of District computerized data that compromises personal information.",
 	"type": "notification",
-	"preparedBy": "Employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

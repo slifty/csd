@@ -4,7 +4,13 @@
 	"name": "Contractor Notice of Driver Criminal Charge",
 	"description": "Immediate notice of a charged driver's name, offense and disposition status, reviewed with the Superintendent to decide whether the driver may continue.",
 	"type": "notification",
-	"preparedBy": "Transportation contract carriers",
+	"preparers": [
+		{
+			"name": "Transportation contract carrier",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Supervisor of Transportation",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

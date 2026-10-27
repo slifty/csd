@@ -4,7 +4,18 @@
 	"name": "Lost, Stolen or Damaged Student Device Report",
 	"description": "Immediate report of a lost, stolen or damaged District-issued device so the District can lock, track, wipe it or notify police.",
 	"type": "notification",
-	"preparedBy": "Student or parent/guardian",
+	"preparers": [
+		{
+			"name": "Student",
+			"detail": null,
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "Building principal or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

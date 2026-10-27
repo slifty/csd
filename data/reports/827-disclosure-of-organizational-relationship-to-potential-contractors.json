@@ -4,7 +4,13 @@
 	"name": "Disclosure of Organizational Relationship to Potential Contractors",
 	"description": "When a potential organizational conflict exists in a federally funded procurement, the relationship is disclosed in notices to potential contractors.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Potential contractors",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

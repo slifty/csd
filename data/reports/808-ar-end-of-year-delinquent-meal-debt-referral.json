@@ -4,7 +4,13 @@
 	"name": "End-of-Year Delinquent Meal Debt Referral",
 	"description": "Unrecovered school meal debt remaining at year end is referred to the Director of Business Services for action (treated as bad debt repaid from non-federal funds).",
 	"type": "data-submission",
-	"preparedBy": "Food Services",
+	"preparers": [
+		{
+			"name": "Food Service Manager",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Director of Business Services",
 	"recipientType": "administration",
 	"frequency": "annual",

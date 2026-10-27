@@ -4,7 +4,13 @@
 	"name": "Periodic Building Energy Consumption Report",
 	"description": "Energy consumption in each building is monitored and reported to the Board.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "as-required",

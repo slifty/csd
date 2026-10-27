@@ -4,7 +4,13 @@
 	"name": "Vacancy Postings",
 	"description": "Posting of open positions (job title, responsibilities, qualifications, location, salary range) to appropriate employees.",
 	"type": "public-posting",
-	"preparedBy": "Not specified (Superintendent or designee)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "Superintendent or designee implied",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Appropriate District employees",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

@@ -4,8 +4,14 @@
 	"name": "Notice to Parents of Homeless Students' Educational Rights",
 	"description": "Inform parents of educational rights and opportunities and provide meaningful opportunities to participate.",
 	"type": "notification",
-	"preparedBy": "District homeless liaison",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "District homeless liaison",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

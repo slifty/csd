@@ -4,7 +4,13 @@
 	"name": "Transfer of Certified Disciplinary Record",
 	"description": "Certified copy of a transferring student's disciplinary record sent to the receiving district on request.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Receiving school district",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

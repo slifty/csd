@@ -4,7 +4,13 @@
 	"name": "Annual Continuing Disclosure Filing (EMMA)",
 	"description": "Annual Report / Annual Financial Information required by bond continuing disclosure agreements under SEC Rule 15c2-12: audited financial statements, enrollment, real estate tax collection data, debt and borrowing capacity, and employee counts.",
 	"type": "data-submission",
-	"preparedBy": "Compliance Coordinator (Director of Financial Services or designee)",
+	"preparers": [
+		{
+			"name": "Compliance Coordinator",
+			"detail": "Director of Financial Services or designee",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Municipal Securities Rulemaking Board (EMMA portal)",
 	"recipientType": "other-external",
 	"frequency": "annual",

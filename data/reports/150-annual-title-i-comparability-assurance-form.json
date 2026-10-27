@@ -4,7 +4,13 @@
 	"name": "Annual Title I Comparability Assurance Form",
 	"description": "Written assurance of equivalence among schools in curriculum materials, instructional supplies, and staffing.",
 	"type": "certification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Not specified (Title I comparability compliance)",
 	"recipientType": "other-external",
 	"frequency": "annual",

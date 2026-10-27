@@ -4,7 +4,13 @@
 	"name": "Annual Child Find Public Notice",
 	"description": "Annual written notice in newspapers and other media on child identification activities, available special education services and how to request them, and confidentiality procedures; also published in handbooks and on the District website.",
 	"type": "public-posting",
-	"preparedBy": "District (Superintendent or designee)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": "Superintendent or designee",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "District residents",
 	"recipientType": "public",
 	"frequency": "annual",

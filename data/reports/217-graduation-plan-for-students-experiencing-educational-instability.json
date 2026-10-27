@@ -4,7 +4,13 @@
 	"name": "Graduation Plan for Students Experiencing Educational Instability",
 	"description": "A graduation plan is developed for high school students experiencing educational instability to support timely graduation.",
 	"type": "plan",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Student (grades 9-12)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Sabbatical Cancellation Request",
 	"description": "Request to cancel an approved professional development sabbatical.",
 	"type": "notification",
-	"preparedBy": "Employee",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,8 +4,14 @@
 	"name": "Inter-Building Trip Parent Notification",
 	"description": "Written notice of trips between District buildings (not field trips).",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians of elementary and middle school students",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians of elementary and middle school students",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "at least 1 week in advance",

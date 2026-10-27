@@ -4,7 +4,13 @@
 	"name": "Single or Program-Specific Federal Audit",
 	"description": "Single or program-specific audit required in any fiscal year the District expends $1,000,000 or more in federal awards.",
 	"type": "audit",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal agencies (per federal audit requirements)",
 	"recipientType": "federal-agency",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "Suspected Child Abuse Report by Threat Assessment Team Member",
 	"description": "A team member with reasonable cause to suspect child abuse makes a report in accordance with law and Board Policy.",
 	"type": "report",
-	"preparedBy": "Threat assessment team member",
+	"preparers": [
+		{
+			"name": "Threat assessment team member",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Child abuse reporting authorities (per law)",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

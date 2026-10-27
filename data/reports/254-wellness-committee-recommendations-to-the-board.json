@@ -4,7 +4,13 @@
 	"name": "Wellness Committee Recommendations to the Board",
 	"description": "The Wellness Committee reviews wellness policies and practices and recommends revisions to the Board and administration.",
 	"type": "recommendation",
-	"preparedBy": "Wellness Committee",
+	"preparers": [
+		{
+			"name": "Wellness Committee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board and administration",
 	"recipientType": "board",
 	"frequency": "ongoing",

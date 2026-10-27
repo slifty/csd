@@ -4,8 +4,14 @@
 	"name": "Annual Notice of Right to Opt Out of Recruiter Disclosure",
 	"description": "Annual notice of the right to request that student information not be released to postsecondary institutions or military recruiters; Attachment A may be used.",
 	"type": "notification",
-	"preparedBy": "Building principal or designee",
-	"recipient": "Parents/guardians and students 18+",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians and students 18+",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "annually",

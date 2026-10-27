@@ -4,7 +4,13 @@
 	"name": "Restraint Data Report to PDE",
 	"description": "Data on the use of restraints, reported as PDE requires; includes data from outside programs educating District students with disabilities.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "as-required",

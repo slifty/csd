@@ -4,7 +4,13 @@
 	"name": "Notice to District Adults of Boundaries Policy",
 	"description": "District adults are made aware of the boundaries regulation and policy.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "District Adults (employees, volunteers, contractors, etc.)",
 	"recipientType": "employees",
 	"frequency": "ongoing",

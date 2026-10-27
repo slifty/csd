@@ -4,8 +4,14 @@
 	"name": "Annual Notice of Boundaries Policy",
 	"description": "Annual notice of the boundaries policy and regulation, for example by posting on the District website or in handbooks.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Students, parents/guardians, and District Adults",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Students, parents / guardians, and District Adults",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "annually",

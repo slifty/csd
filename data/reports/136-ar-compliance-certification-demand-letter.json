@@ -4,7 +4,13 @@
 	"name": "Compliance Certification Demand Letter",
 	"description": "When the program is reasonably believed out of compliance, a certified-mail letter stating the basis and requiring a compliance certification within 30 days.",
 	"type": "notification",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Home education program supervisor",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

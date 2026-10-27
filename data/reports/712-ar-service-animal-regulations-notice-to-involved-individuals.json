@@ -4,8 +4,14 @@
 	"name": "Service Animal Regulations Notice to Involved Individuals",
 	"description": "Informing everyone involved where a service animal will regularly be present of the contents of the regulation and policy.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Administrators, employees, students and parents/guardians involved",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Administrators, employees, students and parents / guardians involved",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

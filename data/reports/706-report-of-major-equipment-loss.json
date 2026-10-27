@@ -4,7 +4,13 @@
 	"name": "Report of Major Equipment Loss",
 	"description": "Any major loss found in periodic spot-check inventories of major equipment is reported to the Board.",
 	"type": "report",
-	"preparedBy": "Not specified (Director of Business Services oversees inventories)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "Director of Business Services oversees inventories",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

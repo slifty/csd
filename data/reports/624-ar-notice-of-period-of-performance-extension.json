@@ -4,7 +4,13 @@
 	"name": "Notice of Period of Performance Extension",
 	"description": "Written notice of a no-cost extension of a federal award's period of performance, stating the reasons and revised period.",
 	"type": "notification",
-	"preparedBy": "Director of Business Services",
+	"preparers": [
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal awarding agency",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

@@ -4,7 +4,18 @@
 	"name": "School Bus Conduct Report",
 	"description": "Report of a student infraction on a school vehicle (name, grade, bus, date, run, conduct), emailed to the principal and Transportation Office to start an investigation.",
 	"type": "report",
-	"preparedBy": "School vehicle driver / bus driver contractor",
+	"preparers": [
+		{
+			"name": "School vehicle driver",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Transportation contract carrier",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "School principal and/or designee; District Transportation Office",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

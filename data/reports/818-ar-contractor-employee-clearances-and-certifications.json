@@ -4,7 +4,13 @@
 	"name": "Contractor Employee Clearances and Certifications",
 	"description": "Before assignment to work involving direct contact with children, contractor employees submit a child abuse certification and state and federal criminal history checks.",
 	"type": "certification",
-	"preparedBy": "Contractor employees",
+	"preparers": [
+		{
+			"name": "Contractor employees",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

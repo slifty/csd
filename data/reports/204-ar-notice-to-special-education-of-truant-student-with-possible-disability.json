@@ -4,7 +4,13 @@
 	"name": "Notice to Special Education of Truant Student With Possible Disability",
 	"description": "If a truant or habitually truant student may qualify as a student with a disability, special education leadership (or the student's team) is notified so needs can be addressed.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Director of Special Education or designee / appropriate team",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

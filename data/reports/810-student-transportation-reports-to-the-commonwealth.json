@@ -4,10 +4,16 @@
 	"name": "Student Transportation Reports to the Commonwealth",
 	"description": "Any state-required reports on student transportation, supported by records of students transported on each run and trip.",
 	"type": "data-submission",
-	"preparedBy": "Director of Business Services or designee",
+	"preparers": [
+		{
+			"name": "Director of Business Services or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Commonwealth (PA Department of Education)",
 	"recipientType": "state-agency",
 	"frequency": "as-required",
-	"deadline": "as required by law/regulation",
+	"deadline": "as required by law / regulation",
 	"quote": "The Director of Business Services or designee shall be responsible for ensuring the maintenance of a record of students transported to and from school on each school bus run and trip, and for the submission of any reports to the Commonwealth regarding student transportation required by law/regulation."
 }

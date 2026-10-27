@@ -4,7 +4,13 @@
 	"name": "School Vehicle Accident Report",
 	"description": "Any school vehicle accident is reported immediately to the Transportation Supervisor, and police are notified via 911.",
 	"type": "notification",
-	"preparedBy": "Driver",
+	"preparers": [
+		{
+			"name": "School vehicle driver",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Transportation Supervisor; police (via 911)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

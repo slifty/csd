@@ -4,7 +4,13 @@
 	"name": "Sabbatical Leave Application",
 	"description": "Sabbatical leave request with required documentation (and, for professional development, a detailed plan and course syllabi).",
 	"type": "notification",
-	"preparedBy": "Employee",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "as-required",

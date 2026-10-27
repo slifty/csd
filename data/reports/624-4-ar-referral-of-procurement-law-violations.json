@@ -4,7 +4,13 @@
 	"name": "Referral of Procurement Law Violations",
 	"description": "Violations of law arising out of procurements are referred to the proper authority.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Local, state or federal authority with jurisdiction",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

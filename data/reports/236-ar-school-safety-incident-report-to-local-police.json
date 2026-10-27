@@ -4,7 +4,13 @@
 	"name": "School Safety Incident Report to Local Police",
 	"description": "When a threat also meets the definition of an incident, required incidents are reported immediately to local police per law and the MOU.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Local police department with jurisdiction",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

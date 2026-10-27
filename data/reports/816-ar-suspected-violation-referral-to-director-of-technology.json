@@ -2,9 +2,20 @@
 	"id": "816-ar-suspected-violation-referral-to-director-of-technology",
 	"policyId": "CZJ2JM026E67",
 	"name": "Suspected Violation Referral to Director of Technology",
-	"description": "On reasonable suspicion of a violation, the matter is reported to the Director of Technology, who decides with the Superintendent/Solicitor whether to search.",
+	"description": "On reasonable suspicion of a violation, the matter is reported to the Director of Technology, who decides with the Superintendent / Solicitor whether to search.",
 	"type": "report",
-	"preparedBy": "Appropriate administrator or building principal",
+	"preparers": [
+		{
+			"name": "Appropriate administrator",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Director of Technology",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,8 +4,14 @@
 	"name": "Evaluation Report to Parents",
 	"description": "Completed special education evaluation report, with test results, summaries, identified needs and recommendations for the IEP team.",
 	"type": "report",
-	"preparedBy": "Multidisciplinary team",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Multidisciplinary team",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "no later than 60 calendar days after receipt of written consent (excluding summer break)",

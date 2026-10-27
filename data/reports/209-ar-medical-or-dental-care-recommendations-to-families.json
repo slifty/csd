@@ -4,8 +4,24 @@
 	"name": "Medical or Dental Care Recommendations to Families",
 	"description": "Recommendations for medical or dental care are sent on state-approved forms, instructing parents to consult their provider and notify the school of the action taken.",
 	"type": "recommendation",
-	"preparedBy": "School nurse/physician/dentist",
-	"recipient": "Parent/guardian and family physician or dentist",
+	"preparers": [
+		{
+			"name": "School nurse",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "School physician",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "School dentist",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Parent / guardian and family physician or dentist",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

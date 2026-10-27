@@ -1,10 +1,16 @@
 {
 	"id": "810-1-drug-and-alcohol-policy-and-materials-to-new-transferred-drivers",
 	"policyId": "BYXQPZ6A5802",
-	"name": "Drug and Alcohol Policy and Materials to New/Transferred Drivers",
-	"description": "Each covered driver receives the policy and educational materials on federal/state drug and alcohol requirements on hire or transfer; employee organizations are notified the information is available.",
+	"name": "Drug and Alcohol Policy and Materials to New / Transferred Drivers",
+	"description": "Each covered driver receives the policy and educational materials on federal / state drug and alcohol requirements on hire or transfer; employee organizations are notified the information is available.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Covered drivers; representatives of employee organizations",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

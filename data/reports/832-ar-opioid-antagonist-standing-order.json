@@ -4,7 +4,13 @@
 	"name": "Opioid Antagonist Standing Order",
 	"description": "The school physician issues and renews a standing order (antagonist type, date, dosage, signature) authorizing administration of an opioid antagonist.",
 	"type": "certification",
-	"preparedBy": "School physician",
+	"preparers": [
+		{
+			"name": "School physician",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "District (maintained by Director of Student Services)",
 	"recipientType": "administration",
 	"frequency": "annual",

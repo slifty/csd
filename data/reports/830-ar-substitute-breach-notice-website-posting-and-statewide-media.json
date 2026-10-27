@@ -4,7 +4,13 @@
 	"name": "Substitute Breach Notice (Website Posting and Statewide Media)",
 	"description": "When substitute notice applies (cost over $100,000, more than 175,000 affected, or insufficient contact information), the District emails affected individuals, posts the notice on its website, and notifies statewide media.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Affected individuals; public; major statewide media",
 	"recipientType": "public",
 	"frequency": "event-triggered",

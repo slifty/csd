@@ -4,7 +4,13 @@
 	"name": "Notice of Prohibited Nonschool Materials",
 	"description": "If submitted materials contain unprotected expression, the student is notified they may not be distributed because they violate Board Policy.",
 	"type": "notification",
-	"preparedBy": "Building principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Student(s)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

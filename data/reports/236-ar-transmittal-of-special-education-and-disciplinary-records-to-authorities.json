@@ -4,7 +4,13 @@
 	"name": "Transmittal of Special Education and Disciplinary Records to Authorities",
 	"description": "When reporting an incident by a student with a disability, required information and copies of special education and disciplinary records are transmitted, in compliance with FERPA.",
 	"type": "report",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Law enforcement / reporting authorities",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

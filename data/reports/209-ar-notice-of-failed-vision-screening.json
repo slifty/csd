@@ -4,8 +4,14 @@
 	"name": "Notice of Failed Vision Screening",
 	"description": "Parents of a student who fails a required vision screening are notified that a comprehensive eye examination is required.",
 	"type": "notification",
-	"preparedBy": "Not specified (school nurse)",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "school nurse",
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

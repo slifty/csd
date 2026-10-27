@@ -4,8 +4,14 @@
 	"name": "Transportation Options Notice for Homeless Students",
 	"description": "Inform families and unaccompanied youth of all transportation options, including to the school of origin.",
 	"type": "notification",
-	"preparedBy": "District homeless liaison",
-	"recipient": "Parents/guardians and unaccompanied youth",
+	"preparers": [
+		{
+			"name": "District homeless liaison",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians and unaccompanied youth",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

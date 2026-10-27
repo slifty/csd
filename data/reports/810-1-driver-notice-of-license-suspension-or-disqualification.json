@@ -4,7 +4,13 @@
 	"name": "Driver Notice of License Suspension or Disqualification",
 	"description": "Notice of suspension, revocation, cancellation, loss or disqualification of driving privileges.",
 	"type": "notification",
-	"preparedBy": "Covered driver",
+	"preparers": [
+		{
+			"name": "School vehicle driver",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee and contract carrier",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

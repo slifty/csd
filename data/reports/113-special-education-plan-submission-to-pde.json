@@ -4,7 +4,13 @@
 	"name": "Special Education Plan Submission to PDE",
 	"description": "Development and submission of the District special education plan for PDE approval.",
 	"type": "plan",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "every-3-years",

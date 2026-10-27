@@ -4,7 +4,33 @@
 	"name": "Written Response to Student Complaint",
 	"description": "At each level of the student complaint process the complaint is considered and a written response is issued.",
 	"type": "notification",
-	"preparedBy": "Building administrator, Assistant Superintendent/central office administrator, Superintendent, or Board (at each level)",
+	"preparers": [
+		{
+			"name": "Building administrator",
+			"detail": "at each level",
+			"type": "administrators"
+		},
+		{
+			"name": "Assistant Superintendent",
+			"detail": "at each level",
+			"type": "administrators"
+		},
+		{
+			"name": "Central office administrator",
+			"detail": "at each level",
+			"type": "administrators"
+		},
+		{
+			"name": "Superintendent",
+			"detail": "at each level",
+			"type": "superintendent"
+		},
+		{
+			"name": "Board",
+			"detail": "at each level",
+			"type": "board"
+		}
+	],
 	"recipient": "Complaining student(s)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

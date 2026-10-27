@@ -4,7 +4,13 @@
 	"name": "Graduating Seniors List to Military Recruiters",
 	"description": "Upon request, list of graduating seniors (excluding opt-outs) provided to military recruiters.",
 	"type": "data-submission",
-	"preparedBy": "Building principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Military recruiters",
 	"recipientType": "other-external",
 	"frequency": "annual",

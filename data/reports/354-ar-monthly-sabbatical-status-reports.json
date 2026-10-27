@@ -4,7 +4,13 @@
 	"name": "Monthly Sabbatical Status Reports",
 	"description": "Status reports substantiating compliance with the approved non-credit professional development plan.",
 	"type": "report",
-	"preparedBy": "Employee on non-credit professional development sabbatical",
+	"preparers": [
+		{
+			"name": "Employee on non-credit professional development sabbatical",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "monthly",

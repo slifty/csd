@@ -4,7 +4,13 @@
 	"name": "Notice to Supervisor of Emergency Police Call",
 	"description": "Staff may call police directly in an emergency but must notify their administrative supervisor of the call as soon as possible afterward.",
 	"type": "notification",
-	"preparedBy": "Staff member who called police",
+	"preparers": [
+		{
+			"name": "Staff member who called police",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Administrative supervisor",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

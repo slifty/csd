@@ -4,7 +4,18 @@
 	"name": "Level Three Board Complaint Decision",
 	"description": "Final Board decision on an employee complaint appealed to Level Three.",
 	"type": "notification",
-	"preparedBy": "Board or Board committee",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		},
+		{
+			"name": "Board committee",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Complaining employee",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

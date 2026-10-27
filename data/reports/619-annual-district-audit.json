@@ -4,7 +4,13 @@
 	"name": "Annual District Audit",
 	"description": "Annual independent audit of District financial accounts; the completed audit is presented to the Board and is available to the public.",
 	"type": "audit",
-	"preparedBy": "Independent certified public accountant",
+	"preparers": [
+		{
+			"name": "Independent certified public accountant",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "Student Expression Policy Reference in Student Handbooks",
 	"description": "The Student Expression Policy and AR are referenced in student handbooks so students can access them.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Students",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",

@@ -4,7 +4,18 @@
 	"name": "Annual Approved Substitute List",
 	"description": "Annual list of potential substitute employees and the positions in which they may substitute, recommended by the Superintendent for Board approval; names may be added during the year.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee (recommends); Board approves",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": "recommends",
+			"type": "superintendent"
+		},
+		{
+			"name": "Board",
+			"detail": "approves",
+			"type": "board"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

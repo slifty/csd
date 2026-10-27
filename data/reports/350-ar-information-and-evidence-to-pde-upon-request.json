@@ -4,7 +4,13 @@
 	"name": "Information and Evidence to PDE Upon Request",
 	"description": "Relevant information and documentary and physical evidence provided to PDE during its review, investigation, or prosecution.",
 	"type": "data-submission",
-	"preparedBy": "School officials",
+	"preparers": [
+		{
+			"name": "School officials",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

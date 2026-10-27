@@ -4,7 +4,18 @@
 	"name": "Plan of Supervision for Employee Under Investigation",
 	"description": "When an investigation involves suspected abuse by a school employee, a Superintendent-approved supervision or alternative arrangement plan is submitted to the county agency for approval.",
 	"type": "plan",
-	"preparedBy": "Building principal or administrator",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Building administrator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "County agency",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

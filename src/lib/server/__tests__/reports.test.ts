@@ -58,6 +58,28 @@ describe("parseReport", () => {
 		);
 	});
 
+	it("accepts a preparer without a detail", () => {
+		expect(
+			parseVariant({
+				preparers: [{ name: "TEST Preparer", type: "board" }],
+			}),
+		).toMatchObject({
+			preparers: [{ name: "TEST Preparer", detail: null, type: "board" }],
+		});
+	});
+
+	it("refuses a report with no preparers", () => {
+		expect(() => parseVariant({ preparers: [] })).toThrow('"preparers"');
+	});
+
+	it("refuses a preparer type it does not know", () => {
+		expect(() =>
+			parseVariant({
+				preparers: [{ name: "TEST Preparer", detail: null, type: "TEST" }],
+			}),
+		).toThrow('unknown type "TEST"');
+	});
+
 	it("refuses a missing field", () => {
 		expect(() => parseVariant({ quote: undefined })).toThrow('"quote"');
 	});

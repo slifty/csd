@@ -4,7 +4,13 @@
 	"name": "Notice of Extension of Time for Records Request",
 	"description": "Written notice that the request is under review, the reason an extension is needed, the expected response date, and estimated fees.",
 	"type": "notification",
-	"preparedBy": "Open Records Officer",
+	"preparers": [
+		{
+			"name": "Open Records Officer",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Requester",
 	"recipientType": "public",
 	"frequency": "event-triggered",

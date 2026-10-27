@@ -4,7 +4,13 @@
 	"name": "Report of Technology Use Violations",
 	"description": "Immediate report of violations of the acceptable use policy or regulation.",
 	"type": "notification",
-	"preparedBy": "Users of District technology resources",
+	"preparers": [
+		{
+			"name": "Users of District technology resources",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Building principal, immediate supervisor, or Director of Technology",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

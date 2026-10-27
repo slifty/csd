@@ -4,8 +4,14 @@
 	"name": "Call for Assistance During Student Altercation",
 	"description": "Immediate call for help giving the exact location and nature of a student fight or altercation.",
 	"type": "notification",
-	"preparedBy": "Employees who observe or learn of a fight or altercation",
-	"recipient": "Building safety officer, climate and culture administrator, or principal/vice/assistant principal",
+	"preparers": [
+		{
+			"name": "Employees who observe or learn of a fight or altercation",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Building safety officer, climate and culture administrator, or principal / vice / assistant principal",
 	"recipientType": "administration",
 	"frequency": "event-triggered",
 	"deadline": "Immediately",

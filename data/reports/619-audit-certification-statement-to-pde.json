@@ -4,7 +4,13 @@
 	"name": "Audit Certification Statement to PDE",
 	"description": "Signed statement certifying the District's financial statements were properly audited and that, in the auditor's opinion, the annual financial report is materially consistent with the audited statements.",
 	"type": "certification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "annual",

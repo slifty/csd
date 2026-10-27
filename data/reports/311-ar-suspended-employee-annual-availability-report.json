@@ -4,7 +4,13 @@
 	"name": "Suspended Employee Annual Availability Report",
 	"description": "Written report of current address and intent to accept the same or similar position, required for a suspended employee to be considered available for reinstatement.",
 	"type": "report",
-	"preparedBy": "Suspended professional employees",
+	"preparers": [
+		{
+			"name": "Suspended professional employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

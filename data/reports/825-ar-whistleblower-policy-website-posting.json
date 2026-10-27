@@ -4,7 +4,13 @@
 	"name": "Whistleblower Policy Website Posting",
 	"description": "The whistleblower regulation and policy are posted on the District website for employees to review.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "District employees / public",
 	"recipientType": "public",
 	"frequency": "ongoing",

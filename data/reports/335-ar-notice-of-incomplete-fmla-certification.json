@@ -4,7 +4,13 @@
 	"name": "Notice of Incomplete FMLA Certification",
 	"description": "Written notice of the additional information needed to complete an insufficient certification; employee has seven days to cure.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Employee",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

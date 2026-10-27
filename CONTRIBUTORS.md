@@ -36,7 +36,8 @@ repository's Pages source must be set to "GitHub Actions".
 active policy and Administrative Regulation, plus their attachments. It is the
 source material, not part of the site. Pages link to BoardDocs for the text.
 Don't edit these files by hand. They are a snapshot of what the district
-published.
+published. When you replace the snapshot, set `boardDocsRetrievedOn` in
+`data/source.json` to the date you took it. The site footer shows that date.
 
 `data/policies/` has one JSON file per policy, holding the metadata the site
 uses and the path to its raw HTML. These files are generated. After changing

@@ -4,8 +4,14 @@
 	"name": "Re-evaluation Report to Parents",
 	"description": "Copies of the re-evaluation report are sent to parents ahead of the IEP team meeting.",
 	"type": "report",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "at least 10 days prior to the IEP team meeting unless waived in writing",

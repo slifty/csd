@@ -4,7 +4,13 @@
 	"name": "Budget Transfer Request for Invoice Overages",
 	"description": "When an invoice exceeds the purchase order, the variance is documented and, if necessary, the Board is asked to approve a budget transfer.",
 	"type": "recommendation",
-	"preparedBy": "Business Manager or designee",
+	"preparers": [
+		{
+			"name": "Business Manager or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

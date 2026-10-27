@@ -4,7 +4,18 @@
 	"name": "Periodic Review of Cafeteria Accounts",
 	"description": "Periodic review of cafeteria accounts to confirm nonprofit operation.",
 	"type": "audit",
-	"preparedBy": "Director of Business Services or designee and/or independent financial auditor",
+	"preparers": [
+		{
+			"name": "Director of Business Services or designee",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Independent auditor",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Not specified",
 	"recipientType": "administration",
 	"frequency": "as-required",

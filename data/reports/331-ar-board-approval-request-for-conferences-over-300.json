@@ -4,7 +4,13 @@
 	"name": "Board Approval Request for Conferences Over $300",
 	"description": "Advance request for Board approval when estimated reimbursable conference expenses exceed $300, unless a bargaining agreement or contract provides otherwise.",
 	"type": "recommendation",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

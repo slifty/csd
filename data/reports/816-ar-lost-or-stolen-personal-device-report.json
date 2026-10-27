@@ -4,7 +4,13 @@
 	"name": "Lost or Stolen Personal Device Report",
 	"description": "Prompt notice when a personal device used to access District resources is lost or stolen, to limit disclosure of confidential information.",
 	"type": "notification",
-	"preparedBy": "Employee",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Technology Department",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

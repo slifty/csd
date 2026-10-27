@@ -4,7 +4,13 @@
 	"name": "Posting of Amended Agenda",
 	"description": "When the Board adds an item to the posted agenda by majority vote, the amended agenda is posted on the website and at the administrative office.",
 	"type": "public-posting",
-	"preparedBy": "Not specified (District)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "event-triggered",
