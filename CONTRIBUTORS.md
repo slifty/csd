@@ -11,7 +11,10 @@ npm ci
 ## Commands
 
 ```bash
-npm run lint           # eslint, prettier, tsc
+npm run dev            # serve the site locally, reloading on change
+npm run build          # build the static site into build/
+npm run preview        # serve the built site
+npm run lint           # eslint, prettier, svelte-check
 npm run format         # fix what can be fixed automatically
 npm test               # run the tests once
 npm run test:watch     # re-run the tests on change
@@ -20,6 +23,11 @@ npm run test:coverage  # run the tests with a coverage report
 
 Run `npm run format` and then `npm run lint` before opening a pull request. CI
 runs the same checks.
+
+## Deployment
+
+Every push to `main` builds the site and publishes it to GitHub Pages. The
+repository's Pages source must be set to "GitHub Actions".
 
 ## Conventions
 

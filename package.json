@@ -5,13 +5,17 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"build": "vite build",
+		"dev": "vite dev",
 		"format": "npm run format:eslint && npm run format:prettier",
 		"format:eslint": "eslint . --fix || true",
 		"format:prettier": "prettier . --write",
-		"lint": "npm run lint:eslint && npm run lint:prettier && npm run lint:tsc",
+		"lint": "npm run lint:eslint && npm run lint:prettier && npm run lint:svelte-check",
 		"lint:eslint": "eslint . --max-warnings=0",
 		"lint:prettier": "prettier . --check",
-		"lint:tsc": "tsc --noEmit -p tsconfig.json",
+		"lint:svelte-check": "svelte-check --tsconfig ./tsconfig.json --fail-on-warnings",
+		"prepare": "svelte-kit sync",
+		"preview": "vite preview",
 		"test": "vitest run",
 		"test:coverage": "vitest run --coverage",
 		"test:watch": "vitest"
@@ -32,12 +36,21 @@
 	},
 	"devDependencies": {
 		"@biffud/eslint-config": "~10.27.0",
+		"@sveltejs/adapter-static": "^4.0.0",
+		"@sveltejs/kit": "^3.1.0",
+		"@sveltejs/vite-plugin-svelte": "^7.3.1",
 		"@tsconfig/node24": "^24.0.5",
 		"@types/node": "^24.19.1",
 		"@vitest/coverage-v8": "^5.0.3",
 		"eslint": "^10.12.0",
+		"eslint-plugin-svelte": "^3.23.1",
 		"prettier": "3.9.9",
+		"prettier-plugin-svelte": "^4.1.1",
+		"svelte": "^5.57.3",
+		"svelte-check": "^4.7.7",
 		"typescript": "^6.0.3",
+		"typescript-eslint": "^8.72.1",
+		"vite": "^8.3.5",
 		"vitest": "^5.0.1"
 	}
 }
