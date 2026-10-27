@@ -5,6 +5,8 @@
 An unofficial series of tools and resources related to the Cheltenham Township
 School District.
 
+The site is published at <https://slifty.github.io/csd/>.
+
 This project is not affiliated with or endorsed by the district. The district's
 official policies are published on
 [BoardDocs](https://go.boarddocs.com/pa/ctsd/Board.nsf/Public).
