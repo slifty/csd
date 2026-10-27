@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-monthly-sabbatical-status-reports",
+	"policyId": "BV845M09E778",
+	"name": "Monthly Sabbatical Status Reports",
+	"description": "Status reports substantiating compliance with the approved non-credit professional development plan.",
+	"type": "report",
+	"preparedBy": "Employee on non-credit professional development sabbatical",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "monthly",
+	"deadline": "Monthly during the leave",
+	"quote": "If approved, the employee shall submit monthly status reports to the Superintendent or designee substantiating compliance with the approved plan."
+}

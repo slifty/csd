@@ -1,0 +1,13 @@
+{
+	"id": "361-ar-crowdfunding-request-and-proposal",
+	"policyId": "C7WR2N66971A",
+	"name": "Crowdfunding Request and Proposal",
+	"description": "Written proposal for a District-benefiting crowdfunding campaign stating its goal, host website, people involved, amount, duration, and use of District logos.",
+	"type": "plan",
+	"preparedBy": "District employee",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Before the campaign",
+	"quote": "District employees who wish to engage in crowdfunding efforts benefiting the District, directly or indirectly, including its programs, initiatives, mission, students, or staff shall submit a written request and proposal to the Superintendent or designee."
+}

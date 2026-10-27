@@ -1,0 +1,13 @@
+{
+	"id": "138-ar-el-program-exit-notice-to-parents",
+	"policyId": "BE3ARM28F559",
+	"name": "EL Program Exit Notice to Parents",
+	"description": "Written communication of the decision that a student qualifies to exit the EL program.",
+	"type": "notification",
+	"preparedBy": "ESL teacher",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The ESL teacher will communicate the exiting decision to parents/guardians in writing."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "830-ar-breach-notice-to-consumer-reporting-agencies",
+	"policyId": "CTEPZQ6714D7",
+	"name": "Breach Notice to Consumer Reporting Agencies",
+	"description": "If more than 1,000 people are notified at once, the nationwide consumer reporting agencies are told the timing, distribution and number of notices.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Nationwide consumer reporting agencies",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "without unreasonable delay",
+	"quote": "If the District provides notification to more than 1,000 persons at one (1) time, the District shall also notify all consumer reporting agencies that compile and maintain files on consumers on a nationwide basis of the timing, distribution and number of notices, without unreasonable delay."
+}

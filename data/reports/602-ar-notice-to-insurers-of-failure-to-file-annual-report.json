@@ -1,0 +1,13 @@
+{
+	"id": "602-ar-notice-to-insurers-of-failure-to-file-annual-report",
+	"policyId": "AWL5VR122075",
+	"name": "Notice to Insurers of Failure to File Annual Report",
+	"description": "Written notice to each insurer if the District fails to timely file its Annual Report with EMMA.",
+	"type": "notification",
+	"preparedBy": "Compliance Coordinator",
+	"recipient": "Bond insurers",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "Promptly",
+	"quote": "In the event that the district fails to timely file the Annual Report with EMMA, the Compliance Coordinator shall promptly notify each insurer in writing of such failure."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "314-employee-medical-examination-results",
+	"policyId": "BG953S0E5281",
+	"name": "Employee Medical Examination Results",
+	"description": "Confidential results of required employee medical examinations, which are also discussed with the employee.",
+	"type": "report",
+	"preparedBy": "Not specified",
+	"recipient": "Superintendent and/or Director of Human Resources",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The results of all required medical examinations shall be made known to the Superintendent and/or the Director of Human Resources or designees on a confidential basis and discussed with the employee."
+}

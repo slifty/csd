@@ -1,0 +1,13 @@
+{
+	"id": "918-parent-comments-submitted-with-title-i-plan",
+	"policyId": "CW82YY04887A",
+	"name": "Parent Comments Submitted with Title I Plan",
+	"description": "If parents find the Title I Plan unsatisfactory, their comments are submitted with the plan when it is made available to the Board.",
+	"type": "report",
+	"preparedBy": "District",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "when the school makes the plan available to the Board",
+	"quote": "If the Title I Plan is not satisfactory to parents and family members, the District shall submit any parent or family member comments with the plan when the school makes the plan available to the Board."
+}

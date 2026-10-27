@@ -1,0 +1,13 @@
+{
+	"id": "218-2-law-enforcement-weapons-incident-report",
+	"policyId": "DQGMKE5B9B9B",
+	"name": "Law Enforcement Weapons Incident Report",
+	"description": "Immediate report of weapons incidents on school property, at school activities, or on school transportation, per state law and the MOU with law enforcement.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Law enforcement agency with jurisdiction over school property",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "The Superintendent or designee shall immediately report incidents involving weapons on school property, at any school-sponsored activity or on a conveyance providing transportation to or from a school or school-sponsored activity to the law enforcement agency that has jurisdiction over the school’s property"
+}

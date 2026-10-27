@@ -1,0 +1,13 @@
+{
+	"id": "351-employee-drug-conviction-notice",
+	"policyId": "DDYRLZ6E637C",
+	"name": "Employee Drug Conviction Notice",
+	"description": "Employee notice of any criminal drug statute conviction for a workplace violation; employees are notified of this condition of employment.",
+	"type": "notification",
+	"preparedBy": "Employees",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Immediately, no later than 72 hours after conviction",
+	"quote": "The Board requires that each District employee be given notification that, as a condition of employment, the employee will abide by the terms of this Policy and notify the District of any criminal drug statute conviction for a violation occurring in the workplace immediately, but no later than seventy-two (72) hours, after such conviction."
+}

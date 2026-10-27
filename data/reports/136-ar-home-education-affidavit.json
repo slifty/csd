@@ -1,0 +1,13 @@
+{
+	"id": "136-ar-home-education-affidavit",
+	"policyId": "CPW4JG0BB657",
+	"name": "Home Education Affidavit",
+	"description": "Notarized affidavit naming the supervisor and children, program site, subjects and objectives, immunization evidence, and criminal-history certification.",
+	"type": "certification",
+	"preparedBy": "Parent/guardian (home education program supervisor)",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "prior to commencement and annually by August 1",
+	"quote": "A notarized affidavit of the parent or guardian or person having legal custody of the child shall be filed prior to commencement of the home education program and annually thereafter by August 1 with the Superintendent or designee."
+}

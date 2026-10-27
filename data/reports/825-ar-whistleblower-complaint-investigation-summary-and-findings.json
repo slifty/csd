@@ -1,0 +1,13 @@
+{
+	"id": "825-ar-whistleblower-complaint-investigation-summary-and-findings",
+	"policyId": "CNY6P315D518",
+	"name": "Whistleblower Complaint Investigation Summary and Findings",
+	"description": "After investigating a written complaint, the Compliance Officer issues a summary, a determination of whether it was substantiated and whether a violation occurred, and a recommended disposition; a copy goes to the complainant.",
+	"type": "report",
+	"preparedBy": "Compliance Officer (Director of Human Resources)",
+	"recipient": "Complainant",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "generally within 15 business days of receipt of the complaint (extendable)",
+	"quote": "The Compliance Officer shall investigate these complaints and, generally within fifteen (15) business days of receipt of the complaint, issue a summary of the investigation, a determination of whether the complaint has been substantiated as factual, whether a violation of this Administrative Regulation or the accompanying Board Policy was found, and a recommended disposition of the complaint."
+}

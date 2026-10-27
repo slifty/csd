@@ -1,0 +1,13 @@
+{
+	"id": "121-ar-field-trip-parent-notification",
+	"policyId": "DGU6G514D08F",
+	"name": "Field Trip Parent Notification",
+	"description": "Written notice of a field trip; signed permission slip required before participation.",
+	"type": "notification",
+	"preparedBy": "Not specified (staff member proposing the trip)",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "at least 3 weeks in advance of the trip",
+	"quote": "A parent/guardian shall be notified in writing at least three (3) weeks in advance of a field trip. A parent/guardian must sign and return a permission slip for the field trip before a student is permitted to participate."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "800-ar-potential-litigation-written-report-for-legal-hold",
+	"policyId": "CTESTJ743D44",
+	"name": "Potential Litigation Written Report for Legal Hold",
+	"description": "When an employee flags a matter that may lead to litigation, the administrator forwards a written report to the Superintendent, who decides with the Solicitor whether to place a legal hold on records.",
+	"type": "report",
+	"preparedBy": "Administrator (building/central office supervisor)",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The administrator shall forward a written report to the Superintendent or designee, who, in consultation with the District Solicitor, will determine whether to place a legal hold on records relevant to the incident(s)."
+}

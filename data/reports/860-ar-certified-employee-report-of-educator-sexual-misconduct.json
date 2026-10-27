@@ -1,0 +1,13 @@
+{
+	"id": "860-ar-certified-employee-report-of-educator-sexual-misconduct",
+	"policyId": "BTJJRW4E41B6",
+	"name": "Certified Employee Report of Educator Sexual Misconduct",
+	"description": "Certified staff who know of sexual abuse, exploitation, or sexual misconduct under the Educator Discipline Act report it immediately; reports to PDE on the required form follow applicable law.",
+	"type": "notification",
+	"preparedBy": "Certified employees",
+	"recipient": "Superintendent and/or Title IX Coordinator",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "A certified employee who knows of any action, inaction, or conduct which constitutes sexual abuse or exploitation or sexual misconduct under the Educator Discipline Act shall immediately report such misconduct to the Superintendent and/or Title IX Coordinator. Reporting to the Pennsylvania Department of Education on the required form shall be in accordance with applicable law."
+}

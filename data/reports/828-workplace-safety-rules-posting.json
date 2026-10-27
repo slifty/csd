@@ -1,0 +1,13 @@
+{
+	"id": "828-workplace-safety-rules-posting",
+	"policyId": "DKJU7U7AB918",
+	"name": "Workplace Safety Rules Posting",
+	"description": "Rules for workplace safety and accident prevention are posted, and employees are instructed on how to report work accidents or injuries.",
+	"type": "public-posting",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Employees",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall post rules for safety and the prevention of accidents in the workplace, and shall instruct all employees on the appropriate procedure through which to report an accident or injury at work."
+}

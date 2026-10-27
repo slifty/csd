@@ -1,0 +1,13 @@
+{
+	"id": "331-ar-board-approval-request-for-conferences-over-300",
+	"policyId": "BKCT2K7544DE",
+	"name": "Board Approval Request for Conferences Over $300",
+	"description": "Advance request for Board approval when estimated reimbursable conference expenses exceed $300, unless a bargaining agreement or contract provides otherwise.",
+	"type": "recommendation",
+	"preparedBy": "Not specified",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "In advance of the conference",
+	"quote": "Board approval is required in advance of any employee attending a conference where the estimated expenses to be reimbursed by the District exceeds $300, unless provided for otherwise by an applicable collective bargaining agreement or employment contract."
+}

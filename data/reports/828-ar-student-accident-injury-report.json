@@ -1,0 +1,13 @@
+{
+	"id": "828-ar-student-accident-injury-report",
+	"policyId": "DKJU7X7ABE84",
+	"name": "Student Accident/Injury Report",
+	"description": "Student accidents or injuries at school are promptly reported to the principal and documented, and the school nurse is informed whenever nursing care is needed.",
+	"type": "notification",
+	"preparedBy": "District staff",
+	"recipient": "Building principal or designee; school nurse",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "In the event that a student is involved in an accident or is injured at school, such accidents/injuries shall be promptly reported to the building principal or designee and documented appropriately. The school nurse shall also be informed and involved any time a student requires school-based nurse/health services as a result of an accident/injury."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "803-ar-proposed-school-calendar-s",
+	"policyId": "D835XJ126257",
+	"name": "Proposed School Calendar(s)",
+	"description": "Administration presents a school calendar (optionally for multiple upcoming years) to the Board for consideration, developed with stakeholder input.",
+	"type": "presentation",
+	"preparedBy": "Administration",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": null,
+	"quote": "In addition to presenting a school calendar to the Board for consideration, the Administration may bring to the Board for consideration proposed school calendars for multiple upcoming school years, in order to provide the community with as much notice as possible."
+}

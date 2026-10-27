@@ -1,0 +1,13 @@
+{
+	"id": "224-vandalism-report-to-the-board",
+	"policyId": "DQGL2A546A7F",
+	"name": "Vandalism Report to the Board",
+	"description": "Report of vandalism incidents including number and kind of incidents, the cost to the District, and related facts and comments.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "on an as-needed basis",
+	"quote": "The Superintendent or designee shall, on an as-needed basis, report incidences of vandalism to the Board which shall include the number and kind of incident, the cost of vandalism to the District, and such related facts and comments as the Superintendent or designee may wish to make."
+}

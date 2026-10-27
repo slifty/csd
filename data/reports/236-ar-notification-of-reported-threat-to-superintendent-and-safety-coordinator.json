@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-notification-of-reported-threat-to-superintendent-and-safety-coordinator",
+	"policyId": "DSC22N00188C",
+	"name": "Notification of Reported Threat to Superintendent and Safety Coordinator",
+	"description": "Upon a preliminary determination that behavior may indicate a threat, the team immediately notifies the Superintendent and Safety Coordinator.",
+	"type": "notification",
+	"preparedBy": "Threat assessment team",
+	"recipient": "Superintendent or designee; School Safety and Security Coordinator",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "Notify the Superintendent or designee and School Safety and Security Coordinator of the reported threat."
+}

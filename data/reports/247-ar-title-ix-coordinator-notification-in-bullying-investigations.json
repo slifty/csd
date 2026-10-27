@@ -1,0 +1,13 @@
+{
+	"id": "247-ar-title-ix-coordinator-notification-in-bullying-investigations",
+	"policyId": "DA2QF5685545",
+	"name": "Title IX Coordinator Notification in Bullying Investigations",
+	"description": "Prompt notice to the Title IX Coordinator when a bullying investigation identifies potential Title IX discrimination or sex-based harassment.",
+	"type": "notification",
+	"preparedBy": "Investigator (not specified)",
+	"recipient": "Title IX Coordinator",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "If, in the course of a bullying investigation, potential issues of Title IX discrimination or sex-based harassment are identified, the Title IX Coordinator shall be promptly notified."
+}

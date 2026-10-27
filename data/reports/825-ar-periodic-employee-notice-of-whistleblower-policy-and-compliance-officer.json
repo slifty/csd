@@ -1,0 +1,13 @@
+{
+	"id": "825-ar-periodic-employee-notice-of-whistleblower-policy-and-compliance-officer",
+	"policyId": "CNY6P315D518",
+	"name": "Periodic Employee Notice of Whistleblower Policy and Compliance Officer",
+	"description": "Employees are periodically informed of the whistleblower policy and regulation, including who the Compliance Officer is.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "All employees",
+	"recipientType": "employees",
+	"frequency": "as-required",
+	"deadline": "periodically",
+	"quote": "The District will periodically inform all employees of this Administrative Regulation and the accompanying Board Policy, including the identification of the Compliance Officer."
+}

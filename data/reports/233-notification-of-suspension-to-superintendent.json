@@ -1,0 +1,13 @@
+{
+	"id": "233-notification-of-suspension-to-superintendent",
+	"policyId": "D4K2X40441E4",
+	"name": "Notification of Suspension to Superintendent",
+	"description": "Any principal suspending a student must promptly notify the Superintendent.",
+	"type": "notification",
+	"preparedBy": "Principal or designee",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Any principal or designee suspending any student shall promptly notify the Superintendent or designee."
+}

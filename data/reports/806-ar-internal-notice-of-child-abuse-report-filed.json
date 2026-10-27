@@ -1,0 +1,13 @@
+{
+	"id": "806-ar-internal-notice-of-child-abuse-report-filed",
+	"policyId": "DSC33A04DEEA",
+	"name": "Internal Notice of Child Abuse Report Filed",
+	"description": "After a report is made, the reporter notifies the principal (with the report confirmation), and the principal immediately notifies the Superintendent.",
+	"type": "notification",
+	"preparedBy": "Reporting employee/contractor/volunteer; building principal or administrator",
+	"recipient": "Building principal or administrator; Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately after making the initial report",
+	"quote": "The building principal or administrator shall then immediately notify the Superintendent or designee that a child abuse report has been made and if the initial report was made electronically, also provide a copy of the report confirmation."
+}

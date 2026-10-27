@@ -1,0 +1,14 @@
+{
+	"id": "CTENYA622E76",
+	"code": "830.1",
+	"kind": "policy",
+	"title": "Data Governance - Storage/Security",
+	"section": {
+		"number": "800",
+		"name": "Operations"
+	},
+	"adopted": null,
+	"lastRevised": null,
+	"lastReviewed": null,
+	"source": "boarddocs/policies/CTENYA622E76.html"
+}

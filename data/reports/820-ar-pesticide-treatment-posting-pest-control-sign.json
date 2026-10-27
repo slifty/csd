@@ -1,0 +1,13 @@
+{
+	"id": "820-ar-pesticide-treatment-posting-pest-control-sign",
+	"policyId": "BP3PFZ647C4E",
+	"name": "Pesticide Treatment Posting (Pest Control Sign)",
+	"description": "A pest control sign is posted in an appropriate area before and after each planned pesticide treatment.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public / building occupants",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "at least 72 hours before and for at least 2 days following each planned treatment",
+	"quote": "Posting a pest control sign in an appropriate area at least seventy-two (72) hours before and for at least two (2) days following each planned treatment."
+}

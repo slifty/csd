@@ -1,0 +1,13 @@
+{
+	"id": "350-ar-educator-report-of-sexual-misconduct",
+	"policyId": "DSC2V303F61E",
+	"name": "Educator Report of Sexual Misconduct",
+	"description": "Report of any action, inaction, or conduct constituting sexual abuse, exploitation, or sexual misconduct under the Educator Discipline Act.",
+	"type": "report",
+	"preparedBy": "Any educator with knowledge",
+	"recipient": "PA Department of Education; Superintendent and immediate supervisor",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "Within 15 days of discovery",
+	"quote": "An educator who knows of any action, inaction or conduct which constitutes sexual abuse or exploitation or sexual misconduct under the Educator Discipline Act shall report such misconduct to the Pennsylvania Department of Education on the required form, and shall report such misconduct to the Superintendent and their immediate supervisor, within fifteen (15) days of discovery of such misconduct."
+}

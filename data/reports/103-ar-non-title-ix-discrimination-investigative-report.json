@@ -1,0 +1,13 @@
+{
+	"id": "103-ar-non-title-ix-discrimination-investigative-report",
+	"policyId": "D8375217E0F5",
+	"name": "Non-Title IX Discrimination Investigative Report",
+	"description": "Written report summarizing the investigation, whether the complaint is substantiated, the basis for the finding, and any policy or legal violations.",
+	"type": "report",
+	"preparedBy": "Investigator",
+	"recipient": "Title IX Coordinator or Superintendent's designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "within 30 business days after the investigator receives the complaint, unless a different due date is set",
+	"quote": "The investigator shall prepare and submit a written report to the Title IX Coordinator or Superintendent’s designee within thirty (30) business days after the investigator receives a copy of the complaint"
+}

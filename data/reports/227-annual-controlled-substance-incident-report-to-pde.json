@@ -1,0 +1,13 @@
+{
+	"id": "227-annual-controlled-substance-incident-report-to-pde",
+	"policyId": "DDYT9R765184",
+	"name": "Annual Controlled Substance Incident Report to PDE",
+	"description": "Annual report of all incidents of prohibited possession, use and sale of controlled substances on school property, on the required state form.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "annual",
+	"deadline": "annually, by the required deadline",
+	"quote": "The Superintendent shall annually, by the required deadline, report all incidents of prohibited possession, use and sale of controlled substances on school property to the Pennsylvania Department of Education on the required form in accordance with state law and regulations."
+}

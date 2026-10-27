@@ -1,0 +1,13 @@
+{
+	"id": "808-low-meal-account-balance-advance-warning",
+	"policyId": "CJP2XZ0464F6",
+	"name": "Low Meal Account Balance Advance Warning",
+	"description": "Advance written warning(s), with payment options, when a student's meal account reaches a specified level.",
+	"type": "notification",
+	"preparedBy": "District (per Superintendent's regulations)",
+	"recipient": "Student and parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Method in which students and parents/guardians are notified when the student’s account reaches a specified level. At least one (2) advance written warning shall be given to the student and parent/guardian. Such notifications shall include information on payment options."
+}

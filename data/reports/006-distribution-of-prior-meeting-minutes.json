@@ -1,0 +1,13 @@
+{
+	"id": "006-distribution-of-prior-meeting-minutes",
+	"policyId": "CZHVV6828964",
+	"name": "Distribution of Prior Meeting Minutes",
+	"description": "Copy of the minutes of the last meeting provided to each director ahead of the next regular meeting, where they are approved.",
+	"type": "report",
+	"preparedBy": "Board Secretary",
+	"recipient": "Each school director",
+	"recipientType": "board",
+	"frequency": "per-meeting",
+	"deadline": "prior to the next regular meeting",
+	"quote": "The Board Secretary shall provide each school director with a copy of the minutes of the last meeting prior to the next regular meeting."
+}

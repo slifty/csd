@@ -1,0 +1,13 @@
+{
+	"id": "820-ar-pest-control-information-sheet-and-signs-from-applicator",
+	"policyId": "BP3PFZ647C4E",
+	"name": "Pest Control Information Sheet and Signs from Applicator",
+	"description": "Before any treatment, the applicator supplies the Pest Control Information Sheet and required signs so the District can meet its posting and notice requirements.",
+	"type": "notification",
+	"preparedBy": "Certified applicator or pesticide application technician",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "prior to performing any treatment, with sufficient time for 72-hour notices",
+	"quote": "Prior to performing any treatment, the applicator or technician must supply a Pest Control Information Sheet and all required pest control signs at least 8 ½” by 11” in size to the Superintendent or designee so that the Superintendent or designee has sufficient time to comply with all posting and notification requirements as outlined in this Administrative Guideline."
+}

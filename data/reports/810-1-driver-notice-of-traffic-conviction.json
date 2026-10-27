@@ -1,0 +1,13 @@
+{
+	"id": "810-1-driver-notice-of-traffic-conviction",
+	"policyId": "BYXQPZ6A5802",
+	"name": "Driver Notice of Traffic Conviction",
+	"description": "Written notice of any non-parking motor vehicle traffic conviction.",
+	"type": "notification",
+	"preparedBy": "Covered driver",
+	"recipient": "Superintendent or designee and contract carrier",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "within fifteen (15) days of the date of conviction",
+	"quote": "shall notify the Superintendent or designee and the contract carrier in writing of the conviction within fifteen (15) days of the date of conviction."
+}

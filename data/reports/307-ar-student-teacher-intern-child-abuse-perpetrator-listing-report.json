@@ -1,0 +1,13 @@
+{
+	"id": "307-ar-student-teacher-intern-child-abuse-perpetrator-listing-report",
+	"policyId": "CBDR9Y6CF9D0",
+	"name": "Student Teacher/Intern Child Abuse Perpetrator Listing Report",
+	"description": "Written report that the student teacher or intern has been listed as a perpetrator in the statewide child abuse database.",
+	"type": "notification",
+	"preparedBy": "Student teachers and interns",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within 72 hours of notification",
+	"quote": "While serving in District schools, a student teacher or intern shall be required to report to the Superintendent or designee, in writing, within seventy-two (72) hours of notification, that they have been listed as a perpetrator in the statewide database, in accordance with the child protective services law."
+}

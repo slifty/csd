@@ -1,0 +1,13 @@
+{
+	"id": "309-notice-to-board-of-employee-transfers-and-reassignments",
+	"policyId": "BWHPC963F054",
+	"name": "Notice to Board of Employee Transfers and Reassignments",
+	"description": "Notice of subsequent assignments involving a building transfer, a move to a position requiring different certification or credentials, or a change in organizational authority.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee will notify the Board when subsequent assignments involve a transfer from one building to another or involve a move to a position requiring a certificate; or other credentials other than those required for the employee's present position; or change in organizational authority."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "003-notice-of-non-substantive-policy-changes",
+	"policyId": "CHHJX24F3FC5",
+	"name": "Notice of Non-Substantive Policy Changes",
+	"description": "Public notice to the full Board of any non-substantive policy edits made by the Policy Committee (numbering, titles, citations, terminology).",
+	"type": "notification",
+	"preparedBy": "Policy Committee Chair or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "during the next regular Board meeting or through dissemination of the Policy Committee minutes",
+	"quote": "The Policy Committee Chair or their designee will publicly notify the Board of any such non-­substantive changes during the next regular Board meeting or through dissemination of the minutes of the Policy Committee to the full Board."
+}

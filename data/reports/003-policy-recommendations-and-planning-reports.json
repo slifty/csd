@@ -1,0 +1,13 @@
+{
+	"id": "003-policy-recommendations-and-planning-reports",
+	"policyId": "CHHJX24F3FC5",
+	"name": "Policy Recommendations and Planning Reports",
+	"description": "Recommendations on policy and planning reports in areas the Superintendent suggests to the Board.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The Superintendent shall furnish to the Board recommendations on policy and planning reports in areas suggested by the Superintendent to the Board."
+}

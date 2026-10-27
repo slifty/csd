@@ -1,0 +1,13 @@
+{
+	"id": "624-4-ar-procurement-protest-disclosure-to-awarding-agency",
+	"policyId": "DUMLKZ570262",
+	"name": "Procurement Protest Disclosure to Awarding Agency",
+	"description": "Information regarding any procurement protest is disclosed to the awarding agency.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Federal awarding agency",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": "In all instances of a protest",
+	"quote": "The District maintains protest procedures to handle and resolve disputes relating to procurements and, in all instances, discloses information regarding the protest to the awarding agency."
+}

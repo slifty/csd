@@ -1,0 +1,13 @@
+{
+	"id": "624-ar-report-of-disposed-federal-surplus-property",
+	"policyId": "DN7VEG8062B6",
+	"name": "Report of Disposed Federal Surplus Property",
+	"description": "Records of obsolete and surplus federally funded property disposed of, reported to the awarding agency when required.",
+	"type": "report",
+	"preparedBy": "Director of Business Services",
+	"recipient": "Federal awarding agency",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": "When required",
+	"quote": "The Director of Business Services will be responsible for maintaining records of obsolete and surplus property disposed of and will report to the federal awarding agency when required."
+}

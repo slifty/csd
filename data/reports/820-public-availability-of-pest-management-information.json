@@ -1,0 +1,13 @@
+{
+	"id": "820-public-availability-of-pest-management-information",
+	"policyId": "BP3PF6645C9A",
+	"name": "Public Availability of Pest Management Information",
+	"description": "Information on pest management activities, backed by at least three years of treatment records, is available to the public at the administrative office.",
+	"type": "public-posting",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Information regarding pest management activities shall be available to the public at the District's administrative office."
+}

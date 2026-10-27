@@ -1,0 +1,13 @@
+{
+	"id": "820-ar-emergency-pesticide-application-telephone-notice",
+	"policyId": "BP3PFZ647C4E",
+	"name": "Emergency Pesticide Application Telephone Notice",
+	"description": "When an emergency pesticide application is authorized due to an immediate threat, the District telephones parents who asked to be notified.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians who requested notification",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Where pests pose an immediate threat to the health and safety of students or employees, the D i strict may authorize an emergency pesticide application and shall notify by telephone any parent/guardian who has requested such notification."
+}

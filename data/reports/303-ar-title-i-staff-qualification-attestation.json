@@ -1,0 +1,13 @@
+{
+	"id": "303-ar-title-i-staff-qualification-attestation",
+	"policyId": "BUEQNN698CC2",
+	"name": "Title I Staff Qualification Attestation",
+	"description": "Written attestation that professional staff teaching in Title I programs are highly qualified and Title I paraprofessionals meet required qualifications; kept available to the public on request.",
+	"type": "certification",
+	"preparedBy": "Principal of each school providing Title I programs",
+	"recipient": "Public (maintained and available upon request)",
+	"recipientType": "public",
+	"frequency": "annual",
+	"deadline": "Annually",
+	"quote": "The principal of a school providing Title I programs to students shall annually attest that professional staff teaching in such programs are highly qualified and paraprofessionals providing instructional support in such programs meet required qualification, in accordance with federal law and state regulations. The written certifications shall be maintained available to the public, upon request."
+}

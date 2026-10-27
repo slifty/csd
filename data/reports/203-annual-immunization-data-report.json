@@ -1,0 +1,13 @@
+{
+	"id": "203-annual-immunization-data-report",
+	"policyId": "AWL5GU103CEB",
+	"name": "Annual Immunization Data Report",
+	"description": "Required student immunization data reported annually to the Pennsylvania Department of Health.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Health",
+	"recipientType": "state-agency",
+	"frequency": "annual",
+	"deadline": "by the required deadline",
+	"quote": "Annually report required immunization data to the Pennsylvania Department of Health by the required deadline."
+}

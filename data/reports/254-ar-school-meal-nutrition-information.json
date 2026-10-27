@@ -1,0 +1,13 @@
+{
+	"id": "254-ar-school-meal-nutrition-information",
+	"policyId": "DA34EB0B2D9A",
+	"name": "School Meal Nutrition Information",
+	"description": "Nutrition content of school meals is made available to students and parents.",
+	"type": "public-posting",
+	"preparedBy": "Not specified",
+	"recipient": "Students and parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Information regarding the nutrition content of school meals shall be available to students and parents/guardians."
+}

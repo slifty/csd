@@ -1,0 +1,13 @@
+{
+	"id": "624-ar-biennial-physical-inventory-of-federally-funded-property",
+	"policyId": "DN7VEG8062B6",
+	"name": "Biennial Physical Inventory of Federally Funded Property",
+	"description": "Physical inventory of federally funded property, reconciled with inventory records and reported to the awarding agency.",
+	"type": "report",
+	"preparedBy": "Designated District staff",
+	"recipient": "Federal awarding agency",
+	"recipientType": "federal-agency",
+	"frequency": "every-2-years",
+	"deadline": "At least every two years",
+	"quote": "The physical inventory of items will be conducted at least every two (2) years or more often if required by law or Board policy, and the results will be reconciled with the inventory records and reported to the federal awarding agency."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "810-ar-school-bus-conduct-report",
+	"policyId": "B6NTKT704CA8",
+	"name": "School Bus Conduct Report",
+	"description": "Report of a student infraction on a school vehicle (name, grade, bus, date, run, conduct), emailed to the principal and Transportation Office to start an investigation.",
+	"type": "report",
+	"preparedBy": "School vehicle driver / bus driver contractor",
+	"recipient": "School principal and/or designee; District Transportation Office",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "as soon as possible; for PM-run incidents, no later than the conclusion of the driver's AM run the following day",
+	"quote": "The bus driver contractor will then email a copy of the report to the school principal and/or designee and the District’s Transportation Office."
+}

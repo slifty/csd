@@ -1,0 +1,13 @@
+{
+	"id": "236-ar-annual-notice-of-threat-assessment-team",
+	"policyId": "DSC22N00188C",
+	"name": "Annual Notice of Threat Assessment Team",
+	"description": "Annual website notice of the existence and purpose of the threat assessment team.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Students, staff and parents/guardians",
+	"recipientType": "public",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The District shall annually notify students, staff and parents/guardians about the existence and purpose of the threat assessment team through posting information on the District website."
+}

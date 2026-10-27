@@ -1,0 +1,13 @@
+{
+	"id": "005-notice-of-annual-organization-meeting",
+	"policyId": "DCHL3E54945D",
+	"name": "Notice of Annual Organization Meeting",
+	"description": "Mailed notice of the time and place of the annual December organization meeting.",
+	"type": "notification",
+	"preparedBy": "Board Secretary",
+	"recipient": "All Board members",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "by mail at least five (5) days before the meeting (meeting held first week in December)",
+	"quote": "The school directors shall meet and organize annually during the first week in December. Notice of the time and place of the organization meeting shall be given to all members of the Board by mail at least five (5) days before the meeting by the Board Secretary."
+}

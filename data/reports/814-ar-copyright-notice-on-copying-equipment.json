@@ -1,0 +1,13 @@
+{
+	"id": "814-ar-copyright-notice-on-copying-equipment",
+	"policyId": "BNQR9D694634",
+	"name": "Copyright Notice on Copying Equipment",
+	"description": "Required copyright-law notice displayed on or near all library or archival duplicating equipment.",
+	"type": "public-posting",
+	"preparedBy": "Not specified",
+	"recipient": "Users of library/archival copying equipment",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The following notice is required to be displayed on or near all library or archival equipment capable of duplicating copyrighted materials. This notice must be visible to anyone using the device:"
+}

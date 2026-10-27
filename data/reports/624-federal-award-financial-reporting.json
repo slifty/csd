@@ -1,0 +1,13 @@
+{
+	"id": "624-federal-award-financial-reporting",
+	"policyId": "DQGQB96879FF",
+	"name": "Federal Award Financial Reporting",
+	"description": "Accurate, current and complete disclosure of the financial results of each federal award or program per federal financial reporting requirements.",
+	"type": "report",
+	"preparedBy": "District",
+	"recipient": "Federal awarding agencies",
+	"recipientType": "federal-agency",
+	"frequency": "as-required",
+	"deadline": "Per federal regulations",
+	"quote": "Financial Reporting – Accurate, current, and complete disclosure of the financial results of each federal award or program must be made in accordance with the financial reporting requirements of federal regulations."
+}

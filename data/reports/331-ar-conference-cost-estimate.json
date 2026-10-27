@@ -1,0 +1,13 @@
+{
+	"id": "331-ar-conference-cost-estimate",
+	"policyId": "BKCT2K7544DE",
+	"name": "Conference Cost Estimate",
+	"description": "Itemized estimate of conference costs (fees, meals, lodging, transportation) submitted with the request for prior permission.",
+	"type": "report",
+	"preparedBy": "Employee wishing to attend a conference",
+	"recipient": "Business Manager or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "In advance of the conference",
+	"quote": "The employee wishing to attend the conference shall also prepare an itemized estimate of the costs that will be incurred in connection with attendance at such conference, including, but not necessarily limited to, program/admission fees, meals, lodging, transportation, etc. This estimate shall be submitted to the Business Manager or designee in advance of the conference."
+}

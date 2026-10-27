@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-medical-or-dental-care-recommendations-to-families",
+	"policyId": "BYXPKV650D2C",
+	"name": "Medical or Dental Care Recommendations to Families",
+	"description": "Recommendations for medical or dental care are sent on state-approved forms, instructing parents to consult their provider and notify the school of the action taken.",
+	"type": "recommendation",
+	"preparedBy": "School nurse/physician/dentist",
+	"recipient": "Parent/guardian and family physician or dentist",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Recommendations as to medical or dental care shall be sent to each parent or guardian and to the family physician or family dentist on forms prepared or approved by the Secretary of Health with instructions to the parent or guardian to consult the family physician or family dentist and to notify the school authorities of the action taken with respect to the recommendations."
+}

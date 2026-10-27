@@ -1,0 +1,13 @@
+{
+	"id": "104-ar-written-appeal-decision-and-summary-to-parties",
+	"policyId": "D8375717E6DB",
+	"name": "Written Appeal Decision and Summary to Parties",
+	"description": "Appeals officer issues a written decision to the Title IX Coordinator and a summary of the appeal outcome to the parties.",
+	"type": "report",
+	"preparedBy": "Appeals officer",
+	"recipient": "Title IX Coordinator; parties",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "within 20 business days",
+	"quote": "The appeals officer shall decide the appeal within twenty (20) business days and provide a written decision to the Title IX Coordinator. The appeals officer shall provide a summary of the appeal outcome to the parties."
+}

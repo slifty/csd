@@ -1,0 +1,13 @@
+{
+	"id": "307-ar-student-teacher-intern-updated-criminal-history-report",
+	"policyId": "CBDR9Y6CF9D0",
+	"name": "Student Teacher/Intern Updated Criminal History Report",
+	"description": "Current criminal history background check report required when the Superintendent reasonably believes an unreported arrest or conviction occurred.",
+	"type": "report",
+	"preparedBy": "Student teachers and interns",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "A student teacher or intern shall be required to submit a current criminal history background check report if the Superintendent or designee has a reasonable belief that the student teacher or intern was arrested or has been convicted of an offense required to be reported by law, and the student teacher or intern has not notified the Superintendent or designee."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "701-facilities-condition-and-enrollment-report",
+	"policyId": "DKJTPY7866F9",
+	"name": "Facilities Condition and Enrollment Report",
+	"description": "Written description and condition of existing facilities with prioritized maintenance list; enrollment by grade and building with projections and comparison to prior projections; and any redistricting or grade-configuration recommendations.",
+	"type": "presentation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "on an as-needed basis",
+	"quote": "In order to inform the Board of the status of existing District facilities and the future needs of the District, the Superintendent or designee shall maintain a written description of existing physical facilities and shall present to the Board on an as-needed basis the following:"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "813-insurance-portfolio-review-and-recommendations",
+	"policyId": "AWL5ZP12B38D",
+	"name": "Insurance Portfolio Review and Recommendations",
+	"description": "Periodic review of the District's insurance portfolio with recommended coverage changes to the Board.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "as-required",
+	"deadline": "periodically",
+	"quote": "The Superintendent or designee shall be responsible for periodically reviewing the District's insurance portfolio and recommending any changes in coverage(s) to the Board."
+}

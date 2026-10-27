@@ -1,0 +1,13 @@
+{
+	"id": "257-ar-director-of-special-education-notification",
+	"policyId": "D3G47C0A27F5",
+	"name": "Director of Special Education Notification",
+	"description": "Notice to the Director of Special Education when an at-risk student may require special education services or accommodations.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Director of Special Education",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If a student is identified as being at risk for suicide or attempts suicide and the student may require special education services or accommodations, the Director of Special Education shall be notified"
+}

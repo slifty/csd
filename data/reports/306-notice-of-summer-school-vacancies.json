@@ -1,0 +1,13 @@
+{
+	"id": "306-notice-of-summer-school-vacancies",
+	"policyId": "BUEQNW69A4FB",
+	"name": "Notice of Summer School Vacancies",
+	"description": "Summer school vacancies are made known to District personnel so they may apply.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "District personnel",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Vacancies for summer school employment shall be made known to District personnel so that they may apply for such positions."
+}

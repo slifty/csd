@@ -1,0 +1,13 @@
+{
+	"id": "127-notice-of-academic-assistance-availability",
+	"policyId": "CPV5A40F3F3C",
+	"name": "Notice of Academic Assistance Availability",
+	"description": "Students and parents are informed how to access assistance for students not attaining proficiency.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Students and parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The District shall inform students and parents/guardians about how to access such assistance."
+}

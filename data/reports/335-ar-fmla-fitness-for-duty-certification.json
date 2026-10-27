@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-fmla-fitness-for-duty-certification",
+	"policyId": "C8C4T90D1273",
+	"name": "FMLA Fitness-for-Duty Certification",
+	"description": "Health care provider certification that an employee returning from leave for their own serious health condition is able to return to work.",
+	"type": "certification",
+	"preparedBy": "Employee (from health care provider)",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Before returning to work",
+	"quote": "When the FMLA leave is related to an employee’s own serious health condition, the District shall require the employee to submit certification from the employee’s health care provider that the employee is able to return to work."
+}

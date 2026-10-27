@@ -1,0 +1,13 @@
+{
+	"id": "618-ar-student-activity-fund-documents",
+	"policyId": "D3G3EX06943C",
+	"name": "Student Activity Fund Documents",
+	"description": "Required records of all student activity funds collected and disbursed, submitted to the Superintendent.",
+	"type": "data-submission",
+	"preparedBy": "Organization student treasurer and faculty advisor",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The organization's student treasurer and faculty advisor are responsible for maintaining records of all funds collected and disbursed and submitting required documents to the Superintendent or designee."
+}

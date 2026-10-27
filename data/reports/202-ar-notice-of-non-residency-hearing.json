@@ -1,0 +1,13 @@
+{
+	"id": "202-ar-notice-of-non-residency-hearing",
+	"policyId": "DCHP896359F0",
+	"name": "Notice of Non-Residency Hearing",
+	"description": "When a family timely requests a hearing, notice of the hearing (with the Procedural Safeguards Notice—Charge of Non-Residency) is sent by certified, first class and electronic mail at least three days in advance.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "at least three (3) days advance notice of the hearing",
+	"quote": "If the student’s parent/guardian timely requests a hearing to challenge the administration’s determination, a hearing shall be scheduled, notification of which shall be sent to the parent/guardian by certified mail, first class mail, and electronic mail (if available)."
+}

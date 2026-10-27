@@ -1,0 +1,13 @@
+{
+	"id": "304-ar-employee-resignation-notice",
+	"policyId": "DCHL4Q54C587",
+	"name": "Employee Resignation Notice",
+	"description": "Written, dated, signed resignation letter specifying the effective date; professional employees give at least 60 days' notice, non-certificated administrative and support employees at least two weeks.",
+	"type": "notification",
+	"preparedBy": "Resigning employee",
+	"recipient": "Immediate supervisor and Director of Human Resources",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "At least 60 days (professional) or 2 weeks (non-certificated) before effective date",
+	"quote": "Professional employees shall submit a resignation letter at least sixty (60) days prior to the resignation's effective date in accordance with law and Board Policy."
+}

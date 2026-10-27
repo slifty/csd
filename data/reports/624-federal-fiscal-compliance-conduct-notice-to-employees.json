@@ -1,0 +1,13 @@
+{
+	"id": "624-federal-fiscal-compliance-conduct-notice-to-employees",
+	"policyId": "DQGQB96879FF",
+	"name": "Federal Fiscal Compliance Conduct Notice to Employees",
+	"description": "Employees are informed of conduct required for federal fiscal compliance and disciplinary consequences for violations.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "All employees",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "All employees shall be informed of conduct that is required for federal fiscal compliance and the disciplinary actions that may be applied for violation of district policies, administrative regulations, rules, and procedures."
+}

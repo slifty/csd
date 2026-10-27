@@ -1,0 +1,13 @@
+{
+	"id": "353-professional-education-plan-submission",
+	"policyId": "CBDQAV686B0E",
+	"name": "Professional Education Plan Submission",
+	"description": "Professional education plan specifying approved courses, programs, activities, required training (including at least one hour of trauma-informed training), and approved providers.",
+	"type": "plan",
+	"preparedBy": "District",
+	"recipient": "Secretary of Education (PA Department of Education)",
+	"recipientType": "state-agency",
+	"frequency": "every-3-years",
+	"deadline": "Every three years",
+	"quote": "The District shall develop and submit a professional education plan to the Secretary of Education for approval every three (3) years, as required by law and regulations."
+}

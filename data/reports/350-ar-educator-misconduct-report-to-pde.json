@@ -1,0 +1,13 @@
+{
+	"id": "350-ar-educator-misconduct-report-to-pde",
+	"policyId": "DSC2V303F61E",
+	"name": "Educator Misconduct Report to PDE",
+	"description": "Report on the required form of any educator facing for-cause dismissal or nonrenewal, arrested or convicted of a misdemeanor or felony, alleged sexual misconduct or abuse, suspected injury to a student, separation after misconduct information, or child abuse reports; includes an inventory of evidence.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "event-triggered",
+	"deadline": "Within 15 days of receipt of notice or discovery of the incident",
+	"quote": "The Superintendent or designee shall report to the Pennsylvania Department of Education on the required form, within fifteen (15) days of receipt of notice from an educator or discovery of the incident, any educator:"
+}

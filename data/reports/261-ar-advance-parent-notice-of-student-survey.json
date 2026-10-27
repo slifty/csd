@@ -1,0 +1,13 @@
+{
+	"id": "261-ar-advance-parent-notice-of-student-survey",
+	"policyId": "B6NQSZ644B4F",
+	"name": "Advance Parent Notice of Student Survey",
+	"description": "For committee-approved surveys not funded by USDOE, parents are notified of the intent to administer and their right to opt out.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "at least two weeks prior to administration",
+	"quote": "If the committee approves a survey to be administered to student, parents/guardians will be notified of the intention to administer the survey at least two weeks prior to such administration."
+}

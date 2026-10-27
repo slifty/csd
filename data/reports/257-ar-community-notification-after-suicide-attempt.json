@@ -1,0 +1,13 @@
+{
+	"id": "257-ar-community-notification-after-suicide-attempt",
+	"policyId": "D3G47C0A27F5",
+	"name": "Community Notification After Suicide Attempt",
+	"description": "Response to a suicide attempt includes notifying students, employees and parents/guardians.",
+	"type": "notification",
+	"preparedBy": "District crisis response/intervention team",
+	"recipient": "Students, employees and parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Notifying students, employees and parents/guardians."
+}

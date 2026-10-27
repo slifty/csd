@@ -1,0 +1,13 @@
+{
+	"id": "220-ar-nonschool-materials-submission-for-review",
+	"policyId": "BE39SX2476F0",
+	"name": "Nonschool Materials Submission for Review",
+	"description": "Students submit nonschool materials for review before distribution or posting, and the principal forwards a copy to the Superintendent's office.",
+	"type": "notification",
+	"preparedBy": "Students (submission); building principal or designee (forwarding)",
+	"recipient": "Building principal; Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "at least two (2) school days in advance of planned distribution",
+	"quote": "Students who wish to distribute nonschool materials on school property are required to submit them for review to the building principal or designee at least two (2) school days in advance of planned distribution. The building principal shall forward a copy of the proposed materials to the Superintendent or designee for review."
+}

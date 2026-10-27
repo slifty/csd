@@ -1,0 +1,13 @@
+{
+	"id": "218-2-parent-sworn-statement-on-prior-weapons-drug-violence-discipline",
+	"policyId": "DQGMKE5B9B9B",
+	"name": "Parent Sworn Statement on Prior Weapons/Drug/Violence Discipline",
+	"description": "Sworn statement at registration on whether the student was previously suspended or expelled for weapons, alcohol, drugs or violent acts.",
+	"type": "certification",
+	"preparedBy": "Parent, guardian, or person in charge of the student",
+	"recipient": "Superintendent (District)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "upon registration",
+	"quote": "The Superintendent or shall require, upon registration, a sworn statement or affirmation from a parent, guardian, or other person having control or charge of a student, stating whether or not the student was previously suspended or expelled from any public or private school in Pennsylvania or any other state for an offense involving weapons, alcohol, or drugs or other violent acts."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "259-ar-written-explanation-of-best-interest-determination",
+	"policyId": "CJQMW95D3344",
+	"name": "Written Explanation of Best Interest Determination",
+	"description": "If the District decides against the school of origin or requested school, it provides a written explanation including appeal rights and procedures.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parent/guardian",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "If, after such consideration, the District determines that it is not in the student’s best interest to attend the school of origin or the school requested by the parent/guardian, the District shall provide the parent/guardian with a written explanation of the reasons for its determination."
+}

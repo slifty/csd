@@ -1,0 +1,13 @@
+{
+	"id": "247-report-of-student-to-threat-assessment-team",
+	"policyId": "DA2QEZ68509F",
+	"name": "Report of Student to Threat Assessment Team",
+	"description": "Staff report a student whose behavior indicates a threat to safety to the threat assessment team.",
+	"type": "report",
+	"preparedBy": "District staff",
+	"recipient": "Threat assessment team",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "When a student's behavior indicates a threat to the safety of the student, other students, school employees, school facilities, the community or others, District staff shall report the student to the threat assessment team, in accordance with applicable law and Board Policy."
+}

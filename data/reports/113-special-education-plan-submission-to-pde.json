@@ -1,0 +1,13 @@
+{
+	"id": "113-special-education-plan-submission-to-pde",
+	"policyId": "CKY5JK107C0B",
+	"name": "Special Education Plan Submission to PDE",
+	"description": "Development and submission of the District special education plan for PDE approval.",
+	"type": "plan",
+	"preparedBy": "District",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "every-3-years",
+	"deadline": "every three years or as otherwise directed by the Secretary of Education",
+	"quote": "The District shall develop and submit a special education plan to the Pennsylvania Department of Education for approval every three (3) years or on such schedule as is otherwise directed by the Secretary of Education"
+}

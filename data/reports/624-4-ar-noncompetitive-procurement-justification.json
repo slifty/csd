@@ -1,0 +1,13 @@
+{
+	"id": "624-4-ar-noncompetitive-procurement-justification",
+	"policyId": "DUMLKZ570262",
+	"name": "Noncompetitive Procurement Justification",
+	"description": "Grounds, analysis and documentation for using a noncompetitive (sole source) procurement method, submitted to the Business Office; all noncompetitive proposals are approved by the Board.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "Business Office (procurement ultimately approved by Board)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "In addition to standard procurement policy and procedures, the District will provide the grounds, including analysis and documentation, for using the noncompetitive method in lieu of an otherwise required competitive method of procurement."
+}

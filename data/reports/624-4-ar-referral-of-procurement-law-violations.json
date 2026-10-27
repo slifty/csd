@@ -1,0 +1,13 @@
+{
+	"id": "624-4-ar-referral-of-procurement-law-violations",
+	"policyId": "DUMLKZ570262",
+	"name": "Referral of Procurement Law Violations",
+	"description": "Violations of law arising out of procurements are referred to the proper authority.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Local, state or federal authority with jurisdiction",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Violations of law will be referred to the local, state, or federal authority having proper jurisdiction."
+}

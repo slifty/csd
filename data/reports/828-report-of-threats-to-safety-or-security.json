@@ -1,0 +1,13 @@
+{
+	"id": "828-report-of-threats-to-safety-or-security",
+	"policyId": "DKJU7U7AB918",
+	"name": "Report of Threats to Safety or Security",
+	"description": "Threats to students, staff, or property are reported and responded to promptly under the law and the applicable emergency plan.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Not specified (per emergency plan and Superintendent instruction)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Threats to the safety or security of students, staff, or District property shall be reported and responded to promptly in accordance with applicable law, the applicable comprehensive emergency plan, and as instructed by the Superintendent or designee."
+}

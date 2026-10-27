@@ -1,0 +1,13 @@
+{
+	"id": "203-report-on-blood-borne-pathogen-procedures",
+	"policyId": "AWL5GU103CEB",
+	"name": "Report on Blood Borne Pathogen Procedures",
+	"description": "Report to the Board on the effectiveness of procedures for students infected by blood borne pathogens, with recommended revisions based on medical developments.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "on an as-needed basis",
+	"quote": "The Superintendent or designee shall report to the Board on an as-needed basis regarding the effectiveness of procedures regarding students infected by blood borne pathogens and make recommendations for revision in accordance with developments in medical research and/or treatments."
+}

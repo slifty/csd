@@ -1,0 +1,13 @@
+{
+	"id": "210-ar-medication-variance-report",
+	"policyId": "AWL5HC104F1A",
+	"name": "Medication Variance Report",
+	"description": "Medication errors (wrong drug, student, dose, time, route, technique, or omitted dose) are reported on the Medication Variance Report Form; the nurse then notifies parents and the building administrator, and the prescriber if harm is possible.",
+	"type": "report",
+	"preparedBy": "Staff member involved; school nurse",
+	"recipient": "School nurse; parents/guardians; building administrator; licensed prescriber (if potential harm)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Medication variances should be reported on the Medication Variance Report Form. (See Attachment B.) All variances should be documented and reported to the school nurse. The school nurse should notify the parent(s)/guardian(s) and building administrator. The school nurse should notify the licensed prescriber if there is potential for harm to the student."
+}

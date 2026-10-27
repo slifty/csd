@@ -1,0 +1,13 @@
+{
+	"id": "816-ar-report-of-technology-use-violations",
+	"policyId": "CZJ2JM026E67",
+	"name": "Report of Technology Use Violations",
+	"description": "Prompt report of violations of the acceptable use regulation or policy.",
+	"type": "notification",
+	"preparedBy": "Users of District technology resources",
+	"recipient": "Teacher, building principal or immediate supervisor",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "promptly",
+	"quote": "Users of District technology resources shall promptly report violations of this Administrative Regulation or the accompanying Board Policy to their teacher, building principal or immediate supervisor."
+}

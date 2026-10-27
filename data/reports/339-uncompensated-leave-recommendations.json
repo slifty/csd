@@ -1,0 +1,13 @@
+{
+	"id": "339-uncompensated-leave-recommendations",
+	"policyId": "DKJMTU5CD6AF",
+	"name": "Uncompensated Leave Recommendations",
+	"description": "Recommendation on employee applications for uncompensated leave, which require Board approval.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Applications for uncompensated leave require approval by the Board, upon recommendation of the Superintendent or designee."
+}

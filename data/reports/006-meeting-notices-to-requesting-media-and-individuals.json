@@ -1,0 +1,13 @@
+{
+	"id": "006-meeting-notices-to-requesting-media-and-individuals",
+	"policyId": "CZHVV6828964",
+	"name": "Meeting Notices to Requesting Media and Individuals",
+	"description": "Notice of all open meetings sent to newspapers and broadcast stations that request it and to individuals who supply a stamped, addressed envelope.",
+	"type": "notification",
+	"preparedBy": "Not specified (District)",
+	"recipient": "Requesting newspapers, radio/TV stations and individuals",
+	"recipientType": "public",
+	"frequency": "per-meeting",
+	"deadline": null,
+	"quote": "Notice of all open meetings shall be given to any newspaper(s) circulating in Montgomery County and any radio or television station which so requests. Notice of all open meetings shall be given to any individual who so requests and provides a stamped, addressed envelope for such notification."
+}

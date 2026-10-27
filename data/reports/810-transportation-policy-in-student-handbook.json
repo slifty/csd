@@ -1,0 +1,13 @@
+{
+	"id": "810-transportation-policy-in-student-handbook",
+	"policyId": "DKJVDG803D8C",
+	"name": "Transportation Policy in Student Handbook",
+	"description": "Policy included each school year in the student handbook and other publications setting out rules of conduct.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Students and parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "each school year",
+	"quote": "Each school year, this Policy is included in the student handbook, and in any other District publications that sets forth the comprehensive rules, procedures, and standards of conduct."
+}

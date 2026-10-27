@@ -1,0 +1,13 @@
+{
+	"id": "619-audit-certification-statement-to-pde",
+	"policyId": "DQGKN552A2A3",
+	"name": "Audit Certification Statement to PDE",
+	"description": "Signed statement certifying the District's financial statements were properly audited and that, in the auditor's opinion, the annual financial report is materially consistent with the audited statements.",
+	"type": "certification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "annual",
+	"deadline": "By the School Code deadline and any PDE-granted extension",
+	"quote": "The Superintendent or designee shall annually, by the required deadline outlined in the School Code and any extension thereto granted by the PA Department of Education, submit a signed statement to the Pennsylvania Department of Education certifying that the financial statements of the District have been properly audited pursuant to law"
+}

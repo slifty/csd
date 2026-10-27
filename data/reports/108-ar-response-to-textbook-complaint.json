@@ -1,0 +1,13 @@
+{
+	"id": "108-ar-response-to-textbook-complaint",
+	"policyId": "BLX2A2012D1C",
+	"name": "Response to Textbook Complaint",
+	"description": "Response to a written complaint about a textbook used in the instructional program.",
+	"type": "notification",
+	"preparedBy": "Assistant Superintendent or designee",
+	"recipient": "Complainant",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": "generally within 15 business days of receipt",
+	"quote": "The Assistant Superintendent or designee will generally respond to the complaint within 15 business days of receipt of the written complaint."
+}

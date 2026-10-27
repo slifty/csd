@@ -1,0 +1,13 @@
+{
+	"id": "312-employee-performance-rating-form",
+	"policyId": "C5SSK9730606",
+	"name": "Employee Performance Rating Form",
+	"description": "Signed copy of the employee's performance rating form; administrative, classified, and professional employees are evaluated at least once each year.",
+	"type": "report",
+	"preparedBy": "Evaluating supervisor (Superintendent or designee)",
+	"recipient": "Evaluated employee",
+	"recipientType": "employees",
+	"frequency": "annual",
+	"deadline": "At least once each year (per evaluation)",
+	"quote": "A signed copy of the rating form shall be provided to the employee."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "209-ar-annual-chip-eligibility-notice",
+	"policyId": "BYXPKV650D2C",
+	"name": "Annual CHIP Eligibility Notice",
+	"description": "Distribution to every family of the Department of Insurance's notice on the existence of and eligibility for the Children's Health Insurance Program.",
+	"type": "notification",
+	"preparedBy": "Designated District representative",
+	"recipient": "Parents/guardians of each enrolled student",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "upon receipt from the Department of Insurance (provided to District by August 15)",
+	"quote": "The designated District representative shall be responsible for providing such notice to the parent or guardian of each student enrolled in the District during the school year, upon receipt by the Department of Insurance."
+}

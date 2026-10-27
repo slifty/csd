@@ -1,0 +1,13 @@
+{
+	"id": "215-ar-high-school-retention-warning-and-notice",
+	"policyId": "BLGUMZ79A845",
+	"name": "High School Retention Warning and Notice",
+	"description": "Notification to families when a high school student is in danger of retention before year end, and written notice once retention is determined.",
+	"type": "notification",
+	"preparedBy": "High school staff",
+	"recipient": "Student and parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "prior to the end of the school year",
+	"quote": "If a student is in danger of being retained, a notification will be sent to the student's parents/guardians prior to the end of the school year. The high school staff will meet with the student to inform them of their status and monitor their progress. Once a determination has been made, the student and parents/guardians shall receive written notice of the student's retention."
+}

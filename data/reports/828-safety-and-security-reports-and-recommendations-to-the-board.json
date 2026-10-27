@@ -1,0 +1,13 @@
+{
+	"id": "828-safety-and-security-reports-and-recommendations-to-the-board",
+	"policyId": "DKJU7U7AB918",
+	"name": "Safety and Security Reports and Recommendations to the Board",
+	"description": "Reports and recommendations on current safety and security practices and any strategies or resources needed to implement the safety policy better.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "on an as-needed basis, or when required by law",
+	"quote": "The Superintendent or designee shall make reports and recommendations to the Board on an as-needed basis, or when required by law, regarding current safety and security practices and any strategies or resources needed to better or more comprehensively implement this Policy and the accompanying Administrative Regulation."
+}

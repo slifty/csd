@@ -1,0 +1,13 @@
+{
+	"id": "605-ar-recommended-properties-for-district-initiated-tax-assessment-appeals",
+	"policyId": "CZHV2X7EB30C",
+	"name": "Recommended Properties for District-Initiated Tax Assessment Appeals",
+	"description": "Identification of under-assessed properties for potential District-initiated assessment appeals, presented to the Board for consideration and approval; properties are recommended where the potential added revenue exceeds $10,000, and no appeal is filed without the Board being advised.",
+	"type": "recommendation",
+	"preparedBy": "Director of Business Services, with District Solicitor",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "Before any appeal is filed",
+	"quote": "The Director of Business Services, in consultation with the District’s Solicitor, shall be responsible for identifying the properties to potentially be the subject of a District-initiated tax assessment appeal and presenting such properties to the Board for consideration and approval."
+}

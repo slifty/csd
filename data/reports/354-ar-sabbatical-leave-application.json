@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-sabbatical-leave-application",
+	"policyId": "BV845M09E778",
+	"name": "Sabbatical Leave Application",
+	"description": "Sabbatical leave request with required documentation (and, for professional development, a detailed plan and course syllabi).",
+	"type": "notification",
+	"preparedBy": "Employee",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": "On or before April 1 for the following school year; October 1 for the following semester",
+	"quote": "Requests for sabbatical leaves, which include the required documentation, shall be made to the Superintendent or designee on or before April 1 for the following school year and October 1 for the following semester."
+}

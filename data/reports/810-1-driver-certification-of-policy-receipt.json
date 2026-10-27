@@ -1,0 +1,13 @@
+{
+	"id": "810-1-driver-certification-of-policy-receipt",
+	"policyId": "BYXQPZ6A5802",
+	"name": "Driver Certification of Policy Receipt",
+	"description": "Signed statement certifying receipt of the drug and alcohol policy; a copy is given to the driver.",
+	"type": "certification",
+	"preparedBy": "Covered driver",
+	"recipient": "District (personnel file)",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Each covered driver shall sign a statement certifying that they have has received a copy of this Policy."
+}

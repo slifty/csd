@@ -1,0 +1,13 @@
+{
+	"id": "827-post-award-public-disclosure-of-bids-and-selected-contractor",
+	"policyId": "DSBVV4827E80",
+	"name": "Post-Award Public Disclosure of Bids and Selected Contractor",
+	"description": "After such a contract is awarded, the District publicly discloses who submitted bids or quotes and who was chosen.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "post-award",
+	"quote": "Post-award public disclosure of who made bids or quotes and who was chosen."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "302-public-disclosure-of-superintendent-assistant-superintendent-removal",
+	"policyId": "BNU2YA046F44",
+	"name": "Public Disclosure of Superintendent/Assistant Superintendent Removal",
+	"description": "Public disclosure that the Superintendent or Assistant Superintendent has been removed from office.",
+	"type": "notification",
+	"preparedBy": "Board",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "At the next regularly scheduled meeting after removal",
+	"quote": "The Board shall publicly disclose at the next regularly scheduled meeting the removal from office of a Superintendent or Assistant Superintendent."
+}

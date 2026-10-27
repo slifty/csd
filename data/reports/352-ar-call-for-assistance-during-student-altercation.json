@@ -1,0 +1,13 @@
+{
+	"id": "352-ar-call-for-assistance-during-student-altercation",
+	"policyId": "C8CP6F628ABB",
+	"name": "Call for Assistance During Student Altercation",
+	"description": "Immediate call for help giving the exact location and nature of a student fight or altercation.",
+	"type": "notification",
+	"preparedBy": "Employees who observe or learn of a fight or altercation",
+	"recipient": "Building safety officer, climate and culture administrator, or principal/vice/assistant principal",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Immediately",
+	"quote": "Immediately call for help by contacting the building safety officer, climate and culture administrator, building principal, vice principal, or assistant principal. Be prepared to indicate the exact location and the nature of the incident."
+}

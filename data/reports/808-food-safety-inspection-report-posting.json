@@ -1,0 +1,13 @@
+{
+	"id": "808-food-safety-inspection-report-posting",
+	"policyId": "CJP2XZ0464F6",
+	"name": "Food Safety Inspection Report Posting",
+	"description": "Posting of the most recent of the two annual food safety inspection reports, with copies released to the public on request.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "semiannual",
+	"deadline": "after each of the two inspections per year",
+	"quote": "The District shall post the most recent inspection report and release a copy of the report to members of the public upon request to the extent required by law."
+}

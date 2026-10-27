@@ -1,0 +1,13 @@
+{
+	"id": "906-ar-unresolved-complaint-report-to-the-board",
+	"policyId": "BMJNA75EA9AF",
+	"name": "Unresolved Complaint Report to the Board",
+	"description": "Complete report to the Board on a complaint the Superintendent cannot resolve or that is beyond the Superintendent's authority.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Fourth Level - Should the matter not be resolved by the Superintendent or designee, or if the matter is beyond the authority of the Superintendent, the Superintendent or designee shall provide the Board with a complete report."
+}

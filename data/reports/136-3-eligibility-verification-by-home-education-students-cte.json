@@ -1,0 +1,13 @@
+{
+	"id": "136-3-eligibility-verification-by-home-education-students-cte",
+	"policyId": "CPW5H3104442",
+	"name": "Eligibility Verification by Home Education Students (CTE)",
+	"description": "Required documents and verification of eligibility or prerequisites before enrolling in a CTE program.",
+	"type": "certification",
+	"preparedBy": "Home education student / parent or supervisor",
+	"recipient": "Building principal or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "prior to enrolling",
+	"quote": "Prior to enrolling in a career and technical education program, a home education student shall submit required documents and written verification of eligibility or completion of prerequisites to the building principal or designee."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "227-ar-staff-report-of-suspected-student-substance-use",
+	"policyId": "DDYT9U76556A",
+	"name": "Staff Report of Suspected Student Substance Use",
+	"description": "Staff who suspect a student is under the influence must immediately report the suspicion to a building administrator.",
+	"type": "report",
+	"preparedBy": "District staff member",
+	"recipient": "Building administrator",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "Whenever a District employee has reason to believe that a student is under the influence of drugs, alcohol, or a controlled substance, the staff member shall immediately report such suspicion to a building administrator who will escort the student to the health suite."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "810-ar-audio-video-recording-notices-on-school-vehicles",
+	"policyId": "DKJVQN804132",
+	"name": "Audio/Video Recording Notices on School Vehicles",
+	"description": "Written notices of the presence and possible activation of audio recording posted on school buses/vehicles and other recording locations.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Drivers and passengers",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Written notices as to the presence and possible activation of an audio recording of conversations concurrent with a visual image being taped must be posted on school buses/vehicles and in other locations where the audio recording will take place."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "801-written-denial-of-records-request",
+	"policyId": "D836BF14214B",
+	"name": "Written Denial of Records Request",
+	"description": "Written denial describing the record, specific legal reasons for denial, the issuing officer, date, and appeal procedure.",
+	"type": "notification",
+	"preparedBy": "Open Records Officer",
+	"recipient": "Requester",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "within five (5) business days of receipt of the request",
+	"quote": "If the Open Records Officer denies a request for access to a record, whether in whole or in part, a written response shall be sent within five (5) business days of receipt of the request."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "601-recommended-fiscal-practice-improvements",
+	"policyId": "BKD65H1342A8",
+	"name": "Recommended Fiscal Practice Improvements",
+	"description": "Based on ongoing review of financial operations, the Superintendent reports recommended improvements to keep fiscal practices sound.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall review the financial operations on an ongoing basis and report to the Board any recommended improvements to ensure continued implementation of sound fiscal practices."
+}

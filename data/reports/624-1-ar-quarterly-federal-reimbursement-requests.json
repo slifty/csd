@@ -1,0 +1,13 @@
+{
+	"id": "624-1-ar-quarterly-federal-reimbursement-requests",
+	"policyId": "DN7VU482624F",
+	"name": "Quarterly Federal Reimbursement Requests",
+	"description": "Reimbursement requests for actual federal grant expenditures, with supporting documentation, submitted on the PDE portal.",
+	"type": "data-submission",
+	"preparedBy": "Director of Business Services",
+	"recipient": "PA Department of Education (PDE portal)",
+	"recipientType": "state-agency",
+	"frequency": "quarterly",
+	"deadline": "Quarterly",
+	"quote": "The Director of Business Services will request reimbursement for actual expenditures incurred under the federal grants quarterly."
+}

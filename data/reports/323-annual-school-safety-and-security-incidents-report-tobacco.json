@@ -1,0 +1,13 @@
+{
+	"id": "323-annual-school-safety-and-security-incidents-report-tobacco",
+	"policyId": "DDYRAE6D0B36",
+	"name": "Annual School Safety and Security Incidents Report (Tobacco)",
+	"description": "Report on the required form of incidents of prohibited possession, use, or sale of tobacco products on school property.",
+	"type": "data-submission",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "annual",
+	"deadline": "Annually, by the required deadline",
+	"quote": "The Superintendent or designee shall annually, by the required deadline, report incidents of prohibited possession, use or sale of tobacco products on school property to the PA Department of Education on the required form."
+}

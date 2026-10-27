@@ -1,0 +1,13 @@
+{
+	"id": "357-ar-level-three-board-complaint-decision",
+	"policyId": "C8CQUF676014",
+	"name": "Level Three Board Complaint Decision",
+	"description": "Final Board decision on an employee complaint appealed to Level Three.",
+	"type": "notification",
+	"preparedBy": "Board or Board committee",
+	"recipient": "Complaining employee",
+	"recipientType": "employees",
+	"frequency": "event-triggered",
+	"deadline": "Within 20 school days after receipt of the complaint",
+	"quote": "The Board, or a committee of the Board, shall have twenty (20) school days after receipt of the complaint to schedule a hearing and render a decision."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "818-ar-contractor-report-of-employee-arrest-conviction-or-abuse-finding",
+	"policyId": "CFJ6SC164FD3",
+	"name": "Contractor Report of Employee Arrest, Conviction, or Abuse Finding",
+	"description": "When a contractor learns a contractor employee was arrested, convicted, or named a perpetrator in a founded or indicated report, it must report that in writing to the Superintendent.",
+	"type": "notification",
+	"preparedBy": "Independent contractor",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately",
+	"quote": "If the independent contractor receives notice of such arrest or conviction or that the contractor employee has been named as a perpetrator in a founded or indicated report, from either the contractor employee or a third party, the independent contractor shall immediately report, in writing, that information to the Superintendent or designee."
+}

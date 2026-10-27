@@ -1,0 +1,13 @@
+{
+	"id": "257-ar-suicide-prevention-resources-for-parents",
+	"policyId": "D3G47C0A27F5",
+	"name": "Suicide Prevention Resources for Parents",
+	"description": "Resources on health promotion, suicide risk, warning signs and behavioral health resources.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The District shall provide parents/guardians with resources including, but not limited to, health promotion and suicide risk, including characteristics and warning signs, and information about local, state and national behavioral health resources."
+}

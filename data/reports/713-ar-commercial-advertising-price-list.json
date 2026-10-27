@@ -1,0 +1,13 @@
+{
+	"id": "713-ar-commercial-advertising-price-list",
+	"policyId": "BG944K09BF57",
+	"name": "Commercial Advertising Price List",
+	"description": "Price list for commercial advertising options, posted with the regulation.",
+	"type": "public-posting",
+	"preparedBy": "Business Manager or designee",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "as-required",
+	"deadline": "periodically",
+	"quote": "The Business Manager or designee shall periodically promulgate a price list for commercial advertising options to be posted with this regulation."
+}

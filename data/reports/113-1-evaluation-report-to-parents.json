@@ -1,0 +1,13 @@
+{
+	"id": "113-1-evaluation-report-to-parents",
+	"policyId": "CKY5JL107C13",
+	"name": "Evaluation Report to Parents",
+	"description": "Completed special education evaluation report, with test results, summaries, identified needs and recommendations for the IEP team.",
+	"type": "report",
+	"preparedBy": "Multidisciplinary team",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "no later than 60 calendar days after receipt of written consent (excluding summer break)",
+	"quote": "The evaluation shall be completed and a copy of the evaluation report presented to parents/guardians no later than sixty (60) calendar days after receipt of written parent/guardian consent for an evaluation, exclusive of the period following the last day of the spring school term to the first day of the subsequent fall term."
+}

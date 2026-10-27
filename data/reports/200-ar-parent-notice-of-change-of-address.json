@@ -1,0 +1,13 @@
+{
+	"id": "200-ar-parent-notice-of-change-of-address",
+	"policyId": "DCHNEP5F9B46",
+	"name": "Parent Notice of Change of Address",
+	"description": "Families who move within or out of the District must notify the Registrar of the move and new address.",
+	"type": "notification",
+	"preparedBy": "Parents/guardians",
+	"recipient": "District Registrar",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately, but in no event more than five (5) days after such move",
+	"quote": "Student's whose parents/guardians move within or outside of the District's boundaries are required to immediately, but in no event more than five (5) days after such move, notify the District's Registrar of such move and change of address."
+}

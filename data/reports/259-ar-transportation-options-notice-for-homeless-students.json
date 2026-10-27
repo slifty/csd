@@ -1,0 +1,13 @@
+{
+	"id": "259-ar-transportation-options-notice-for-homeless-students",
+	"policyId": "CJQMW95D3344",
+	"name": "Transportation Options Notice for Homeless Students",
+	"description": "Inform families and unaccompanied youth of all transportation options, including to the school of origin.",
+	"type": "notification",
+	"preparedBy": "District homeless liaison",
+	"recipient": "Parents/guardians and unaccompanied youth",
+	"recipientType": "parents-and-students",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Inform the parent/guardian of a child/youth experiencing homelessness and any unaccompanied youth experiencing homelessness, of all transportation options, including to the school of origin, and assist in accessing these transportation services."
+}

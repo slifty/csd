@@ -1,0 +1,13 @@
+{
+	"id": "206-1-notice-to-juvenile-probation-of-disclosure-to-other-schools",
+	"policyId": "CZJ22J0013DD",
+	"name": "Notice to Juvenile Probation of Disclosure to Other Schools",
+	"description": "The principal informs the juvenile probation office whenever adjudication information is provided to officials of schools outside the District (and logs each recipient).",
+	"type": "notification",
+	"preparedBy": "Building principal or designee",
+	"recipient": "Juvenile probation office",
+	"recipientType": "law-enforcement",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The building principal or designee shall maintain a log of all individuals from other school districts to whom this information is subsequently provided, and shall inform the juvenile probation office upon providing this information to officials from other schools outside the District."
+}

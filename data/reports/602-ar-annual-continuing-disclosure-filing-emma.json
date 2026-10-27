@@ -1,0 +1,13 @@
+{
+	"id": "602-ar-annual-continuing-disclosure-filing-emma",
+	"policyId": "AWL5VR122075",
+	"name": "Annual Continuing Disclosure Filing (EMMA)",
+	"description": "Annual Report / Annual Financial Information required by bond continuing disclosure agreements under SEC Rule 15c2-12: audited financial statements, enrollment, real estate tax collection data, debt and borrowing capacity, and employee counts.",
+	"type": "data-submission",
+	"preparedBy": "Compliance Coordinator (Director of Financial Services or designee)",
+	"recipient": "Municipal Securities Rulemaking Board (EMMA portal)",
+	"recipientType": "other-external",
+	"frequency": "annual",
+	"deadline": "Not later than February 1 of each year (per applicable CDA)",
+	"quote": "To that end, the Compliance Coordinator shall consult the applicable CDA executed in connection with its outstanding bond issues to assure that the Annual Report or Annual Financial Information (as defined and described in the applicable CDAs) is filed not later than the requisite date for filing as established under the applicable CDA (currently, not later than February 1 of each year)."
+}

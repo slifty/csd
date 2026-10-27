@@ -1,0 +1,13 @@
+{
+	"id": "308-notice-to-board-of-contract-misunderstandings-or-salary-errors",
+	"policyId": "BG94ER0B3DB5",
+	"name": "Notice to Board of Contract Misunderstandings or Salary Errors",
+	"description": "Prompt notice to the Board of any misunderstanding in applying an employment contract or resolution, or any error in salary paid.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "Promptly",
+	"quote": "The Board shall be notified promptly of any misunderstanding arising from the application of a given contract or resolution, or any error in salary paid to the employee."
+}

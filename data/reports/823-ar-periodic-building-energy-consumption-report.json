@@ -1,0 +1,13 @@
+{
+	"id": "823-ar-periodic-building-energy-consumption-report",
+	"policyId": "BGCG9J42BA39",
+	"name": "Periodic Building Energy Consumption Report",
+	"description": "Energy consumption in each building is monitored and reported to the Board.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "as-required",
+	"deadline": "on a periodic basis",
+	"quote": "Energy consumption in each building will be monitored and reported on a periodic basis to the Board by the Superintendent or designee."
+}

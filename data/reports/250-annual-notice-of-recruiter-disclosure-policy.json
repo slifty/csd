@@ -1,0 +1,13 @@
+{
+	"id": "250-annual-notice-of-recruiter-disclosure-policy",
+	"policyId": "DDYQAG685CE4",
+	"name": "Annual Notice of Recruiter Disclosure Policy",
+	"description": "Annual notice that the District discloses names, addresses and phone numbers to recruiters, explaining the right and procedure to opt out.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee (procedures)",
+	"recipient": "Parents/guardians/students",
+	"recipientType": "parents-and-students",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The Superintendent or designee shall develop Administrative Regulations implementing this Policy that establish procedures for annually notifying parents/guardians/students, as appropriate, of this Policy."
+}

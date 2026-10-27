@@ -1,0 +1,13 @@
+{
+	"id": "136-3-cte-grades-to-home-education-program-supervisor",
+	"policyId": "CPW5H3104442",
+	"name": "CTE Grades to Home Education Program Supervisor",
+	"description": "A grade for each CTE program course completed by a home education student.",
+	"type": "report",
+	"preparedBy": "EASTERN Center for Arts and Technology",
+	"recipient": "Home education program supervisor",
+	"recipientType": "parents-and-students",
+	"frequency": "event-triggered",
+	"deadline": "upon completion of each course",
+	"quote": "The EASTERN Center for Arts and Technology shall provide the student’s home education program supervisor with a grade for each career and technical education program course completed by a student enrolled in a home education program"
+}

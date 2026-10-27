@@ -1,0 +1,13 @@
+{
+	"id": "808-ar-end-of-year-delinquent-meal-debt-referral",
+	"policyId": "CJP2Y504696A",
+	"name": "End-of-Year Delinquent Meal Debt Referral",
+	"description": "Unrecovered school meal debt remaining at year end is referred to the Director of Business Services for action (treated as bad debt repaid from non-federal funds).",
+	"type": "data-submission",
+	"preparedBy": "Food Services",
+	"recipient": "Director of Business Services",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "at the end of each school year",
+	"quote": "After taking reasonable steps to collect delinquent school meal debt, which shall include at least two written correspondences to the student’s parent/guardian, unrecovered/delinquent debt at the end of each school year shall be referred to the Director of Business Services for appropriate action."
+}

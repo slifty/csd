@@ -1,0 +1,13 @@
+{
+	"id": "317-notice-to-employees-of-conduct-rules-and-disciplinary-actions",
+	"policyId": "DKJT7V760730",
+	"name": "Notice to Employees of Conduct Rules and Disciplinary Actions",
+	"description": "Informing employees of required and prohibited conduct during work hours and the discipline that may apply.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "All District employees",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The Board directs that all District employees shall be informed of conduct that is required and is prohibited during work hours and the disciplinary actions that may be applied for violation of Board Policy, Administrative Regulations, rules and procedures."
+}

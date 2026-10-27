@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-sabbatical-application-review-for-board-action",
+	"policyId": "BV845M09E778",
+	"name": "Sabbatical Application Review for Board Action",
+	"description": "Superintendent review of each professional development sabbatical application, evaluated against stated criteria, for Board action.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Each application for sabbatical leave for professional development shall be reviewed by the Superintendent or designee and acted upon by the Board."
+}

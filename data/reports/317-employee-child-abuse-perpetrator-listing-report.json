@@ -1,0 +1,13 @@
+{
+	"id": "317-employee-child-abuse-perpetrator-listing-report",
+	"policyId": "DKJT7V760730",
+	"name": "Employee Child Abuse Perpetrator Listing Report",
+	"description": "Written report that the employee has been listed as a perpetrator in the Statewide database under the Child Protective Services Law.",
+	"type": "notification",
+	"preparedBy": "All employees",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within 72 hours of notification",
+	"quote": "Employees shall also report to the Superintendent or designee, in writing, within seventy-two (72) hours of notification, that the employee has been listed as a perpetrator in the Statewide database, in accordance with the Child Protective Services Law."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "616-claims-for-payment-bill-list",
+	"policyId": "BKCSAD71B94D",
+	"name": "Claims for Payment (Bill List)",
+	"description": "All claims for payment are submitted to the Board for approval and recorded in the meeting minutes.",
+	"type": "data-submission",
+	"preparedBy": "Not specified (Business Office)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "per-meeting",
+	"deadline": null,
+	"quote": "All claims for payment shall be submitted to the Board and recorded in the minutes of the Board meeting."
+}

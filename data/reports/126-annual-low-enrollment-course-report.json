@@ -1,0 +1,13 @@
+{
+	"id": "126-annual-low-enrollment-course-report",
+	"policyId": "AWL5FX101A0D",
+	"name": "Annual Low-Enrollment Course Report",
+	"description": "List of courses with enrollment under 15 (excluding special education), projected enrollments, and recommendations with rationale to delete or continue each course.",
+	"type": "report",
+	"preparedBy": "Administration",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "prior to the end of April each year",
+	"quote": "Prior to the end of April each year, the administration shall present to the Board for review a list of all courses with an enrollment of fewer than fifteen (15) students, except special education."
+}

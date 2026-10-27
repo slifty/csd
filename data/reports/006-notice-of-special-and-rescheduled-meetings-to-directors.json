@@ -1,0 +1,13 @@
+{
+	"id": "006-notice-of-special-and-rescheduled-meetings-to-directors",
+	"policyId": "CZHVV6828964",
+	"name": "Notice of Special and Rescheduled Meetings to Directors",
+	"description": "Notice to each school director of any rescheduled or special meeting.",
+	"type": "notification",
+	"preparedBy": "Not specified",
+	"recipient": "Each school director",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "no later than twenty-four (24) hours prior to the meeting",
+	"quote": "Notice of all rescheduled meetings and special meetings shall be given to each school director no later than twenty-four (24) hours prior to the time of the meeting."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "108-ar-textbook-adoption-recommendation",
+	"policyId": "BLX2A2012D1C",
+	"name": "Textbook Adoption Recommendation",
+	"description": "Recommendation to the Board on textbook adoption, considering maturity level, curriculum fit, freedom from bias, cultural relevance, cost and durability.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee(s)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "When making a recommendation to the Board regarding the adoption of textbooks, the Superintendent or designee(s) shall consider, among other factors deemed relevant by the Superintendent or designee(s), the following:"
+}

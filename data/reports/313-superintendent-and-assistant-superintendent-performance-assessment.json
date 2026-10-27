@@ -1,0 +1,13 @@
+{
+	"id": "313-superintendent-and-assistant-superintendent-performance-assessment",
+	"policyId": "C75NTV618A16",
+	"name": "Superintendent and Assistant Superintendent Performance Assessment",
+	"description": "Formal written performance assessment against objective performance standards in the employment contracts, on the contract timeframe.",
+	"type": "report",
+	"preparedBy": "Board",
+	"recipient": "Superintendent and Assistant Superintendent",
+	"recipientType": "employees",
+	"frequency": "annual",
+	"deadline": "Per timeframe in employment contracts",
+	"quote": "The Board shall conduct a formal written performance assessment of the Superintendent and Assistant Superintendent as required by law and in accordance with the provisions of the Superintendent's and Assistant Superintendent's employment contracts."
+}

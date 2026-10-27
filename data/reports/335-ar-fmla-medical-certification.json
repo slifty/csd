@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-fmla-medical-certification",
+	"policyId": "C8C4T90D1273",
+	"name": "FMLA Medical Certification",
+	"description": "Health care provider certification supporting the leave request (onset date, duration, medical facts, need for leave).",
+	"type": "certification",
+	"preparedBy": "Employee",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Within 15 days after receiving the District's response",
+	"quote": "An employee shall submit required certification within fifteen (15) days after receiving the District’s response to their request for leave, unless impracticable to do so."
+}

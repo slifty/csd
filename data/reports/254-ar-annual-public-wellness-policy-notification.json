@@ -1,0 +1,13 @@
+{
+	"id": "254-ar-annual-public-wellness-policy-notification",
+	"policyId": "DA34EB0B2D9A",
+	"name": "Annual Public Wellness Policy Notification",
+	"description": "Annual update on wellness policy contents and implementation, how to access it, the latest triennial assessment, how to participate, and Wellness Committee contacts.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Public, parents/guardians, students and community",
+	"recipientType": "public",
+	"frequency": "annual",
+	"deadline": "annually",
+	"quote": "The District shall annually inform and update the public, including parents/guardians, students and others in the community, about the contents, updates, and implementation of this Policy/Administrative Regulation via efficient communication methods."
+}

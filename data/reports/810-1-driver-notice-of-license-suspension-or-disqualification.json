@@ -1,0 +1,13 @@
+{
+	"id": "810-1-driver-notice-of-license-suspension-or-disqualification",
+	"policyId": "BYXQPZ6A5802",
+	"name": "Driver Notice of License Suspension or Disqualification",
+	"description": "Notice of suspension, revocation, cancellation, loss or disqualification of driving privileges.",
+	"type": "notification",
+	"preparedBy": "Covered driver",
+	"recipient": "Superintendent or designee and contract carrier",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "immediately upon reporting to work for the next scheduled shift",
+	"quote": "shall notify the Superintendent or designee and the contract carrier immediately upon reporting to work for the next scheduled shift following the notice of the suspension, revocation, cancellation, loss or disqualification."
+}

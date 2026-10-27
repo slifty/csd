@@ -1,0 +1,13 @@
+{
+	"id": "312-temporary-professional-employee-progress-notices",
+	"policyId": "C5SSK9730606",
+	"name": "Temporary Professional Employee Progress Notices",
+	"description": "Notice to each temporary professional employee of individual progress and status following evaluation.",
+	"type": "notification",
+	"preparedBy": "Appropriate supervisor",
+	"recipient": "Temporary professional employees",
+	"recipientType": "employees",
+	"frequency": "semiannual",
+	"deadline": "At least twice each year",
+	"quote": "Temporary professional employees shall be evaluated by an appropriate supervisor and notified of individual progress and status at least twice each year."
+}

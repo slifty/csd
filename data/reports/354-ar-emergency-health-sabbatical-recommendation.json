@@ -1,0 +1,13 @@
+{
+	"id": "354-ar-emergency-health-sabbatical-recommendation",
+	"policyId": "BV845M09E778",
+	"name": "Emergency Health Sabbatical Recommendation",
+	"description": "Recommendation to the Board on an emergency restoration-of-health sabbatical after the request and physician certification are received.",
+	"type": "recommendation",
+	"preparedBy": "Not specified (Superintendent or designee implied)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "As soon as feasible after receipt of request and medical certification",
+	"quote": "Requests for an emergency restoration of health sabbatical will be recommended to the Board as soon as feasible, after receipt of the request and a medical certification from the employee’s physician (as described above)."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "303-written-notice-to-board-of-hiring-prior-to-board-approval",
+	"policyId": "BUEQNC69890B",
+	"name": "Written Notice to Board of Hiring Prior to Board Approval",
+	"description": "Written advisory to the Board of the need to use a professional or support employee before Board approval; the hire may proceed if no more than two Board members object.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "Before the employee is used prior to Board approval",
+	"quote": "so long as the Superintendent or designee has advised the Board in writing of the need to make the hiring and no more than two (2) Board members have objected."
+}

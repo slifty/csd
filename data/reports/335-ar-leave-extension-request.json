@@ -1,0 +1,13 @@
+{
+	"id": "335-ar-leave-extension-request",
+	"policyId": "C8C4T90D1273",
+	"name": "Leave Extension Request",
+	"description": "Written request to extend a leave; failure to return without an extension may result in termination.",
+	"type": "notification",
+	"preparedBy": "Employee on leave",
+	"recipient": "Office of Human Resources",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "Prior to expiration of the leave",
+	"quote": "The request for extension of a leave must be submitted in writing to the Office of Human Resources prior to the expiration of the leave and as soon as the employee realizes that an extension of the leave is necessary."
+}

@@ -1,0 +1,13 @@
+{
+	"id": "106-recommendations-on-new-and-altered-planned-instruction",
+	"policyId": "BH22ZJ049D98",
+	"name": "Recommendations on New and Altered Planned Instruction",
+	"description": "Based on continuous evaluation of course effectiveness, the Superintendent recommends new or altered planned instruction/courses to the Board.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The Superintendent or designee is responsible for the continuous evaluation of the effectiveness of the District's planned instruction/courses, and shall recommend to the Board such new and altered planned instruction/courses deemed to be in the best interest of the District."
+}

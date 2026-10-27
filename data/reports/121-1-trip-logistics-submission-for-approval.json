@@ -1,0 +1,13 @@
+{
+	"id": "121-1-trip-logistics-submission-for-approval",
+	"policyId": "DGU6RR163A22",
+	"name": "Trip Logistics Submission for Approval",
+	"description": "All logistical details (transportation, accommodations, cost, fundraising, supervision and safety, educational value) for non-field-trip school-sponsored travel.",
+	"type": "plan",
+	"preparedBy": "Not specified (trip organizer)",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": "prior to approval",
+	"quote": "The Superintendent or designee shall be provided with all logistical details regarding transportation, accommodations, cost, fundraising required of students, provisions for student supervision and safety, and the educational value of the trip in order for the Superintendent or designee to make a decision regarding approval of the trip."
+}

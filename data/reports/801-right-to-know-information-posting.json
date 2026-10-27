@@ -1,0 +1,13 @@
+{
+	"id": "801-right-to-know-information-posting",
+	"policyId": "D836BF14214B",
+	"name": "Right-to-Know Information Posting",
+	"description": "Ongoing posting at the administration office and on the website of Open Records Officer and Office of Open Records contact information, the request form(s), and the governing policy and regulations.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The District shall post at the administration office and on the District’s website the following information:"
+}

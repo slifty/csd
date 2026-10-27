@@ -1,0 +1,13 @@
+{
+	"id": "860-ar-notice-to-district-adults-of-boundaries-policy",
+	"policyId": "BTJJRW4E41B6",
+	"name": "Notice to District Adults of Boundaries Policy",
+	"description": "District adults are made aware of the boundaries regulation and policy.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "District Adults (employees, volunteers, contractors, etc.)",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The District shall make District Adults aware of the content of this Administrative Regulation and the accompanying Board Policy."
+}

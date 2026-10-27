@@ -1,0 +1,13 @@
+{
+	"id": "801-notice-of-extension-of-time-for-records-request",
+	"policyId": "D836BF14214B",
+	"name": "Notice of Extension of Time for Records Request",
+	"description": "Written notice that the request is under review, the reason an extension is needed, the expected response date, and estimated fees.",
+	"type": "notification",
+	"preparedBy": "Open Records Officer",
+	"recipient": "Requester",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "within five (5) business days of receipt of the request",
+	"quote": "If the Open Records Officer determines that an extension of time is required to respond to a request, in accordance with the factors stated in law, written notice shall be sent within five (5) business days of receipt of the request."
+}

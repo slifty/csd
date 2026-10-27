@@ -1,0 +1,13 @@
+{
+	"id": "903-agenda-copies-for-meeting-attendees",
+	"policyId": "DDYNKQ6056B5",
+	"name": "Agenda Copies for Meeting Attendees",
+	"description": "Copies of the agenda listing each matter of business made available to people attending the meeting.",
+	"type": "public-posting",
+	"preparedBy": "Not specified (District)",
+	"recipient": "Meeting attendees",
+	"recipientType": "public",
+	"frequency": "per-meeting",
+	"deadline": "at the meeting",
+	"quote": "Copies of the agenda, which includes a listing of each matter of business that will be or may be the subject of deliberation or official action at the meeting, shall be made available to individuals in attendance at the meeting."
+}

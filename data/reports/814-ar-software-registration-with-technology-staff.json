@@ -1,0 +1,13 @@
+{
+	"id": "814-ar-software-registration-with-technology-staff",
+	"policyId": "BNQR9D694634",
+	"name": "Software Registration with Technology Staff",
+	"description": "Staff register all software, including downloads, with title, manufacturer and license number.",
+	"type": "data-submission",
+	"preparedBy": "District staff",
+	"recipient": "Designated technology staff",
+	"recipientType": "administration",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "District staff must register all software, including software downloaded from the Internet, with the designated technology staff. Staff must provide the title, manufacturer and license number of the software."
+}

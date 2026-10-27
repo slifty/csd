@@ -1,0 +1,13 @@
+{
+	"id": "334-report-of-unjustified-sick-leave-absences",
+	"policyId": "BVJTKE75ADE1",
+	"name": "Report of Unjustified Sick Leave Absences",
+	"description": "Names of employees absent for noncompensable cause or whose sick leave pay claims cannot be justified, provided on Board request.",
+	"type": "report",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "Upon request",
+	"quote": "The Superintendent or designee shall report to the Board the names of employees absent for noncompensable cause or whose claim for sick leave pay cannot be justified, upon request."
+}

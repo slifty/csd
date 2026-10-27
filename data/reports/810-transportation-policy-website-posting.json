@@ -1,0 +1,13 @@
+{
+	"id": "810-transportation-policy-website-posting",
+	"policyId": "DKJVDG803D8C",
+	"name": "Transportation Policy Website Posting",
+	"description": "The transportation policy and its administrative regulations are posted on the District's public website.",
+	"type": "public-posting",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "This Policy and the accompanying Administrative Regulations are posted on the District's publicly accessible website."
+}

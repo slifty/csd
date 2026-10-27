@@ -1,0 +1,13 @@
+{
+	"id": "351-notice-of-employee-drug-conviction-to-federal-grantor-agencies",
+	"policyId": "DDYRLZ6E637C",
+	"name": "Notice of Employee Drug Conviction to Federal Grantor Agencies",
+	"description": "Notice of an employee's drug conviction to any federal grantor agency (Drug-Free Workplace Act).",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Federal agencies that grant funds to the District",
+	"recipientType": "federal-agency",
+	"frequency": "event-triggered",
+	"deadline": "Within 10 days after receiving notice of the conviction",
+	"quote": "Within ten (10) days after receiving notice of the conviction of a District employee, the District shall notify any federal agency or department that is the grantor of funds to the District."
+}

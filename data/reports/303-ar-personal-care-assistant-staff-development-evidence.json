@@ -1,0 +1,13 @@
+{
+	"id": "303-ar-personal-care-assistant-staff-development-evidence",
+	"policyId": "BUEQNN698CC2",
+	"name": "Personal Care Assistant Staff Development Evidence",
+	"description": "Evidence that each personal care assistant completed 20 hours of assignment-related staff development (which may include School-Based Access Program training) during the school year.",
+	"type": "data-submission",
+	"preparedBy": "Personal care assistants",
+	"recipient": "Not specified (District)",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "Each school year",
+	"quote": "Personal care assistants shall provide evidence of twenty (20) hours of staff development activities related to their assignment each school year."
+}

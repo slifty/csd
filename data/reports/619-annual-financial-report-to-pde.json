@@ -1,0 +1,13 @@
+{
+	"id": "619-annual-financial-report-to-pde",
+	"policyId": "DQGKN552A2A3",
+	"name": "Annual Financial Report to PDE",
+	"description": "The District's annual financial report submitted to PDE.",
+	"type": "data-submission",
+	"preparedBy": "District",
+	"recipient": "PA Department of Education",
+	"recipientType": "state-agency",
+	"frequency": "annual",
+	"deadline": "By the required deadline each year",
+	"quote": "The District must submit an annual financial report to the Pennsylvania Department of Education by the required deadline each year."
+}

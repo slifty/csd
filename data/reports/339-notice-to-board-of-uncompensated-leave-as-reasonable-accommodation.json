@@ -1,0 +1,13 @@
+{
+	"id": "339-notice-to-board-of-uncompensated-leave-as-reasonable-accommodation",
+	"policyId": "DKJMTU5CD6AF",
+	"name": "Notice to Board of Uncompensated Leave as Reasonable Accommodation",
+	"description": "Notice of all uncompensated leave provided as a reasonable accommodation.",
+	"type": "notification",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall notify the Board of all uncompensated leave provided as a reasonable accommodation in accordance with applicable law and regulations."
+}

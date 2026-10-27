@@ -1,0 +1,13 @@
+{
+	"id": "127-state-assessment-scores-to-parents",
+	"policyId": "CPV5A40F3F3C",
+	"name": "State Assessment Scores to Parents",
+	"description": "Parents receive their child's state assessment scores and may obtain an explanation.",
+	"type": "report",
+	"preparedBy": "District",
+	"recipient": "Parents/guardians",
+	"recipientType": "parents-and-students",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "Parents/Guardians shall receive information regarding their child’s state assessment scores and may obtain an explanation of assessment results from qualified school personnel."
+}

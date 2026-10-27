@@ -1,0 +1,13 @@
+{
+	"id": "624-federal-funds-applications-for-board-approval",
+	"policyId": "DQGQB96879FF",
+	"name": "Federal Funds Applications for Board Approval",
+	"description": "All applications for federal funds are brought to the Board for review and approval.",
+	"type": "presentation",
+	"preparedBy": "District (Director of Business Services as federal programs contact)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": "Before submission of each application",
+	"quote": "The Board shall review and approve all applications for federal funds submitted by the district."
+}

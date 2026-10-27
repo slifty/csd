@@ -1,0 +1,13 @@
+{
+	"id": "616-budget-transfer-request-for-invoice-overages",
+	"policyId": "BKCSAD71B94D",
+	"name": "Budget Transfer Request for Invoice Overages",
+	"description": "When an invoice exceeds the purchase order, the variance is documented and, if necessary, the Board is asked to approve a budget transfer.",
+	"type": "recommendation",
+	"preparedBy": "Business Manager or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Should the invoice vary from the acknowledged purchase order, the Business Manager or designee shall document on the invoice the reason for such variance, and, if necessary in the case of an overage, request that the Board approve a budget transfer to cover the overage."
+}

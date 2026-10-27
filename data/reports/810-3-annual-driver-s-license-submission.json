@@ -1,0 +1,13 @@
+{
+	"id": "810-3-annual-driver-s-license-submission",
+	"policyId": "BYXQQ26A5A0F",
+	"name": "Annual Driver's License Submission",
+	"description": "Copy of a valid driver's license submitted before employment and every school year.",
+	"type": "certification",
+	"preparedBy": "School vehicle drivers",
+	"recipient": "Superintendent or designee",
+	"recipientType": "administration",
+	"frequency": "annual",
+	"deadline": "prior to employment and at least once each school year",
+	"quote": "Prior to employment and at least once each school year, school vehicle drivers shall submit a copy of a valid driver’s license to the Superintendent or designee."
+}

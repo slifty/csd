@@ -1,0 +1,13 @@
+{
+	"id": "601-ar-annual-audits-and-periodic-financial-reports",
+	"policyId": "BKD65L1346BB",
+	"name": "Annual Audits and Periodic Financial Reports",
+	"description": "Accounting and financial reporting systems must support annual audits and periodic reports demonstrating that funds are handled within legal requirements and Board Policy.",
+	"type": "audit",
+	"preparedBy": "Administration (Not specified)",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "annual",
+	"deadline": "Annual audits; periodic reports",
+	"quote": "Appropriate accounting, financial reporting and management control systems will be maintained to enable the Board and Administration to have access to accurate, reliable and relevant data, and to provide annual audits and periodic reports adequate to demonstrate that those who are responsible are handling funds within legal requirements and in accordance with Board Policy."
+}

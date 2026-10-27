@@ -1,0 +1,13 @@
+{
+	"id": "624-federal-award-noncompliance-awareness-notice",
+	"policyId": "DQGQB96879FF",
+	"name": "Federal Award Noncompliance Awareness Notice",
+	"description": "Employees, contractors and subrecipients are made aware that noncompliance may lead to additional conditions or termination of the award.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Employees, contractors and subrecipients in federally funded programs",
+	"recipientType": "employees",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "Employees and contractors involved in federally funded programs and sub-recipients shall be made aware that failure to comply with federal law, regulations, or terms and conditions of a federal award may result in the federal awarding agency or pass-through entity imposing additional conditions or terminating the award in whole or in part."
+}

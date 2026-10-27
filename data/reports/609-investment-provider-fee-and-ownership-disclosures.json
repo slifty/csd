@@ -1,0 +1,13 @@
+{
+	"id": "609-investment-provider-fee-and-ownership-disclosures",
+	"policyId": "CEP3DP0665D1",
+	"name": "Investment Provider Fee and Ownership Disclosures",
+	"description": "Written disclosure of third-party fees/compensation on District investments and affiliated ownership relationships with other providers doing business with the District.",
+	"type": "notification",
+	"preparedBy": "Depository institutions, repurchase agreement providers, brokers, investment advisors and managers",
+	"recipient": "District",
+	"recipientType": "administration",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "All depository institutions, repurchase agreement providers, brokers, and investment advisors and managers shall disclose in writing to the District: (1) any fees or other compensation paid to or received from a third party with respect to any District investment;"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "827-public-disclosure-of-conflict-of-interest-before-a-vote",
+	"policyId": "DSBVV4827E80",
+	"name": "Public Disclosure of Conflict of Interest Before a Vote",
+	"description": "Anyone required to vote on a matter that would create a conflict of interest must abstain and publicly disclose the nature of the interest before the vote.",
+	"type": "notification",
+	"preparedBy": "Board member or District employee with the conflict",
+	"recipient": "Public (public record)",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "prior to the vote being taken",
+	"quote": "Any Board member or District employee who, in the discharge of their official duties, would be required to vote on a matter that would result in a conflict of interest shall abstain from voting and, prior to the vote being taken, publicly announce and disclose the nature of their interest as a public record."
+}

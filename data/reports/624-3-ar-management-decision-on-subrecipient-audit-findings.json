@@ -1,0 +1,13 @@
+{
+	"id": "624-3-ar-management-decision-on-subrecipient-audit-findings",
+	"policyId": "DN7W2A83498B",
+	"name": "Management Decision on Subrecipient Audit Findings",
+	"description": "Management decision issued for audit findings pertaining to a subaward.",
+	"type": "notification",
+	"preparedBy": "District",
+	"recipient": "Subrecipients",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "Issue a management decision for audit findings pertaining to the subaward provided to the subrecipient, in accordance with applicable law and regulations."
+}

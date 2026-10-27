@@ -1,0 +1,13 @@
+{
+	"id": "801-notice-of-production-of-non-public-record",
+	"policyId": "D836BF14214B",
+	"name": "Notice of Production of Non-Public Record",
+	"description": "When the District produces a record that is not a public record, the provider, the subject, and the requester are notified.",
+	"type": "notification",
+	"preparedBy": "Open Records Officer",
+	"recipient": "Third party that provided the record, subject of the record, and requester",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "When the District produces a record that is not a public record in response to a request, the Open Records Officer shall notify any third party that provided the record to the District, the person that is the subject of the record and the requester."
+}

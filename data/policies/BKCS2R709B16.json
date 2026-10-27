@@ -1,0 +1,14 @@
+{
+	"id": "BKCS2R709B16",
+	"code": "811",
+	"kind": "policy",
+	"title": "Bonding",
+	"section": {
+		"number": "800",
+		"name": "Operations"
+	},
+	"adopted": "1995-07-11",
+	"lastRevised": "2020-03-31",
+	"lastReviewed": null,
+	"source": "boarddocs/policies/BKCS2R709B16.html"
+}

@@ -1,0 +1,13 @@
+{
+	"id": "006-public-posting-of-meeting-agenda",
+	"policyId": "CZHVV6828964",
+	"name": "Public Posting of Meeting Agenda",
+	"description": "Posting of the agenda for every open Board or committee meeting on the District website, at the meeting location and at the administrative office, listing each matter that may be deliberated or acted on.",
+	"type": "public-posting",
+	"preparedBy": "District",
+	"recipient": "Public",
+	"recipientType": "public",
+	"frequency": "per-meeting",
+	"deadline": "no later than twenty-four (24) hours prior to the meeting",
+	"quote": "The District shall publicly post the agenda for all open meetings of the Board or Board committees at which deliberation or official action may take place no later than twenty-four (24) hours prior to the time of the meeting, as follows:"
+}

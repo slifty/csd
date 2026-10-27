@@ -1,0 +1,13 @@
+{
+	"id": "830-ar-breach-notification-to-affected-individuals",
+	"policyId": "CTEPZQ6714D7",
+	"name": "Breach Notification to Affected Individuals",
+	"description": "Notice to people whose unencrypted personal information was accessed, giving District contact information, the categories of information involved, and the specific data elements.",
+	"type": "notification",
+	"preparedBy": "Employee designated to provide notification",
+	"recipient": "Affected individuals / Commonwealth residents",
+	"recipientType": "public",
+	"frequency": "event-triggered",
+	"deadline": "within 7 business days of determination of the breach",
+	"quote": "Notification will be provided within seven (7) business days of determination of the breach of the security of the system."
+}

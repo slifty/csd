@@ -1,0 +1,13 @@
+{
+	"id": "801-third-party-notification-of-records-request",
+	"policyId": "D836BF14214B",
+	"name": "Third-Party Notification of Records Request",
+	"description": "Notice to a third party when a requested record contains its trade secrets or confidential proprietary information.",
+	"type": "notification",
+	"preparedBy": "Open Records Officer",
+	"recipient": "Third party whose trade secret or confidential proprietary information is requested",
+	"recipientType": "other-external",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Open Records Officer shall notify a third party of a record request if the requested record contains a trade secret or confidential proprietary information, in accordance with law, Board Policy, and applicable Administrative Regulations."
+}

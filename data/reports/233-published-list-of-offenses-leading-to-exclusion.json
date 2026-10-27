@@ -1,0 +1,13 @@
+{
+	"id": "233-published-list-of-offenses-leading-to-exclusion",
+	"policyId": "D4K2X40441E4",
+	"name": "Published List of Offenses Leading to Exclusion",
+	"description": "The Board defines and publishes the types of offenses that would lead to suspension or expulsion.",
+	"type": "public-posting",
+	"preparedBy": "Board",
+	"recipient": "Public/students",
+	"recipientType": "public",
+	"frequency": "ongoing",
+	"deadline": null,
+	"quote": "The Board shall define and publish the types of offenses that would lead to exclusion from school."
+}

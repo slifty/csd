@@ -1,0 +1,13 @@
+{
+	"id": "301-new-position-recommendation",
+	"policyId": "BG95GK1031D8",
+	"name": "New Position Recommendation",
+	"description": "Recommendation to the Board to create a new or additional position, including job description, appropriate title, and supporting data and rationale; the Board also sets the initial salary based on it.",
+	"type": "recommendation",
+	"preparedBy": "Superintendent or designee",
+	"recipient": "Board",
+	"recipientType": "board",
+	"frequency": "event-triggered",
+	"deadline": null,
+	"quote": "The Superintendent or designee shall be responsible for recommending a new or additional position to the Board for consideration."
+}

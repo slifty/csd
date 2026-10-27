@@ -1,0 +1,13 @@
+{
+	"id": "126-secondary-class-count-reports",
+	"policyId": "AWL5FX101A0D",
+	"name": "Secondary Class Count Reports",
+	"description": "Reports of the number of classes taught per week, used to determine teacher numbers.",
+	"type": "data-submission",
+	"preparedBy": "High school administrators",
+	"recipient": "Superintendent",
+	"recipientType": "administration",
+	"frequency": "as-required",
+	"deadline": null,
+	"quote": "Reports of these numbers are sent to the Superintendent by high school administrators for examination."
+}
