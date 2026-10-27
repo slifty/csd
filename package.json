@@ -4,6 +4,9 @@
 	"description": "An unofficial series of tools and resources related to Cheltenham School District",
 	"private": true,
 	"type": "module",
+	"imports": {
+		"#lib/*": "./src/lib/*"
+	},
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite dev",

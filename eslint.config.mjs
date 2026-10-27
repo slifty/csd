@@ -26,6 +26,10 @@ export default [
 				parser: ts.parser,
 			},
 		},
+		rules: {
+			"prefer-const": "off",
+			"svelte/prefer-const": ["error", { destructuring: "all" }],
+		},
 	},
 	{
 		files: testFiles,

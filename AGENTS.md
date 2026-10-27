@@ -38,6 +38,36 @@ breaks once deployed.
 into `node_modules`. The `prepare` script runs that on install. If type
 checking complains that the config cannot be found, run `npx svelte-kit sync`.
 
+**Import from `src/lib` with `#lib/`.** SvelteKit 3 no longer generates a
+`$lib` alias. `package.json` maps `#lib/*` to `./src/lib/*` through Node's
+subpath imports, so routes and components write
+`import { isRecurring } from "#lib/report.ts"`. Modules inside `src/lib` import
+each other relatively.
+
+```
+src/
+├── app.css                       # Colour and type tokens, light and dark
+├── routes/
+│   ├── +layout.svelte            # Fonts, page frame, unaffiliated notice
+│   ├── +page.svelte              # Index of the site's tools
+│   └── reports/
+│       ├── +page.server.ts       # Reports joined to a summary of their policy
+│       └── +page.svelte          # The required reports viewer
+└── lib/
+    ├── components/               # The viewer's tallies, filters, and table
+    ├── dates.ts                  # ISO date -> "March 9, 2021"
+    ├── report-labels.ts          # What each type, recipient, and frequency is called
+    └── report-listing.ts         # Recipient groups, views, and filtering
+```
+
+**Filtering is plain functions.** `report-listing.ts` decides what a filter
+shows and counts, and its tests cover that. The components only hold the
+state and pass it in. Put new filtering rules there, not inside a component.
+
+**A page gets only the policy fields it shows.** `+page.server.ts` turns each
+policy into a `PolicySummary` before returning it. Whatever a server `load`
+returns is written into the built site, so return as little as the page needs.
+
 ## Data
 
 ```
