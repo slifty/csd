@@ -4,7 +4,13 @@
 	"name": "Proposed School Calendar(s)",
 	"description": "Administration presents a school calendar (optionally for multiple upcoming years) to the Board for consideration, developed with stakeholder input.",
 	"type": "presentation",
-	"preparedBy": "Administration",
+	"preparers": [
+		{
+			"name": "Administration",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

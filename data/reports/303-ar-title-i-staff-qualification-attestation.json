@@ -4,7 +4,13 @@
 	"name": "Title I Staff Qualification Attestation",
 	"description": "Written attestation that professional staff teaching in Title I programs are highly qualified and Title I paraprofessionals meet required qualifications; kept available to the public on request.",
 	"type": "certification",
-	"preparedBy": "Principal of each school providing Title I programs",
+	"preparers": [
+		{
+			"name": "Principal of each school providing Title I programs",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public (maintained and available upon request)",
 	"recipientType": "public",
 	"frequency": "annual",

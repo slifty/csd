@@ -38,8 +38,10 @@ describe("parseSection", () => {
 describe("parsePolicy", () => {
 	const policy = parsePolicy("TESTID000001", boardDocsItemHtml);
 
-	it("reads the title from the item's metadata, collapsing its whitespace", () => {
-		expect(policy.title).toBe("TEST Visitors To Schools");
+	it("reads the title from the item's metadata, tidying its spacing", () => {
+		expect(policy.title).toBe(
+			"TEST Visitors To Schools / Grounds and/or Offices",
+		);
 	});
 
 	it("closes up the space BoardDocs leaves in the code", () => {

@@ -4,7 +4,13 @@
 	"name": "Student Report of Self-Administered Epinephrine",
 	"description": "Students who self-administer an epinephrine auto-injector must report the use to the school nurse, who logs it.",
 	"type": "notification",
-	"preparedBy": "Student",
+	"preparers": [
+		{
+			"name": "Student",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "School nurse",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

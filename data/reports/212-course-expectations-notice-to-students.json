@@ -4,7 +4,13 @@
 	"name": "Course Expectations Notice to Students",
 	"description": "At the start of each course, students are told the course expectations and academic standards to be attained.",
 	"type": "notification",
-	"preparedBy": "Not specified (teachers)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "teachers",
+			"type": "employees"
+		}
+	],
 	"recipient": "Students",
 	"recipientType": "parents-and-students",
 	"frequency": "as-required",

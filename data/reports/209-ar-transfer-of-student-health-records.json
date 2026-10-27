@@ -4,7 +4,13 @@
 	"name": "Transfer of Student Health Records",
 	"description": "Student health records move with the child to another school or district.",
 	"type": "data-submission",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Receiving school or district",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

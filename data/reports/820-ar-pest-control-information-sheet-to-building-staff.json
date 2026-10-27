@@ -4,7 +4,13 @@
 	"name": "Pest Control Information Sheet to Building Staff",
 	"description": "The pest control information sheet is given to everyone working in the building ahead of each planned treatment.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "All individuals working in the school building",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

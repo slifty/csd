@@ -4,7 +4,13 @@
 	"name": "Notice to Insurers of Failure to File Annual Report",
 	"description": "Written notice to each insurer if the District fails to timely file its Annual Report with EMMA.",
 	"type": "notification",
-	"preparedBy": "Compliance Coordinator",
+	"preparers": [
+		{
+			"name": "Compliance Coordinator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Bond insurers",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

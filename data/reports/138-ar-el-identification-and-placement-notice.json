@@ -4,8 +4,14 @@
 	"name": "EL Identification and Placement Notice",
 	"description": "Notice of the EL identification process and results and the recommended program placement, along with detailed LIEP information, exit criteria, and the right to refuse services with a waiver form.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians of identified ELs",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians of identified ELs",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "within 30 days of the beginning of each school year, or within 14 days of enrollment during the year",

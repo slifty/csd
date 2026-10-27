@@ -4,7 +4,13 @@
 	"name": "Year-End Petty Cash Reconciliation",
 	"description": "All petty cash accounts restored to their initial value, with reimbursement for outstanding receipts requested, by fiscal year end.",
 	"type": "data-submission",
-	"preparedBy": "Petty cash fund custodians",
+	"preparers": [
+		{
+			"name": "Petty cash fund custodians",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Business Office",
 	"recipientType": "administration",
 	"frequency": "annual",

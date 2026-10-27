@@ -4,7 +4,13 @@
 	"name": "Children and Youth Services Notification of Suspected Abuse",
 	"description": "If a student's suicide risk is suspected to result from abuse or neglect, staff immediately notify Children and Youth Services.",
 	"type": "report",
-	"preparedBy": "School staff",
+	"preparers": [
+		{
+			"name": "District staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Children and Youth Services",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

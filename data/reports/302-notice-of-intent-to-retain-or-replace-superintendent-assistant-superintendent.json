@@ -1,10 +1,16 @@
 {
 	"id": "302-notice-of-intent-to-retain-or-replace-superintendent-assistant-superintendent",
 	"policyId": "BNU2YA046F44",
-	"name": "Notice of Intent to Retain or Replace Superintendent/Assistant Superintendent",
+	"name": "Notice of Intent to Retain or Replace Superintendent / Assistant Superintendent",
 	"description": "Board action at a public meeting notifying the Superintendent or Assistant Superintendent whether the Board intends to retain them for a further term or consider other candidates; failure to act extends the term one year.",
 	"type": "notification",
-	"preparedBy": "Board",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Superintendent or Assistant Superintendent",
 	"recipientType": "employees",
 	"frequency": "one-time",

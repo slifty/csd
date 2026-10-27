@@ -4,7 +4,13 @@
 	"name": "Notice of Nurse Refusal to Administer Medication",
 	"description": "When the nurse refuses to give a medication judged inappropriate or too high a dose, the nurse immediately contacts the family, administrators and prescriber.",
 	"type": "notification",
-	"preparedBy": "School nurse",
+	"preparers": [
+		{
+			"name": "School nurse",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Parent, principal, Director of Special Education, licensed prescriber, and (if needed) District consulting physician",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

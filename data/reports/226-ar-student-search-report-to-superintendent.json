@@ -4,7 +4,13 @@
 	"name": "Student Search Report to Superintendent",
 	"description": "Immediate report of any search to the Superintendent, followed by a written record of time, date, individuals involved, reason, results and other pertinent facts.",
 	"type": "report",
-	"preparedBy": "Administrator conducting the search",
+	"preparers": [
+		{
+			"name": "Administrator conducting the search",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

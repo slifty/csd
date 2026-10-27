@@ -4,7 +4,13 @@
 	"name": "Special Education Plan Effectiveness Report",
 	"description": "Criteria and results of the evaluation of the effectiveness of the triennial special education plan.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "as-required",

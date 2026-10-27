@@ -4,8 +4,14 @@
 	"name": "High School Retention Warning and Notice",
 	"description": "Notification to families when a high school student is in danger of retention before year end, and written notice once retention is determined.",
 	"type": "notification",
-	"preparedBy": "High school staff",
-	"recipient": "Student and parents/guardians",
+	"preparers": [
+		{
+			"name": "High school staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Student and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "prior to the end of the school year",

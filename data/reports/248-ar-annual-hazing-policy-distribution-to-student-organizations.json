@@ -4,7 +4,13 @@
 	"name": "Annual Hazing Policy Distribution to Student Organizations",
 	"description": "Annual copy of the hazing Policy and AR to each student activity or organization.",
 	"type": "notification",
-	"preparedBy": "Principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Each student activity or organization",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",

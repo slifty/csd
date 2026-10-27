@@ -4,8 +4,14 @@
 	"name": "Notice of Student Insurance Eligibility",
 	"description": "All students and parents of students who may be eligible for student accident insurance are notified.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Eligible students and parents/guardians",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Eligible students and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

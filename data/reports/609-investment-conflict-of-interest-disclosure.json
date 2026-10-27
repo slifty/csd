@@ -4,7 +4,18 @@
 	"name": "Investment Conflict of Interest Disclosure",
 	"description": "Written disclosure of any material or potential conflict of interest with depositories, brokers, advisors or other investment providers.",
 	"type": "notification",
-	"preparedBy": "Director of Business Services and investment program employees",
+	"preparers": [
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Investment program employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

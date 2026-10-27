@@ -4,7 +4,13 @@
 	"name": "Facility Use Application Decision Notice",
 	"description": "Notice to facility-use applicants of whether the proposed use is approved.",
 	"type": "notification",
-	"preparedBy": "Director of Facilities and Maintenance or designee",
+	"preparers": [
+		{
+			"name": "Director of Facilities and Maintenance or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Applicants",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

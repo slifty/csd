@@ -4,7 +4,13 @@
 	"name": "Volunteer Report of Student Safety Incidents",
 	"description": "Reporting of inappropriate behavior or situations where students might be in danger, and of suspected child abuse per policy and law.",
 	"type": "notification",
-	"preparedBy": "Volunteers",
+	"preparers": [
+		{
+			"name": "Volunteers",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Teacher or individual in charge of the activity",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

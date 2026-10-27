@@ -4,7 +4,13 @@
 	"name": "Website Posting of Public Attendance Policy",
 	"description": "Policy 904 posted on the District's publicly accessible website.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

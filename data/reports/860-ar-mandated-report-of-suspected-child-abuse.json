@@ -4,7 +4,13 @@
 	"name": "Mandated Report of Suspected Child Abuse",
 	"description": "Mandated reporters who suspect child abuse report it immediately as the law requires.",
 	"type": "notification",
-	"preparedBy": "Mandated reporters",
+	"preparers": [
+		{
+			"name": "Mandated reporters",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "As required by law (Child Protective Services Law)",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

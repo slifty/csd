@@ -4,7 +4,13 @@
 	"name": "Formal Report on Sabbatical Activities",
 	"description": "Formal report describing the educational activities pursued and their benefits and relevancy.",
 	"type": "report",
-	"preparedBy": "Employee returning from non-credit professional development sabbatical",
+	"preparers": [
+		{
+			"name": "Employee returning from non-credit professional development sabbatical",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "FMLA Rights Notice Posting",
 	"description": "Conspicuous posting of a notice explaining FMLA provisions and the complaint procedure.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Employees and applicants",
 	"recipientType": "employees",
 	"frequency": "ongoing",

@@ -4,7 +4,13 @@
 	"name": "Proposed Annual School Calendar",
 	"description": "Preparation of the annual school calendar for Board consideration so the Board can adopt it in a timely way.",
 	"type": "presentation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

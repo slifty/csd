@@ -1,10 +1,16 @@
 {
 	"id": "350-ar-notification-to-title-ix-coordinator-of-harassment-discrimination",
 	"policyId": "DSC2V303F61E",
-	"name": "Notification to Title IX Coordinator of Harassment/Discrimination",
+	"name": "Notification to Title IX Coordinator of Harassment / Discrimination",
 	"description": "Prompt notice to the Title IX Coordinator when educator misconduct allegations or investigations indicate harassment or discrimination, including Title IX sexual harassment.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Title IX Coordinator",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

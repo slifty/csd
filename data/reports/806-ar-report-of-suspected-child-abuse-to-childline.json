@@ -4,8 +4,24 @@
 	"name": "Report of Suspected Child Abuse to ChildLine",
 	"description": "Immediate electronic or oral report of suspected child abuse; an oral report must be followed by a written electronic report.",
 	"type": "report",
-	"preparedBy": "School employees, independent contractors or volunteers",
-	"recipient": "PA Department of Human Services (ChildLine/CWIS)",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Independent contractor",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Volunteers",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
+	"recipient": "PA Department of Human Services (ChildLine / CWIS)",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",
 	"deadline": "immediately; written electronic follow-up within forty-eight (48) hours after an oral report",

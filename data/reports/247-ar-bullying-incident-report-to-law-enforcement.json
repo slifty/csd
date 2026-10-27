@@ -4,7 +4,13 @@
 	"name": "Bullying Incident Report to Law Enforcement",
 	"description": "Reporting of bullying incidents as required by law and the MOU with local law enforcement.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Local law enforcement (per MOU)",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

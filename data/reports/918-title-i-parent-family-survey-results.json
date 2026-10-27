@@ -1,10 +1,16 @@
 {
 	"id": "918-title-i-parent-family-survey-results",
 	"policyId": "CW82YY04887A",
-	"name": "Title I Parent/Family Survey Results",
-	"description": "Analysis and sharing of Title I Parent/Family Survey results.",
+	"name": "Title I Parent / Family Survey Results",
+	"description": "Analysis and sharing of Title I Parent / Family Survey results.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Parents and family members",
 	"recipientType": "parents-and-students",
 	"frequency": "as-required",

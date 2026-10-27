@@ -4,7 +4,13 @@
 	"name": "Communication of Trip Cancellation or Modification to the Board",
 	"description": "Any school-sponsored trip that is cancelled, postponed, modified or terminated is communicated to the Board.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

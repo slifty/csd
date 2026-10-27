@@ -4,7 +4,13 @@
 	"name": "Employee Performance Rating Form",
 	"description": "Signed copy of the employee's performance rating form; administrative, classified, and professional employees are evaluated at least once each year.",
 	"type": "report",
-	"preparedBy": "Evaluating supervisor (Superintendent or designee)",
+	"preparers": [
+		{
+			"name": "Evaluating supervisor",
+			"detail": "Superintendent or designee",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Evaluated employee",
 	"recipientType": "employees",
 	"frequency": "annual",

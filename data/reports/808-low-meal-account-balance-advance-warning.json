@@ -4,8 +4,14 @@
 	"name": "Low Meal Account Balance Advance Warning",
 	"description": "Advance written warning(s), with payment options, when a student's meal account reaches a specified level.",
 	"type": "notification",
-	"preparedBy": "District (per Superintendent's regulations)",
-	"recipient": "Student and parent/guardian",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": "per Superintendent's regulations",
+			"type": "administrators"
+		}
+	],
+	"recipient": "Student and parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

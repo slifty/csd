@@ -2,10 +2,16 @@
 	"id": "226-ar-search-results-notification-to-parents",
 	"policyId": "BUYRJC68B2BC",
 	"name": "Search Results Notification to Parents",
-	"description": "Report of the results of a student search to the student's parent/guardian.",
+	"description": "Report of the results of a student search to the student's parent / guardian.",
 	"type": "notification",
-	"preparedBy": "Building principal or designee",
-	"recipient": "Student's parent/guardian",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Student's parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

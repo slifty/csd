@@ -4,7 +4,13 @@
 	"name": "Biennial Physical Inventory of Federally Funded Property",
 	"description": "Physical inventory of federally funded property, reconciled with inventory records and reported to the awarding agency.",
 	"type": "report",
-	"preparedBy": "Designated District staff",
+	"preparers": [
+		{
+			"name": "District staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Federal awarding agency",
 	"recipientType": "federal-agency",
 	"frequency": "every-2-years",

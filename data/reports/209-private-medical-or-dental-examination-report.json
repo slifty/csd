@@ -4,7 +4,13 @@
 	"name": "Private Medical or Dental Examination Report",
 	"description": "Parents who use their family physician or dentist for required exams must furnish the report on the PA Department of Health form within the AR's timeline.",
 	"type": "report",
-	"preparedBy": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "as-required",

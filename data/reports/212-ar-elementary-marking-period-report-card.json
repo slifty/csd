@@ -4,8 +4,14 @@
 	"name": "Elementary Marking Period Report Card",
 	"description": "Written report of student progress at the end of each of the four elementary marking periods, paired with parent-teacher conferences.",
 	"type": "report",
-	"preparedBy": "Not specified (elementary staff)",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "elementary staff",
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "quarterly",
 	"deadline": "at the conclusion of each marking period",

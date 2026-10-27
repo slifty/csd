@@ -4,7 +4,13 @@
 	"name": "Employee Resignation Notice",
 	"description": "Written, dated, signed resignation letter specifying the effective date; professional employees give at least 60 days' notice, non-certificated administrative and support employees at least two weeks.",
 	"type": "notification",
-	"preparedBy": "Resigning employee",
+	"preparers": [
+		{
+			"name": "Resigning employee",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Immediate supervisor and Director of Human Resources",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

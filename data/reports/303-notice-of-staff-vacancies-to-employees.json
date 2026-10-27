@@ -4,7 +4,13 @@
 	"name": "Notice of Staff Vacancies to Employees",
 	"description": "Staff vacancies are made known to District employees so they may apply.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "District employees",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Monthly Depository Status Report",
 	"description": "Each designated depository reports on the status of District funds it holds, in the manner required by law.",
 	"type": "report",
-	"preparedBy": "Each designated depository bank",
+	"preparers": [
+		{
+			"name": "Each designated depository bank",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Treasurer or Board",
 	"recipientType": "board",
 	"frequency": "monthly",

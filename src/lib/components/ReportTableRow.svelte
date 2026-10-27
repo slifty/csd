@@ -61,7 +61,16 @@
 	</td>
 	<td class="prepared-by">
 		<span class="cell-label">{REPORT_COLUMN_LABELS.preparedBy}</span>
-		{report.preparedBy}
+		<ul class="preparers">
+			{#each report.preparers as preparer, index (index)}
+				<li>
+					{preparer.name}
+					{#if preparer.detail !== null}
+						<small>{preparer.detail}</small>
+					{/if}
+				</li>
+			{/each}
+		</ul>
 	</td>
 	<td class="recipient">
 		<span class="cell-label">{REPORT_COLUMN_LABELS.recipient}</span>
@@ -101,6 +110,7 @@
 
 <style>
 	td {
+		hyphens: auto;
 		padding: 12px 14px;
 		border-top: 1px solid var(--rule);
 		vertical-align: top;
@@ -156,6 +166,15 @@
 		font-size: 14px;
 	}
 
+	.preparers {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		gap: 6px;
+	}
+
+	.prepared-by small,
 	.recipient small {
 		display: block;
 		color: var(--ink-2);
@@ -190,7 +209,6 @@
 
 	.identity {
 		display: flex;
-		white-space: nowrap;
 	}
 
 	.kind,
@@ -200,6 +218,8 @@
 	}
 
 	.kind {
+		flex: none;
+		white-space: nowrap;
 		background: var(--pill);
 		color: var(--sheet);
 		font-size: 11px;
@@ -250,7 +270,7 @@
 		gap: 4px 16px;
 	}
 
-	@media (max-width: 760px) {
+	@media (max-width: 960px) {
 		.cell-label {
 			display: block;
 			font-size: 11px;

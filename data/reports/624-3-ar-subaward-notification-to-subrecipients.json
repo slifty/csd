@@ -4,7 +4,13 @@
 	"name": "Subaward Notification to Subrecipients",
 	"description": "Notice that an entity is a subrecipient, with the required federal award identification information, subaward requirements and any later changes (2 CFR 200.332).",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Subrecipients",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

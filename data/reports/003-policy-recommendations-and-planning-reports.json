@@ -4,7 +4,13 @@
 	"name": "Policy Recommendations and Planning Reports",
 	"description": "Recommendations on policy and planning reports in areas the Superintendent suggests to the Board.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "ongoing",

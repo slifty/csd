@@ -4,7 +4,13 @@
 	"name": "Notice to Law Enforcement of School Safety Incident",
 	"description": "If reported abuse conduct also involves a reportable school safety and security incident, local law enforcement is informed.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Local law enforcement",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

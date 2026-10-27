@@ -1,10 +1,16 @@
 {
 	"id": "122-extracurricular-cocurricular-eligibility-standards-for-board-approval",
 	"policyId": "AWL5FS101492",
-	"name": "Extracurricular/Cocurricular Eligibility Standards for Board Approval",
+	"name": "Extracurricular / Cocurricular Eligibility Standards for Board Approval",
 	"description": "Superintendent prepares and presents eligibility standards for Board consideration; Board must be informed and approve standards and any changes before they take effect.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Uncompensated Leave Recommendations",
 	"description": "Recommendation on employee applications for uncompensated leave, which require Board approval.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

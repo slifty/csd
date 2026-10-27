@@ -4,8 +4,14 @@
 	"name": "Classroom Emergency Response Protocols and Safety Posters",
 	"description": "Each classroom keeps a copy of its building emergency response protocols, and age-appropriate safety posters are displayed throughout each school.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
-	"recipient": "Students and staff in each classroom/school",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Students and staff in each classroom / school",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

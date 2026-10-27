@@ -4,8 +4,14 @@
 	"name": "Annual Opioid Antagonist Information to Parents, Students and Staff",
 	"description": "Annual notice of the policy: opioid antagonist availability, overdose symptoms, how to report a suspected overdose, and the legal protections for people who report or administer.",
 	"type": "notification",
-	"preparedBy": "School nurse",
-	"recipient": "Parents/guardians, students and staff",
+	"preparers": [
+		{
+			"name": "School nurse",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians, students and staff",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "annually",

@@ -4,7 +4,18 @@
 	"name": "Report of Loss, Damage or Theft of Federal Property",
 	"description": "Investigated and documented report of loss, damage or theft affecting the program; if stolen items are not recovered, copies of the investigative report and insurance claim go to the awarding agency.",
 	"type": "report",
-	"preparedBy": "District / Director of Business Services",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal agency or pass-through entity (and optionally local law enforcement)",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

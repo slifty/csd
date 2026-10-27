@@ -4,7 +4,13 @@
 	"name": "Educator Misconduct Report to PDE",
 	"description": "Report on the required form of any educator facing for-cause dismissal or nonrenewal, arrested or convicted of a misdemeanor or felony, alleged sexual misconduct or abuse, suspected injury to a student, separation after misconduct information, or child abuse reports; includes an inventory of evidence.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Public Notice of Intent to Contract",
 	"description": "For contracts with Board members or employees (or their families or businesses) where formal bidding is not used, the open process must include public notice of the intent to contract.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public / potential contractors",
 	"recipientType": "public",
 	"frequency": "event-triggered",

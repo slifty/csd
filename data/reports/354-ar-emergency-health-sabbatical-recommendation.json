@@ -4,7 +4,13 @@
 	"name": "Emergency Health Sabbatical Recommendation",
 	"description": "Recommendation to the Board on an emergency restoration-of-health sabbatical after the request and physician certification are received.",
 	"type": "recommendation",
-	"preparedBy": "Not specified (Superintendent or designee implied)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "Superintendent or designee implied",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

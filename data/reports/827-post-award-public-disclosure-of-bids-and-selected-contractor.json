@@ -4,7 +4,13 @@
 	"name": "Post-Award Public Disclosure of Bids and Selected Contractor",
 	"description": "After such a contract is awarded, the District publicly discloses who submitted bids or quotes and who was chosen.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "event-triggered",

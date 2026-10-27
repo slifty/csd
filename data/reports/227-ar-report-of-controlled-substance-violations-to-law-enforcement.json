@@ -4,7 +4,13 @@
 	"name": "Report of Controlled Substance Violations to Law Enforcement",
 	"description": "All violations of the controlled substances policy are reported per Board Policy and the MOU with local law enforcement.",
 	"type": "report",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Local law enforcement (per MOU)",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

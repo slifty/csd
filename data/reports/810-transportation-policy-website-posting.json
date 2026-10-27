@@ -4,7 +4,13 @@
 	"name": "Transportation Policy Website Posting",
 	"description": "The transportation policy and its administrative regulations are posted on the District's public website.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

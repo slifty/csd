@@ -4,7 +4,18 @@
 	"name": "Pest Control Information Sheet and Signs from Applicator",
 	"description": "Before any treatment, the applicator supplies the Pest Control Information Sheet and required signs so the District can meet its posting and notice requirements.",
 	"type": "notification",
-	"preparedBy": "Certified applicator or pesticide application technician",
+	"preparers": [
+		{
+			"name": "Certified applicator",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Pesticide application technician",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

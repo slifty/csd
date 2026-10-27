@@ -4,7 +4,13 @@
 	"name": "Bond Insurer Copies of Disclosure Filings",
 	"description": "Copies of the Annual Report / Annual Financial Information and any material event notices filed with EMMA, provided to each series' insurer.",
 	"type": "data-submission",
-	"preparedBy": "Compliance Coordinator",
+	"preparers": [
+		{
+			"name": "Compliance Coordinator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Bond insurers (bonds issued on or before Dec 15, 2010)",
 	"recipientType": "other-external",
 	"frequency": "annual",

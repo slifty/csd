@@ -4,7 +4,13 @@
 	"name": "Employee Child Abuse Perpetrator Listing Report",
 	"description": "Written report that the employee has been listed as a perpetrator in the Statewide database under the Child Protective Services Law.",
 	"type": "notification",
-	"preparedBy": "All employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

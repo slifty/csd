@@ -4,8 +4,14 @@
 	"name": "Early Notice of Possible Retention",
 	"description": "Parents are informed of the possibility of retention as early in the school year as possible and may be asked to help plan to avoid it.",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "as early in the school year as possible",

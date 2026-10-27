@@ -4,8 +4,14 @@
 	"name": "Annual Notice of Student Search Policy",
 	"description": "Superintendent's guidelines must ensure students and parents are notified annually of the search policy and guidelines.",
 	"type": "notification",
-	"preparedBy": "Superintendent",
-	"recipient": "Students and parents/guardians",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Students and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "at least annually",

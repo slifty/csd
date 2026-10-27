@@ -4,7 +4,13 @@
 	"name": "Report of Suspected Criminal Technology Misuse to Law Enforcement",
 	"description": "Suspected criminal violations, including any involving sexually explicit depictions of individuals under 21, are reported to law enforcement.",
 	"type": "report",
-	"preparedBy": "Director of Technology or designee",
+	"preparers": [
+		{
+			"name": "Director of Technology or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Law enforcement",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

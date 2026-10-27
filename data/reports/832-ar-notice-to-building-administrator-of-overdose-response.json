@@ -4,7 +4,13 @@
 	"name": "Notice to Building Administrator of Overdose Response",
 	"description": "After responding to a suspected overdose, employees notify the building administrator of the incident.",
 	"type": "notification",
-	"preparedBy": "District employees responding",
+	"preparers": [
+		{
+			"name": "District employees responding",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Building administrator or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

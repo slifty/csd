@@ -4,7 +4,13 @@
 	"name": "Annual Investment Program Review",
 	"description": "Annual review of the investment program based on anticipated cash flow of all District funds (general, capital reserve, bond, etc.), presented to the Board.",
 	"type": "plan",
-	"preparedBy": "Director of Business Services or designee",
+	"preparers": [
+		{
+			"name": "Director of Business Services or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

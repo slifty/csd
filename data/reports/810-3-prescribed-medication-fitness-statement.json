@@ -4,7 +4,13 @@
 	"name": "Prescribed Medication Fitness Statement",
 	"description": "Practitioner's written statement that a prescribed controlled substance will not impair safe driving; drivers also inform supervisors of drowsiness-warning medications.",
 	"type": "certification",
-	"preparedBy": "School vehicle driver",
+	"preparers": [
+		{
+			"name": "School vehicle driver",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "District (supervisors)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

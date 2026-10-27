@@ -4,7 +4,13 @@
 	"name": "Safety and Security Reports and Recommendations to the Board",
 	"description": "Reports and recommendations on current safety and security practices and any strategies or resources needed to implement the safety policy better.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

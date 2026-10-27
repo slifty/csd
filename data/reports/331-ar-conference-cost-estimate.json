@@ -4,7 +4,13 @@
 	"name": "Conference Cost Estimate",
 	"description": "Itemized estimate of conference costs (fees, meals, lodging, transportation) submitted with the request for prior permission.",
 	"type": "report",
-	"preparedBy": "Employee wishing to attend a conference",
+	"preparers": [
+		{
+			"name": "Employee wishing to attend a conference",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Business Manager or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

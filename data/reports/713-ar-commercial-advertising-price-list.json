@@ -4,7 +4,13 @@
 	"name": "Commercial Advertising Price List",
 	"description": "Price list for commercial advertising options, posted with the regulation.",
 	"type": "public-posting",
-	"preparedBy": "Business Manager or designee",
+	"preparers": [
+		{
+			"name": "Business Manager or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "as-required",

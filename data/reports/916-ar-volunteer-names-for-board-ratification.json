@@ -4,7 +4,13 @@
 	"name": "Volunteer Names for Board Ratification",
 	"description": "Names of volunteers approved by the Superintendent presented to the Board for ratification.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "per-meeting",

@@ -4,7 +4,13 @@
 	"name": "Postvention Notification of School Community",
 	"description": "Upon confirmation of a suicide, postvention procedures include informing the school community and providing resources.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "School community (students, staff, families)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

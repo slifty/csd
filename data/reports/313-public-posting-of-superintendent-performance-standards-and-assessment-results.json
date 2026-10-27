@@ -4,7 +4,13 @@
 	"name": "Public Posting of Superintendent Performance Standards and Assessment Results",
 	"description": "Public posting of the Superintendent's and Assistant Superintendent's objective performance standards and, after each annual assessment, its date and whether the standards were met.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "annual",

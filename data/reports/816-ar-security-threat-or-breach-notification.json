@@ -4,7 +4,13 @@
 	"name": "Security Threat or Breach Notification",
 	"description": "Immediate notice when a user identifies a possible security threat or breach.",
 	"type": "notification",
-	"preparedBy": "Users of District technology resources",
+	"preparers": [
+		{
+			"name": "Users of District technology resources",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Teacher, building principal, immediate supervisor or Director of Technology",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

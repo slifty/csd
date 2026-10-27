@@ -4,7 +4,13 @@
 	"name": "Controlled Substance Incident Report to Law Enforcement",
 	"description": "Incidents involving controlled substances on school property, at school activities, or on school transportation are reported to local law enforcement.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Law enforcement agency with jurisdiction",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

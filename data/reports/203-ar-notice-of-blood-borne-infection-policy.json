@@ -4,8 +4,14 @@
 	"name": "Notice of Blood Borne Infection Policy",
 	"description": "Building administrators inform students, families and staff about current Board Policy on blood borne infection and provide opportunities to discuss it.",
 	"type": "notification",
-	"preparedBy": "Building administrators",
-	"recipient": "Students, parents/guardians, and employees",
+	"preparers": [
+		{
+			"name": "Building administrator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Students, parents / guardians, and employees",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

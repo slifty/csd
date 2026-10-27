@@ -4,8 +4,19 @@
 	"name": "Notice Before Special Medical Examination",
 	"description": "If a parent fails to report results after a care recommendation, a special medical exam is arranged and the parent is notified beforehand.",
 	"type": "notification",
-	"preparedBy": "School nurse or school physician",
-	"recipient": "Parent/guardian",
+	"preparers": [
+		{
+			"name": "School nurse",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "School physician",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "Parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "prior to the special examination",

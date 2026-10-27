@@ -4,7 +4,13 @@
 	"name": "Federal Funds Applications for Board Approval",
 	"description": "All applications for federal funds are brought to the Board for review and approval.",
 	"type": "presentation",
-	"preparedBy": "District (Director of Business Services as federal programs contact)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": "Director of Business Services as federal programs contact",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

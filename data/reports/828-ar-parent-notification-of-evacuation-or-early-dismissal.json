@@ -4,8 +4,14 @@
 	"name": "Parent Notification of Evacuation or Early Dismissal",
 	"description": "During an evacuation or early dismissal, parents are told by phone and email (School Messenger) when and where to pick up their children.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "as soon as possible",

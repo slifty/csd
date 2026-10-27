@@ -4,7 +4,13 @@
 	"name": "FMLA Eligibility and Designation Notice",
 	"description": "Notice whether leave will be FMLA-protected; if eligible, the employee's rights and responsibilities, leave counted, and fitness-for-duty requirement; if not, the reason.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Requesting employee",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

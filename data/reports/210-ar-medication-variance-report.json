@@ -4,8 +4,19 @@
 	"name": "Medication Variance Report",
 	"description": "Medication errors (wrong drug, student, dose, time, route, technique, or omitted dose) are reported on the Medication Variance Report Form; the nurse then notifies parents and the building administrator, and the prescriber if harm is possible.",
 	"type": "report",
-	"preparedBy": "Staff member involved; school nurse",
-	"recipient": "School nurse; parents/guardians; building administrator; licensed prescriber (if potential harm)",
+	"preparers": [
+		{
+			"name": "Staff member involved",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "School nurse",
+			"detail": null,
+			"type": "employees"
+		}
+	],
+	"recipient": "School nurse; parents / guardians; building administrator; licensed prescriber (if potential harm)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",
 	"deadline": null,

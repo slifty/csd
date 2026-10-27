@@ -4,7 +4,13 @@
 	"name": "Report of At-Risk Student to Threat Assessment Team",
 	"description": "Personnel report a student whose behavior indicates a threat to their own safety.",
 	"type": "report",
-	"preparedBy": "School personnel",
+	"preparers": [
+		{
+			"name": "District staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Threat assessment team, team member, or suicide prevention coordinator",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

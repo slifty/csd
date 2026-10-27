@@ -2,10 +2,16 @@
 	"id": "106-course-guides-available-to-parents",
 	"policyId": "BH22ZJ049D98",
 	"name": "Course Guides Available to Parents",
-	"description": "Copies of all current course guides are kept on file in the Office of Education and made available to parents/guardians.",
+	"description": "Copies of all current course guides are kept on file in the Office of Education and made available to parents / guardians.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee (Office of Education)",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": "Office of Education",
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

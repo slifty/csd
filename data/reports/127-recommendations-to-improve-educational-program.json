@@ -4,7 +4,13 @@
 	"name": "Recommendations to Improve Educational Program",
 	"description": "Recommendations for improvements to the educational program, curriculum and instruction based on assessment results and stakeholder feedback.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Not specified (Board implied)",
 	"recipientType": "board",
 	"frequency": "ongoing",

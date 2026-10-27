@@ -4,8 +4,14 @@
 	"name": "Notice of Retention Consideration (K-8)",
 	"description": "Written notice that a K-8 student is being considered for retention, with an invitation to an optional conference explaining the reasons.",
 	"type": "notification",
-	"preparedBy": "School principal or designee",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "upon a determination that the child is being considered for retention",

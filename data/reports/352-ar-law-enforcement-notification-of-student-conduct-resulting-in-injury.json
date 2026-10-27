@@ -4,7 +4,13 @@
 	"name": "Law Enforcement Notification of Student Conduct Resulting in Injury",
 	"description": "Notification of law enforcement of student conduct resulting in injury, following Policy and AR 225 procedures.",
 	"type": "notification",
-	"preparedBy": "Not specified (per Policy/AR 225)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "per Policy / AR 225",
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Law enforcement",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

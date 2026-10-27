@@ -4,7 +4,13 @@
 	"name": "Parent Notice of Change of Address",
 	"description": "Families who move within or out of the District must notify the Registrar of the move and new address.",
 	"type": "notification",
-	"preparedBy": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "District Registrar",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

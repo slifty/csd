@@ -2,10 +2,16 @@
 	"id": "223-notice-of-tobacco-and-vaping-policy",
 	"policyId": "DDYT9H76488F",
 	"name": "Notice of Tobacco and Vaping Policy",
-	"description": "Employees, students and families are notified of the tobacco/vaping Policy and AR by methods the Superintendent determines.",
+	"description": "Employees, students and families are notified of the tobacco / vaping Policy and AR by methods the Superintendent determines.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Employees, students, and parents/guardians",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Employees, students, and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

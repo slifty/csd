@@ -4,7 +4,13 @@
 	"name": "Annual Audit of Investment Records",
 	"description": "Annual independent audit of all investment records, including verification of amounts and transactions.",
 	"type": "audit",
-	"preparedBy": "District's independent auditors",
+	"preparers": [
+		{
+			"name": "Independent auditor",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "First-Level Complaint Resolution Report",
 	"description": "Report of the complaint and its resolution at the first level.",
 	"type": "report",
-	"preparedBy": "Concerned staff member",
+	"preparers": [
+		{
+			"name": "Concerned staff member",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Building principal or immediate supervisor",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,8 +4,14 @@
 	"name": "Notice of Informal Hearing Outcome and Expulsion Referral",
 	"description": "After an informal hearing, parents are advised if the suspension is extended or the matter is referred to the Superintendent for expulsion; Attachment 3 may be used.",
 	"type": "notification",
-	"preparedBy": "Principal or designee",
-	"recipient": "Parent/guardian; Superintendent (referral)",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parent / guardian; Superintendent (referral)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "as soon as possible following the informal hearing",

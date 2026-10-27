@@ -2,10 +2,16 @@
 	"id": "200-ar-written-notice-of-placement-evaluation-results",
 	"policyId": "DCHNEP5F9B46",
 	"name": "Written Notice of Placement Evaluation Results",
-	"description": "When a student enrolls without reliable prior records, the student and parent/guardian are told in writing the results of the placement evaluation and the student's grade/course placement.",
+	"description": "When a student enrolls without reliable prior records, the student and parent / guardian are told in writing the results of the placement evaluation and the student's grade / course placement.",
 	"type": "notification",
-	"preparedBy": "Director of Student Services or designee",
-	"recipient": "Student and parent/guardian",
+	"preparers": [
+		{
+			"name": "Director of Student Services or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Student and parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

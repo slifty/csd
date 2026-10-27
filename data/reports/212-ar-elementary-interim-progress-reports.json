@@ -4,8 +4,14 @@
 	"name": "Elementary Interim Progress Reports",
 	"description": "Written interim reports between marking periods to communicate potential academic failure or other areas of concern.",
 	"type": "report",
-	"preparedBy": "Not specified (elementary staff)",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "elementary staff",
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "quarterly",
 	"deadline": "between report periods",

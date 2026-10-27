@@ -4,7 +4,13 @@
 	"name": "Annual Threat Assessment Report to the Board",
 	"description": "Annual report on the District's approach to threat assessment: compliance verification, number and composition of teams, threats assessed, outside agency interactions, assessment of operations and recommendations.",
 	"type": "report",
-	"preparedBy": "Superintendent (with threat assessment team and School Safety and Security Coordinator)",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": "with threat assessment team and School Safety and Security Coordinator",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board (executive session)",
 	"recipientType": "board",
 	"frequency": "annual",

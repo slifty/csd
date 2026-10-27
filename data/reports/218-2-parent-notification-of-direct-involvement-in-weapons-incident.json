@@ -4,8 +4,14 @@
 	"name": "Parent Notification of Direct Involvement in Weapons Incident",
 	"description": "Immediate notice to parents of students directly involved as victim or suspect, including whether police have been or may be notified; attempts are documented.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Parents/guardians of student victims or suspects",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Parents / guardians of student victims or suspects",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "immediately, as soon as practicable",

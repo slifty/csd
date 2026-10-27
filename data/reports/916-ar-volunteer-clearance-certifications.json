@@ -4,7 +4,13 @@
 	"name": "Volunteer Clearance Certifications",
 	"description": "FBI, State Police and DHS certifications obtained before service and renewed every 60 months.",
 	"type": "certification",
-	"preparedBy": "Volunteers responsible for a child's welfare or with direct volunteer contact",
+	"preparers": [
+		{
+			"name": "Volunteers responsible for a child's welfare or with direct volunteer contact",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "every-5-years",

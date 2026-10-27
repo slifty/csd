@@ -4,8 +4,14 @@
 	"name": "Annual Public Wellness Policy Notification",
 	"description": "Annual update on wellness policy contents and implementation, how to access it, the latest triennial assessment, how to participate, and Wellness Committee contacts.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Public, parents/guardians, students and community",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Public, parents / guardians, students and community",
 	"recipientType": "public",
 	"frequency": "annual",
 	"deadline": "annually",

@@ -4,7 +4,13 @@
 	"name": "Board Meeting Agenda and Reports Packet",
 	"description": "Agenda of anticipated business together with all relevant reports, provided to each director with sufficient time for review.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Each school director",
 	"recipientType": "board",
 	"frequency": "per-meeting",

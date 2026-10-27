@@ -4,7 +4,13 @@
 	"name": "Attendance Policy Website Posting",
 	"description": "The attendance AR and Board Policy are kept posted on the District's public website.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

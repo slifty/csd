@@ -4,7 +4,18 @@
 	"name": "Recommended Properties for District-Initiated Tax Assessment Appeals",
 	"description": "Identification of under-assessed properties for potential District-initiated assessment appeals, presented to the Board for consideration and approval; properties are recommended where the potential added revenue exceeds $10,000, and no appeal is filed without the Board being advised.",
 	"type": "recommendation",
-	"preparedBy": "Director of Business Services, with District Solicitor",
+	"preparers": [
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "District Solicitor",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Driver Certification of Policy Receipt",
 	"description": "Signed statement certifying receipt of the drug and alcohol policy; a copy is given to the driver.",
 	"type": "certification",
-	"preparedBy": "Covered driver",
+	"preparers": [
+		{
+			"name": "School vehicle driver",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "District (personnel file)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

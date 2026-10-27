@@ -4,7 +4,13 @@
 	"name": "Temporary Professional Employee Progress Notices",
 	"description": "Notice to each temporary professional employee of individual progress and status following evaluation.",
 	"type": "notification",
-	"preparedBy": "Appropriate supervisor",
+	"preparers": [
+		{
+			"name": "Appropriate supervisor",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Temporary professional employees",
 	"recipientType": "employees",
 	"frequency": "semiannual",

@@ -4,7 +4,13 @@
 	"name": "Annual Graduating Class Approval",
 	"description": "Each year the slate of graduating candidates is brought to the Board for official approval before diplomas are awarded.",
 	"type": "recommendation",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

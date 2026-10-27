@@ -4,7 +4,13 @@
 	"name": "Driver Notice of Traffic Arrest, Charge or Citation",
 	"description": "Written notice of any non-parking motor vehicle traffic arrest, charge or citation, in any vehicle.",
 	"type": "notification",
-	"preparedBy": "Covered driver",
+	"preparers": [
+		{
+			"name": "School vehicle driver",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee and contract carrier",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

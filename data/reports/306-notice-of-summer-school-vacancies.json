@@ -4,7 +4,13 @@
 	"name": "Notice of Summer School Vacancies",
 	"description": "Summer school vacancies are made known to District personnel so they may apply.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "District personnel",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

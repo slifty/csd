@@ -4,7 +4,13 @@
 	"name": "Public Availability of Pest Management Information",
 	"description": "Information on pest management activities, backed by at least three years of treatment records, is available to the public at the administrative office.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

@@ -4,7 +4,13 @@
 	"name": "CTE Grades to Home Education Program Supervisor",
 	"description": "A grade for each CTE program course completed by a home education student.",
 	"type": "report",
-	"preparedBy": "EASTERN Center for Arts and Technology",
+	"preparers": [
+		{
+			"name": "EASTERN Center for Arts and Technology",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Home education program supervisor",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

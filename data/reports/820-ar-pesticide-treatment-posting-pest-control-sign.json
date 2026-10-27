@@ -4,7 +4,13 @@
 	"name": "Pesticide Treatment Posting (Pest Control Sign)",
 	"description": "A pest control sign is posted in an appropriate area before and after each planned pesticide treatment.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public / building occupants",
 	"recipientType": "public",
 	"frequency": "event-triggered",

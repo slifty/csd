@@ -2,9 +2,15 @@
 	"id": "209-ar-vision-screening-certification-for-new-students",
 	"policyId": "BYXPKV650D2C",
 	"name": "Vision Screening Certification for New Students",
-	"description": "Before first admission, parents present certification that the child passed/failed a qualified vision screening or had a comprehensive eye exam within the past twelve months.",
+	"description": "Before first admission, parents present certification that the child passed / failed a qualified vision screening or had a comprehensive eye exam within the past twelve months.",
 	"type": "certification",
-	"preparedBy": "Parent/guardian",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Written Response to Enrollment Complaint",
 	"description": "Written response to any properly filed enrollment complaint, with a copy sent to PDE's School Services Unit when the complainant also filed with PDE.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Complainant; PA Department of Education, School Services Unit (copy, if complaint also filed there)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

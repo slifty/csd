@@ -4,7 +4,13 @@
 	"name": "Annual Curriculum Cycle Update",
 	"description": "An annual update on the curriculum cycle for each content area, given through the Educational Affairs Committee.",
 	"type": "presentation",
-	"preparedBy": "Office of Education",
+	"preparers": [
+		{
+			"name": "Office of Education",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Educational Affairs Committee",
 	"recipientType": "board",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "Crowdfunding Request Decision Notice",
 	"description": "Written approval, denial, or conditional approval of a crowdfunding proposal, with the basis for any denial or limitation.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Employee(s) who submitted the request",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

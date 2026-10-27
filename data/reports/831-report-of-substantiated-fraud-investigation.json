@@ -4,7 +4,13 @@
 	"name": "Report of Substantiated Fraud Investigation",
 	"description": "When an investigation substantiates fraudulent activity, a report goes to the Board and designated individuals.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board and designated individuals",
 	"recipientType": "board",
 	"frequency": "event-triggered",

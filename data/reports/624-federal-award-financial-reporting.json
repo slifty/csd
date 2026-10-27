@@ -4,7 +4,13 @@
 	"name": "Federal Award Financial Reporting",
 	"description": "Accurate, current and complete disclosure of the financial results of each federal award or program per federal financial reporting requirements.",
 	"type": "report",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal awarding agencies",
 	"recipientType": "federal-agency",
 	"frequency": "as-required",

@@ -4,7 +4,13 @@
 	"name": "Child Abuse Reporting Hotline Poster",
 	"description": "PDE poster with statewide toll-free numbers for reporting suspected abuse, neglect and school safety issues, posted in a high-traffic public area of each school.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Students and public in each school",
 	"recipientType": "public",
 	"frequency": "ongoing",

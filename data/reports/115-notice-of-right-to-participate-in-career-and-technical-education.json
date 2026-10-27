@@ -4,8 +4,14 @@
 	"name": "Notice of Right to Participate in Career and Technical Education",
 	"description": "Reasonable efforts to inform students and parents of the right to participate in CTE programs and of services for students with disabilities in such programs.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Students and parents/guardians",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Students and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

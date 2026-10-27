@@ -4,7 +4,13 @@
 	"name": "Retroactive Approval Recommendation for Hires Made Before Board Approval",
 	"description": "Recommendation that the Board retroactively approve employees used before Board approval.",
 	"type": "recommendation",
-	"preparedBy": "Not specified (Superintendent or designee implied)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "Superintendent or designee implied",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

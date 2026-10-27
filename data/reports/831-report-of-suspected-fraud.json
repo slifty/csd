@@ -4,8 +4,39 @@
 	"name": "Report of Suspected Fraud",
 	"description": "Anyone who suspects fraud, financial impropriety, or irregularity must report it right away.",
 	"type": "notification",
-	"preparedBy": "Board members, employees, volunteers, consultants, vendors, contractors",
-	"recipient": "Superintendent or designee (or Board President/District Solicitor if the Superintendent is involved)",
+	"preparers": [
+		{
+			"name": "Board member",
+			"detail": null,
+			"type": "board"
+		},
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Volunteers",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Consultants",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Vendors",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Contractors",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
+	"recipient": "Superintendent or designee (or Board President / District Solicitor if the Superintendent is involved)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",
 	"deadline": "immediately",

@@ -1,10 +1,16 @@
 {
 	"id": "610-ar-targeted-bidding-opportunity-notices-to-mbe-wbe-dbe-sdvo-cbe-firms",
 	"policyId": "CDLQZM6BC088",
-	"name": "Targeted Bidding Opportunity Notices to MBE/WBE/DBE/SDVO/CBE Firms",
+	"name": "Targeted Bidding Opportunity Notices to MBE / WBE / DBE / SDVO / CBE Firms",
 	"description": "Efforts to notify qualified diverse and local businesses of bidding opportunities, e.g. website postings, automatic alerts and bid packages online.",
 	"type": "notification",
-	"preparedBy": "District (Business Office)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": "Business Office",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Minority-, women-, disadvantaged-, veteran-owned and Cheltenham-based businesses",
 	"recipientType": "other-external",
 	"frequency": "ongoing",

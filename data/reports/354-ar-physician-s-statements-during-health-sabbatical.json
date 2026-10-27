@@ -4,7 +4,13 @@
 	"name": "Physician's Statements During Health Sabbatical",
 	"description": "Physician statement on progress toward the leave's purpose and the employee's ability to return to work.",
 	"type": "certification",
-	"preparedBy": "Employee (from PA-licensed physician)",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": "from PA-licensed physician",
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "as-required",

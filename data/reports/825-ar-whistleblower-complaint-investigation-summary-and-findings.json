@@ -4,7 +4,13 @@
 	"name": "Whistleblower Complaint Investigation Summary and Findings",
 	"description": "After investigating a written complaint, the Compliance Officer issues a summary, a determination of whether it was substantiated and whether a violation occurred, and a recommended disposition; a copy goes to the complainant.",
 	"type": "report",
-	"preparedBy": "Compliance Officer (Director of Human Resources)",
+	"preparers": [
+		{
+			"name": "Compliance Officer",
+			"detail": "Director of Human Resources",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Complainant",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

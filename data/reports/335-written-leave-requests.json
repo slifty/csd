@@ -4,7 +4,13 @@
 	"name": "Written Leave Requests",
 	"description": "Written requests for FMLA and non-FMLA leave.",
 	"type": "notification",
-	"preparedBy": "Employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Director of Human Resources or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

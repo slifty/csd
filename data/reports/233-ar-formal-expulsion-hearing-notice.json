@@ -2,10 +2,16 @@
 	"id": "233-ar-formal-expulsion-hearing-notice",
 	"policyId": "D4K2X80446EF",
 	"name": "Formal Expulsion Hearing Notice",
-	"description": "Certified-mail notice of charges, time and place of the formal hearing, with copies of Policy/AR 233 and due process procedures (Attachment 2).",
+	"description": "Certified-mail notice of charges, time and place of the formal hearing, with copies of Policy / AR 233 and due process procedures (Attachment 2).",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Student's parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Student's parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "at least 3 days before the hearing",

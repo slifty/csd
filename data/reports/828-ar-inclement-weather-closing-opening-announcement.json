@@ -1,11 +1,17 @@
 {
 	"id": "828-ar-inclement-weather-closing-opening-announcement",
 	"policyId": "DKJU7X7ABE84",
-	"name": "Inclement Weather Closing/Opening Announcement",
+	"name": "Inclement Weather Closing / Opening Announcement",
 	"description": "Decisions to open or close schools for weather are made early enough to tell parents and the community.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians and community",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians and community",
 	"recipientType": "public",
 	"frequency": "event-triggered",
 	"deadline": "as soon as possible",

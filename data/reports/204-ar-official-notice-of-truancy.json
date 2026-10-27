@@ -4,8 +4,24 @@
 	"name": "Official Notice of Truancy",
 	"description": "Notice after a third unexcused absence describing consequences of habitual truancy, the cyber charter transfer restriction, and available resources; may set an attendance improvement conference.",
 	"type": "notification",
-	"preparedBy": "School principal, vice principal, assistant principal or designee",
-	"recipient": "Person in parental relation (and biological/adoptive parent where applicable)",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Vice principal",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Assistant principal",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Person in parental relation (and biological / adoptive parent where applicable)",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "within ten (10) school days of a child's third unexcused absence",

@@ -1,35 +1,44 @@
 <script lang="ts">
 	import { SvelteSet } from "svelte/reactivity";
-	import { FREQUENCY_LABELS } from "#lib/report-labels.ts";
+	import {
+		FREQUENCY_LABELS,
+		PREPARER_TYPE_LABELS,
+	} from "#lib/report-labels.ts";
 	import { RECIPIENT_GROUPS, isInView } from "#lib/report-listing.ts";
-	import { FREQUENCIES } from "#lib/report.ts";
+	import { FREQUENCIES, PREPARER_TYPES } from "#lib/report.ts";
 	import type {
 		RecipientGroupId,
 		ReportListing,
 		ReportView,
 	} from "#lib/report-listing.ts";
-	import type { Frequency } from "#lib/report.ts";
+	import type { Frequency, PreparerType } from "#lib/report.ts";
 
 	interface Props {
 		listings: readonly ReportListing[];
 		recipientCounts: ReadonlyMap<RecipientGroupId, number>;
+		preparerCounts: ReadonlyMap<PreparerType, number>;
 		shownCount: number;
 		view: ReportView;
 		search: string;
 		frequency: Frequency | null;
 		sectionNumber: string | null;
 		recipientGroupIds: SvelteSet<RecipientGroupId>;
+		preparerTypes: SvelteSet<PreparerType>;
+		height: number;
 	}
 
 	let {
 		listings,
 		recipientCounts,
+		preparerCounts,
 		shownCount,
 		view = $bindable(),
 		search = $bindable(),
 		frequency = $bindable(),
 		sectionNumber = $bindable(),
 		recipientGroupIds,
+		preparerTypes,
+		height = $bindable(),
 	}: Props = $props();
 
 	const VIEW_LABELS: Readonly<Record<ReportView, string>> = {
@@ -66,16 +75,16 @@
 		}
 	};
 
-	const toggleRecipientGroup = (id: RecipientGroupId): void => {
-		if (recipientGroupIds.has(id)) {
-			recipientGroupIds.delete(id);
+	const toggle = <T,>(selected: SvelteSet<T>, value: T): void => {
+		if (selected.has(value)) {
+			selected.delete(value);
 		} else {
-			recipientGroupIds.add(id);
+			selected.add(value);
 		}
 	};
 </script>
 
-<section class="controls" aria-label="Filters">
+<section class="controls" aria-label="Filters" bind:offsetHeight={height}>
 	<div class="row">
 		<div class="segments" role="group" aria-label="Which reports">
 			{#each VIEWS as candidate (candidate)}
@@ -120,10 +129,26 @@
 					type="button"
 					class="chip"
 					aria-pressed={recipientGroupIds.has(group.id)}
-					onclick={() => toggleRecipientGroup(group.id)}
+					onclick={() => toggle(recipientGroupIds, group.id)}
 				>
 					{group.label}
 					<span class="count">{recipientCounts.get(group.id) ?? 0}</span>
+				</button>
+			{/each}
+		</div>
+	</div>
+	<div class="row">
+		<span class="label">Prepared by</span>
+		<div class="chips">
+			{#each PREPARER_TYPES as preparerType (preparerType)}
+				<button
+					type="button"
+					class="chip"
+					aria-pressed={preparerTypes.has(preparerType)}
+					onclick={() => toggle(preparerTypes, preparerType)}
+				>
+					{PREPARER_TYPE_LABELS[preparerType]}
+					<span class="count">{preparerCounts.get(preparerType) ?? 0}</span>
 				</button>
 			{/each}
 		</div>
@@ -195,6 +220,10 @@
 		min-width: 0;
 	}
 
+	.label {
+		min-width: 92px;
+	}
+
 	.chips {
 		display: flex;
 		flex-wrap: wrap;
@@ -230,5 +259,11 @@
 		color: var(--ink-2);
 		margin-left: auto;
 		font-variant-numeric: tabular-nums;
+	}
+
+	@media (max-width: 960px) {
+		.controls {
+			position: static;
+		}
 	}
 </style>

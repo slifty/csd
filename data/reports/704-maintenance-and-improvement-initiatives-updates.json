@@ -4,7 +4,13 @@
 	"name": "Maintenance and Improvement Initiatives Updates",
 	"description": "Keep the Board apprised of current and future maintenance and improvement initiatives.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "ongoing",

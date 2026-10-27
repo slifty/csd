@@ -4,7 +4,13 @@
 	"name": "Pilot Program Status Report",
 	"description": "Periodic reports to the Board on the status of each Board-approved pilot program, including objectives, evaluative criteria and costs.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "as-required",

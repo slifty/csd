@@ -4,7 +4,18 @@
 	"name": "Public Disclosure of Conflict of Interest Before a Vote",
 	"description": "Anyone required to vote on a matter that would create a conflict of interest must abstain and publicly disclose the nature of the interest before the vote.",
 	"type": "notification",
-	"preparedBy": "Board member or District employee with the conflict",
+	"preparers": [
+		{
+			"name": "Board member",
+			"detail": "with the conflict",
+			"type": "board"
+		},
+		{
+			"name": "Employees",
+			"detail": "with the conflict",
+			"type": "employees"
+		}
+	],
 	"recipient": "Public (public record)",
 	"recipientType": "public",
 	"frequency": "event-triggered",

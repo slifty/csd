@@ -4,7 +4,18 @@
 	"name": "Student Progress Reports to Title I Parents",
 	"description": "Compact must provide for annual elementary parent-teacher conferences and frequent reports to parents on their child's progress.",
 	"type": "report",
-	"preparedBy": "Title I schools / teachers",
+	"preparers": [
+		{
+			"name": "Title I schools",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Teachers",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Parents and family members",
 	"recipientType": "parents-and-students",
 	"frequency": "as-required",

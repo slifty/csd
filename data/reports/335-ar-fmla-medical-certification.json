@@ -4,7 +4,13 @@
 	"name": "FMLA Medical Certification",
 	"description": "Health care provider certification supporting the leave request (onset date, duration, medical facts, need for leave).",
 	"type": "certification",
-	"preparedBy": "Employee",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "List of Diploma Candidates",
 	"description": "Development of the list of individuals who qualify for a diploma (approved annually by the Board per the AR).",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "annual",

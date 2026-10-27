@@ -4,7 +4,13 @@
 	"name": "Principal Recommendation on Trip Cancellation",
 	"description": "Recommendation on cancelling, postponing, modifying or terminating a trip, with information from agencies and the basis for it.",
 	"type": "recommendation",
-	"preparedBy": "School principal",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

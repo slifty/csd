@@ -4,7 +4,13 @@
 	"name": "Report of Threats to Safety or Security",
 	"description": "Threats to students, staff, or property are reported and responded to promptly under the law and the applicable emergency plan.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Not specified (per emergency plan and Superintendent instruction)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

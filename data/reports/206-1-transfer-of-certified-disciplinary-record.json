@@ -4,7 +4,13 @@
 	"name": "Transfer of Certified Disciplinary Record",
 	"description": "When a student transfers out, the District sends a certified copy of the disciplinary record, plus a copy of any juvenile probation notice, to the receiving school.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Receiving school",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

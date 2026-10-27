@@ -4,7 +4,13 @@
 	"name": "Breach Notification to Data Owner or Licensee",
 	"description": "If the breach involves data the District maintains but does not own, the District notifies the data owner or licensee.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Owner or licensee of the information",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

@@ -4,8 +4,14 @@
 	"name": "Indirect Cost Rate Proposal and Cost Allocation Plan",
 	"description": "Indirect cost rate proposal and cost allocation plan developed per law, regulations and federal award terms.",
 	"type": "plan",
-	"preparedBy": "District",
-	"recipient": "Not specified (cognizant/awarding agency implied)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Not specified (cognizant / awarding agency implied)",
 	"recipientType": "state-agency",
 	"frequency": "as-required",
 	"deadline": null,

@@ -4,7 +4,13 @@
 	"name": "Quarterly Federal Reimbursement Requests",
 	"description": "Reimbursement requests for actual federal grant expenditures, with supporting documentation, submitted on the PDE portal.",
 	"type": "data-submission",
-	"preparedBy": "Director of Business Services",
+	"preparers": [
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "PA Department of Education (PDE portal)",
 	"recipientType": "state-agency",
 	"frequency": "quarterly",

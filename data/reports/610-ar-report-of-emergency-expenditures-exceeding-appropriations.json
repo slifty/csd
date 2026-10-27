@@ -4,7 +4,18 @@
 	"name": "Report of Emergency Expenditures Exceeding Appropriations",
 	"description": "Emergency purchases exceeding budget appropriations are reported with a recommendation of the funds to transfer to cover them.",
 	"type": "report",
-	"preparedBy": "Superintendent or Director of Business Services",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		},
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

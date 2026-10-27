@@ -4,8 +4,14 @@
 	"name": "Notice of Nondiscrimination Responsibilities and Reasonable Modifications",
 	"description": "When informed of a student's pregnancy, the Title IX Coordinator notifies the person of District nondiscrimination responsibilities and offers reasonable modifications.",
 	"type": "notification",
-	"preparedBy": "Title IX Coordinator",
-	"recipient": "Student/parent/guardian or authorized individual",
+	"preparers": [
+		{
+			"name": "Title IX Coordinator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Student / parent / guardian or authorized individual",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

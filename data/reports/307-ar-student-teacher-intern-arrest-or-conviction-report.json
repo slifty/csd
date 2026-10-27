@@ -1,10 +1,21 @@
 {
 	"id": "307-ar-student-teacher-intern-arrest-or-conviction-report",
 	"policyId": "CBDR9Y6CF9D0",
-	"name": "Student Teacher/Intern Arrest or Conviction Report",
+	"name": "Student Teacher / Intern Arrest or Conviction Report",
 	"description": "Report on the designated form of any legally reportable arrest or conviction while serving in District schools.",
 	"type": "notification",
-	"preparedBy": "Student teachers and interns",
+	"preparers": [
+		{
+			"name": "Student teachers",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Interns",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

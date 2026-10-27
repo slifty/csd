@@ -4,7 +4,13 @@
 	"name": "Textbook Adoption Recommendation",
 	"description": "All textbook adoptions or changes require the Superintendent's recommendation (absent a two-thirds Board vote), within a planned cycle of textbook review and replacement.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

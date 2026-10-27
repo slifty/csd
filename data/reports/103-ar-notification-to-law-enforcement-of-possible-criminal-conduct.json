@@ -2,9 +2,25 @@
 	"id": "103-ar-notification-to-law-enforcement-of-possible-criminal-conduct",
 	"policyId": "D8375217E0F5",
 	"name": "Notification to Law Enforcement of Possible Criminal Conduct",
-	"description": "If the investigation reveals possible criminal conduct, the investigator notifies the Coordinator/designee, who informs law enforcement.",
+	"description": "If the investigation reveals possible criminal conduct, the investigator notifies the Coordinator / designee, who informs law enforcement.",
 	"type": "notification",
-	"preparedBy": "Investigator; Title IX Coordinator or Superintendent's designee",
+	"preparers": [
+		{
+			"name": "Investigator",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Title IX Coordinator",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Law enforcement authorities",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

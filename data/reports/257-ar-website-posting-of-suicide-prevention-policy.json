@@ -4,8 +4,14 @@
 	"name": "Website Posting of Suicide Prevention Policy",
 	"description": "Suicide prevention Policy and AR posted on the District website.",
 	"type": "public-posting",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians, students and employees",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians, students and employees",
 	"recipientType": "public",
 	"frequency": "ongoing",
 	"deadline": null,

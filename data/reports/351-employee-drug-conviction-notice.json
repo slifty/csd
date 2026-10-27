@@ -4,7 +4,13 @@
 	"name": "Employee Drug Conviction Notice",
 	"description": "Employee notice of any criminal drug statute conviction for a workplace violation; employees are notified of this condition of employment.",
 	"type": "notification",
-	"preparedBy": "Employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

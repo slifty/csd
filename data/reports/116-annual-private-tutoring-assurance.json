@@ -4,7 +4,13 @@
 	"name": "Annual Private Tutoring Assurance",
 	"description": "Written assurance that all instructional requirements are being met for a privately tutored student.",
 	"type": "certification",
-	"preparedBy": "Parent/guardian",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "annual",

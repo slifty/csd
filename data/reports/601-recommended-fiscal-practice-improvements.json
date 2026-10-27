@@ -4,7 +4,13 @@
 	"name": "Recommended Fiscal Practice Improvements",
 	"description": "Based on ongoing review of financial operations, the Superintendent reports recommended improvements to keep fiscal practices sound.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "ongoing",

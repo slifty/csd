@@ -4,7 +4,13 @@
 	"name": "Agenda Copies for Meeting Attendees",
 	"description": "Copies of the agenda listing each matter of business made available to people attending the meeting.",
 	"type": "public-posting",
-	"preparedBy": "Not specified (District)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Meeting attendees",
 	"recipientType": "public",
 	"frequency": "per-meeting",

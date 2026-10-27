@@ -4,7 +4,13 @@
 	"name": "Updated Criminal History Background Check",
 	"description": "New criminal history background check reports required when the Superintendent reasonably believes an unreported arrest or conviction occurred.",
 	"type": "report",
-	"preparedBy": "Employee",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

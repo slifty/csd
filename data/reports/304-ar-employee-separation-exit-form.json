@@ -1,10 +1,16 @@
 {
 	"id": "304-ar-employee-separation-exit-form",
 	"policyId": "DCHL4Q54C587",
-	"name": "Employee Separation/Exit Form",
-	"description": "Completed Employee Separation/Exit Form (Attachment A) checklist for a resigning employee.",
+	"name": "Employee Separation / Exit Form",
+	"description": "Completed Employee Separation / Exit Form (Attachment A) checklist for a resigning employee.",
 	"type": "report",
-	"preparedBy": "Resigning employee's direct supervisor or designee",
+	"preparers": [
+		{
+			"name": "Resigning employee's direct supervisor or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Office of Human Resources",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

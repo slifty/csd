@@ -4,7 +4,13 @@
 	"name": "Federal Fiscal Compliance Conduct Notice to Employees",
 	"description": "Employees are informed of conduct required for federal fiscal compliance and disciplinary consequences for violations.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "All employees",
 	"recipientType": "employees",
 	"frequency": "ongoing",

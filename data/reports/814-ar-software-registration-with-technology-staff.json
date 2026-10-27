@@ -4,7 +4,13 @@
 	"name": "Software Registration with Technology Staff",
 	"description": "Staff register all software, including downloads, with title, manufacturer and license number.",
 	"type": "data-submission",
-	"preparedBy": "District staff",
+	"preparers": [
+		{
+			"name": "District staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Designated technology staff",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

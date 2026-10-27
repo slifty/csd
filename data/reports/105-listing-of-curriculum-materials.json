@@ -4,8 +4,14 @@
 	"name": "Listing of Curriculum Materials",
 	"description": "A list of all curriculum materials is made available for the information of parents, students, staff and the Board.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians, students, staff and Board members",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians, students, staff and Board members",
 	"recipientType": "public",
 	"frequency": "ongoing",
 	"deadline": null,

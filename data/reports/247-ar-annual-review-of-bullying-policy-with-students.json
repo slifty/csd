@@ -4,7 +4,13 @@
 	"name": "Annual Review of Bullying Policy with Students",
 	"description": "Each school year the principal reviews the bullying Policy and AR with students.",
 	"type": "presentation",
-	"preparedBy": "Building principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Students",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",

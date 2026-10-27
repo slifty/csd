@@ -1,10 +1,16 @@
 {
 	"id": "704-ar-budget-impact-maintenance-staffing-resource-recommendations",
 	"policyId": "DKJTZF79CA74",
-	"name": "Budget-Impact Maintenance Staffing/Resource Recommendations",
+	"name": "Budget-Impact Maintenance Staffing / Resource Recommendations",
 	"description": "Recommendations on added or changed staff or resources with budgetary impact, raised early enough for inclusion in budget development.",
 	"type": "recommendation",
-	"preparedBy": "Director of Facilities and Maintenance",
+	"preparers": [
+		{
+			"name": "Director of Facilities and Maintenance",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

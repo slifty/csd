@@ -4,7 +4,13 @@
 	"name": "Breach Notification to District Attorney",
 	"description": "The District Attorney in the county where the breach occurred is notified of the breach.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "County District Attorney",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

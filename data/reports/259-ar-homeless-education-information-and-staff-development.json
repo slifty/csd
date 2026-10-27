@@ -4,7 +4,13 @@
 	"name": "Homeless Education Information and Staff Development",
 	"description": "Distribute information on students experiencing homelessness and arrange staff development workshops and presentations.",
 	"type": "presentation",
-	"preparedBy": "District homeless liaison",
+	"preparers": [
+		{
+			"name": "District homeless liaison",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "School personnel, including office staff",
 	"recipientType": "employees",
 	"frequency": "ongoing",

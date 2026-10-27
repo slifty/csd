@@ -4,7 +4,13 @@
 	"name": "Report of Disposed Federal Surplus Property",
 	"description": "Records of obsolete and surplus federally funded property disposed of, reported to the awarding agency when required.",
 	"type": "report",
-	"preparedBy": "Director of Business Services",
+	"preparers": [
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal awarding agency",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

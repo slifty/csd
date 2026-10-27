@@ -4,7 +4,13 @@
 	"name": "Facilities Condition and Enrollment Report",
 	"description": "Written description and condition of existing facilities with prioritized maintenance list; enrollment by grade and building with projections and comparison to prior projections; and any redistricting or grade-configuration recommendations.",
 	"type": "presentation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

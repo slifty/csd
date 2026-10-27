@@ -4,7 +4,13 @@
 	"name": "Notice to Unaccompanied Youth of Independent Student Status",
 	"description": "Ensure unaccompanied youth are informed of their independent-student status under the Higher Education Act and their right to verification.",
 	"type": "notification",
-	"preparedBy": "District homeless liaison",
+	"preparers": [
+		{
+			"name": "District homeless liaison",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Unaccompanied homeless youth",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",

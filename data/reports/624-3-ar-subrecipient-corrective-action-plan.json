@@ -4,7 +4,13 @@
 	"name": "Subrecipient Corrective Action Plan",
 	"description": "Corrective action plan addressing other identified deficiencies or noncompliance, which the District then monitors.",
 	"type": "plan",
-	"preparedBy": "Subrecipients",
+	"preparers": [
+		{
+			"name": "Subrecipients",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Notice to Juvenile Probation of Disclosure to Other Schools",
 	"description": "The principal informs the juvenile probation office whenever adjudication information is provided to officials of schools outside the District (and logs each recipient).",
 	"type": "notification",
-	"preparedBy": "Building principal or designee",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Juvenile probation office",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

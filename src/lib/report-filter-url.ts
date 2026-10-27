@@ -1,11 +1,11 @@
 import { RECIPIENT_GROUPS, REPORT_VIEWS } from "./report-listing.ts";
-import { FREQUENCIES } from "./report.ts";
+import { FREQUENCIES, PREPARER_TYPES } from "./report.ts";
 import type {
 	RecipientGroupId,
 	ReportFilter,
 	ReportView,
 } from "./report-listing.ts";
-import type { Frequency } from "./report.ts";
+import type { Frequency, PreparerType } from "./report.ts";
 
 const FILTER_PARAMS = {
 	view: "view",
@@ -13,6 +13,7 @@ const FILTER_PARAMS = {
 	frequency: "frequency",
 	sectionNumber: "section",
 	recipientGroupIds: "to",
+	preparerTypes: "from",
 } as const;
 
 type ReadableSearchParams = Pick<URLSearchParams, "get">;
@@ -28,6 +29,22 @@ const isFrequency = (value: string): value is Frequency =>
 
 const isRecipientGroupId = (value: string): value is RecipientGroupId =>
 	RECIPIENT_GROUPS.some((group) => group.id === value);
+
+const isPreparerType = (value: string): value is PreparerType =>
+	PREPARER_TYPES.some((preparerType) => preparerType === value);
+
+const readList = (params: ReadableSearchParams, name: string): string[] =>
+	(params.get(name) ?? "").split(LIST_SEPARATOR);
+
+const writeList = (
+	params: URLSearchParams,
+	name: string,
+	values: readonly string[],
+): void => {
+	if (values.length > 0) {
+		params.set(name, values.join(LIST_SEPARATOR));
+	}
+};
 
 const readView = (params: ReadableSearchParams): ReportView => {
 	const value = params.get(FILTER_PARAMS.view) ?? "";
@@ -51,10 +68,15 @@ const readRecipientGroupIds = (
 	params: ReadableSearchParams,
 ): ReadonlySet<RecipientGroupId> =>
 	new Set(
-		(params.get(FILTER_PARAMS.recipientGroupIds) ?? "")
-			.split(LIST_SEPARATOR)
-			.filter(isRecipientGroupId),
+		readList(params, FILTER_PARAMS.recipientGroupIds).filter(
+			isRecipientGroupId,
+		),
 	);
+
+const readPreparerTypes = (
+	params: ReadableSearchParams,
+): ReadonlySet<PreparerType> =>
+	new Set(readList(params, FILTER_PARAMS.preparerTypes).filter(isPreparerType));
 
 const readReportFilter = (
 	params: ReadableSearchParams,
@@ -65,6 +87,7 @@ const readReportFilter = (
 	frequency: readFrequency(params),
 	sectionNumber: readSectionNumber(params, sectionNumbers),
 	recipientGroupIds: readRecipientGroupIds(params),
+	preparerTypes: readPreparerTypes(params),
 });
 
 const writeReportFilter = (filter: ReportFilter): URLSearchParams => {
@@ -81,15 +104,20 @@ const writeReportFilter = (filter: ReportFilter): URLSearchParams => {
 	if (filter.sectionNumber !== null) {
 		params.set(FILTER_PARAMS.sectionNumber, filter.sectionNumber);
 	}
-	const recipientGroupIds = RECIPIENT_GROUPS.map((group) => group.id).filter(
-		(id) => filter.recipientGroupIds.has(id),
+	writeList(
+		params,
+		FILTER_PARAMS.recipientGroupIds,
+		RECIPIENT_GROUPS.map((group) => group.id).filter((id) =>
+			filter.recipientGroupIds.has(id),
+		),
 	);
-	if (recipientGroupIds.length > 0) {
-		params.set(
-			FILTER_PARAMS.recipientGroupIds,
-			recipientGroupIds.join(LIST_SEPARATOR),
-		);
-	}
+	writeList(
+		params,
+		FILTER_PARAMS.preparerTypes,
+		PREPARER_TYPES.filter((preparerType) =>
+			filter.preparerTypes.has(preparerType),
+		),
+	);
 	return params;
 };
 

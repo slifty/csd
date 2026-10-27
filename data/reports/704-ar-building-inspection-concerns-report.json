@@ -4,7 +4,18 @@
 	"name": "Building Inspection Concerns Report",
 	"description": "Written report of concerns found during regular physical building inspections.",
 	"type": "report",
-	"preparedBy": "Building principals with building-level Facilities and Maintenance staff",
+	"preparers": [
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Facilities and Maintenance staff",
+			"detail": "building-level",
+			"type": "employees"
+		}
+	],
 	"recipient": "Director of Facilities and Maintenance or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

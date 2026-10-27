@@ -4,7 +4,13 @@
 	"name": "Notification of Reported Threat to Superintendent and Safety Coordinator",
 	"description": "Upon a preliminary determination that behavior may indicate a threat, the team immediately notifies the Superintendent and Safety Coordinator.",
 	"type": "notification",
-	"preparedBy": "Threat assessment team",
+	"preparers": [
+		{
+			"name": "Threat assessment team",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee; School Safety and Security Coordinator",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

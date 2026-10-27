@@ -4,8 +4,14 @@
 	"name": "Annual Notification of Student Records Rights",
 	"description": "Notice of rights concerning student records (FERPA), adapted for people with disabilities or whose dominant language is not English.",
 	"type": "notification",
-	"preparedBy": "Not specified",
-	"recipient": "Parents/guardians and eligible students",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Parents / guardians and eligible students",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "upon initial enrollment and annually thereafter",

@@ -4,7 +4,13 @@
 	"name": "Report on Blood Borne Pathogen Procedures",
 	"description": "Report to the Board on the effectiveness of procedures for students infected by blood borne pathogens, with recommended revisions based on medical developments.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

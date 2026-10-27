@@ -4,7 +4,13 @@
 	"name": "Bodily Fluid Exposure Incident Report",
 	"description": "Report of every exposure to bodily fluids and of student health conditions or behaviors posing a reasonable risk of transmitting infection.",
 	"type": "notification",
-	"preparedBy": "All employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee, building principal, and school nurse",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

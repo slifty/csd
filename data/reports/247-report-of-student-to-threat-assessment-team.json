@@ -4,7 +4,13 @@
 	"name": "Report of Student to Threat Assessment Team",
 	"description": "Staff report a student whose behavior indicates a threat to safety to the threat assessment team.",
 	"type": "report",
-	"preparedBy": "District staff",
+	"preparers": [
+		{
+			"name": "District staff",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Threat assessment team",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

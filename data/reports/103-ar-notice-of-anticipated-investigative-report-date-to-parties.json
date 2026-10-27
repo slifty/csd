@@ -4,7 +4,13 @@
 	"name": "Notice of Anticipated Investigative Report Date to Parties",
 	"description": "Parties are told when the investigative report is expected and of any changes to that date.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Complainant and respondent",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

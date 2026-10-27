@@ -4,8 +4,14 @@
 	"name": "Website Posting of Hazing Policy",
 	"description": "Hazing Policy and AR posted on the District's publicly accessible website.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
-	"recipient": "Students, parents/guardians, coaches, sponsors, volunteers, employees",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Students, parents / guardians, coaches, sponsors, volunteers, employees",
 	"recipientType": "public",
 	"frequency": "ongoing",
 	"deadline": null,

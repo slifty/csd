@@ -1,13 +1,19 @@
 {
 	"id": "713-ar-notice-to-advertiser-of-sign-repair-removal",
 	"policyId": "BG944K09BF57",
-	"name": "Notice to Advertiser of Sign Repair/Removal",
+	"name": "Notice to Advertiser of Sign Repair / Removal",
 	"description": "Notice to the advertiser when signage needs repair or removal, requesting action within 72 hours.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Responsible advertiser",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",
-	"deadline": "request repair/removal within seventy-two (72) hours of notification",
+	"deadline": "request repair / removal within seventy-two (72) hours of notification",
 	"quote": "In the event the District becomes aware of a sign or other advertising/promotional materials requiring repair or removal, the District shall notify the responsible individual or organization and request repair/removal within seventy-two (72) hours of notification."
 }

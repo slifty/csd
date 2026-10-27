@@ -4,7 +4,18 @@
 	"name": "Report of Perceived Conflict of Interest",
 	"description": "Suspected conflicts of interest are reported to the Superintendent (or the Board President if the Superintendent is involved); conflicts involving Board members go to the Board President.",
 	"type": "notification",
-	"preparedBy": "Any employee or third party",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Third parties",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Superintendent or Board President",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -22,6 +22,16 @@ const RECIPIENT_TYPES = [
 	"state-agency",
 ] as const;
 
+const PREPARER_TYPES = [
+	"board",
+	"superintendent",
+	"administrators",
+	"employees",
+	"parents-and-students",
+	"outside-parties",
+	"unspecified",
+] as const;
+
 const RECURRING_FREQUENCIES = [
 	"per-meeting",
 	"monthly",
@@ -45,7 +55,14 @@ const FREQUENCIES = [
 
 type ReportType = (typeof REPORT_TYPES)[number];
 type RecipientType = (typeof RECIPIENT_TYPES)[number];
+type PreparerType = (typeof PREPARER_TYPES)[number];
 type Frequency = (typeof FREQUENCIES)[number];
+
+interface Preparer {
+	readonly name: string;
+	readonly detail: string | null;
+	readonly type: PreparerType;
+}
 
 interface Report {
 	readonly id: string;
@@ -53,7 +70,7 @@ interface Report {
 	readonly name: string;
 	readonly description: string;
 	readonly type: ReportType;
-	readonly preparedBy: string;
+	readonly preparers: readonly Preparer[];
 	readonly recipient: string;
 	readonly recipientType: RecipientType;
 	readonly frequency: Frequency;
@@ -66,9 +83,17 @@ const isRecurring = (report: Pick<Report, "frequency">): boolean =>
 
 export {
 	FREQUENCIES,
+	PREPARER_TYPES,
 	RECIPIENT_TYPES,
 	RECURRING_FREQUENCIES,
 	REPORT_TYPES,
 	isRecurring,
 };
-export type { Frequency, RecipientType, Report, ReportType };
+export type {
+	Frequency,
+	Preparer,
+	PreparerType,
+	RecipientType,
+	Report,
+	ReportType,
+};

@@ -4,7 +4,13 @@
 	"name": "Report of Unjustified Sick Leave Absences",
 	"description": "Names of employees absent for noncompensable cause or whose sick leave pay claims cannot be justified, provided on Board request.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

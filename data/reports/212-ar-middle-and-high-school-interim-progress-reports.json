@@ -4,8 +4,14 @@
 	"name": "Middle and High School Interim Progress Reports",
 	"description": "Written interim reports between the four secondary marking periods to communicate potential academic failure or other concerns.",
 	"type": "report",
-	"preparedBy": "Not specified (secondary staff)",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "secondary staff",
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "quarterly",
 	"deadline": "between report periods",

@@ -4,7 +4,13 @@
 	"name": "Law Enforcement Contact for Vehicle Search",
 	"description": "Law enforcement is contacted to facilitate a vehicle search when there is reasonable suspicion of a direct and immediate threat.",
 	"type": "notification",
-	"preparedBy": "Authorized administrator",
+	"preparers": [
+		{
+			"name": "Authorized administrator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Law enforcement",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

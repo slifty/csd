@@ -4,7 +4,18 @@
 	"name": "Periodic Budget Reports to the Board",
 	"description": "Periodic reports and prepared documents keeping the Board informed about the budget so it can develop, deliberate and adopt the annual budget.",
 	"type": "report",
-	"preparedBy": "Superintendent and/or Business Manager",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		},
+		{
+			"name": "Business Manager",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "as-required",

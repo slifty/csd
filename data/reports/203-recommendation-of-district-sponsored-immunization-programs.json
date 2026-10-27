@@ -4,7 +4,13 @@
 	"name": "Recommendation of District-Sponsored Immunization Programs",
 	"description": "Investigation and recommendation to the Board of District-sponsored immunization programs when circumstances and community health warrant; programs require Board approval.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

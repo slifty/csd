@@ -4,7 +4,13 @@
 	"name": "Evidence of Sabbatical Plan Compliance",
 	"description": "Satisfactory evidence that the approved professional development plan was fully complied with; failure forfeits benefits.",
 	"type": "report",
-	"preparedBy": "Employee returning from professional development sabbatical",
+	"preparers": [
+		{
+			"name": "Employee returning from professional development sabbatical",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "School Performance Data Website Posting",
 	"description": "Posting of school performance data on the District website.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

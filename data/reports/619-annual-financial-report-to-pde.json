@@ -4,7 +4,13 @@
 	"name": "Annual Financial Report to PDE",
 	"description": "The District's annual financial report submitted to PDE.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "annual",

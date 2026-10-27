@@ -4,7 +4,33 @@
 	"name": "Internal Notice of Child Abuse Report Filed",
 	"description": "After a report is made, the reporter notifies the principal (with the report confirmation), and the principal immediately notifies the Superintendent.",
 	"type": "notification",
-	"preparedBy": "Reporting employee/contractor/volunteer; building principal or administrator",
+	"preparers": [
+		{
+			"name": "Reporting employee",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Reporting contractor",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Reporting volunteer",
+			"detail": null,
+			"type": "outside-parties"
+		},
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Building administrator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Building principal or administrator; Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

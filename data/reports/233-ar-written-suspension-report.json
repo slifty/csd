@@ -2,10 +2,16 @@
 	"id": "233-ar-written-suspension-report",
 	"policyId": "D4K2X80446EF",
 	"name": "Written Suspension Report",
-	"description": "Immediate written report of any suspension (1-10 days) to the Superintendent and the parent/guardian; Attachment 1 may be used.",
+	"description": "Immediate written report of any suspension (1-10 days) to the Superintendent and the parent / guardian; Attachment 1 may be used.",
 	"type": "notification",
-	"preparedBy": "Principal or designee",
-	"recipient": "Superintendent and parent/guardian",
+	"preparers": [
+		{
+			"name": "Building principal or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Superintendent and parent / guardian",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "immediately",

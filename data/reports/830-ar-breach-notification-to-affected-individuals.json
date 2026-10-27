@@ -4,7 +4,13 @@
 	"name": "Breach Notification to Affected Individuals",
 	"description": "Notice to people whose unencrypted personal information was accessed, giving District contact information, the categories of information involved, and the specific data elements.",
 	"type": "notification",
-	"preparedBy": "Employee designated to provide notification",
+	"preparers": [
+		{
+			"name": "Employee designated to provide notification",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Affected individuals / Commonwealth residents",
 	"recipientType": "public",
 	"frequency": "event-triggered",

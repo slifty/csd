@@ -4,7 +4,13 @@
 	"name": "Field Trip Proposal for Approval",
 	"description": "Field trip proposals are presented to the principal and, if approved, forwarded to the Assistant Superintendent; includes the adult-supervision plan.",
 	"type": "plan",
-	"preparedBy": "District staff member proposing the trip",
+	"preparers": [
+		{
+			"name": "District staff member proposing the trip",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Building principal, then Assistant Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Driver Notice of Traffic Conviction",
 	"description": "Written notice of any non-parking motor vehicle traffic conviction.",
 	"type": "notification",
-	"preparedBy": "Covered driver",
+	"preparers": [
+		{
+			"name": "School vehicle driver",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee and contract carrier",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

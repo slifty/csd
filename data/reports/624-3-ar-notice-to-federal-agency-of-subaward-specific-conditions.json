@@ -4,7 +4,13 @@
 	"name": "Notice to Federal Agency of Subaward Specific Conditions",
 	"description": "Notice of specific conditions the District imposes on a subaward based on risk evaluation.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal agency",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

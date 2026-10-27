@@ -4,7 +4,28 @@
 	"name": "Inadvertent Access to Inappropriate Material Disclosure",
 	"description": "User immediately discloses inadvertent access to inappropriate material; the recipient then notifies the Director of Technology.",
 	"type": "notification",
-	"preparedBy": "User; receiving teacher/supervisor/principal",
+	"preparers": [
+		{
+			"name": "User",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Receiving teacher",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "Supervisor",
+			"detail": null,
+			"type": "administrators"
+		},
+		{
+			"name": "Building principal",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Teacher, supervisor or principal; then Director of Technology",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

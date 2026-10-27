@@ -4,7 +4,13 @@
 	"name": "Leave Extension Request",
 	"description": "Written request to extend a leave; failure to return without an extension may result in termination.",
 	"type": "notification",
-	"preparedBy": "Employee on leave",
+	"preparers": [
+		{
+			"name": "Employee on leave",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Office of Human Resources",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

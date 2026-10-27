@@ -4,7 +4,13 @@
 	"name": "Notice of Employee Drug Conviction to Federal Grantor Agencies",
 	"description": "Notice of an employee's drug conviction to any federal grantor agency (Drug-Free Workplace Act).",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal agencies that grant funds to the District",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

@@ -5,7 +5,19 @@ const LONG_DATE = new Intl.DateTimeFormat("en-US", {
 	timeZone: "UTC",
 });
 
-const formatIsoDate = (date: IsoDate): string =>
-	LONG_DATE.format(new Date(`${date}T00:00:00Z`));
+const NUMERIC_DATE = new Intl.DateTimeFormat("en-US", {
+	year: "numeric",
+	month: "2-digit",
+	day: "2-digit",
+	timeZone: "UTC",
+});
 
-export { formatIsoDate };
+const atUtcMidnight = (date: IsoDate): Date => new Date(`${date}T00:00:00Z`);
+
+const formatIsoDate = (date: IsoDate): string =>
+	LONG_DATE.format(atUtcMidnight(date));
+
+const formatNumericIsoDate = (date: IsoDate): string =>
+	NUMERIC_DATE.format(atUtcMidnight(date));
+
+export { formatIsoDate, formatNumericIsoDate };

@@ -4,7 +4,13 @@
 	"name": "Annual School Safety and Security Report",
 	"description": "Report on current safety and security practices and strategies to improve them, presented to the Board in executive session and submitted to the statewide School Safety and Security Committee; exempt from Right-to-Know.",
 	"type": "report",
-	"preparedBy": "School Safety and Security Coordinator (District Safety and Security Manager)",
+	"preparers": [
+		{
+			"name": "School Safety and Security Coordinator",
+			"detail": "District Safety and Security Manager",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board (executive session); statewide School Safety and Security Committee",
 	"recipientType": "board",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "Public Posting of Meeting Agenda",
 	"description": "Posting of the agenda for every open Board or committee meeting on the District website, at the meeting location and at the administrative office, listing each matter that may be deliberated or acted on.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "per-meeting",

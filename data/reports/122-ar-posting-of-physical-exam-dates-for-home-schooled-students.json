@@ -4,7 +4,13 @@
 	"name": "Posting of Physical Exam Dates for Home-Schooled Students",
 	"description": "Dates and times of District-offered physicals or medical tests required for activities are posted.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public / home-schooled students",
 	"recipientType": "public",
 	"frequency": "as-required",

@@ -4,7 +4,13 @@
 	"name": "Right-to-Know Information Posting",
 	"description": "Ongoing posting at the administration office and on the website of Open Records Officer and Office of Open Records contact information, the request form(s), and the governing policy and regulations.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "ongoing",

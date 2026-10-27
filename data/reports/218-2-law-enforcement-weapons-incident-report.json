@@ -4,7 +4,13 @@
 	"name": "Law Enforcement Weapons Incident Report",
 	"description": "Immediate report of weapons incidents on school property, at school activities, or on school transportation, per state law and the MOU with law enforcement.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Law enforcement agency with jurisdiction over school property",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

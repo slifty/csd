@@ -4,7 +4,13 @@
 	"name": "Annual Student Medical History Report Form",
 	"description": "Parents complete a medical history form, including known communicable diseases, before first admission and annually thereafter.",
 	"type": "data-submission",
-	"preparedBy": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "District (school nurse)",
 	"recipientType": "administration",
 	"frequency": "annual",

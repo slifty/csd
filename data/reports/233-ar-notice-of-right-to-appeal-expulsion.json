@@ -4,7 +4,13 @@
 	"name": "Notice of Right to Appeal Expulsion",
 	"description": "Notice of the right to appeal the hearing results, provided with the expulsion decision.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Student",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

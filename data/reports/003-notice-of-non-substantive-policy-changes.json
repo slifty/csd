@@ -4,7 +4,13 @@
 	"name": "Notice of Non-Substantive Policy Changes",
 	"description": "Public notice to the full Board of any non-substantive policy edits made by the Policy Committee (numbering, titles, citations, terminology).",
 	"type": "notification",
-	"preparedBy": "Policy Committee Chair or designee",
+	"preparers": [
+		{
+			"name": "Policy Committee Chair or designee",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

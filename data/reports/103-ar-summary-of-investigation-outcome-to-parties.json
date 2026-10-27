@@ -4,7 +4,13 @@
 	"name": "Summary of Investigation Outcome to Parties",
 	"description": "Parties receive a summary of the investigation's outcome (not the full report).",
 	"type": "data-submission",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Complainant and respondent",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

@@ -54,9 +54,10 @@ src/
 │       ├── +page.server.ts       # Reports joined to a summary of their policy
 │       └── +page.svelte          # The required reports viewer
 └── lib/
-    ├── components/               # The viewer's tallies, filters, and table
-    ├── dates.ts                  # ISO date -> "March 9, 2021"
-    ├── report-labels.ts          # What each type, recipient, and frequency is called
+    ├── components/               # The viewer's filters and table
+    ├── dates.ts                  # ISO date -> "March 9, 2021" or "03/09/2021"
+    ├── report-filter-url.ts      # Filters <-> the page's query string
+    ├── report-labels.ts          # What each type, recipient, preparer, and frequency is called
     └── report-listing.ts         # Recipient groups, views, and filtering
 ```
 
@@ -77,7 +78,8 @@ data/
 │   ├── policies/<id>.html
 │   └── attachments/<id>/<file>
 ├── policies/<id>.json         # One Policy each, generated from boarddocs/
-└── reports/<id>.json          # One Report each, written by hand
+├── reports/<id>.json          # One Report each, written by hand
+└── source.json                # The date the boarddocs/ snapshot was taken
 tools/
 └── extract-policies.ts        # boarddocs/ -> policies/
 src/lib/
@@ -89,7 +91,8 @@ src/lib/
     ├── html.ts                # Entity decoding and text extraction
     ├── policies.ts            # Every policy in data/policies/
     ├── policy-file.ts         # How a Policy is written to its file
-    └── reports.ts             # Every report in data/reports/, validated
+    ├── reports.ts             # Every report in data/reports/, validated
+    └── source.ts              # The snapshot date from data/source.json
 ```
 
 **The JSON holds only what the application uses.** A policy file has the

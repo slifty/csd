@@ -4,7 +4,13 @@
 	"name": "Induction Plan Public Inspection",
 	"description": "Induction plan made available for public inspection and comment at District administrative offices and the nearest public library.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Public",
 	"recipientType": "public",
 	"frequency": "every-6-years",

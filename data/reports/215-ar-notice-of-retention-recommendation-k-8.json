@@ -4,8 +4,14 @@
 	"name": "Notice of Retention Recommendation (K-8)",
 	"description": "Written advice whether retention is ultimately recommended for a K-8 student, with an offer of a follow-up conference.",
 	"type": "notification",
-	"preparedBy": "Not specified (school principal)",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "school principal",
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "prior to the end of the school year",

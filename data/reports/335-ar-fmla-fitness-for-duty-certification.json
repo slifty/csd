@@ -4,7 +4,13 @@
 	"name": "FMLA Fitness-for-Duty Certification",
 	"description": "Health care provider certification that an employee returning from leave for their own serious health condition is able to return to work.",
 	"type": "certification",
-	"preparedBy": "Employee (from health care provider)",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": "from health care provider",
+			"type": "employees"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

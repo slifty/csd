@@ -4,7 +4,13 @@
 	"name": "Unresolved Complaint Report to the Board",
 	"description": "Complete report to the Board on a complaint the Superintendent cannot resolve or that is beyond the Superintendent's authority.",
 	"type": "report",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

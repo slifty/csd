@@ -4,7 +4,13 @@
 	"name": "Referral of Controlled Substance Violations to Law Enforcement",
 	"description": "Violations are referred to law enforcement as required by law and the MOU with local law enforcement.",
 	"type": "report",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Appropriate law enforcement agencies",
 	"recipientType": "law-enforcement",
 	"frequency": "event-triggered",

@@ -4,8 +4,14 @@
 	"name": "Annual Notice of Threat Assessment Team",
 	"description": "Annual website notice of the existence and purpose of the threat assessment team.",
 	"type": "public-posting",
-	"preparedBy": "District",
-	"recipient": "Students, staff and parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Students, staff and parents / guardians",
 	"recipientType": "public",
 	"frequency": "annual",
 	"deadline": "annually",

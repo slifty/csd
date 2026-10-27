@@ -4,8 +4,19 @@
 	"name": "Parent Notice of Intent to Text Students",
 	"description": "Employees approved to text students must notify parents in writing and give students a chance to opt out.",
 	"type": "notification",
-	"preparedBy": "Employee (coach/advisor) with principal permission",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Coach",
+			"detail": "with principal permission",
+			"type": "employees"
+		},
+		{
+			"name": "Activity advisor",
+			"detail": "with principal permission",
+			"type": "employees"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "after principal permission, before texting begins",

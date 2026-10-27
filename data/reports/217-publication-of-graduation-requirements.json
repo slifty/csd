@@ -4,8 +4,14 @@
 	"name": "Publication of Graduation Requirements",
 	"description": "Graduation requirements are published and distributed to students and families.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Students and parents/guardians",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Students and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

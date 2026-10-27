@@ -4,7 +4,13 @@
 	"name": "Proof of Residence for Advance-Enrolled Military Children",
 	"description": "Parents of advance-enrolled military children provide proof of residence after arrival.",
 	"type": "certification",
-	"preparedBy": "Parent/guardian",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": null,
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Forwarding of Discrimination Reports to Title IX Coordinator",
 	"description": "Reports of Title IX sex discrimination, other discrimination or retaliation received by any employee must be forwarded to the Title IX Coordinator for response and investigation.",
 	"type": "notification",
-	"preparedBy": "School employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Title IX Coordinator (or Superintendent if Coordinator is the subject)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

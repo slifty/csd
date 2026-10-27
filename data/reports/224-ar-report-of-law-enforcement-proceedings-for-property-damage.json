@@ -4,7 +4,13 @@
 	"name": "Report of Law Enforcement Proceedings for Property Damage",
 	"description": "Any proceeding commenced with police or the Magisterial District Judge over property damage or unpaid fines is promptly reported to the Superintendent.",
 	"type": "notification",
-	"preparedBy": "Not specified (building principal)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "building principal",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Superintendent",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

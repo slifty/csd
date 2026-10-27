@@ -4,7 +4,13 @@
 	"name": "Federal Expenditure Source Documentation for PDE Review",
 	"description": "Source documentation (invoices, payroll records, award letters, budget justifications) supporting federal expenditures, made available to PDE.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

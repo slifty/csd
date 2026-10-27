@@ -4,7 +4,13 @@
 	"name": "Seclusion Update to the Board",
 	"description": "Updates to the Board on any use of seclusion in District schools.",
 	"type": "report",
-	"preparedBy": "Not specified (Director of Special Education monitors seclusion reports)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "Director of Special Education monitors seclusion reports",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "semiannual",

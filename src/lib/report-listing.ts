@@ -1,7 +1,12 @@
 import { FREQUENCY_LABELS, REPORT_TYPE_LABELS } from "./report-labels.ts";
-import { isRecurring } from "./report.ts";
+import { PREPARER_TYPES, isRecurring } from "./report.ts";
 import type { Policy } from "./policy.ts";
-import type { Frequency, RecipientType, Report } from "./report.ts";
+import type {
+	Frequency,
+	PreparerType,
+	RecipientType,
+	Report,
+} from "./report.ts";
 
 type PolicySummary = Pick<
 	Policy,
@@ -60,6 +65,7 @@ interface ReportFilter {
 	readonly frequency: Frequency | null;
 	readonly sectionNumber: string | null;
 	readonly recipientGroupIds: ReadonlySet<RecipientGroupId>;
+	readonly preparerTypes: ReadonlySet<PreparerType>;
 }
 
 const SEARCH_TERM_SEPARATOR = /\s+/v;
@@ -85,7 +91,7 @@ const searchableText = ({ report, policy }: ReportListing): string =>
 		report.name,
 		report.description,
 		report.recipient,
-		report.preparedBy,
+		...report.preparers.flatMap(({ name, detail }) => [name, detail ?? ""]),
 		report.deadline ?? "",
 		report.quote,
 		REPORT_TYPE_LABELS[report.type],
@@ -117,7 +123,22 @@ const matchesRecipientGroups = (
 		(group) => recipientGroupIds.has(group.id) && isInGroup(group, listing),
 	);
 
-const matchesAllButRecipients = (
+const hasPreparerType = (
+	preparerType: PreparerType,
+	listing: ReportListing,
+): boolean =>
+	listing.report.preparers.some(({ type }) => type === preparerType);
+
+const matchesPreparerTypes = (
+	preparerTypes: ReadonlySet<PreparerType>,
+	listing: ReportListing,
+): boolean =>
+	preparerTypes.size === 0 ||
+	[...preparerTypes].some((preparerType) =>
+		hasPreparerType(preparerType, listing),
+	);
+
+const matchesSelectAndSearchFilters = (
 	filter: ReportFilter,
 	listing: ReportListing,
 ): boolean =>
@@ -129,15 +150,17 @@ const matchesAllButRecipients = (
 	matchesSearch(filter.search, listing);
 
 const matchesFilter = (filter: ReportFilter, listing: ReportListing): boolean =>
-	matchesAllButRecipients(filter, listing) &&
-	matchesRecipientGroups(filter.recipientGroupIds, listing);
+	matchesSelectAndSearchFilters(filter, listing) &&
+	matchesRecipientGroups(filter.recipientGroupIds, listing) &&
+	matchesPreparerTypes(filter.preparerTypes, listing);
 
 const countByRecipientGroup = (
 	filter: ReportFilter,
 	listings: readonly ReportListing[],
 ): ReadonlyMap<RecipientGroupId, number> => {
+	const withoutRecipients = { ...filter, recipientGroupIds: new Set<never>() };
 	const candidates = listings.filter((listing) =>
-		matchesAllButRecipients(filter, listing),
+		matchesFilter(withoutRecipients, listing),
 	);
 	return new Map(
 		RECIPIENT_GROUPS.map((group) => [
@@ -147,9 +170,27 @@ const countByRecipientGroup = (
 	);
 };
 
+const countByPreparerType = (
+	filter: ReportFilter,
+	listings: readonly ReportListing[],
+): ReadonlyMap<PreparerType, number> => {
+	const withoutPreparers = { ...filter, preparerTypes: new Set<never>() };
+	const candidates = listings.filter((listing) =>
+		matchesFilter(withoutPreparers, listing),
+	);
+	return new Map(
+		PREPARER_TYPES.map((preparerType) => [
+			preparerType,
+			candidates.filter((listing) => hasPreparerType(preparerType, listing))
+				.length,
+		]),
+	);
+};
+
 export {
 	RECIPIENT_GROUPS,
 	REPORT_VIEWS,
+	countByPreparerType,
 	countByRecipientGroup,
 	isInView,
 	matchesFilter,

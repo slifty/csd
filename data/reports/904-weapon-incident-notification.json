@@ -4,8 +4,14 @@
 	"name": "Weapon Incident Notification",
 	"description": "Notice of an incident involving weapon possession on school property, at a school activity or on school transportation (details in Policy 218.2).",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Employees and parents/guardians of students",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Employees and parents / guardians of students",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

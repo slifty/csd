@@ -4,7 +4,13 @@
 	"name": "Continuing Disclosure Compliance",
 	"description": "The District commits to timely compliance with all bond continuing disclosure agreements; details are in 602-Ar.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Bond market (per continuing disclosure agreements)",
 	"recipientType": "other-external",
 	"frequency": "as-required",

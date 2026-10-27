@@ -4,7 +4,13 @@
 	"name": "Retroactive Approval Recommendation for Substitutes",
 	"description": "Recommendation for retroactive Board approval of substitutes used before Board approval to maintain program continuity.",
 	"type": "recommendation",
-	"preparedBy": "Not specified (Superintendent or designee implied)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "Superintendent or designee implied",
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

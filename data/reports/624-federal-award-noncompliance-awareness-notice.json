@@ -4,7 +4,13 @@
 	"name": "Federal Award Noncompliance Awareness Notice",
 	"description": "Employees, contractors and subrecipients are made aware that noncompliance may lead to additional conditions or termination of the award.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Employees, contractors and subrecipients in federally funded programs",
 	"recipientType": "employees",
 	"frequency": "ongoing",

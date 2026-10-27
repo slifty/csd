@@ -4,8 +4,14 @@
 	"name": "Suicide Prevention Resources for Parents",
 	"description": "Resources on health promotion, suicide risk, warning signs and behavioral health resources.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

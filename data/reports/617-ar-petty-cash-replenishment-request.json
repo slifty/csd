@@ -4,7 +4,13 @@
 	"name": "Petty Cash Replenishment Request",
 	"description": "Signed form listing individual receipts, account numbers and amounts, with remaining cash noted to verify the fund balance.",
 	"type": "data-submission",
-	"preparedBy": "Person responsible for the petty cash fund",
+	"preparers": [
+		{
+			"name": "Person responsible for the petty cash fund",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Director of Business Services or designee",
 	"recipientType": "administration",
 	"frequency": "as-required",

@@ -4,7 +4,13 @@
 	"name": "Director of Special Education Notification",
 	"description": "Notice to the Director of Special Education when an at-risk student may require special education services or accommodations.",
 	"type": "notification",
-	"preparedBy": "Not specified",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
 	"recipient": "Director of Special Education",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,8 +4,14 @@
 	"name": "Notice of Academic Assistance Availability",
 	"description": "Students and parents are informed how to access assistance for students not attaining proficiency.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Students and parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Students and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "ongoing",
 	"deadline": null,

@@ -4,7 +4,13 @@
 	"name": "Final Sabbatical Report",
 	"description": "Final written report on the professional benefits derived and how they will be shared with others in the District.",
 	"type": "report",
-	"preparedBy": "Employee returning from sabbatical",
+	"preparers": [
+		{
+			"name": "Employee returning from sabbatical",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Notice to Educator of Discipline Recommendation",
 	"description": "Notice to the educator of any discipline recommendation the District makes to PDE.",
 	"type": "notification",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Educator",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

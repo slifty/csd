@@ -4,7 +4,13 @@
 	"name": "Updated Child Abuse History Certification",
 	"description": "New child abuse history certification required when the employee is reasonably believed to be named as a perpetrator in a founded or indicated report.",
 	"type": "certification",
-	"preparedBy": "Employee",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

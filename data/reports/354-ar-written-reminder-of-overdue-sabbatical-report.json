@@ -4,7 +4,13 @@
 	"name": "Written Reminder of Overdue Sabbatical Report",
 	"description": "Written reminder to an employee who has not submitted the formal sabbatical report; benefits are forfeited if not submitted within 10 calendar days after the reminder.",
 	"type": "notification",
-	"preparedBy": "Not specified (District)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Employee",
 	"recipientType": "employees",
 	"frequency": "event-triggered",

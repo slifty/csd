@@ -4,7 +4,13 @@
 	"name": "Report of Subrecipient Noncompliance to Federal Agency",
 	"description": "Report of subrecipient noncompliance issues where required by law, regulations or program requirements.",
 	"type": "report",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Appropriate federal agency",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

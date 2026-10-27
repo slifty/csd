@@ -4,7 +4,13 @@
 	"name": "Board Written Decision on Complaint",
 	"description": "Written decision to the complainant after the Board reviews a fourth-level complaint.",
 	"type": "notification",
-	"preparedBy": "Board",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		}
+	],
 	"recipient": "Complainant",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Outside Business Interest Disclosure",
 	"description": "Disclosure on Attachment A of outside business interests and the names of District students employed by or volunteering in them.",
 	"type": "notification",
-	"preparedBy": "District employees",
+	"preparers": [
+		{
+			"name": "Employees",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Direct supervisor",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

@@ -4,8 +4,14 @@
 	"name": "Parent and Director Notification of Seclusion",
 	"description": "Notice of each use of seclusion; a written report of the seclusion must be completed within one working day and kept in the student's file.",
 	"type": "notification",
-	"preparedBy": "Building administrator",
-	"recipient": "Parent/guardian; Director of Special Education",
+	"preparers": [
+		{
+			"name": "Building administrator",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parent / guardian; Director of Special Education",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": "as soon as reasonably possible, no more than 24 hours after the seclusion",

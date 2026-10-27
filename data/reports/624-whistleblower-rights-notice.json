@@ -4,7 +4,13 @@
 	"name": "Whistleblower Rights Notice",
 	"description": "Written notice of employee whistleblower rights and protections, provided by posting the Policy on the District website.",
 	"type": "public-posting",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Employees (posted on District website)",
 	"recipientType": "employees",
 	"frequency": "ongoing",

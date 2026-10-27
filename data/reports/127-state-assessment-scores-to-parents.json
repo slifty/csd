@@ -4,8 +4,14 @@
 	"name": "State Assessment Scores to Parents",
 	"description": "Parents receive their child's state assessment scores and may obtain an explanation.",
 	"type": "report",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "as-required",
 	"deadline": null,

@@ -4,7 +4,13 @@
 	"name": "Annual Audit of Student Activity Funds",
 	"description": "All student activity funds are audited annually by the independent auditor.",
 	"type": "audit",
-	"preparedBy": "District's independent auditor",
+	"preparers": [
+		{
+			"name": "Independent auditor",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Not specified",
 	"recipientType": "administration",
 	"frequency": "annual",

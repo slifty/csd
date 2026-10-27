@@ -4,7 +4,18 @@
 	"name": "Student Activity Fund Documents",
 	"description": "Required records of all student activity funds collected and disbursed, submitted to the Superintendent.",
 	"type": "data-submission",
-	"preparedBy": "Organization student treasurer and faculty advisor",
+	"preparers": [
+		{
+			"name": "Student treasurer",
+			"detail": "of the organization",
+			"type": "parents-and-students"
+		},
+		{
+			"name": "Faculty advisor",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "ongoing",

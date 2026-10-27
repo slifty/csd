@@ -4,7 +4,13 @@
 	"name": "Volunteer Arrest or Conviction Report",
 	"description": "Written report of any new arrest or conviction for an offense that would bar volunteer work with children.",
 	"type": "notification",
-	"preparedBy": "Volunteers required to obtain certifications",
+	"preparers": [
+		{
+			"name": "Volunteers required to obtain certifications",
+			"detail": null,
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

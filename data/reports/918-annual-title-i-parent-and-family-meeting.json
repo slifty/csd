@@ -4,7 +4,13 @@
 	"name": "Annual Title I Parent and Family Meeting",
 	"description": "Annual meeting explaining Title I goals and purposes and parents' right to be involved, with information on programs, curriculum, assessments and achievement levels.",
 	"type": "presentation",
-	"preparedBy": "Each District school operating a Title I program",
+	"preparers": [
+		{
+			"name": "Each District school operating a Title I program",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Parents and family members",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "Superintendent Written Response to Whistleblower Appeal",
 	"description": "The Superintendent reviews an appeal of the investigation findings and issues a written response, with copies to the complainant.",
 	"type": "report",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Complainant",
 	"recipientType": "other-external",
 	"frequency": "event-triggered",

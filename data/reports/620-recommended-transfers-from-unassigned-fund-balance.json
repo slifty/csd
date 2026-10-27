@@ -4,7 +4,13 @@
 	"name": "Recommended Transfers from Unassigned Fund Balance",
 	"description": "Recommendations for transfers from the unassigned fund balance to comply with law or meet financial objectives (target 6-8% of budgeted expenditures).",
 	"type": "recommendation",
-	"preparedBy": "Director of Business Services",
+	"preparers": [
+		{
+			"name": "Director of Business Services",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

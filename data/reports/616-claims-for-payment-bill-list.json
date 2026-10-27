@@ -4,7 +4,13 @@
 	"name": "Claims for Payment (Bill List)",
 	"description": "All claims for payment are submitted to the Board for approval and recorded in the meeting minutes.",
 	"type": "data-submission",
-	"preparedBy": "Not specified (Business Office)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "Business Office",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "per-meeting",

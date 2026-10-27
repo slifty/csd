@@ -4,7 +4,13 @@
 	"name": "Drug-Free Workplace Awareness Program",
 	"description": "Informing employees about dangers of workplace drug abuse, the drug-free workplace policy, available counseling and assistance programs, and penalties.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Employees",
 	"recipientType": "employees",
 	"frequency": "ongoing",

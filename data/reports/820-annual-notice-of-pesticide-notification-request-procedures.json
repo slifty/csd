@@ -4,8 +4,14 @@
 	"name": "Annual Notice of Pesticide Notification Request Procedures",
 	"description": "Annual notice telling parents how to request notification of planned and emergency pesticide applications in schools and on grounds.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "annually",

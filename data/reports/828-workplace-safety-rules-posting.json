@@ -4,7 +4,13 @@
 	"name": "Workplace Safety Rules Posting",
 	"description": "Rules for workplace safety and accident prevention are posted, and employees are instructed on how to report work accidents or injuries.",
 	"type": "public-posting",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Employees",
 	"recipientType": "employees",
 	"frequency": "ongoing",

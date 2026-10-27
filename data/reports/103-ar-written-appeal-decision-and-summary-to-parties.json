@@ -4,7 +4,13 @@
 	"name": "Written Appeal Decision and Summary to Parties",
 	"description": "Appeals officer issues a written decision to the Title IX Coordinator and a summary of the appeal outcome to the parties.",
 	"type": "report",
-	"preparedBy": "Appeals officer",
+	"preparers": [
+		{
+			"name": "Appeals officer",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Title IX Coordinator; parties",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

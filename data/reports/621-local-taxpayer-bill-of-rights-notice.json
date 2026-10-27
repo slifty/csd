@@ -4,7 +4,18 @@
 	"name": "Local Taxpayer Bill of Rights Notice",
 	"description": "Notice to taxpayers of the District's Local Taxpayer Bill of Rights when contacted about assessment, audit, review or collection of eligible taxes (realty transfer, business privilege, mercantile license, earned income).",
 	"type": "notification",
-	"preparedBy": "Board / Director of Business Services or designee",
+	"preparers": [
+		{
+			"name": "Board",
+			"detail": null,
+			"type": "board"
+		},
+		{
+			"name": "Director of Business Services or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Taxpayers",
 	"recipientType": "public",
 	"frequency": "event-triggered",

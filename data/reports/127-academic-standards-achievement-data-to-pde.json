@@ -4,7 +4,13 @@
 	"name": "Academic Standards Achievement Data to PDE",
 	"description": "Information on achievement of academic standards, without individually identifiable student information unless required by law.",
 	"type": "data-submission",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "PA Department of Education",
 	"recipientType": "state-agency",
 	"frequency": "event-triggered",

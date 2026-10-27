@@ -4,7 +4,13 @@
 	"name": "Mandatory Disclosure of Federal Award Violations",
 	"description": "Prompt written disclosure of credible evidence of federal criminal fraud, conflict of interest, bribery or gratuity violations, or False Claims Act violations; also recipient integrity and performance reporting per Appendix XII.",
 	"type": "notification",
-	"preparedBy": "District (as recipient/subrecipient)",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": "as recipient / subrecipient",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal agency, its Office of Inspector General, and pass-through entity",
 	"recipientType": "federal-agency",
 	"frequency": "event-triggered",

@@ -1,10 +1,16 @@
 {
 	"id": "704-maintenance-staffing-resource-recommendations",
 	"policyId": "DKJTZD79C7E7",
-	"name": "Maintenance Staffing/Resource Recommendations",
+	"name": "Maintenance Staffing / Resource Recommendations",
 	"description": "Recommendations to the Board when additional staff or resources are needed for custodial, grounds or maintenance initiatives.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Past-Due Certification Letter",
 	"description": "Certified letter stating the certification is past due and must be submitted within 10 days of receipt.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Home education program supervisor",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",

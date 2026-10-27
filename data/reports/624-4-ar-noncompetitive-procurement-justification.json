@@ -4,7 +4,13 @@
 	"name": "Noncompetitive Procurement Justification",
 	"description": "Grounds, analysis and documentation for using a noncompetitive (sole source) procurement method, submitted to the Business Office; all noncompetitive proposals are approved by the Board.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Business Office (procurement ultimately approved by Board)",
 	"recipientType": "administration",
 	"frequency": "event-triggered",

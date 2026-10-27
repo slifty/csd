@@ -4,7 +4,13 @@
 	"name": "Home Education Affidavit",
 	"description": "Notarized affidavit naming the supervisor and children, program site, subjects and objectives, immunization evidence, and criminal-history certification.",
 	"type": "certification",
-	"preparedBy": "Parent/guardian (home education program supervisor)",
+	"preparers": [
+		{
+			"name": "Parent / guardian",
+			"detail": "home education program supervisor",
+			"type": "parents-and-students"
+		}
+	],
 	"recipient": "Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "annual",

@@ -4,7 +4,13 @@
 	"name": "Field Trip Cancellation Notice to the Board",
 	"description": "Superintendent informs the Board when a field trip is cancelled because of war, terrorism, natural disaster or other danger.",
 	"type": "notification",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

@@ -4,7 +4,13 @@
 	"name": "Notification of Tobacco and Vaping Policy",
 	"description": "Notice of the tobacco and vaping policy through handbooks, newsletters, posters, the District website, or similar.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Employees and contracted personnel",
 	"recipientType": "employees",
 	"frequency": "ongoing",

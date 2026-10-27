@@ -4,7 +4,13 @@
 	"name": "Drug and Alcohol Program Statistical Records for FHWA",
 	"description": "Statistical records and reports of the drug and alcohol testing program maintained and made available for federal inspection or audit.",
 	"type": "data-submission",
-	"preparedBy": "District",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Federal Highway Administration",
 	"recipientType": "federal-agency",
 	"frequency": "ongoing",

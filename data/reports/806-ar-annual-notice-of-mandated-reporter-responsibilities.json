@@ -4,7 +4,13 @@
 	"name": "Annual Notice of Mandated Reporter Responsibilities",
 	"description": "Annual reminder to staff, contractors and volunteers of their duty to report suspected child abuse.",
 	"type": "notification",
-	"preparedBy": "Superintendent or designee",
+	"preparers": [
+		{
+			"name": "Superintendent or designee",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "District staff, independent contractors and volunteers",
 	"recipientType": "employees",
 	"frequency": "annual",

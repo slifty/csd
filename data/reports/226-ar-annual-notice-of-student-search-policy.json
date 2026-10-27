@@ -4,8 +4,14 @@
 	"name": "Annual Notice of Student Search Policy",
 	"description": "Annual notice of Policy 226 and its AR, posted on the District website and in student handbooks.",
 	"type": "public-posting",
-	"preparedBy": "Not specified",
-	"recipient": "Students and parents/guardians",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": null,
+			"type": "unspecified"
+		}
+	],
+	"recipient": "Students and parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "annual",
 	"deadline": "at least annually",

@@ -4,7 +4,13 @@
 	"name": "Time and Effort Reporting",
 	"description": "Documentation of time worked in support of each federal program by federally paid employees.",
 	"type": "data-submission",
-	"preparedBy": "Employees paid with federal funds",
+	"preparers": [
+		{
+			"name": "Employees paid with federal funds",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "ongoing",

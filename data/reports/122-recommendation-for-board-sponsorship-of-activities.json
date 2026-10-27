@@ -4,7 +4,13 @@
 	"name": "Recommendation for Board Sponsorship of Activities",
 	"description": "Activities become Board-sponsored when approved by the Board on the Superintendent's recommendation.",
 	"type": "recommendation",
-	"preparedBy": "Superintendent",
+	"preparers": [
+		{
+			"name": "Superintendent",
+			"detail": null,
+			"type": "superintendent"
+		}
+	],
 	"recipient": "Board",
 	"recipientType": "board",
 	"frequency": "event-triggered",

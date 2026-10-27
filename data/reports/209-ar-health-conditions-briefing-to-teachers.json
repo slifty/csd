@@ -4,7 +4,18 @@
 	"name": "Health Conditions Briefing to Teachers",
 	"description": "Teachers are informed of student health conditions that may affect behavior, appearance or scholastic performance.",
 	"type": "notification",
-	"preparedBy": "School physicians or school nurses",
+	"preparers": [
+		{
+			"name": "School nurse",
+			"detail": null,
+			"type": "employees"
+		},
+		{
+			"name": "School physician",
+			"detail": null,
+			"type": "employees"
+		}
+	],
 	"recipient": "Teachers",
 	"recipientType": "employees",
 	"frequency": "ongoing",

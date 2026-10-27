@@ -4,7 +4,13 @@
 	"name": "Renewable Energy and Conservation Technology Recommendations",
 	"description": "New renewable energy, energy-saving and sustainability technologies are researched and presented to the Facilities Committee when found feasible and cost-effective.",
 	"type": "recommendation",
-	"preparedBy": "Director of Facilities and Maintenance or designee",
+	"preparers": [
+		{
+			"name": "Director of Facilities and Maintenance or designee",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
 	"recipient": "Facilities Committee",
 	"recipientType": "board",
 	"frequency": "event-triggered",

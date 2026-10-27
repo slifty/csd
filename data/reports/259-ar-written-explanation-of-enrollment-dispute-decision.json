@@ -4,8 +4,14 @@
 	"name": "Written Explanation of Enrollment Dispute Decision",
 	"description": "In a school selection or enrollment dispute, parents receive a written explanation of the decision, appeal rights and procedures.",
 	"type": "notification",
-	"preparedBy": "District",
-	"recipient": "Parents/guardians",
+	"preparers": [
+		{
+			"name": "District",
+			"detail": null,
+			"type": "administrators"
+		}
+	],
+	"recipient": "Parents / guardians",
 	"recipientType": "parents-and-students",
 	"frequency": "event-triggered",
 	"deadline": null,

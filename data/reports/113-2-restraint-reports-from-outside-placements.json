@@ -4,7 +4,28 @@
 	"name": "Restraint Reports from Outside Placements",
 	"description": "Outside entities educating District students with disabilities must report restraint use to the District.",
 	"type": "report",
-	"preparedBy": "Private schools, agencies, intermediate units and CTE schools educating District students",
+	"preparers": [
+		{
+			"name": "Private schools",
+			"detail": "educating District students",
+			"type": "outside-parties"
+		},
+		{
+			"name": "Agencies",
+			"detail": "educating District students",
+			"type": "outside-parties"
+		},
+		{
+			"name": "Intermediate units",
+			"detail": "educating District students",
+			"type": "outside-parties"
+		},
+		{
+			"name": "CTE schools",
+			"detail": "educating District students",
+			"type": "outside-parties"
+		}
+	],
 	"recipient": "District",
 	"recipientType": "administration",
 	"frequency": "as-required",

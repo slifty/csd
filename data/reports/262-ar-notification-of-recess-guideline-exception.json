@@ -4,7 +4,13 @@
 	"name": "Notification of Recess Guideline Exception",
 	"description": "The Assistant Superintendent is notified whenever a principal approves an exception to the recess weather guidelines.",
 	"type": "notification",
-	"preparedBy": "Not specified (building principal or designee)",
+	"preparers": [
+		{
+			"name": "Not specified",
+			"detail": "building principal or designee",
+			"type": "administrators"
+		}
+	],
 	"recipient": "Assistant Superintendent or designee",
 	"recipientType": "administration",
 	"frequency": "event-triggered",
