@@ -1,6 +1,7 @@
 <script lang="ts">
 	import "../app.css";
 	import { formatNumericIsoDate } from "#lib/dates.ts";
+	import { SOURCE_CODE_URL } from "#lib/source-code.ts";
 	import type { LayoutProps } from "./$types";
 
 	const { data, children }: LayoutProps = $props();
@@ -21,8 +22,7 @@
 
 <div class="unofficial" role="note">
 	<p class="wrap">
-		Unofficial · Not affiliated with or endorsed by the Cheltenham Township
-		School District
+		Not affiliated with or endorsed by the Cheltenham Township School District
 	</p>
 </div>
 
@@ -36,6 +36,10 @@
 		<a href="https://go.boarddocs.com/pa/ctsd/Board.nsf/Public">BoardDocs</a>
 		as of {formatNumericIsoDate(data.boardDocsRetrievedOn)}. Check the linked
 		policy before relying on any entry.
+	</p>
+	<p>
+		This site is free and open. Neat! The code is
+		<a href={SOURCE_CODE_URL} rel="external">on GitHub</a>.
 	</p>
 </footer>
 

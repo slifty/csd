@@ -54,13 +54,14 @@ src/
 │       ├── +page.server.ts       # Reports joined to a summary of their policy
 │       └── +page.svelte          # The required reports viewer
 └── lib/
-    ├── components/               # The viewer's quick reports, mad lib, filters, and table
+    ├── components/               # Page header, and the viewer's quick reports, mad lib, filters, and table
     ├── dates.ts                  # ISO date -> "March 9, 2021" or "03/09/2021"
     ├── mad-lib.ts                # The mad lib's blanks, and their filters
     ├── quick-reports.ts          # Named filter presets for the simple view
     ├── report-filter-url.ts      # Filters <-> the page's query string
     ├── report-labels.ts          # Labels for each vocabulary, and what each type means
-    └── report-listing.ts         # Recipient groups, views, filtering, section grouping
+    ├── report-listing.ts         # Recipient groups, views, filtering, section grouping
+    └── source-code.ts            # The repository URL, for the header and footer
 ```
 
 **Filtering is plain functions.** `report-listing.ts` decides what a filter
