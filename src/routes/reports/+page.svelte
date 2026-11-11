@@ -109,7 +109,6 @@
 	listings={data.listings}
 	{recipientCounts}
 	{preparerCounts}
-	shownCount={shownListings.length}
 	bind:view
 	bind:search
 	bind:frequency
@@ -120,7 +119,11 @@
 	bind:height={filtersHeight}
 />
 
-<ReportTable listings={shownListings} stickyTop={filtersHeight} />
+<ReportTable
+	listings={shownListings}
+	totalCount={data.listings.length}
+	stickyTop={filtersHeight}
+/>
 
 <style>
 	h1 {

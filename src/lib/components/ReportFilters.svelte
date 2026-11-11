@@ -23,7 +23,6 @@
 		listings: readonly ReportListing[];
 		recipientCounts: ReadonlyMap<RecipientGroupId, number>;
 		preparerCounts: ReadonlyMap<PreparerType, number>;
-		shownCount: number;
 		view: ReportView;
 		search: string;
 		frequency: FrequencyChoice | null;
@@ -38,7 +37,6 @@
 		listings,
 		recipientCounts,
 		preparerCounts,
-		shownCount,
 		view = $bindable(),
 		search = $bindable(),
 		frequency = $bindable(),
@@ -167,7 +165,6 @@
 				</button>
 			{/each}
 		</div>
-		<span class="shown">{shownCount} of {listings.length} shown</span>
 	</div>
 </section>
 
@@ -267,13 +264,6 @@
 		font-variant-numeric: tabular-nums;
 		margin-left: 4px;
 		font-weight: 400;
-	}
-
-	.shown {
-		font-size: 13px;
-		color: var(--ink-2);
-		margin-left: auto;
-		font-variant-numeric: tabular-nums;
 	}
 
 	@media (max-width: 960px) {

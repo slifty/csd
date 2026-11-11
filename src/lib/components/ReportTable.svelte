@@ -6,33 +6,40 @@
 	} from "#lib/report-labels.ts";
 	import type { ReportListing } from "#lib/report-listing.ts";
 
-	const {
-		listings,
-		stickyTop,
-	}: { listings: readonly ReportListing[]; stickyTop: number } = $props();
+	interface Props {
+		listings: readonly ReportListing[];
+		totalCount: number;
+		stickyTop: number;
+	}
+
+	const { listings, totalCount, stickyTop }: Props = $props();
 </script>
 
-<div class="ledger" style:--sticky-top="{stickyTop}px">
-	<table>
-		<thead>
-			<tr>
-				{#each Object.values(REPORT_COLUMN_LABELS) as label (label)}
-					<th scope="col">{label}</th>
-				{/each}
-			</tr>
-		</thead>
-		<tbody>
-			{#each listings as listing (listing.report.id)}
-				<ReportTableRow {listing} />
-			{:else}
+<div class="results">
+	<p class="shown">{listings.length} of {totalCount} shown</p>
+
+	<div class="ledger" style:--sticky-top="{stickyTop}px">
+		<table>
+			<thead>
 				<tr>
-					<td colspan={REPORT_COLUMN_COUNT} class="empty">
-						No reports match. Clear the search or change the filters.
-					</td>
+					{#each Object.values(REPORT_COLUMN_LABELS) as label (label)}
+						<th scope="col">{label}</th>
+					{/each}
 				</tr>
-			{/each}
-		</tbody>
-	</table>
+			</thead>
+			<tbody>
+				{#each listings as listing (listing.report.id)}
+					<ReportTableRow {listing} />
+				{:else}
+					<tr>
+						<td colspan={REPORT_COLUMN_COUNT} class="empty">
+							No reports match. Clear the search or change the filters.
+						</td>
+					</tr>
+				{/each}
+			</tbody>
+		</table>
+	</div>
 </div>
 
 <style>
@@ -61,6 +68,14 @@
 		text-transform: uppercase;
 		color: var(--ink-2);
 		padding: 10px 14px;
+	}
+
+	.shown {
+		margin: 0 0 6px;
+		text-align: right;
+		font-size: 13px;
+		color: var(--ink-2);
+		font-variant-numeric: tabular-nums;
 	}
 
 	.empty {
