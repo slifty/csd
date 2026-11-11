@@ -66,7 +66,7 @@ src/
     ├── report-filter-url.ts      # Filters <-> the page's query string
     ├── report-labels.ts          # Labels for each vocabulary, and what each type means
     ├── report-listing.ts         # Recipient groups, views, filtering, section grouping
-    └── source-code.ts            # The repository URL, for the header and footer
+    └── source-code.ts            # The repository URL, for the banner and footer
 ```
 
 **Filtering is plain functions.** `report-listing.ts` decides what a filter
