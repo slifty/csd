@@ -63,7 +63,7 @@
 		padding-block: 40px 32px;
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
-		gap: 28px;
+		gap: var(--section-gap);
 	}
 
 	footer {

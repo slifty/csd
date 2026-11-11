@@ -222,5 +222,6 @@
 	.back {
 		justify-self: start;
 		padding-top: 12px;
+		margin-bottom: calc(-1 * var(--section-gap));
 	}
 </style>
