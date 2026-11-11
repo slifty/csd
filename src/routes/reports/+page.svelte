@@ -159,6 +159,7 @@
 	/>
 {:else}
 	<QuickReports
+		listings={data.listings}
 		selected={selectedQuickReport}
 		onselect={applyFilter}
 		onrefine={showAdvancedFilters}

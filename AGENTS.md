@@ -72,7 +72,9 @@ form as "advanced mode". A preset is an ordinary `ReportFilter`, so it lands in
 the URL like any other filter. Advanced mode adds `mode=advanced`, and a URL
 whose filters match no preset opens advanced mode too. Those rules are plain
 functions in `quick-reports.ts`, like the filtering rules in
-`report-listing.ts`. To add a preset, add an entry to `QUICK_REPORTS`.
+`report-listing.ts`. To add a preset, add an entry to `QUICK_REPORTS`. A preset's `modifierMenu` is a labelled dropdown of
+alternative filters shown once it is selected, such as "Prepared by"; each
+option needs a filter no other preset or option uses.
 
 **A page gets only the policy fields it shows.** `+page.server.ts` turns each
 policy into a `PolicySummary` before returning it. Whatever a server `load`

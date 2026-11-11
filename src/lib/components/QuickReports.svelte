@@ -1,22 +1,33 @@
 <script lang="ts">
 	import BackToQuickReports from "./BackToQuickReports.svelte";
-	import { QUICK_REPORTS } from "#lib/quick-reports.ts";
+	import {
+		DEFAULT_OPTION_ID,
+		QUICK_REPORTS,
+		availableOptions,
+		optionFilter,
+	} from "#lib/quick-reports.ts";
 	import { UNFILTERED } from "#lib/report-listing.ts";
-	import type { QuickReport } from "#lib/quick-reports.ts";
-	import type { ApplyReportFilter } from "#lib/report-listing.ts";
+	import type { QuickReportSelection } from "#lib/quick-reports.ts";
+	import type {
+		ApplyReportFilter,
+		ReportListing,
+	} from "#lib/report-listing.ts";
 
 	interface Props {
-		selected: QuickReport | null;
+		listings: readonly ReportListing[];
+		selected: QuickReportSelection | null;
 		onselect: ApplyReportFilter;
 		onrefine: () => void;
 	}
 
-	const { selected, onselect, onrefine }: Props = $props();
+	const { listings, selected, onselect, onrefine }: Props = $props();
 </script>
 
-{#snippet cardText(label: string, description: string)}
+{#snippet cardText(label: string, description: string | null)}
 	<span class="name">{label}</span>
-	<span class="description">{description}</span>
+	{#if description !== null}
+		<span class="description">{description}</span>
+	{/if}
 {/snippet}
 
 <section class="quick" aria-label="Quick reports">
@@ -37,16 +48,38 @@
 			</button>
 		</div>
 		{#each QUICK_REPORTS as quickReport (quickReport.id)}
-			{@const isSelected = selected === quickReport}
+			{@const isSelected = selected?.quickReport === quickReport}
+			{@const modifierMenu = isSelected ? quickReport.modifierMenu : null}
 			<div class="card" class:selected={isSelected}>
 				<button
 					type="button"
 					class="choose"
+					class:has-menu={modifierMenu !== null}
 					aria-pressed={isSelected}
 					onclick={() => onselect(quickReport.filter)}
 				>
-					{@render cardText(quickReport.label, quickReport.description)}
+					{@render cardText(
+						quickReport.label,
+						modifierMenu === null ? quickReport.description : null,
+					)}
 				</button>
+				{#if modifierMenu !== null}
+					<label class="modifier">
+						{modifierMenu.label}
+						<select
+							value={selected?.modifier?.id ?? DEFAULT_OPTION_ID}
+							onchange={(event) =>
+								onselect(optionFilter(quickReport, event.currentTarget.value))}
+						>
+							<option value={DEFAULT_OPTION_ID}>
+								{modifierMenu.defaultLabel}
+							</option>
+							{#each availableOptions(modifierMenu, listings, selected?.modifier ?? null) as option (option.id)}
+								<option value={option.id}>{option.label}</option>
+							{/each}
+						</select>
+					</label>
+				{/if}
 			</div>
 		{/each}
 		<div class="card refine">
@@ -105,6 +138,10 @@
 		padding: 10px 12px;
 	}
 
+	.choose.has-menu {
+		padding-bottom: 6px;
+	}
+
 	.name {
 		font-weight: 600;
 	}
@@ -116,6 +153,24 @@
 
 	.refine .description {
 		color: inherit;
+	}
+
+	.modifier {
+		display: grid;
+		gap: 4px;
+		margin: 0 12px 10px;
+		font-size: 13px;
+		color: var(--ink-2);
+	}
+
+	.modifier select {
+		font: inherit;
+		min-width: 0;
+		padding: 4px 8px;
+		border: 1px solid var(--rule);
+		border-radius: 6px;
+		background: var(--sheet);
+		color: var(--ink);
 	}
 
 	.back {
