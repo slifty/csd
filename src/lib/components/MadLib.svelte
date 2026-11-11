@@ -53,7 +53,7 @@
 	@media (max-width: 640px) {
 		.sentence {
 			font-size: 15px;
-			line-height: 2.4;
+			line-height: 2.6;
 		}
 	}
 </style>
