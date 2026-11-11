@@ -39,6 +39,12 @@
 	const isAdministrativeRegulation = $derived(
 		policy.kind === "administrative-regulation",
 	);
+	const shownPreparers = $derived(
+		isExpanded ? report.preparers : report.preparers.slice(0, 1),
+	);
+	const hiddenPreparerCount = $derived(
+		report.preparers.length - shownPreparers.length,
+	);
 </script>
 
 <tr
@@ -55,11 +61,11 @@
 			aria-expanded={isExpanded}
 			aria-controls={detailId}
 		>
-			{report.name}
+			<span class="name-text">{report.name}</span>
 		</button>
-		<div class="description">{report.description}</div>
+		<div class="description note">{report.description}</div>
 		{#if report.deadline !== null}
-			<div class="due">
+			<div class="due note">
 				<span class="due-label">Deadline</span>
 				{report.deadline}
 			</div>
@@ -69,26 +75,29 @@
 		<span class="cell-label">{REPORT_COLUMN_LABELS.frequency}</span>
 		<FrequencyPill frequency={report.frequency} />
 		{#if report.deadline !== null}
-			<div class="deadline">{report.deadline}</div>
+			<div class="deadline note">{report.deadline}</div>
 		{/if}
 	</td>
 	<td class="prepared-by">
 		<span class="cell-label">{REPORT_COLUMN_LABELS.preparedBy}</span>
 		<ul class="preparers">
-			{#each report.preparers as preparer, index (index)}
+			{#each shownPreparers as preparer, index (index)}
 				<li>
 					{preparer.name}
 					{#if preparer.detail !== null}
-						<small>{preparer.detail}</small>
+						<small class="note">{preparer.detail}</small>
 					{/if}
 				</li>
 			{/each}
+			{#if hiddenPreparerCount > 0}
+				<li class="more">+{hiddenPreparerCount} more</li>
+			{/if}
 		</ul>
 	</td>
 	<td class="recipient">
 		<span class="cell-label">{REPORT_COLUMN_LABELS.recipient}</span>
-		{report.recipient}
-		<small>{RECIPIENT_TYPE_LABELS[report.recipientType]}</small>
+		<span class="recipient-name">{report.recipient}</span>
+		<small class="note">{RECIPIENT_TYPE_LABELS[report.recipientType]}</small>
 	</td>
 	<td class="type">
 		<span class="cell-label">{REPORT_COLUMN_LABELS.type}</span>
@@ -101,7 +110,7 @@
 				<span class="kind">{isAdministrativeRegulation ? "AR" : "Policy"}</span>
 				<span class="number">{policyNumber(policy)}</span>
 			</span>
-			<span class="policy-title">{policy.title}</span>
+			<span class="policy-title note">{policy.title}</span>
 		</div>
 	</td>
 </tr>
@@ -130,6 +139,38 @@
 
 	.cell-label {
 		display: none;
+	}
+
+	.item:not(.expanded) .note {
+		display: none;
+	}
+
+	@media (width > 960px) {
+		.item {
+			--collapsed-lines: 3;
+		}
+
+		.item:not(.expanded)
+			:is(.name-text, .recipient-name, .preparers li:not(.more)) {
+			--clamped-lines: var(--collapsed-lines);
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: var(--clamped-lines);
+			line-clamp: var(--clamped-lines);
+			overflow: hidden;
+		}
+
+		.item:not(.expanded) .preparers {
+			gap: 0;
+		}
+
+		.item:not(.expanded) .preparers li:has(+ .more) {
+			--clamped-lines: calc(var(--collapsed-lines) - 1);
+		}
+
+		.item:not(.expanded) .name-text {
+			min-height: calc(var(--collapsed-lines) * 1lh);
+		}
 	}
 
 	.name {
@@ -186,6 +227,7 @@
 		gap: 6px;
 	}
 
+	.preparers .more,
 	.prepared-by small,
 	.recipient small {
 		display: block;
