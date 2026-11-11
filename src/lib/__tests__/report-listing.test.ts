@@ -13,6 +13,7 @@ import {
 	isSameFilter,
 	isUnfiltered,
 	matchesFilter,
+	policySections,
 } from "../report-listing.ts";
 import { RECIPIENT_TYPES } from "../report.ts";
 
@@ -276,6 +277,20 @@ describe("isUnfiltered", () => {
 		expect(
 			isUnfiltered(createReportFilter({ preparerTypes: new Set(["board"]) })),
 		).toBe(false);
+	});
+});
+
+describe("policySections", () => {
+	it("lists each section once, in number order", () => {
+		const operations = { number: "800", name: "TEST Operations" };
+		const community = { number: "900", name: "TEST Community" };
+		expect(
+			policySections([
+				createReportListing({}, { section: community }),
+				createReportListing({}, { section: operations }),
+				createReportListing({}, { section: community }),
+			]),
+		).toEqual([operations, community]);
 	});
 });
 

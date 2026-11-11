@@ -226,6 +226,15 @@ const countByPreparerType = (
 	);
 };
 
+const policySections = (
+	listings: readonly ReportListing[],
+): readonly PolicySection[] =>
+	[
+		...new Map(
+			listings.map(({ policy: { section } }) => [section.number, section]),
+		).values(),
+	].toSorted((first, second) => first.number.localeCompare(second.number));
+
 const groupBySection = (
 	listings: readonly ReportListing[],
 ): readonly SectionGroup[] => {
@@ -258,6 +267,7 @@ export {
 	isSameFilter,
 	isUnfiltered,
 	matchesFilter,
+	policySections,
 };
 export type {
 	ApplyReportFilter,
