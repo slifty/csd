@@ -14,6 +14,7 @@ import {
 	selectionFilter,
 	selectionsOf,
 } from "../quick-reports.ts";
+import { madLibBlanks } from "../mad-lib.ts";
 import type { QuickReport } from "../quick-reports.ts";
 import { UNFILTERED } from "../report-listing.ts";
 import { policies } from "../server/policies.ts";
@@ -126,17 +127,30 @@ describe("fitsQuickReports", () => {
 
 describe("initialMode", () => {
 	const unmatched = createReportFilter({ reportType: "plan" });
+	const annual = createReportFilter({ frequency: "annual" });
+	const blanks = madLibBlanks([createReportListing()]);
 
 	it("keeps the requested mode when quick reports can show the filter", () => {
-		expect(initialMode(regularToBoardReport.filter, "quick")).toBe("quick");
-		expect(initialMode(regularToBoardReport.filter, "advanced")).toBe(
+		expect(initialMode(regularToBoardReport.filter, "quick", blanks)).toBe(
+			"quick",
+		);
+		expect(initialMode(regularToBoardReport.filter, "advanced", blanks)).toBe(
 			"advanced",
 		);
-		expect(initialMode(UNFILTERED, "quick")).toBe("quick");
+		expect(initialMode(UNFILTERED, "quick", blanks)).toBe("quick");
 	});
 
 	it("opens advanced mode when quick reports would hide the filter", () => {
-		expect(initialMode(unmatched, "quick")).toBe("advanced");
+		expect(initialMode(unmatched, "quick", blanks)).toBe("advanced");
+	});
+
+	it("keeps the mad lib when it can show the filter", () => {
+		expect(initialMode(annual, "mad-lib", blanks)).toBe("mad-lib");
+		expect(initialMode(UNFILTERED, "mad-lib", blanks)).toBe("mad-lib");
+	});
+
+	it("opens advanced mode when the mad lib would hide the filter", () => {
+		expect(initialMode(unmatched, "mad-lib", blanks)).toBe("advanced");
 	});
 });
 

@@ -20,7 +20,7 @@ const FILTER_PARAMS = {
 } as const;
 
 const MODE_PARAM = "mode";
-const REPORT_MODES = ["quick", "advanced"] as const;
+const REPORT_MODES = ["quick", "mad-lib", "advanced"] as const;
 type ReportMode = (typeof REPORT_MODES)[number];
 
 type ReadableSearchParams = Pick<URLSearchParams, "get">;

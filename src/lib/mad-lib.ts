@@ -34,6 +34,10 @@ interface MadLibBlank {
 
 type MadLibChoices = Readonly<Partial<Record<MadLibBlankId, string>>>;
 
+type ApplyMadLibChoices = (choices: MadLibChoices) => void;
+
+type SelectMadLibOption = (optionId: string | undefined) => void;
+
 const FREQUENCY_PHRASES: Readonly<Record<FrequencyChoice, string>> = {
 	"per-meeting": "per-meeting",
 	monthly: "monthly",
@@ -184,4 +188,11 @@ const matchingOptions = (
 };
 
 export { madLibBlanks, madLibChoicesOf, madLibFilter, matchingOptions };
-export type { MadLibBlank, MadLibBlankId, MadLibChoices, MadLibOption };
+export type {
+	ApplyMadLibChoices,
+	MadLibBlank,
+	MadLibBlankId,
+	MadLibChoices,
+	MadLibOption,
+	SelectMadLibOption,
+};

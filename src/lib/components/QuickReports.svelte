@@ -17,10 +17,11 @@
 		listings: readonly ReportListing[];
 		selected: QuickReportSelection | null;
 		onselect: ApplyReportFilter;
+		onmadlib: () => void;
 		onrefine: () => void;
 	}
 
-	const { listings, selected, onselect, onrefine }: Props = $props();
+	const { listings, selected, onselect, onmadlib, onrefine }: Props = $props();
 </script>
 
 {#snippet cardText(label: string, description: string | null)}
@@ -90,6 +91,14 @@
 				)}
 			</button>
 		</div>
+		<div class="card mad-lib">
+			<button type="button" class="choose" onclick={onmadlib}>
+				{@render cardText(
+					"Switch to mad lib mode",
+					"Describe the reports you want in a sentence.",
+				)}
+			</button>
+		</div>
 	</div>
 </section>
 
@@ -117,6 +126,16 @@
 	.card.selected {
 		background: var(--accent-soft);
 		border-color: var(--accent);
+	}
+
+	.card.mad-lib {
+		background: var(--mark);
+		border-color: var(--mark);
+		color: var(--sheet);
+	}
+
+	.mad-lib .description {
+		color: inherit;
 	}
 
 	.card.refine {
@@ -183,7 +202,7 @@
 			display: block;
 		}
 
-		.focused > .card:not(.selected, .refine) {
+		.focused > .card:not(.selected, .mad-lib, .refine) {
 			display: none;
 		}
 	}
