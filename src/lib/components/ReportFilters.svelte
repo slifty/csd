@@ -23,7 +23,6 @@
 		listings: readonly ReportListing[];
 		recipientCounts: ReadonlyMap<RecipientGroupId, number>;
 		preparerCounts: ReadonlyMap<PreparerType, number>;
-		shownCount: number;
 		view: ReportView;
 		search: string;
 		frequency: FrequencyChoice | null;
@@ -32,13 +31,14 @@
 		recipientGroupIds: SvelteSet<RecipientGroupId>;
 		preparerTypes: SvelteSet<PreparerType>;
 		height: number;
+		canReset: boolean;
+		onreset: () => void;
 	}
 
 	let {
 		listings,
 		recipientCounts,
 		preparerCounts,
-		shownCount,
 		view = $bindable(),
 		search = $bindable(),
 		frequency = $bindable(),
@@ -47,6 +47,8 @@
 		recipientGroupIds,
 		preparerTypes,
 		height = $bindable(),
+		canReset,
+		onreset,
 	}: Props = $props();
 
 	const VIEW_LABELS: Readonly<Record<ReportView, string>> = {
@@ -167,7 +169,9 @@
 				</button>
 			{/each}
 		</div>
-		<span class="shown">{shownCount} of {listings.length} shown</span>
+		<button type="button" class="reset" disabled={!canReset} onclick={onreset}>
+			Reset filters
+		</button>
 	</div>
 </section>
 
@@ -262,18 +266,29 @@
 		font-weight: 600;
 	}
 
+	.reset {
+		margin-left: auto;
+		font: inherit;
+		font-size: 13px;
+		padding: 4px 10px;
+		border: 1px solid var(--rule);
+		border-radius: 6px;
+		background: var(--sheet);
+		color: var(--ink);
+		cursor: pointer;
+	}
+
+	.reset:disabled {
+		color: var(--ink-2);
+		cursor: default;
+		opacity: 0.6;
+	}
+
 	.count {
 		color: var(--ink-2);
 		font-variant-numeric: tabular-nums;
 		margin-left: 4px;
 		font-weight: 400;
-	}
-
-	.shown {
-		font-size: 13px;
-		color: var(--ink-2);
-		margin-left: auto;
-		font-variant-numeric: tabular-nums;
 	}
 
 	@media (max-width: 960px) {

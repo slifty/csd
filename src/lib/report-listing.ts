@@ -71,7 +71,37 @@ interface ReportFilter {
 	readonly preparerTypes: ReadonlySet<PreparerType>;
 }
 
+type ApplyReportFilter = (filter: ReportFilter) => void;
+
+const UNFILTERED: ReportFilter = {
+	view: "all",
+	search: "",
+	frequency: null,
+	reportType: null,
+	sectionNumber: null,
+	recipientGroupIds: new Set(),
+	preparerTypes: new Set(),
+};
+
 const SEARCH_TERM_SEPARATOR = /\s+/v;
+
+const hasSameMembers = <T>(
+	first: ReadonlySet<T>,
+	second: ReadonlySet<T>,
+): boolean =>
+	first.size === second.size && [...first].every((value) => second.has(value));
+
+const isSameFilter = (first: ReportFilter, second: ReportFilter): boolean =>
+	first.view === second.view &&
+	first.search.trim() === second.search.trim() &&
+	first.frequency === second.frequency &&
+	first.reportType === second.reportType &&
+	first.sectionNumber === second.sectionNumber &&
+	hasSameMembers(first.recipientGroupIds, second.recipientGroupIds) &&
+	hasSameMembers(first.preparerTypes, second.preparerTypes);
+
+const isUnfiltered = (filter: ReportFilter): boolean =>
+	isSameFilter(filter, UNFILTERED);
 
 const isInGroup = (group: RecipientGroup, listing: ReportListing): boolean =>
 	group.recipientTypes.some(
@@ -194,12 +224,16 @@ const countByPreparerType = (
 export {
 	RECIPIENT_GROUPS,
 	REPORT_VIEWS,
+	UNFILTERED,
 	countByPreparerType,
 	countByRecipientGroup,
 	isInView,
+	isSameFilter,
+	isUnfiltered,
 	matchesFilter,
 };
 export type {
+	ApplyReportFilter,
 	PolicySummary,
 	RecipientGroupId,
 	ReportFilter,

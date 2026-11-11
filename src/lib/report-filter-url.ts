@@ -19,10 +19,18 @@ const FILTER_PARAMS = {
 	preparerTypes: "from",
 } as const;
 
+const MODE_PARAM = "mode";
+const REPORT_MODES = ["quick", "advanced"] as const;
+type ReportMode = (typeof REPORT_MODES)[number];
+
 type ReadableSearchParams = Pick<URLSearchParams, "get">;
 
+const DEFAULT_MODE: ReportMode = "quick";
 const DEFAULT_VIEW: ReportView = "all";
 const LIST_SEPARATOR = ",";
+
+const isReportMode = (value: string): value is ReportMode =>
+	REPORT_MODES.some((mode) => mode === value);
 
 const isReportView = (value: string): value is ReportView =>
 	REPORT_VIEWS.some((view) => view === value);
@@ -144,4 +152,16 @@ const writeReportFilter = (filter: ReportFilter): URLSearchParams => {
 	return params;
 };
 
-export { readReportFilter, writeReportFilter };
+const readReportMode = (params: ReadableSearchParams): ReportMode => {
+	const value = params.get(MODE_PARAM) ?? "";
+	return isReportMode(value) ? value : DEFAULT_MODE;
+};
+
+const writeReportMode = (params: URLSearchParams, mode: ReportMode): void => {
+	if (mode !== DEFAULT_MODE) {
+		params.set(MODE_PARAM, mode);
+	}
+};
+
+export { readReportFilter, readReportMode, writeReportFilter, writeReportMode };
+export type { ReportMode };

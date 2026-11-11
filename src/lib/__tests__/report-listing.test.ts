@@ -9,6 +9,8 @@ import {
 	countByPreparerType,
 	countByRecipientGroup,
 	isInView,
+	isSameFilter,
+	isUnfiltered,
 	matchesFilter,
 } from "../report-listing.ts";
 import { RECIPIENT_TYPES } from "../report.ts";
@@ -235,5 +237,43 @@ describe("countByPreparerType", () => {
 			listings,
 		);
 		expect(counts.get("employees")).toBe(2);
+	});
+});
+
+describe("isSameFilter", () => {
+	it("ignores the order chips were chosen in", () => {
+		expect(
+			isSameFilter(
+				createReportFilter({ preparerTypes: new Set(["board", "employees"]) }),
+				createReportFilter({ preparerTypes: new Set(["employees", "board"]) }),
+			),
+		).toBe(true);
+	});
+
+	it("ignores a search that is only whitespace", () => {
+		expect(
+			isSameFilter(createReportFilter({ search: "  " }), createReportFilter()),
+		).toBe(true);
+	});
+
+	it("tells apart filters that differ in any field", () => {
+		const base = createReportFilter();
+		expect(isSameFilter(base, { ...base, view: "recurring" })).toBe(false);
+		expect(isSameFilter(base, { ...base, frequency: "annual" })).toBe(false);
+		expect(isSameFilter(base, { ...base, reportType: "plan" })).toBe(false);
+		expect(isSameFilter(base, { ...base, sectionNumber: "800" })).toBe(false);
+		expect(
+			isSameFilter(base, { ...base, recipientGroupIds: new Set(["board"]) }),
+		).toBe(false);
+	});
+});
+
+describe("isUnfiltered", () => {
+	it("is true only when nothing is filtered", () => {
+		expect(isUnfiltered(createReportFilter())).toBe(true);
+		expect(isUnfiltered(createReportFilter({ view: "recurring" }))).toBe(false);
+		expect(
+			isUnfiltered(createReportFilter({ preparerTypes: new Set(["board"]) })),
+		).toBe(false);
 	});
 });

@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { createReportFilter } from "../../test/report-listing.ts";
-import { readReportFilter, writeReportFilter } from "../report-filter-url.ts";
+import {
+	readReportFilter,
+	readReportMode,
+	writeReportFilter,
+	writeReportMode,
+} from "../report-filter-url.ts";
 
 const SECTION_NUMBERS: ReadonlySet<string> = new Set(["200", "800"]);
 
@@ -77,5 +82,37 @@ describe("writeReportFilter", () => {
 		expect(
 			readReportFilter(writeReportFilter(filter), SECTION_NUMBERS),
 		).toEqual(filter);
+	});
+});
+
+describe("readReportMode", () => {
+	it("starts in quick mode", () => {
+		expect(readReportMode(new URLSearchParams(""))).toBe("quick");
+	});
+
+	it("reads advanced mode", () => {
+		expect(readReportMode(new URLSearchParams("mode=advanced"))).toBe(
+			"advanced",
+		);
+	});
+
+	it("ignores a mode it does not know", () => {
+		expect(readReportMode(new URLSearchParams("mode=TEST"))).toBe("quick");
+	});
+});
+
+describe("writeReportMode", () => {
+	const written = (mode: Parameters<typeof writeReportMode>[1]): string => {
+		const params = new URLSearchParams("to=board");
+		writeReportMode(params, mode);
+		return params.toString();
+	};
+
+	it("leaves quick mode out of the query", () => {
+		expect(written("quick")).toBe("to=board");
+	});
+
+	it("adds advanced mode to the query", () => {
+		expect(written("advanced")).toBe("to=board&mode=advanced");
 	});
 });
