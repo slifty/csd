@@ -4,11 +4,20 @@
 	import { replaceState } from "$app/navigation";
 	import { resolve } from "$app/paths";
 	import { page } from "$app/state";
+	import BackToQuickReports from "#lib/components/BackToQuickReports.svelte";
+	import QuickReports from "#lib/components/QuickReports.svelte";
 	import ReportFilters from "#lib/components/ReportFilters.svelte";
 	import ReportTable from "#lib/components/ReportTable.svelte";
 	import {
+		findQuickReport,
+		fitsQuickReports,
+		initialMode,
+	} from "#lib/quick-reports.ts";
+	import {
 		readReportFilter,
+		readReportMode,
 		writeReportFilter,
+		writeReportMode,
 	} from "#lib/report-filter-url.ts";
 	import {
 		UNFILTERED,
@@ -22,6 +31,7 @@
 		ReportFilter,
 		ReportView,
 	} from "#lib/report-listing.ts";
+	import type { ReportMode } from "#lib/report-filter-url.ts";
 	import type { FrequencyChoice } from "#lib/frequency.ts";
 	import type { PreparerType, ReportType } from "#lib/report.ts";
 	import type { PageProps } from "./$types";
@@ -35,6 +45,7 @@
 	let sectionNumber: string | null = $state(null);
 	const recipientGroupIds = new SvelteSet<RecipientGroupId>();
 	const preparerTypes = new SvelteSet<PreparerType>();
+	let mode = $state<ReportMode>("quick");
 	let filtersHeight = $state(0);
 
 	const filter: ReportFilter = $derived({
@@ -46,6 +57,8 @@
 		recipientGroupIds,
 		preparerTypes,
 	});
+	const advanced = $derived(mode === "advanced");
+	const selectedQuickReport = $derived(findQuickReport(filter));
 	const shownListings = $derived(
 		data.listings.filter((listing) => matchesFilter(filter, listing)),
 	);
@@ -74,6 +87,17 @@
 		replaceAll(preparerTypes, applied.preparerTypes);
 	};
 
+	const showQuickReports = (): void => {
+		if (!fitsQuickReports(filter)) {
+			applyFilter(UNFILTERED);
+		}
+		mode = "quick";
+	};
+
+	const showAdvancedFilters = (): void => {
+		mode = "advanced";
+	};
+
 	let hasReadUrl = $state(false);
 
 	onMount(() => {
@@ -82,6 +106,7 @@
 		);
 		const initial = readReportFilter(page.url.searchParams, sectionNumbers);
 		applyFilter(initial);
+		mode = initialMode(initial, readReportMode(page.url.searchParams));
 		hasReadUrl = true;
 	});
 
@@ -89,7 +114,9 @@
 		if (!hasReadUrl) {
 			return;
 		}
-		const query = writeReportFilter(filter).toString();
+		const params = writeReportFilter(filter);
+		writeReportMode(params, mode);
+		const query = params.toString();
 		const currentQuery = new URLSearchParams(window.location.search).toString();
 		if (query !== currentQuery) {
 			const reportsPath = resolve("/reports");
@@ -111,26 +138,37 @@
 
 <h1>The Unofficial Official Report Report</h1>
 
-<ReportFilters
-	listings={data.listings}
-	{recipientCounts}
-	{preparerCounts}
-	bind:view
-	bind:search
-	bind:frequency
-	bind:reportType
-	bind:sectionNumber
-	{recipientGroupIds}
-	{preparerTypes}
-	bind:height={filtersHeight}
-	canReset={!isUnfiltered(filter)}
-	onreset={() => applyFilter(UNFILTERED)}
-/>
+{#if advanced}
+	<div class="back">
+		<BackToQuickReports onclick={showQuickReports} />
+	</div>
+	<ReportFilters
+		listings={data.listings}
+		{recipientCounts}
+		{preparerCounts}
+		bind:view
+		bind:search
+		bind:frequency
+		bind:reportType
+		bind:sectionNumber
+		{recipientGroupIds}
+		{preparerTypes}
+		bind:height={filtersHeight}
+		canReset={!isUnfiltered(filter)}
+		onreset={() => applyFilter(UNFILTERED)}
+	/>
+{:else}
+	<QuickReports
+		selected={selectedQuickReport}
+		onselect={applyFilter}
+		onrefine={showAdvancedFilters}
+	/>
+{/if}
 
 <ReportTable
 	listings={shownListings}
 	totalCount={data.listings.length}
-	stickyTop={filtersHeight}
+	stickyTop={advanced ? filtersHeight : 0}
 />
 
 <style>
@@ -138,5 +176,10 @@
 		font-size: clamp(30px, 5vw, 44px);
 		line-height: 1.08;
 		margin: 0;
+	}
+
+	.back {
+		justify-self: start;
+		padding-top: 12px;
 	}
 </style>

@@ -71,6 +71,8 @@ interface ReportFilter {
 	readonly preparerTypes: ReadonlySet<PreparerType>;
 }
 
+type ApplyReportFilter = (filter: ReportFilter) => void;
+
 const UNFILTERED: ReportFilter = {
 	view: "all",
 	search: "",
@@ -231,6 +233,7 @@ export {
 	matchesFilter,
 };
 export type {
+	ApplyReportFilter,
 	PolicySummary,
 	RecipientGroupId,
 	ReportFilter,

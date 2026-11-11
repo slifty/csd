@@ -54,8 +54,9 @@ src/
 │       ├── +page.server.ts       # Reports joined to a summary of their policy
 │       └── +page.svelte          # The required reports viewer
 └── lib/
-    ├── components/               # The viewer's filters and table
+    ├── components/               # The viewer's quick reports, filters, and table
     ├── dates.ts                  # ISO date -> "March 9, 2021" or "03/09/2021"
+    ├── quick-reports.ts          # Named filter presets for the simple view
     ├── report-filter-url.ts      # Filters <-> the page's query string
     ├── report-labels.ts          # Labels for each vocabulary, and what each type means
     └── report-listing.ts         # Recipient groups, views, and filtering
@@ -64,6 +65,14 @@ src/
 **Filtering is plain functions.** `report-listing.ts` decides what a filter
 shows and counts, and its tests cover that. The components only hold the
 state and pass it in. Put new filtering rules there, not inside a component.
+
+**Quick reports are filters with names.** The viewer opens on a short list of
+presets from `quick-reports.ts`, followed by a card that opens the full filter
+form as "advanced mode". A preset is an ordinary `ReportFilter`, so it lands in
+the URL like any other filter. Advanced mode adds `mode=advanced`, and a URL
+whose filters match no preset opens advanced mode too. Those rules are plain
+functions in `quick-reports.ts`, like the filtering rules in
+`report-listing.ts`. To add a preset, add an entry to `QUICK_REPORTS`.
 
 **A page gets only the policy fields it shows.** `+page.server.ts` turns each
 policy into a `PolicySummary` before returning it. Whatever a server `load`
