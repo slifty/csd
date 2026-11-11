@@ -202,7 +202,7 @@
 			display: block;
 		}
 
-		.focused > .card:not(.selected, .mad-lib, .refine) {
+		.focused > .card:not(.selected, .refine) {
 			display: none;
 		}
 	}
