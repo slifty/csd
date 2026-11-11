@@ -22,8 +22,7 @@
 
 <div class="unofficial" role="note">
 	<p class="wrap">
-		Unofficial · Not affiliated with or endorsed by the Cheltenham Township
-		School District
+		Not affiliated with or endorsed by the Cheltenham Township School District
 	</p>
 </div>
 
