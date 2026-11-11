@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { tick } from "svelte";
 	import { matchingOptions } from "#lib/mad-lib.ts";
 	import type {
 		MadLibBlank,
@@ -57,7 +56,7 @@
 	const choose = (option: MadLibOption): void => {
 		onselect(option.id === ANY_OPTION_ID ? undefined : option.id);
 		open = false;
-		void tick().then(() => input?.select());
+		input?.blur();
 	};
 
 	const optionForEnter = (): MadLibOption | null =>
