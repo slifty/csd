@@ -27,11 +27,14 @@
 		align-items: flex-start;
 		justify-content: space-between;
 		gap: 24px;
+		margin-bottom: calc(-1 * var(--section-gap) / 2);
 	}
 
 	h1 {
-		font-size: clamp(30px, 5vw, 44px);
-		line-height: 1.08;
+		font-family: var(--display);
+		font-weight: 400;
+		font-size: clamp(28px, 4.5vw, 38px);
+		line-height: 1.15;
 		margin: 0;
 	}
 

@@ -4,6 +4,7 @@
 	import "@fontsource/public-sans/600.css";
 	import "@fontsource/public-sans/700.css";
 	import "@fontsource/public-sans/800.css";
+	import "@fontsource/special-elite/400.css";
 	import "../app.css";
 	import { formatNumericIsoDate } from "#lib/dates.ts";
 	import { SOURCE_CODE_URL } from "#lib/source-code.ts";
