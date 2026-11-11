@@ -184,7 +184,11 @@
 	input {
 		grid-area: 1 / 1;
 		font: inherit;
-		padding: 0 4px 1px;
+		font-family: var(--handwritten);
+		font-size: 1.2em;
+		font-weight: 400;
+		--bottom-padding: 3px;
+		padding: 0 4px var(--bottom-padding);
 		min-width: 3ch;
 		line-height: inherit;
 	}
@@ -195,11 +199,18 @@
 	}
 
 	input {
+		--rule-thickness: 2px;
+		--baseline-above-content: 0.32em;
+		--descender-overlap: 0.08em;
 		width: 100%;
 		min-width: 0;
 		border: 0;
-		border-bottom: 2px solid var(--mark);
-		background: none;
+		background: linear-gradient(var(--accent), var(--accent)) left 0 bottom
+			calc(
+				var(--bottom-padding) + var(--baseline-above-content) -
+					var(--descender-overlap) - var(--rule-thickness)
+			) /
+			100% var(--rule-thickness) no-repeat;
 		color: var(--mark);
 		text-align: center;
 	}
@@ -211,7 +222,7 @@
 
 	input:focus {
 		outline: none;
-		background: var(--mark-soft);
+		--rule-thickness: 3px;
 	}
 
 	.term {
