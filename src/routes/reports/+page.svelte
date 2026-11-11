@@ -5,9 +5,11 @@
 	import { resolve } from "$app/paths";
 	import { page } from "$app/state";
 	import BackToQuickReports from "#lib/components/BackToQuickReports.svelte";
+	import MadLib from "#lib/components/MadLib.svelte";
 	import QuickReports from "#lib/components/QuickReports.svelte";
 	import ReportFilters from "#lib/components/ReportFilters.svelte";
 	import ReportTable from "#lib/components/ReportTable.svelte";
+	import { madLibBlanks, madLibChoicesOf, madLibFilter } from "#lib/mad-lib.ts";
 	import {
 		findQuickReport,
 		fitsQuickReports,
@@ -58,6 +60,10 @@
 		preparerTypes,
 	});
 	const advanced = $derived(mode === "advanced");
+	const blanks = $derived(madLibBlanks(data.listings));
+	const madLibChoices = $derived(
+		mode === "mad-lib" ? (madLibChoicesOf(blanks, filter) ?? {}) : {},
+	);
 	const selectedQuickReport = $derived(findQuickReport(filter));
 	const shownListings = $derived(
 		data.listings.filter((listing) => matchesFilter(filter, listing)),
@@ -94,6 +100,13 @@
 		mode = "quick";
 	};
 
+	const showMadLib = (): void => {
+		if (madLibChoicesOf(blanks, filter) === null) {
+			applyFilter(UNFILTERED);
+		}
+		mode = "mad-lib";
+	};
+
 	const showAdvancedFilters = (): void => {
 		mode = "advanced";
 	};
@@ -106,7 +119,7 @@
 		);
 		const initial = readReportFilter(page.url.searchParams, sectionNumbers);
 		applyFilter(initial);
-		mode = initialMode(initial, readReportMode(page.url.searchParams));
+		mode = initialMode(initial, readReportMode(page.url.searchParams), blanks);
 		hasReadUrl = true;
 	});
 
@@ -157,11 +170,23 @@
 		canReset={!isUnfiltered(filter)}
 		onreset={() => applyFilter(UNFILTERED)}
 	/>
+{:else if mode === "mad-lib"}
+	<div class="mad-lib-mode">
+		<BackToQuickReports onclick={showQuickReports} />
+		<section class="mad-lib" aria-label="Find reports">
+			<MadLib
+				{blanks}
+				choices={madLibChoices}
+				onchange={(choices) => applyFilter(madLibFilter(blanks, choices))}
+			/>
+		</section>
+	</div>
 {:else}
 	<QuickReports
 		listings={data.listings}
 		selected={selectedQuickReport}
 		onselect={applyFilter}
+		onmadlib={showMadLib}
 		onrefine={showAdvancedFilters}
 	/>
 {/if}
@@ -179,8 +204,24 @@
 		margin: 0;
 	}
 
+	.mad-lib-mode {
+		display: grid;
+		justify-items: start;
+		gap: 8px;
+		padding-top: 12px;
+	}
+
+	.mad-lib {
+		justify-self: stretch;
+		padding: 8px 20px 12px;
+		border: 1px solid var(--rule);
+		border-radius: 6px;
+		background: var(--sheet);
+	}
+
 	.back {
 		justify-self: start;
 		padding-top: 12px;
+		margin-bottom: calc(-1 * var(--section-gap));
 	}
 </style>

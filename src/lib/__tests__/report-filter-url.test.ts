@@ -96,6 +96,10 @@ describe("readReportMode", () => {
 		);
 	});
 
+	it("reads mad lib mode", () => {
+		expect(readReportMode(new URLSearchParams("mode=mad-lib"))).toBe("mad-lib");
+	});
+
 	it("ignores a mode it does not know", () => {
 		expect(readReportMode(new URLSearchParams("mode=TEST"))).toBe("quick");
 	});
@@ -114,5 +118,9 @@ describe("writeReportMode", () => {
 
 	it("adds advanced mode to the query", () => {
 		expect(written("advanced")).toBe("to=board&mode=advanced");
+	});
+
+	it("adds mad lib mode to the query", () => {
+		expect(written("mad-lib")).toBe("to=board&mode=mad-lib");
 	});
 });

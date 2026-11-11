@@ -54,8 +54,9 @@ src/
 │       ├── +page.server.ts       # Reports joined to a summary of their policy
 │       └── +page.svelte          # The required reports viewer
 └── lib/
-    ├── components/               # The viewer's quick reports, filters, and table
+    ├── components/               # The viewer's quick reports, mad lib, filters, and table
     ├── dates.ts                  # ISO date -> "March 9, 2021" or "03/09/2021"
+    ├── mad-lib.ts                # The mad lib's blanks, and their filters
     ├── quick-reports.ts          # Named filter presets for the simple view
     ├── report-filter-url.ts      # Filters <-> the page's query string
     ├── report-labels.ts          # Labels for each vocabulary, and what each type means
@@ -76,6 +77,14 @@ functions in `quick-reports.ts`, like the filtering rules in
 `report-listing.ts`. To add a preset, add an entry to `QUICK_REPORTS`. A preset's `modifierMenu` is a labelled dropdown of
 alternative filters shown once it is selected, such as "Prepared by"; each
 option needs a filter no other preset or option uses.
+
+**The mad lib is a filter written as a sentence.** A card after advanced mode
+switches the viewer to `mode=mad-lib`: "I want to see ___ reports prepared by
+___, for ___, related to ___." Each blank takes one option, and each option is
+a patch onto `UNFILTERED`, so a sentence becomes an ordinary `ReportFilter`.
+`madLibChoicesOf` reads a filter back into a sentence, and returns `null` when
+no sentence can say it, in which case a mad lib URL opens advanced mode. Those
+rules live in `mad-lib.ts`.
 
 **A page gets only the policy fields it shows.** `+page.server.ts` turns each
 policy into a `PolicySummary` before returning it. Whatever a server `load`

@@ -9,7 +9,11 @@
 		PREPARER_TYPE_LABELS,
 		REPORT_TYPE_LABELS,
 	} from "#lib/report-labels.ts";
-	import { RECIPIENT_GROUPS, isInView } from "#lib/report-listing.ts";
+	import {
+		RECIPIENT_GROUPS,
+		isInView,
+		policySections,
+	} from "#lib/report-listing.ts";
 	import { PREPARER_TYPES, REPORT_TYPES } from "#lib/report.ts";
 	import type {
 		RecipientGroupId,
@@ -68,16 +72,7 @@
 		),
 	);
 
-	const sections = $derived(
-		[
-			...new Map(
-				listings.map(({ policy }) => [
-					policy.section.number,
-					policy.section.name,
-				]),
-			),
-		].toSorted(([a], [b]) => a.localeCompare(b)),
-	);
+	const sections = $derived(policySections(listings));
 
 	const selectView = (selected: ReportView): void => {
 		view = selected;
@@ -133,7 +128,7 @@
 			bind:value={sectionNumber}
 		>
 			<option value={null}>All sections</option>
-			{#each sections as [number, name] (number)}
+			{#each sections as { number, name } (number)}
 				<option value={number}>{number} – {name}</option>
 			{/each}
 		</select>

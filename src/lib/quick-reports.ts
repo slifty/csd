@@ -1,3 +1,4 @@
+import { madLibChoicesOf } from "./mad-lib.ts";
 import { PREPARER_TYPE_LABELS } from "./report-labels.ts";
 import {
 	RECIPIENT_GROUPS,
@@ -7,6 +8,7 @@ import {
 	matchesFilter,
 } from "./report-listing.ts";
 import { PREPARER_TYPES } from "./report.ts";
+import type { MadLibBlank } from "./mad-lib.ts";
 import type { ReportMode } from "./report-filter-url.ts";
 import type {
 	RecipientGroupId,
@@ -254,7 +256,19 @@ const fitsQuickReports = (filter: ReportFilter): boolean =>
 const initialMode = (
 	filter: ReportFilter,
 	requestedMode: ReportMode,
-): ReportMode => (fitsQuickReports(filter) ? requestedMode : "advanced");
+	madLibBlanks: readonly MadLibBlank[],
+): ReportMode => {
+	switch (requestedMode) {
+		case "quick":
+			return fitsQuickReports(filter) ? "quick" : "advanced";
+		case "mad-lib":
+			return madLibChoicesOf(madLibBlanks, filter) === null
+				? "advanced"
+				: "mad-lib";
+		case "advanced":
+			return "advanced";
+	}
+};
 
 const DEFAULT_OPTION_ID = "";
 
