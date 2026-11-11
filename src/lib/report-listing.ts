@@ -2,7 +2,7 @@ import { frequencyChoiceOf } from "./frequency.ts";
 import { FREQUENCY_LABELS, REPORT_TYPE_LABELS } from "./report-labels.ts";
 import type { FrequencyChoice } from "./frequency.ts";
 import { PREPARER_TYPES, isRecurring } from "./report.ts";
-import type { Policy } from "./policy.ts";
+import type { Policy, PolicySection } from "./policy.ts";
 import type {
 	PreparerType,
 	RecipientType,
@@ -54,6 +54,11 @@ const RECIPIENT_GROUPS = [
 	label: string;
 	recipientTypes: readonly RecipientType[];
 }>;
+
+interface SectionGroup {
+	readonly section: PolicySection;
+	readonly listings: readonly ReportListing[];
+}
 
 type RecipientGroup = (typeof RECIPIENT_GROUPS)[number];
 type RecipientGroupId = RecipientGroup["id"];
@@ -221,12 +226,34 @@ const countByPreparerType = (
 	);
 };
 
+const groupBySection = (
+	listings: readonly ReportListing[],
+): readonly SectionGroup[] => {
+	const groups = new Map<
+		string,
+		{ section: PolicySection; listings: ReportListing[] }
+	>();
+	for (const listing of listings) {
+		const {
+			policy: { section },
+		} = listing;
+		const group = groups.get(section.number);
+		if (group === undefined) {
+			groups.set(section.number, { section, listings: [listing] });
+		} else {
+			group.listings.push(listing);
+		}
+	}
+	return [...groups.values()];
+};
+
 export {
 	RECIPIENT_GROUPS,
 	REPORT_VIEWS,
 	UNFILTERED,
 	countByPreparerType,
 	countByRecipientGroup,
+	groupBySection,
 	isInView,
 	isSameFilter,
 	isUnfiltered,
@@ -239,4 +266,5 @@ export type {
 	ReportFilter,
 	ReportListing,
 	ReportView,
+	SectionGroup,
 };
