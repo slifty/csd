@@ -6,6 +6,7 @@
 	import { page } from "$app/state";
 	import BackToQuickReports from "#lib/components/BackToQuickReports.svelte";
 	import MadLib from "#lib/components/MadLib.svelte";
+	import PageHeader from "#lib/components/PageHeader.svelte";
 	import QuickReports from "#lib/components/QuickReports.svelte";
 	import ReportFilters from "#lib/components/ReportFilters.svelte";
 	import ReportTable from "#lib/components/ReportTable.svelte";
@@ -149,7 +150,7 @@
 	/>
 </svelte:head>
 
-<h1>The Unofficial Official Report Report</h1>
+<PageHeader title="The Unofficial Official Report Report" />
 
 {#if advanced}
 	<div class="back">
@@ -198,12 +199,6 @@
 />
 
 <style>
-	h1 {
-		font-size: clamp(30px, 5vw, 44px);
-		line-height: 1.08;
-		margin: 0;
-	}
-
 	.mad-lib-mode {
 		display: grid;
 		justify-items: start;

@@ -1,14 +1,13 @@
 <script lang="ts">
 	import { resolve } from "$app/paths";
+	import PageHeader from "#lib/components/PageHeader.svelte";
 </script>
 
 <svelte:head>
 	<title>Cheltenham School District Tools</title>
 </svelte:head>
 
-<header>
-	<h1>Tools and resources</h1>
-</header>
+<PageHeader title="Tools and resources" />
 
 <ul>
 	<li>
@@ -17,12 +16,6 @@
 </ul>
 
 <style>
-	h1 {
-		font-size: clamp(30px, 5vw, 44px);
-		line-height: 1.08;
-		margin: 0;
-	}
-
 	ul {
 		list-style: none;
 		padding: 0;
