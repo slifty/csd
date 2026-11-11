@@ -59,11 +59,12 @@ src/
     ├── quick-reports.ts          # Named filter presets for the simple view
     ├── report-filter-url.ts      # Filters <-> the page's query string
     ├── report-labels.ts          # Labels for each vocabulary, and what each type means
-    └── report-listing.ts         # Recipient groups, views, and filtering
+    └── report-listing.ts         # Recipient groups, views, filtering, section grouping
 ```
 
 **Filtering is plain functions.** `report-listing.ts` decides what a filter
-shows and counts, and its tests cover that. The components only hold the
+shows and counts, and how the results group into policy sections, and its
+tests cover that. The components only hold the
 state and pass it in. Put new filtering rules there, not inside a component.
 
 **Quick reports are filters with names.** The viewer opens on a short list of

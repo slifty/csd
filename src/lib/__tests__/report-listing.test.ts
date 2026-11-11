@@ -8,6 +8,7 @@ import {
 	RECIPIENT_GROUPS,
 	countByPreparerType,
 	countByRecipientGroup,
+	groupBySection,
 	isInView,
 	isSameFilter,
 	isUnfiltered,
@@ -275,5 +276,24 @@ describe("isUnfiltered", () => {
 		expect(
 			isUnfiltered(createReportFilter({ preparerTypes: new Set(["board"]) })),
 		).toBe(false);
+	});
+});
+
+describe("groupBySection", () => {
+	const programs = { number: "100", name: "TEST Programs" };
+	const pupils = { number: "200", name: "TEST Pupils" };
+	const first = createReportListing({ id: "first" }, { section: pupils });
+	const second = createReportListing({ id: "second" }, { section: programs });
+	const third = createReportListing({ id: "third" }, { section: pupils });
+
+	it("groups listings by section in the order sections first appear", () => {
+		expect(groupBySection([first, second, third])).toEqual([
+			{ section: pupils, listings: [first, third] },
+			{ section: programs, listings: [second] },
+		]);
+	});
+
+	it("has no groups when there are no listings", () => {
+		expect(groupBySection([])).toEqual([]);
 	});
 });
