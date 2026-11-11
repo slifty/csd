@@ -31,6 +31,8 @@
 		recipientGroupIds: SvelteSet<RecipientGroupId>;
 		preparerTypes: SvelteSet<PreparerType>;
 		height: number;
+		canReset: boolean;
+		onreset: () => void;
 	}
 
 	let {
@@ -45,6 +47,8 @@
 		recipientGroupIds,
 		preparerTypes,
 		height = $bindable(),
+		canReset,
+		onreset,
 	}: Props = $props();
 
 	const VIEW_LABELS: Readonly<Record<ReportView, string>> = {
@@ -165,6 +169,9 @@
 				</button>
 			{/each}
 		</div>
+		<button type="button" class="reset" disabled={!canReset} onclick={onreset}>
+			Reset filters
+		</button>
 	</div>
 </section>
 
@@ -257,6 +264,24 @@
 		background: var(--accent-soft);
 		border-color: var(--accent);
 		font-weight: 600;
+	}
+
+	.reset {
+		margin-left: auto;
+		font: inherit;
+		font-size: 13px;
+		padding: 4px 10px;
+		border: 1px solid var(--rule);
+		border-radius: 6px;
+		background: var(--sheet);
+		color: var(--ink);
+		cursor: pointer;
+	}
+
+	.reset:disabled {
+		color: var(--ink-2);
+		cursor: default;
+		opacity: 0.6;
 	}
 
 	.count {

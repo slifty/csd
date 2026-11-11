@@ -11,8 +11,10 @@
 		writeReportFilter,
 	} from "#lib/report-filter-url.ts";
 	import {
+		UNFILTERED,
 		countByPreparerType,
 		countByRecipientGroup,
+		isUnfiltered,
 		matchesFilter,
 	} from "#lib/report-listing.ts";
 	import type {
@@ -62,6 +64,16 @@
 		}
 	};
 
+	const applyFilter = (applied: ReportFilter): void => {
+		view = applied.view;
+		search = applied.search;
+		frequency = applied.frequency;
+		reportType = applied.reportType;
+		sectionNumber = applied.sectionNumber;
+		replaceAll(recipientGroupIds, applied.recipientGroupIds);
+		replaceAll(preparerTypes, applied.preparerTypes);
+	};
+
 	let hasReadUrl = $state(false);
 
 	onMount(() => {
@@ -69,13 +81,7 @@
 			data.listings.map(({ policy }) => policy.section.number),
 		);
 		const initial = readReportFilter(page.url.searchParams, sectionNumbers);
-		view = initial.view;
-		search = initial.search;
-		frequency = initial.frequency;
-		reportType = initial.reportType;
-		sectionNumber = initial.sectionNumber;
-		replaceAll(recipientGroupIds, initial.recipientGroupIds);
-		replaceAll(preparerTypes, initial.preparerTypes);
+		applyFilter(initial);
 		hasReadUrl = true;
 	});
 
@@ -117,6 +123,8 @@
 	{recipientGroupIds}
 	{preparerTypes}
 	bind:height={filtersHeight}
+	canReset={!isUnfiltered(filter)}
+	onreset={() => applyFilter(UNFILTERED)}
 />
 
 <ReportTable
