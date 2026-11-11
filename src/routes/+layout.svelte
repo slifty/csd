@@ -1,4 +1,9 @@
 <script lang="ts">
+	import "@fontsource/public-sans/400.css";
+	import "@fontsource/public-sans/500.css";
+	import "@fontsource/public-sans/600.css";
+	import "@fontsource/public-sans/700.css";
+	import "@fontsource/public-sans/800.css";
 	import "../app.css";
 	import { formatNumericIsoDate } from "#lib/dates.ts";
 	import { SOURCE_CODE_URL } from "#lib/source-code.ts";
@@ -6,19 +11,6 @@
 
 	const { data, children }: LayoutProps = $props();
 </script>
-
-<svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link
-		rel="preconnect"
-		href="https://fonts.gstatic.com"
-		crossorigin="anonymous"
-	/>
-	<link
-		rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;800&display=swap"
-	/>
-</svelte:head>
 
 <div class="unofficial" role="note">
 	<p class="wrap">

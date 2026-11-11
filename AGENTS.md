@@ -34,6 +34,11 @@ deploy workflow passes that prefix to the build as `BASE_PATH`, which becomes
 so they carry the prefix. A hard-coded `/` path works under `npm run dev` and
 breaks once deployed.
 
+**Fonts are bundled, not linked.** Each typeface is a Fontsource package
+imported in `src/routes/+layout.svelte`, so the build ships the font files and
+pages make no requests to a font host. To add a face, install its
+`@fontsource/` package and import only the weights the CSS uses.
+
 `tsconfig.json` extends `$app/tsconfig`, which `svelte-kit sync` generates
 into `node_modules`. The `prepare` script runs that on install. If type
 checking complains that the config cannot be found, run `npx svelte-kit sync`.
