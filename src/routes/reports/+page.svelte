@@ -179,6 +179,8 @@
 				{blanks}
 				choices={madLibChoices}
 				onchange={(choices) => applyFilter(madLibFilter(blanks, choices))}
+				canErase={!isUnfiltered(filter)}
+				onerase={() => applyFilter(UNFILTERED)}
 			/>
 		</section>
 	</div>
