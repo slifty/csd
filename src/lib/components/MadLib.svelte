@@ -32,16 +32,26 @@
 	/>
 {/snippet}
 
-<p class="sentence">
-	<span class="clause">I want to see {@render fill("frequency")} reports</span>
-	<span class="clause">prepared by {@render fill("preparer")},</span>
-	<span class="clause">for {@render fill("recipient")},</span>
-	<span class="clause">related to {@render fill("section")}.</span>
-</p>
+<div class="mad-lib">
+	<p class="sentence">
+		<span class="clause">I want to see {@render fill("frequency")} reports</span
+		>
+		<span class="clause">prepared by {@render fill("preparer")},</span>
+		<span class="clause">for {@render fill("recipient")},</span>
+		<span class="clause">related to {@render fill("section")}.</span>
+	</p>
+</div>
 
 <style>
+	.mad-lib {
+		border: 1px solid var(--rule);
+		border-radius: 6px;
+		background: var(--sheet);
+	}
+
 	.sentence {
 		margin: 0;
+		padding: 8px 20px 12px;
 		font-size: clamp(17px, 2.2vw, 20px);
 		line-height: 2.6;
 	}

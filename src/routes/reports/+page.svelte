@@ -174,7 +174,7 @@
 {:else if mode === "mad-lib"}
 	<div class="mad-lib-mode">
 		<BackToQuickReports onclick={showQuickReports} />
-		<section class="mad-lib" aria-label="Find reports">
+		<section class="finder" aria-label="Find reports">
 			<MadLib
 				{blanks}
 				choices={madLibChoices}
@@ -206,12 +206,8 @@
 		padding-top: 12px;
 	}
 
-	.mad-lib {
+	.finder {
 		justify-self: stretch;
-		padding: 8px 20px 12px;
-		border: 1px solid var(--rule);
-		border-radius: 6px;
-		background: var(--sheet);
 	}
 
 	.back {
